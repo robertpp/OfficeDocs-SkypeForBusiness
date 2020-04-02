@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -75,7 +77,7 @@ In effort to support smaller customers that may not have dedicated IT resources,
 
 ### How does the Skype for Business Online retirement announcement affect organizations with hybrid configurations (Skype for Business Online and Skype for Business Server)?
 
-Hybrid customers with online and on-prem configurations will be required to transition users from Skype for Business Online to Microsoft Teams by the July 31, 2021 retirement date. Upgrade paths for hybrid configurations built around principles of coexistence and interoperability will remain after the retirement of Skype for Business Online. 
+Hybrid customers with online and on-prem configurations will be required to transition users from Skype for Business Online to Microsoft Teams by the July 31, 2021 retirement date. Upgrade paths for hybrid configurations built around principles of coexistence and interoperability will remain after the retirement of Skype for Business Online. For more information, see [Coexistence with Skype for Business](coexistence-chat-calls-presence.md) and [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 Customers with eligible subscriptions are encouraged to engage with [FastTrack](https://fasttrack.microsoft.com/) for Teams onboarding assistance.
 
@@ -195,7 +197,7 @@ In addition to the ability for users to identify nearby Microsoft Teams Rooms wi
 
 ### Will Skype Room Systems v1 be updated to support Teams meetings?
 
-Lync Room System (LRS) devices with Skype Room System Version 1 (SRS v1) software has reached end of support on October 9, 2018. This means Skype Room Systems v1 software will no longer get any product updates or fixes anymore. Customers with Lync Room System devices using Skype Room System v1 software are advised to upgrade their devices to Microsoft Teams Rooms. [Learn more](room-systems/lrs-migration.md).
+Lync Room System (LRS) devices with Skype Room System Version 1 (SRS v1) software has reached end of support on October 9, 2018. This means Skype Room Systems v1 software will no longer get any product updates or fixes anymore. Customers with Lync Room System devices using Skype Room System v1 software are advised to upgrade their devices to Microsoft Teams Rooms. [Learn more](rooms/lrs-migration.md).
 
 ## Management capabilities
 

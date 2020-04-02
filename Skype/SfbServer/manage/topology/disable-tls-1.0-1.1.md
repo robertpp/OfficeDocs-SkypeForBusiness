@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: "Summary: Prepare for and implement disabling TLS 1.0 and 1.1 in your environments."
@@ -135,11 +137,11 @@ Extensive dependency updating is required before you begin to disable TLS 1.0 an
 - Skype for Business Server 2015 CU9 6.0.9319.548 (May 2019) or higher
 - [.NET Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167) or higher with SchUseStrongCrypto enabled in the registry (provided below)
 - SQL must be updated on all Skype for Business 2015 servers and backends. Update Enterprise Edition Pool SQL Backends first, then their respective FEs. 
-    - SQL Server 2014 SP1 + CU5 ([link](https://support.microsoft.com/help/3130926)), or higher / SQL Server 2012 SP2 + CU16 or higher/ SQL Server 2014 RTM + CU12 ([link](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)) or higher / SQL Server 2014 SP2
-     - SQL Server Native Client for SQL Server 2012 ([link](https://www.microsoft.com/download/details.aspx?id=50402))
-     - Microsoft ODBC Driver 11 for SQL Server ([link](https://www.microsoft.com/download/details.aspx?id=36434)), or higher
-     - Shared Management Objects for SQL Server 2014 SP2 ([link](https://www.microsoft.com/download/details.aspx?id=42295))
-     - SQLSysClrTypes for SQL server 2014 SP2 ([link](https://www.microsoft.com/download/details.aspx?id=42295))
+    - [SQL Server 2014 SP1 + CU5](https://support.microsoft.com/help/3130926), or higher / SQL Server 2012 SP2 + CU16 or higher / [SQL Server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014), or higher / SQL Server 2014 SP2
+     - [SQL Server Native Client for SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=50402)
+     - [Microsoft ODBC Driver 11 for SQL Server](https://www.microsoft.com/download/details.aspx?id=36434), or higher
+     - [Shared Management Objects for SQL Server 2014 SP2](https://www.microsoft.com/download/details.aspx?id=53164)
+     - [SQLSysClrTypes for SQL server 2014 SP2](https://www.microsoft.com/download/details.aspx?id=42295)
 
 ### Basic steps to install pre-requisites, in recommended order of operations
 
@@ -188,7 +190,7 @@ Extensive dependency updating is required before you begin to disable TLS 1.0 an
 
 Copy/paste the following test into Notepad and rename TLSPreReq.reg or a name of your choice, then import:
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
@@ -240,7 +242,7 @@ Before you proceed with the next steps, *make sure you have completed all prereq
 
 Copy the following text into a Notepad file and rename it **TLSDisable.reg**:
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002]
@@ -489,14 +491,14 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
     - **Note:** Prior to installing components, some files will need to be updated for support of TLS 1.2.
 4. Replace MSI/EXE Packages: 
     - Replace the existing MSI and EXE packages in the /Setup/amd64/ folder of the installation media on the local machine.
-    - SQL 2014 SP2 Express: https://www.microsoft.com/en-us/download/details.aspx?id=53167 
+    - SQL 2014 SP2 Express: https://www.microsoft.com/download/details.aspx?id=53167 
         - Rename to SQLEXPR_x64 on the local machine, and replace the existing file in the Setup/amd64/ folder of the installation media.
-    - SQL Native Client: https://www.microsoft.com/en-us/download/details.aspx?id=50402 
+    - SQL Native Client: https://www.microsoft.com/download/details.aspx?id=50402 
         - **Note:** Rename this if necessary to sqlncli.msi, and then replace the existing file that exists in the Setup/amd64/ folder of the installation media.
-    - SQL Management Objects: https://www.microsoft.com/en-us/download/details.aspx?id=53164 
+    - SQL Management Objects: https://www.microsoft.com/download/details.aspx?id=53164 
         - **Note:** The Feature pack will have a lot of items that can be downloaded. Select to download SharedManagementObjects.msi only.
         - **Note:** Replace the existing file that exists in the Setup/amd64/ folder of the installation media.
-    - SQL CLR Types: https://www.microsoft.com/en-us/download/details.aspx?id=53164 
+    - SQL CLR Types: https://www.microsoft.com/download/details.aspx?id=53164 
         - **Note:** The Feature pack will have a lot of items that can be downloaded. Select to download CQLSysClrTypes.msi only
         - **Note**: Replace the existing file that exists in the Setup/amd64/ folder of the installation media.
 5. Install Core Components: 
@@ -506,7 +508,7 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
     - Download the Skype for Business Update Installer.
     - Run the installer to update Core Components and install the performance counters.
     - **Note:** As of the release of CU6HF2, the auto-update feature currently only will install up to CU6. Therefore, the updater must be run separately to update Core Components to 6.0.9319.516.
-    - Reference: https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015
+    - Reference: https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015
 7. Install Administrative Tools (Optional): 
     - This will install the Microsoft SQL Server 2012 Native Client, SQL Server 2014 Management Objects (x64), and Microsoft System CLR Types for SQL Server 2014 (x64) using the updated files. Additionally, the Skype for Business Server 2015 Topology Builder and Control Panel will be available on the local machine.
 8. Install Local Configuration Store (Step 1): 

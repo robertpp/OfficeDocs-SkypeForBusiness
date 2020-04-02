@@ -11,6 +11,8 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn how to communicate with users from other organizations in Microsoft Teams using external access (federation) and guest access.
 appliesto: 
 - Microsoft Teams
@@ -78,7 +80,7 @@ If you're ready to turn on guest access in your organization, start with the [Gu
 <sup>1</sup> Provided that the user has been added as a guest and is signed in as a guest to the guest tenant.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> External (federated) chat is 1:1 only.<br>
-<sup>4</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. *This is a preview or early release feature.*
+<sup>4</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. 
 
 ## Related topics
 

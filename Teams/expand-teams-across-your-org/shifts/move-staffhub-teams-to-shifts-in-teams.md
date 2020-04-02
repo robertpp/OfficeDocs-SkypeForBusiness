@@ -9,6 +9,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to move your Microsoft StaffHub teams and schedule data to Shifts in Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -107,7 +109,7 @@ These users have inactive accounts and show a user state of Unknown, Invited, or
 
 Run the following series of commands to get a list of all inactive accounts on StaffHub teams and export the list to a CSV file. Each command should be run separately.
 
-```
+```PowerShell
 $InvitedUsersObject = @()
 
 $StaffHubTeams = Get-StaffHubTeamsForTenant
@@ -185,18 +187,18 @@ Use these steps to move one StaffHub team at a time. We recommend this approach 
 
 Run the following to move a StaffHub team.
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <String>
 ```
 Example:
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
 Here's an example of the response you get when you submit a request to move a StaffHub team to Teams.
 
-```
+```console
  jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ---------------------------------------    ----------------------------------------    ---------------------------          
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
@@ -204,18 +206,18 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c070847
 
 To check the status of a move request, run the following.
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus <String>
 ```
 Example:
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 ```
 
 Here's an example of the response you get when a move is in progress.
 
-```
+```console
 jobId                                     status       teamId                                     isO365GroupCreated  Error
 ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
@@ -235,13 +237,13 @@ Download and install the [SharePoint Online Management Shell](https://www.micros
 
 Use the [Connect-PnPOnline](https://docs.microsoft.com/powershell/module/sharepoint-pnp/connect-pnponline?view=sharepoint-ps) cmdlet to connect to the SharePoint Online team site.
 
-```
+```PowerShell
 Connect-PnPOnline -Url https://<sharepoint URL>/sites/<Group Name>  
 ```
 
 For each file that you want to move from StaffHub to Teams, use the [Move-PnPFile](https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) cmdlet to move the file.
 
-```
+```PowerShell
 Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name>" -TargetUrl "/sites/<Group Name>/Shared Documents/General/<File Name>" 
 ```
 
@@ -261,7 +263,7 @@ Use these steps to move StaffHub teams in bulk. You can choose to move all your 
 
 Run the following to get a list of all StaffHub teams in your organization.
 
-```
+```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
@@ -269,7 +271,7 @@ $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 
 Then, run the following to move all teams.
 
-```
+```PowerShell
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -277,7 +279,7 @@ Here's an example of the response.
 
 For any team that was already moved to Teams or already exists in Teams, the jobId will be "null" as a job doesn't need to be submitted to move that team.
 
-```
+```console
 jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ----------------------------------------   -----------------------------------------   --------------------------         
 null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
@@ -288,7 +290,7 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f10
 
 Run the following to get a list of all StaffHub team Ids in your organization.
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
@@ -302,7 +304,7 @@ Here's an example of how the CSV file should be formatted.
 
 After you create the CSV file, run the following to move the teams you specified in the CSV file.
 
-```
+```PowerShell
 $StaffHubTeams = Import-Csv .\teams.csv
 
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
@@ -312,7 +314,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 Run the following to get a list of all teams in Shifts in your organization. 
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
 
@@ -330,7 +332,7 @@ Usage reports can help you better understand usage patterns and give you insight
 
 Run the following to get more information about "Failure" errors that occur when you try to move a team:
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <TeamId>
 
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
@@ -342,7 +344,7 @@ You'll see one of the following statuses returned: Success, Failure, InProgress,
 
 If "Failure" is returned, run the following to get more information about the error:
 
-```
+```PowerShell
 $res.Result.Error.Innererror
 ```
 
@@ -362,7 +364,7 @@ This may occur if you're trying to move files in a private Office 365 group that
 
 Run the following command to add the General folder to SharePoint, and then try again:
 
-  ```
+  ```PowerShell
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 

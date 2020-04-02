@@ -17,7 +17,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Audio Conferencing
   - Phone System
@@ -47,7 +48,7 @@ description: "This topic contains all of the countries/regions that users can pl
 |Azerbaijan |Georgia |Korea, Republic of |Monaco | Russian Federation |United States (U.S.)  |
 |Bahamas |Germany |Kuwait |Mongolia |Rwanda | Uruguay |
 |Bahrain |Ghana |Kyrgyzstan |Montenegro | Saint Kitts and Nevis |Uzbekistan  |
-|Bangladesh |Gialtar |Lao |Montserrat | Saint Lucia |Vatican City State  |
+|Bangladesh |Gibraltar |Lao |Montserrat | Saint Lucia |Vatican City State  |
 |Barbados |Greece |Latvia |Morocco |Saint Vincent and the Grenadines |Venezuela   |
 |Belarus |Greenland |Lebanon |Mozambique | San Marino |Viet Nam  |
 |Belgium |Grenada |Lesotho |Myanmar | Saudi Arabia | Virgin Islands (British) |

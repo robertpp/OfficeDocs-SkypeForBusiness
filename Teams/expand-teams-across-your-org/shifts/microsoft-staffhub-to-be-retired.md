@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: 
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -59,18 +61,11 @@ The Shifts app in Teams is a schedule management tool that keeps Firstline Worke
 
 #### Which plans is Shifts available in?
 
-Shifts is available as part of Teams in the following plans without any additional cost:
-
-- Office 365 Business Premium 
-- Office 365 Enterprise F1, E1, E3, E5
-- Office 365 for Education
-- Microsoft 365 F1, E1, E3, E5
-
-For more information, see [Availability of Shifts](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
+Shifts is available in all Enterprise SKUs where Teams is available.
 
 #### How do I get Shifts? 
 
-If you're already on a plan that includes Shifts, you can start using Shifts today as part of Teams. Check out [Get started in Shifts](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
+If you're already on a plan that includes Shifts, you can start using Shifts today as part of Teams. Check out [Get started in Shifts](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
 
 #### Which devices or platforms is Shifts available on?
 

@@ -11,6 +11,8 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Configure dynamic emergency calling
 appliesto: 
 - Microsoft Teams
@@ -63,8 +65,11 @@ For more information about emergency calling--including information about emerge
 
 The following clients are currently supported.  Check back often to see updates to this list.
 
-- Teams desktop client for Windows
-- Teams desktop client for Mac
+- Teams desktop client for Microsoft Windows
+- Teams desktop client for Apple macOS
+- Teams mobile client for Apple iOS client version 1.0.92.2019121004 and App Store version 1.0.92 and greater
+- Teams mobile client for Android client and Google Play store version 1416/1.0.0.2019121201 and greater
+- Teams phone version 1449/1.0.94.2019110802 and greater
 
 ## Assign emergency addresses
 
@@ -159,25 +164,25 @@ The TeamsEmergencyCallRouting policy applies to Direct Routing only. (Although i
 
 For example, to enable a specific user for security desk notification, use the following command:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 To assign a policy called "Contoso Emergency Calling Policy 1" to Site 1, use the following command:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 To enable a specific Direct Routing user for emergency calling, use the following command:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 To assign a policy called "Contoso New York Emergency Call Routing" to Site 1, use the following command:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 

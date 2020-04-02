@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -33,15 +35,11 @@ To move a user to online using Move-CsUser:
 - Specify the user to move using the Identity parameter.
 - Specify the -Target parameter with the value “sipfed.online.lync.<span>com”.
 - If you do not have one account with sufficient permissions in both on premises and Office 365, use the -credential parameter to supply an account with sufficient permissions in Office 365.
-- If the account with permissions in Office 365 does not end in “on.microsoft.<span>com”, then you must specify the -HostedMigrationOverrideUrl parameter, with  the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
-
- > [!NOTE]
- > You must determine the correct HostedMigrationOverrideUrl value for your tenant. this can be easily done by navigating to the Legacy Skype for Business admin center. determine the prefix - XXXXXXX.online.lync.com and append /HostedMigration/hostedmigrationservice.svc. for example: https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc
- > Once you identified the value, use it for the $url variable as shown below.
+- If the account with permissions in Office 365 does not end in “.onmicrosoft.<span>com”, then you must specify the -HostedMigrationOverrideUrl parameter, with  the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
 The following cmdlet sequence can be used to move a user to Skype for Business Online, and assumes the Office 365 credential is a separate account and supplied as input for the Get-Credential prompt.
 
-```
+```PowerShell
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
  
@@ -63,4 +61,4 @@ If the administrator account is MFA (Multi-Factor Authentication) enabled, do no
 
 ## See also
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

@@ -1,7 +1,7 @@
 ---
 title: "Phones and Devices for Skype for Business"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -11,10 +11,11 @@ ms.collection: Lync
 audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947482
@@ -24,55 +25,128 @@ description: "Planning for Optimal Skype for Business Experience over Wi-Fi prov
 # USB audio and video devices
 The peripherals certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors, offer rich audio or video quality. Certified devices work out of the box (plug & play) with no additional configuration required, and offer call control with Skype for Business, Microsoft Teams*, and Lync clients. The products provide a great experience for end-users and administrators.
 
-[Explore devices tested and certified for Microsoft Teams and Skype for Business.](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[Explore devices tested and certified for Microsoft Teams and Skype for Business.](https://products.office.com/microsoft-teams/across-devices/devices)
 
-* For more details on call control support with Teams, please read [control calls using a headset in Teams](https://support.office.com/en-us/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
+* For more details on call control support with Teams, please read [control calls using a headset in Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
 ## Device qualifications
-##### *Updated Jan 15, 2019*
+##### *Updated March 16, 2020*
 
-|Manufacturer| Model	|Qualified|
-|:--- |:--- |:--- |
-|Sennheiser|	SC160 USB A |11/27/2018|
-|Sennheiser|	SC160 USB C |11/27/2018|
-|Jabra|	Evolve 65T |11/26/2018|
-|Sennheiser|	SC130 |11/26/2018|
-|Sennheiser|	SC135 |11/26/2018|
-|Plantronics|	Calisto 5200 |11/02/2018|
-|Plantronics|	Calisto 3200 |11/02/2018|
-|Polycom|	EagleEye Mini |10/30/2018|
-|Jabra|	Engage 50 |10/29/2018|
-|Sennheiser|	SDW 5016 |10/04/2018|
-|Sennheiser|	SDW 5015 |10/04/2018|
-|Jabra|	Biz 1500 Mono |9/19/2018|
-|Jabra|	Biz 1500 Duo |9/19/2018|
-|Plantronics|	Savi 8210 |9/18/2018|
-|Plantronics|	Savi 8220 |9/18/2018|
-|Plantronics|	Calisto 7200-M |9/1/2018|
-|Plantronics|	Voyager 4210 |6/26/2018|
-|Plantronics|	Voyager 4220 |6/26/2018|
-|Logitech| Rally Camera |6/5/2018|
-|Jabra|	Engage 65 Convertible |4/13/2018|
-|Jabra|	Engage 65 Mono |4/13/2018|
-|Jabra|	Engage 65 Stereo |4/13/2018|
-|Jabra|	Engage 75 Convertible |4/13/2018|
-|Jabra|	Engage 75 Mono |4/13/2018|
-|Jabra|	Engage 75 Stereo |4/13/2018|
-|Polycom|	VoxBox Speakerphone |2/12/2018|
-|Plantronics|	Voyager 6200 UC |1/5/2018|
-|Plantronics|	Blackwire 3200 Series |1/3/2018|
-|Plantronics|	Blackwire 5200 Series |1/3/2018|
-|Jabra|	Evolve 75e |12/15/2017|
-|Sennheiser|	SC 635 USB |11/28/2017|
-|Sennheiser|	SC 665 USB|11/28/2017|
-|Plantronics|	Voyager 8200 UC |7/26/2017|
-|Yamaha|	YVC-1000MS Speakerphone |7/7/2017|
-|Logitech|	MeetUp |6/7/2017|
-|Jabra|	EVOLVE 75 MS Stereo |6/1/2017|
-|Logitech|	PTZ Pro 2 Camera |6/1/2017|
-|Jabra|	Speak 710 |3/24/2017|
-|Polycom|	RealPresence Trio 8800 |3/9/2017|
-|Sennheiser|	Speakerphone SP 220 MS |2/17/2017|
+|Manufacturer| Model	|Qualified|Certified Program|
+|:--- |:--- |:--- |:---|
+|Poly|Calisto 5300-M|03/05/2020|Microsoft Teams |
+|Poly|Voyager 4210 Office|03/05/2020|Microsoft Teams |
+|Poly|Voyager 4210 UC |03/05/2020|Microsoft Teams |
+|Poly|Voyager 4220 Office |03/05/2020|Microsoft Teams |
+|Poly|Voyager 4220 UC|03/05/2020|Microsoft Teams |
+|Poly|Voyager 5200 Office|03/05/2020|Microsoft Teams |
+|Poly|Voyager 5200 UC|03/05/2020|Microsoft Teams|
+|Poly|Blackwire 3310-M|03/05/2020|Microsoft Teams
+|Poly|Blackwire 3315-M|03/03/2020|Microsoft Teams|
+|Poly|Blackwire 3320-M|03/05/2020|Microsoft Teams|
+|poly|Blackwire 3325-M|03/05/2020|Microsoft Teams|
+|Poly|Calisto 3200-M|01/27/2020|Microsoft Teams|
+|Crestron|CCS-UCA-MIC|12/18/2019|Microsoft Teams <br>Skype for Business|
+|Sennheiser|SP 30T|12/05/2019|Microsoft Teams|
+|Polycom|Elara|11/06/2019|Microsoft Teams|
+|Polycom|Studio Soundbar|10/18/2019|Microsoft Teams|
+|Yealink| UVC30|10/18/2019| Microsoft Teams|
+|Sennheiser|SC 665 USB A|09/29/2019|Skype for Business|
+|Sennheiser|SC 665 USB C|09/29/2019|Skype for Business|
+|Sennheiser|TeamsConnect Ceiling 2|09/19/2019|Skype for Business|
+|Plantronics|Savi 8240 Office|08/22/2019|Skype for Business|
+|Plantronics|Savi 8240 UC|08/22/2019|Skype for Business|
+|Jabra|PanaCast|08/14/2019|Skype for Business|
+|Plantronics|Savi 8220 UC|07/26/2019|Skype for Business|
+|Plantronics|Savi 8210 UC|07/26/2019|Skype for Business|
+|Sennheiser|SP 30|07/25/2019|Skype for Business|
+|Yealink|UVC50 +CPW90|07/01/2019|Skype for Business|
+|Yealink|USB PTZ Camera|07/01/2019|Skype for Business|
+|Yealink|UVC50|07/01/2019|Skype for Business|
+|Crestron| UC-SB1|06/24/2019|Skype for Business|
+|Crestron| UC-SB1-CAM|06/24/2019|Skype for Business|
+|Lenovo|Pro Headset|06/20/2019|Skype for Business|
+|Sennheiser|SDW 3 Series|06/13/2019|Skype for Business|
+|Logitech|Zone Wireless|05/06/2019|Skype for Business|
+|Yealink|YHS33-USB|04/30/2019|Skype for Business|
+|Yealink|UVC80|04/27/2019|Skype for Business|
+|Yealink|MSpeaker|04/27/2019|Skype for Business|
+|Yealink|VCM34|04/27/2019|Skype for Business|
+|Yealink|USB PTZ Camera |04/27/2019|Skype for Business|
+|Yealink|VCM34|04/27/2019|Skype for Business|
+|Crestron|CCS-UC-1|04/01/2019|Skype for Business|
+|Crestron|Huddly IQ|04/01/2019|Skype for Business|
+|Jabra|Evolve 65e|03/08/2019|Skype for Business|
+|Sennheiser|SDW 5036|02/19/2019|Skype for Business|
+|Sennheiser|SDW 5066| 02/19/2019|Skype for Business|
+|Polycom|Trio 8500|02/19/2019|Skype for Business|
+|Sennheiser|SC 660 ANC USB|02/14/2019|Skype for Business|
+|Dell|UC150|01/18/2019|Skype for Business|
+|Plantronics|Blackwire 7725|01/16/2019|Skype for Business|
+|Jabra|Speak 710|12/05/2018|Skype for Business|
+|Sennheiser|	SC160 USB C |11/27/2018|Skype for Business|
+|Jabra|	Evolve 65T |11/26/2018|Skype for Business|
+|Sennheiser|	SC130 |11/26/2018|Skype for Business|
+|Sennheiser|	SC135 |11/26/2018|Skype for Business|
+|Plantronics|	Calisto 3200 |11/02/2018|Skype for Business|
+|Polycom|	EagleEye Mini |10/30/2018|Skype for Business|
+|Jabra|	Engage 50 |10/29/2018|Skype for Business|
+|Sennheiser|	SDW 5016 |10/04/2018|Skype for Business|
+|Sennheiser|	SDW 5015 |10/04/2018|Skype for Business|
+|Jabra|	Biz 1500 Mono |9/19/2018|Skype for Business|
+|Jabra|	Biz 1500 Duo |9/19/2018|Skype for Business|
+|Plantronics|	Savi 8210 |9/18/2018|Skype for Business|
+|Plantronics|	Savi 8220 |9/18/2018|Skype for Business|
+|Plantronics|	Calisto 7200-M |9/1/2018|Skype for Business|
+|Plantronics|	Voyager 4210 |6/26/2018|Skype for Business|
+|Plantronics|	Voyager 4220 |6/26/2018|Skype for Business|
+|Logitech| Rally Camera |6/5/2018|Skype for Business|
+|Jabra|	Engage 65 Convertible |4/13/2018|Skype for Business|
+|Jabra|	Engage 65 Mono |4/13/2018|Skype for Business|
+|Jabra|	Engage 65 Stereo |4/13/2018|Skype for Business|
+|Jabra|	Engage 75 Convertible |4/13/2018|Skype for Business|
+|Jabra|	Engage 75 Mono |4/13/2018|Skype for Business|
+|Jabra|	Engage 75 Stereo |4/13/2018|Skype for Business|
+|Sennheiser|SDW 5015|04/12/2018|Skype for Business|
+|Polycom|VoxBox Speakerphone |2/12/2018|Skype for Business|
+|Sennheiser|SDW 5015|04/12/2018|Skype for Business|
+|Jabra|Biz 2400+Link260 USB|01/09/2018|Skype for Business|
+|Jabra|Biz 2300+Link260 USB|01/09/2018|Skype for Business|
+|Plantronics|	Voyager 6200 UC |1/5/2018|Skype for Business|
+|Plantronics|	Blackwire C3225 |1/3/2018|Skype for Business|
+|Plantronics|	Blackwire C3220 |1/3/2018|Skype for Business|
+|Plantronics|	Blackwire C3215 |1/3/2018|Skype for Business|
+|Plantronics|	Blackwire C3210 |1/3/2018|Skype for Business|
+|Plantronics|	Blackwire 3200 Series |1/3/2018|Skype for Business|
+|Plantronics|	Blackwire 5200 Series |1/3/2018|Skype for Business|
+|Jabra|	Evolve 75e |12/15/2017|Skype for Business|
+|Plantronics|	Blackwire 5220 |09/29/2017|Skype for Business|
+|Plantronics|	Blackwire 5210 |09/29/2017|Skype for Business|
+|Sennheiser|	SC 635 USB |11/28/2017|Skype for Business|
+|Sennheiser|	SC 665 USB|11/28/2017|Skype for Business|
+|Sennheiser|SC 635 USB|09/29/2017|Skype for Business|
+|Sennheiser|SC 665 USB-C|09/29/2017|Skype for Business|
+|Sennheiser|Sc 635 USB-C|09/29/2017|Skype for Business|
+|Plantronics|	Voyager 8200 UC |7/26/2017|Skype for Business|
+|Yamaha|YVC-1000MS Speakerphone |7/7/2017|Skype for Business|
+|Logitech|PTZ Pro 2 Camera |6/20/2017|Skype for Business|
+|Logitech|MeetUp |6/7/2017|Skype for Business|
+|Jabra|	EVOLVE 75 MS Stereo |6/1/2017|Skype for Business|
+|Plantronics|DA90 with HW520D|3/31/2017|Skype for Business|
+|Jabra|	Speak 710 |3/24/2017|Skype for Business|
+|Plantronics| EncorePro 510 with DA90 |3/17/2017|Skype for Business|
+|Plantronics| EncorePro 710 with DA90 |3/17/2017|Skype for Business|
+|Plantronics| EncorePro 720 with DA90 |3/17/2017|Skype for Business|
+|Plantronics| EncorePro HW710D with DA90 |3/17/2017|Skype for Business|
+|Plantronics| EncorePro HW720D with DA90 |3/17/2017|Skype for Business|
+|Plantronics| EncorePro HW510D with DA90 |3/17/2017|Skype for Business|
+|Plantronics| EncorePro HW520D with DA90 |3/17/2017|Skype for Business|
+|Plantronics| EncorePro HW530D(OTE) with DA90 |3/17/2017|Skype for Business|
+|Plantronics|EncorePro HW540D (Convertable) with DA90 |3/17/2017|Skype for Business|
+|Polycom|	RealPresence Trio 8800 |3/9/2017|Skype for Business|
+|Dell|UC150 Pro stereo Headset|3/3/2017|Skype for Business|
+|Sennheiser|	Speakerphone SP 220 MS |2/17/2017|Skype for Business|
+|Dell|AE515|1/31/2017|Skype for Business|
 |Logitech|	BRIO |12/7/2016|
 |Jabra|	SPEAK 510 MS|11/01/2016|
 |Sennheiser|MB 660 UC MS|9/23/2016|
@@ -211,7 +285,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 
 All of these specifications apply equally for Lync 2013 and Skype for Business, hence all USB peripherals that are qualified for Lync 2013 are also certified for Skype for Business.
 
-Browse [devices certified for Skype for Business or Microsoft Teams](http://products.office.com/microsoft-teams/across-devices/devices).
+Browse [devices certified for Skype for Business or Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 

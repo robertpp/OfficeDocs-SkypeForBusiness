@@ -1,18 +1,19 @@
 ---
 title: Quality of Experience Review Guide for Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: siunies, gageames
 audience: admin
 description: Guide for analyzing real-time media performance for Microsoft Teams by using Call Quality Dashboard (CQD).
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---
@@ -53,25 +54,28 @@ This guide is intended to be used by partner and customer stakeholders with role
 
 This guide is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
-## Prerequisites
+## Assign roles for accessing CQD
 
 Before using this guide, make sure you have the proper tenant [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) assigned so that you can access CQD.
 
--   **Office 365 Global Administrator** 
+This table shows you what each role can do in CQD:
 
--   **Skype for Business Administrator** 
 
--   **Teams Service Administrator** 
+|  |View reports  |View EUII fields  |Create reports  |Upload building data  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Office 365 Global Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
+|Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |
+|Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Azure AD Global Reader |Yes         |Yes         |Yes         |No         |
+|Office 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
 
--   **Teams Communications Administrator** 
+<sup>1</sup> In addition to reading CQD reports, the Office 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
--   **Teams Communications Support Engineer** 
-
--   **Teams Communications Support Specialist** 
-
-Alternatively, you can assign the following role to an Office 365 user account to allow access to reporting features only.
-
--   **Reports Reader:** Can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) In the admin center, any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f), and CQD reports.
+> [!NOTE]
+> If you're not seeing EUII (end-user identifiable information) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 30 days. Anything older than 30 days is deleted.
 
 ## What is quality?
 
@@ -281,6 +285,8 @@ There are two report editions in CQD Online: Summary and Detailed. Use the drop-
 
 For a full description of the difference between the two editions, see [this article](turning-on-and-using-call-quality-dashboard.md).
 
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+
 _Figure 4 - CQD report categories_
 
 The summary reports are divided into four categories:
@@ -318,7 +324,7 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 
 2. Open an Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted: 
 
-   ```
+   ```PowerShell
    Login-AzureRmAccount
    ```
 
@@ -340,7 +346,7 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 
 2. Run the following command:
 
-   ```
+   ```PowerShell
    (Get-cstenant).tenantid
    ```
 
@@ -362,13 +368,13 @@ _Figure 5 - Select a Product Filter_
 
 To filter all detailed reports, in the browser bar, append the following to the end of the URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
 **Example:**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 For more information about URL filters, see [Filtering reports](#filtering-reports) later in this section.
 
@@ -461,17 +467,17 @@ For more in-depth training and resources, see the [Appendix](#other-resources).
 
 You can access CQD one of three ways:
 
--   Go to <https://cqd.lync.com>.
+-   Go to <https://cqd.teams.microsoft.com>.
 
 -   Go to **Microsoft Teams admin center** and select the link to CQD, as shown in the following illustration.
 
-![Screen shot of Call quality dashboard selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
+![Screenshot of Call quality dashboard selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
 
 _Figure 7 – Accessing CQD through the Microsoft Teams admin center_
 
 -   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
 
-![Screen shot of CQD selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
+![Screenshot of CQD selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
 
 _Figure 8 - Accessing CQD through the Skype for Business admin center_
 
@@ -480,13 +486,13 @@ _Figure 8 - Accessing CQD through the Skype for Business admin center_
 
 When you first browse to CQD, you’ll see the Summary Reports page. Most of the reports described in this guide are custom detailed reports. To get started using the detailed reports, select **Summary Reports** at the top of the page, and then choose **Detailed Reports**.
 
-![Screen shot showing types of reports available in CQD](media/qerguide-image-choosereports.png)
+![Screenshot showing types of reports available in CQD](media/qerguide-image-choosereports.png)
 
 _Figure 9 - Navigating to Detailed Reports_
 
 The Detailed Reports page in CQD looks like the following illustration.
 
-![screen shot illustrating elements that make up a detailed report](media/qerguide-image-detailedreportspage.png)
+![screenshot illustrating elements that make up a detailed report](media/qerguide-image-detailedreportspage.png)
 
 |             |           |
 | ------------|-----------|
@@ -503,7 +509,7 @@ Point to bar charts and trend lines in the report to display detailed values. Th
 
 When you select **Edit** on the action menu of a report, you’ll open Query Editor. Each report is backed by a query to CQD. A report is a visualization of the data returned by its query. The Query Editor is a UI for editing these queries in addition to the display options for the report, as illustrated in the following figure.
 
-![Screen shot illustrating elements that make up a report being edited.](media/qerguide-image-queryeditor.png)
+![Screenshot illustrating elements that make up a report being edited.](media/qerguide-image-queryeditor.png)
 
 |             |           |
 | ------------|-----------|
@@ -526,27 +532,27 @@ Excluding federated data from CQD reports is useful when you’re remediating ma
 
 To implement a URL filter, in the browser address bar, append the following to the end of the URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
 Example:  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 To filter the reports for Teams or Skype for Business, append the following to the end of the URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
 Example:
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.lync.com>.
+> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.teams.microsoft.com>.
 
 
 #### Query filters
@@ -580,7 +586,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 **To import the templates (.CQDX) into CQD Online**
 
-1. Go to <https://cqd.lync.com>.
+1. Go to <https://cqd.teams.microsoft.com>.
 
 2. Authenticate by using your Office 365 Administrative credentials.
 
@@ -593,7 +599,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 5. After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
 
-   ![Screen shot of successful import notification](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
+   ![Screenshot of successful import notification](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
 
 6. Repeat steps 4 and 5 for the second CQD template.
 
@@ -641,6 +647,7 @@ _Table 5 - Building file structure_
 | Region             | String    | MSUS                      | Recommended |
 | InsideCorp         | Bool      | 1                         | Required    |
 | ExpressRoute       | Bool      | 0                         | Required    |
+| VPN                | Bool      | 0                         | Optional    |
 
 \*While not required by CQD, the templates are configured to display Building and Network name.
 
@@ -679,18 +686,18 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 - Define a **Network Name** by using the text “VPN” in this field for VPN subnets.
 
-  ![QCD report screen shot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
+  ![QCD report screenshot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
 
   _Figure 12 - VPN using network name_
 
 - Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
 
-  ![QCD report screen shot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
+  ![QCD report screenshot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
 
   _Figure 13 - VPN using building name_
 
 > [!IMPORTANT]
-> Certain VPN implementations don’t accurately report subnet information. If this occurs in your reporting, we recommend that when you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you have 253 rows, with one row for each address from 172.16.18.1/32 through 172.16.18.254/32, inclusive.
+> Certain VPN implementations don’t accurately report subnet information. This is because the VPN client is provided with a 32-bit subnet.  As mentioned in the previous section, CQD is unable to properly identify a 32-bit subnet.  To accurately identify a VPN subnet in CQD set the VPN field to 1 in the building file.
 
 
 > [!NOTE]
@@ -700,17 +707,17 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag in the upper-right corner (look for the gear icon). This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
 
-1. Go to CQD Online by browsing to <https://cqd.lync.com>.
+1. Go to CQD Online by browsing to <https://cqd.teams.microsoft.com>.
 
 2. Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
-   ![Screen shot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+   ![Screenshot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
 
    _Figure 14 - Tenant Data Upload menu_
 
 3. Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
-   ![Screen shot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Screenshot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
 
    _Figure 15 - Building data upload banner_
 
@@ -767,7 +774,7 @@ Browse to the **Detailed Reports** page in CQD Online and navigate to the **Miss
 > [!NOTE] 
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
-![Screen shot showing missing subnet report](media/qerguide-image-missingbuildingreport.png)
+![Screenshot showing missing subnet report](media/qerguide-image-missingbuildingreport.png)
 
 _Figure 17 - Missing Building Report_
 
@@ -1119,7 +1126,7 @@ This report identifies specific buildings and subnets that are contributing to H
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
-![Sreen shot of report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
+![Screenshot of report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
 
 _Figure 29 – HTTP Proxy Usage by Building and Subnet_
 
@@ -1130,8 +1137,6 @@ We [recommend](proxy-servers-for-skype-for-business-online.md) that you always b
 The most common cause of HTTP usage is missing exception rules in proxies. By using the building or subnet provided, you can quickly determine which proxy needs to be configured for media bypass.
 
 Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are whitelisted in your proxy.
-
-For more information about using proxies with Skype for Business Online and Teams, see [this article](proxy-servers-for-skype-for-business-online.md).
 
 ## Endpoint investigations
 
@@ -1305,3 +1310,4 @@ For more information, see [this article about media quality and network performa
 -   [Skype for Business Online reporting](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [Microsoft Teams reporting](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
+ 

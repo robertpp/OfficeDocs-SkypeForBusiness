@@ -10,6 +10,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Choose Teams client apps, plan for endpoint quality, get recommendations for deploying Wi-Fi endpoints and choosing audio devices.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-voice
@@ -160,9 +162,9 @@ device strategy is optimal.
 > [!NOTE]
 > At this time, we recommend using audio devices that were certified
 through the Skype for Business Certification program. To find devices certified
-under this program, see the [USB Devices Certified for Skype for
-Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
-solutions catalog.
+under this program, see the [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices/devices) and [USB audio and video devices](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
+
+
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide on your organization’s overall device strategy for user and meeting room experiences.</li></ul></td></tr>

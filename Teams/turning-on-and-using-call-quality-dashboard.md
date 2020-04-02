@@ -16,11 +16,12 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
-  - ms.teamsadmincenter.directrouting.cqd
-  - ms.lync.lac.ToolsCallQualityDashboard
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Reporting
+  - ms.teamsadmincenter.directrouting.cqd
+  - ms.lync.lac.ToolsCallQualityDashboard
 description: "See how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls. "
 ---
 
@@ -31,6 +32,13 @@ Learn how to configure your Office 365 organization to use the Call Quality Dash
 Call Quality Dashboard (CQD) provides insight into the quality of calls made using Microsoft Teams and Skype for Business Online services. This topic describes the steps to start collecting data you can use to troubleshoot call quality issues.
 
 Currently, Advanced CQD and CQD are both available for use. Advanced CQD is available at <span>https://cqd.teams.microsoft.com</span>. New URL but the same log in with your administrator credentials.
+
+## Use Power BI to analyze CQD data
+
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+
+Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
+
 
 ## Latest changes and updates
 
@@ -81,7 +89,7 @@ CQD version 1 provided Skype for Business Server 2015 admins the following featu
 
 ## CQD Near-Real-Time (NRT) Data
 
-Advanced CQD (V3, released November 2019) uses a near-real-time data feed. Call Records are available at the CQD portal within 30 minutes of the end of the call. Call Records from the NRT pipeline are only available for a few months before they are removed from the data set. CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
+Advanced CQD (V3, released November 2019) uses a near-real-time data feed. Call Records are available at the CQD portal on average in 30 minutes (in comparison to the previous CQD which is on average of 24 hours). Call Records from the NRT pipeline are only available for a few months before they are removed from the data set. CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
 
 ### PII/EUII Data
 
@@ -183,13 +191,15 @@ CQD Summary Reports provide a subset of the features planned for Detailed Report
 |Report set customization (add, delete, modify reports)   | No   | Yes   |
 |Video-based screen sharing metrics   | No   | Yes   |
 |Video metrics   | No   | Yes   |
-|Amount of data available   | Last 6 months   | Last 6 months   |
+|Amount of data available   | Last 12 months   | Last 12 months   |
 |Microsoft Teams data   | Yes   | Yes   |
 | | | |
 
 ### Out-of-the-box reports
 
 All editions of CQD provide an experience that gives you call quality metrics without the need to create new reports. Once data is processed in the back-end, you see call quality data in the reports.
+
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
   
 ### Overview reports
 
@@ -348,7 +358,7 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 - The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
 - Data types in the file can only be String, Integer, or Boolean. For the  Integer data type, the value must be a numeric value. Boolean values must be either 0 or 1.
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
-- There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table:
+- There must be 14 columns for each row (or 15 if you want to add the optional column), each column must have the appropriate data type, and the columns must be in the order listed in the following table:
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
@@ -384,11 +394,22 @@ CQD uses an Endpoint data file. The column values are used in the call record’
 
   **Field order:**
 
-EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
+EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
 
   **Sample row:**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+`1409W3534, 123 manufacturer, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018
+
+## Migrate reports from previous version of CQD
+
+If  you created reports or uploaded tenant data (mapping) files to CQD for Skype for Business (https://cqd.lync.com) and want to migrate them to CQD for Teams (https://cqd.teams.microsoft.com), here’s how:
+
+1.	Go to [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) and browse to the report set you want to export. 
+2.	Hover over the report and, on the "..." menu, choose **Export Report Tree**. Save the export file.
+3.	Go to [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)  and browse to the location where you want to import the reports.
+4.	From the links on the left, click **Import** and select the exported file. 
+5.	After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
+
 
 ## Create custom detailed reports
 
@@ -404,6 +425,33 @@ From the pull-down list of reports at the top of the screen displayed at login \
 4. A detailed report name and description can be created with the edit box at the bottom.
 
 ## Frequently Asked Questions
+
+### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
+
+Check out the rules CQD uses for [stream classification](stream-classification-in-call-quality-dashboard.md).
+ 
+For audio streams, any of the 5 classifiers, which are calculated for the average based on the length of the call, could all be within "good" parameters. It doesn't mean the users didn't experience something that contributed to an audio drop out, static, or glitch. 
+
+To determine if it was a network problem, look at the delta between the average values for the session and the max values. Max values are the maximum detected and reported during the session.
+ 
+Here's an example of how to troubleshoot this situation. Let's say you take a network trace during a call and the first 20 minutes there are no lost packets but then you have a gap of 1.5 seconds of packets and then good for the remainder of the call. The average is going to be <10% (0.1) Packet loss even in a Wireshark trace RTP analysis. What was the Max Packet Loss? 1.5 Seconds in a 5-second period would be 30% (0.3). Did that occur within the five second sampling period (maybe or it could be split over the sampling period)?
+ 
+If network metrics look good in the averages and max values, then look to other telemetry data: 
+- Check CPU Insufficient Event Ratio to see if the detected CPU resources available were insufficient and caused poor quality. 
+- Was the audio device in Half Duplex mode to prevent feedback due to microphones that are to close to speakers? 
+- Check the Device Half Duplex AEC Event Ratio. Was the device glitching or the microphone glitching introducing noise or static due to USB Audio Drop outs when plugged into a Hub or Docking Station:  
+- Check the Device Glitches and Microphone glitches event ratios. Was the device itself functioning properly?  
+- Check the Capture and Render Device Not Functioning Event Ratios.
+
+
+For more on dimensions and measures available in CQD telemetry, read [Dimensions and measurements available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
+
+For background noise, check mute event ratio to see the length of time participants were muted.
+ 
+Create detailed reports in CQD and filter on Meeting ID to look at all users and streams in a meeting and add the fields you are interested in. A user reporting the issue may not be the one that was having the issue. They are just reporting the experience.
+ 
+The telemetry will not necessarily call out the issue, but it can help you better understand where to look and inform your decisions. Is it network, device, driver or firmware updates, usage, or user?
+
 
 ### Why does my CQD v2 report data look different than the CQD v3 report data? 
 
@@ -440,7 +488,17 @@ When you compare data for these two services:
   - Wired : wifi
   - Corporate network : home network
   
+### Why can't I see EUII in CQD?
 
+These admin roles can access CQD, but they can't view EUII (end-user identifiable information):
+- Office 365 Reports Reader
+- Teams Communications Support Specialist
+
+To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+
+### Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?
+
+When you filter for Teams only in CQD reports (isTeams = 1), you're filtering for all calls where the *first endpoint* is Teams. If the *second endpoint* is Skype for Business, that information will show up in your CQD report.
 
 ## Related topics
 
@@ -453,3 +511,4 @@ When you compare data for these two services:
 [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 
