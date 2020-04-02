@@ -16,6 +16,8 @@ description: "Provides IT Pros with links to the latest update information for p
 
 Use the links on this page to get more information about and download the most recent updates for the perpetual versions of Skype for Business 2016, Skype for Business 2015, and Lync 2013 clients.
 
+For the latest Skype for Business Online and Office 365 updates, see the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
+
 > [!NOTE]
 > - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
 > - The information in this article doesn't apply to Office 365 versions of Skype for Business, such as Skype for Business included with Office 365 ProPlus.
