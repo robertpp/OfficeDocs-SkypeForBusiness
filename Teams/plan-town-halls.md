@@ -108,7 +108,7 @@ If you've been using live events for your organization, you might want to unders
 |Ability to not send emails and calendar invites to attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |AI generated captions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Attendee reporting|![Image of a checkmark for yes](/office/media/icons/success-teams.png)| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Broadcast capacity|10k|10k|- 20k</br> *- 100k In development*|
+|Broadcast capacity|10k|10k|- 50k</br> *- 100k In development*|
 |Chat for attendees|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Concurrent events|15|15|50|
 |Control when event invites are sent|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
