@@ -81,6 +81,8 @@ A Teams Premium subscription includes the following features for webinars:
 
 |Feature name | Webinar features | Teams Premium webinar features |
 |-------------------------------------------------------|:---------------------:|:-------------------------:|
+|Duration|30 hours |30 hours|
+|Recording length<sup>1</sup>|4 hours |4 hours|
 |Allow registered users to bypass the lobby         |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                      |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                          |
 |Assign a co-organizer                              |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                      |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                          |
 |Limit the number of people who can register        |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                      |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                         |
@@ -100,6 +102,8 @@ A Teams Premium subscription includes the following features for webinars:
 |Manage what attendees see                          |                       |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                         |
 |Custom meeting templates                         |                       |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                         |
 |Admin created custom meeting backgrounds                         |                       |![Image of a checkmark for yes](/office/media/icons/success-teams.png)                         |
+
+<sup>1</sup> - Every four hours, a new recording starts. For example, a webinar that lasts 8 hours has two recordings.
 
 ## Webinar control comparison
 

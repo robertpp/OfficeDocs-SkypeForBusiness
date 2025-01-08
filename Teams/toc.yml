@@ -562,6 +562,12 @@ items:
           href: browser-logs-and-tracing-for-teams.md
         - name: How to look up your support PIN
           href: support-pin.md
+    - name: Migration
+      items:
+        - name: Migrate from Slack to Teams
+          href: migrate-slack-to-teams.md
+        - name: Migration from Teams
+          href: migration-from-teams.md
 
 - name: Teams, chats, and channels
   items:
@@ -602,8 +608,6 @@ items:
             href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
-          - name: Migrate from Slack to Teams
-            href: migrate-slack-to-teams.md
           - name: Manage tags in Teams
             href: manage-tags.md
           - name: View analytics in Teams
@@ -1421,6 +1425,8 @@ items:
                       href: devices/reserving-rooms-with-a-qr-code.md
                     - name: Custom backgrounds on Teams panels
                       href: devices/custom-background-panels.md
+                    - name: Custom name for Teams panels
+                      href: devices/custom-names.md
             - name: Surface Hub (legacy)
               items: 
                 - name: Manage Microsoft Teams settings

@@ -77,7 +77,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -CaptchaVerificationForMeetingJ
 
 Verification checks are supported on the following clients and platforms:
 
-**Clients:** Teams (T2.1, T2.2), Outlook
+**Clients:** Teams, Outlook
 
 **Platforms:** Desktop, Web, Virtualized Desktop Infrastructure (VDI), and mobile application (iOS and Android)
 

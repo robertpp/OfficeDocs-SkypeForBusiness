@@ -142,7 +142,7 @@ Set-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Disabled
 > [!NOTE]
 > A new `csTeamsAIPolicy` for Microsoft Teams, now available via Microsoft PowerShell, will take effect in mid-January 2025. This policy will replace the existing enrollment setting in `csTeamsMeetingPolicy` and includes two settings: `EnrollFace` and `EnrollVoice`.
 > To help you get started, review:
-> - [Set-CsTeamsAIPolicy (MicrosoftTeamsPowerShell) | Microsoft Learn](/powershell/module/teams/set-csteamsaipolicy)
+> - [Set-CsTeamsAIPolicy (MicrosoftTeamsPowerShell)](/powershell/module/teams/set-csteamsaipolicy)
 Admins can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy.
 
 ```powershell
@@ -154,8 +154,6 @@ Admins can manage how voice and face profiles are used to turn off Voice Isolati
 
   -VoiceIsolation Disabled
 ```
-
- 
 
 To prevent recognition of users in meeting rooms, admins can turn off (default) face and voice identification on the Microsoft Teams room account in the meeting policy.
 

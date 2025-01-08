@@ -37,7 +37,7 @@ Compliance recording is the process of recording and storing communications in a
 
 Microsoft Teams is enhanced to offer compliance recording of call and meeting communications by supporting integrations with certified, third-party, compliance recording solutions.
 
-Using a partner solution to record Teams calls, meetings, and events allow corporate compliance officers to securely collect necessary communications in the manner required to meet regulated compliance and legal obligations (such as MiFID II, Dodd-Frank, FDCPA, HIPAA, GDPR, etc.).
+Using a partner solution to record Teams calls, meetings, and events allow corporate compliance officers to securely collect necessary communications in the manner required to meet regulated compliance and legal obligations, such as MiFID II, Dodd-Frank, FDCPA, HIPAA, and GDPR.
 
 Compliance recording partner solutions are integrated with Teams as shown in the following diagram:
 
@@ -139,6 +139,12 @@ Compliance recording notifications are supported for the Teams client experience
 
 The solution for Teams compliance recording is achieved through Microsoft’s third-party partners who develop compliance recording bots, and pair the bot with their recording solution. Each partner solution varies, but each partner uses the same key Graph APIs, an application instance, and a compliance recording policy.
 
+The recording bot has the following requirements:
+
+- Recorder bot must run on a Windows Virtual Machine and be deployed in Azure
+- Recorder bot outbound firewall destination IP address must be open to the [Azure public IP range](https://www.microsoft.com/download/details.aspx?id=56519)
+- Recorder bot inbound firewall source IP address must be open to the [Teams IP range](https://www.learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
+
 For a sample of developing a compliance recording bot, see [deploying and testing a sample bot](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot#bot-registration).
 
 ## Third-party compliance recording partners
@@ -146,7 +152,7 @@ For a sample of developing a compliance recording bot, see [deploying and testin
 Microsoft created a compliance recording for Microsoft Teams certification program while making Teams APIs available for partners to develop and integrate compliance recording solutions. This program provides customers with the assurance that each participating partner's solution is tested and verified to provide the quality, compatibility, and reliability expected from a Microsoft solution.
 
 If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
-[Calling Platform Intake](https://aka.ms/CallingPlatformIntake)
+[Calling Platform Intake](https://aka.ms/CallingPlatformIntake).
 
 The following list includes partners certified to deliver a compliance recording solution with Microsoft Teams:
 
@@ -258,3 +264,4 @@ Microsoft only supports compliance recording solutions from the listed, certifie
 ### Related topics  
 
 - [Teams Recordings - Microsoft Teams | Microsoft Learn](./teams-recording-policy.md)
+ 

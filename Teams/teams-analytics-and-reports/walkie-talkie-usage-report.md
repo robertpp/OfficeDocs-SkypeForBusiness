@@ -7,7 +7,7 @@ audience: admin
 ms.topic: conceptual
 ms.service: microsoft-365-frontline
 ms.reviewer: yinchang
-ms.date: 10/07/2024
+ms.date: 12/30/2024
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -26,16 +26,18 @@ appliesto:
 
 The Walkie Talkie usage and performance report in the Microsoft Teams admin center gives you an overview of [Walkie Talkie](../walkie-talkie.md) activity in your organization. The report provides information such as the number of push-to-talk (PTT) transmissions made and received, channel activity, transmission duration, and device and participant details.
 
-Use this report to gain insight into Walkie Talkie usage trends and performance in your organization. To access the report, you must be a Teams Administrator, Global Reader, Report Reader, or Global Administrator.
+You can choose a predefined date range or set your own custom date and time range (coming soon) for the report. Use this report to gain insight into Walkie Talkie usage trends and performance in your organization.
+
+To access the report, you must be a Teams Administrator, Global Reader, Report Reader, or Global Administrator.
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use a less-privileged role.
 
 ## Download and view the report
 
-1. In the left navigation of the Microsoft Teams admin center, choose **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Walkie Talkie usage**.
-1. Under **Date range**, select a date range of 7 days or 30 days. Then, choose **Run report**.
-1. Select **Generate report**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Walkie Talkie usage and performance**.
+1. Under **Date range**, select a predefined range or set a custom date and time range (coming soon). You can set a range to show data up to 30 days before the current date.
+1. Select **Run report**.
 1. On the **Downloads** tab, under **Status**, choose **Download** to download the report in CSV format.
 
 ## Interpret the report

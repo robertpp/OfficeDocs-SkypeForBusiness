@@ -34,6 +34,9 @@ There are two types of logs that are automatically created upon request, which c
 > [!NOTE]
 > The media and signaling logs are encrypted and can only be decrypted by Microsoft Support. Weblogs are text files and readable by any text editor. Additionally, performance enhancements have made it possible to always enable media logging. Accordingly, the administrative policy to control media logging has been deprecated.
 
+> [!NOTE]
+> For Teams on VDI, Media logs are only available for the new [Slimcore-based VDI solution](/microsoftteams/vdi-2). For Teams on VDI using legacy WebRTC-based media optimization, please contact your VDI provider for instructions on gathering and interpreting media logs. For Teams Web, see [Browser logs and tracing for Teams](/microsoftteams/browser-logs-and-tracing-for-teams). 
+
 ## Logs overview
 
 It’s important to collect logs as soon as an issue occurs.

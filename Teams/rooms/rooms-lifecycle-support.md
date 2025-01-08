@@ -67,10 +67,18 @@ The following table shows recommended and supported versions of Windows that are
 
 When you use a supported version of Windows, you will always get the latest application updates for the Microsoft Teams Rooms app.  
 
+## Support ending for Windows 10
+
+Support ends for Windows 10 on October 14, 2025, and devices will no longer receive security and feature updates. Upgrade your Teams Rooms on Windows devices now to Windows 11 for a smooth transition and to continue to receive the latest productivity, security, and management features.
+
+Until October 14, 2025, Teams Rooms and Teams Rooms Pro Management software will continue to support and test the latest Teams Rooms app on Windows 10 22H2 (version 10.0.19045). After the Windows 10 end of support date, Teams Rooms and Teams Rooms Pro Management will no longer update, support, or test Teams Rooms apps on Windows 10.  
+
+Please utilize the Teams Rooms Pro Management Room Inventory export or the Windows 11 readiness checker to identify devices that will need action. Devices running on Windows OS version 10.0.19045 or lower must be updated to Windows 11, if eligible, or replaced to continue receiving Teams Rooms and Teams Rooms Pro Management support and updates.
+
+Most Teams Rooms devices running Windows 10 were automatically upgraded to Windows 11. However, certified Teams Rooms devices such as Lenovo Hub 500 (i5-7500T), HP Slice G2 (i5-7500T), Yealink NUC – NUC7i5DNKE (i5-7300U), Surface Pro 5 (i5-7300U), and Crestron Skull Canyon (i7-6770HQ) can't be upgraded to Windows 11 and will need to be replaced. This is not an exhaustive list. Please contact your device manufacturer for the specific models that are impacted.
+
+Find additional details on the Teams Rooms app OS support. Also, see [Microsoft product lifecycle notices for Windows 10 Enterprise](/lifecycle/products/windows-10-enterprise-and-education) and [Windows10 IoT Enterprise](/lifecycle/products/windows-10-iot-enterprise).
+
 ## Related topics
 
-[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
-
-[Microsoft Teams Rooms release notes](rooms-release-note.md)
-
-[Plan for Microsoft Teams Rooms](rooms-plan.md)
+- [Plan for Windows 11](/windows/whats-new/windows-11-plan)

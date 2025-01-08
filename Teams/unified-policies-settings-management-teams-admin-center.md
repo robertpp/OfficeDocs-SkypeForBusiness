@@ -49,7 +49,7 @@ To use the new unified settings and policy experience, you need to opt in from t
 ![A screenshot of Opt-in from existing Messaging policy page.](media/opt-in-from-existing-messaging-policy-page.png)
 *Figure 2: Opt in from existing messaging policy page*
 
-You can always opt out from the new experience and go back to the old one, if you prefer, by clicking on the banner at the top of the new experience.
+> You can opt out of the new experience by clicking the button at the bottom right, until it becomes **the default and only experience available**.
 
 ![A screenshot of Opt-out from new “Settings & policies” home page](media/opt-out-from-new-settings-policies-homepage.png)
 *Figure 3: Opt out from new Settings & Policies home page*
@@ -62,8 +62,8 @@ To configure org-wide settings, you can follow these steps:
 1. Select the feature area that you want to configure, such as Meetings, Voice, Apps, etc.
 
     ![A screenshot of Org-wide default meeting settings page](media/org-wide-default-meeting-settings-page.png)
-*Figure 5: Org-wide default Meeting settings page*
-
+   *Figure 5: Org-wide default Meeting settings page*
+   
 1. Find the setting that you want to change, and use the toggle, dropdown, or input field to change its value.
 
 1. Select **Save** to apply the changes, or **Cancel** to discard them.
@@ -75,15 +75,15 @@ To create and manage custom policies, you can follow these steps:
 1. Select the **Settings & policies** tab in the left nav, and then the **Custom policies for users & groups** tab.
 
     ![A screenshot of Custom policies for users & groups home page](media/customize-users-groups-policy-homepage.png)
-*Figure 6: Custom policies for users & groups home page*
-
+   *Figure 6: Custom policies for users & groups home page*
+   
 1. Select the feature area that you want to create or manage a custom policy for, such as Meetings, Voice, Apps, etc.
 
 1. Select the **+Add** button to create a new custom policy, or on the name of an existing custom policy to edit it.
 
     ![A screenshot of Custom Meeting policy page](media/custom-meeting-policy-page.png)
-*Figure 7: Custom Meeting policy page*
-
+   *Figure 7: Custom Meeting policy page*
+   
 1. Select **Save** to create or update the custom policy, or **Cancel** to discard it.
 
 1. Select the **Assigned groups** or **Assigned users** tab to view or assign the custom policy to groups or individual users respectively.

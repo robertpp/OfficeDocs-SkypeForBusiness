@@ -80,6 +80,10 @@ To turn on check-in notifications,
 
 **Answer:** No, this feature is only available for room mailboxes created in Exchange Online after Teams app 1449/1.0.97.2024061108. To learn more about how to manage room mailboxes, see [Manage resource mailboxes in Exchange Online](/exchange/recipients-in-exchange-online/manage-resource-mailboxes).
 
+**Question: Does 'Send check-in notification' in Teams Admin Settings and Teams Admin Center control whether a Teams chat to check-in is sent?**
+
+**Answer:** No, this setting does not control [chat notifications](/microsoft-365/places/enable-auto-release?branch=main). This setting controls the banner(s) that appear on the front of room display. See 'Turn on check-in notifications' above for more information. 
+
 ## Related topics
 
 - [How to use Microsoft Teams panels](use-teams-panels.md)
