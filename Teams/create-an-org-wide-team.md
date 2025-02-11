@@ -3,7 +3,7 @@ title: Use organization-wide teams in Microsoft Teams to help everyone collabora
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.reviewer: jasonlewis
+ms.reviewer: shubhanshi.jain
 ms.date: 11/12/2024
 ms.topic: article
 audience: admin
@@ -39,7 +39,7 @@ There are two ways to create an organization-wide team:
 
 ## Types of users in an organization-wide team
 
-When an organization-wide team is created, all Global administrators and Teams administrators are added as team owners, and all active users are added as team members. Team members can't leave an organization-wide team, but team owners can manually add or remove users if needed. When Teams automatically adds or removes someone, a notification is sent to the *General* channel.
+When an organization-wide team is created, all Global administrators and Teams administrators are added as team owners, and all active users are added as team members. Team members can't leave an organization-wide team, but team owners can manually add or remove users if needed. When Teams automatically adds or removes someone, a notification is sent to the first created channel of the team, i.e. *General* channel, if not renamed by the team owner.
 
 Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, they're assigned a **Microsoft Teams Exploratory** license. To learn more about the Teams Exploratory license, check out [Manage the Microsoft Teams Exploratory license](teams-exploratory.md).
 
@@ -61,23 +61,25 @@ The following types of accounts aren't added to your organization-wide team:
 
 To get the most out of your organization-wide team, we recommend that team owners do the following tasks:
 
-### Allow only team owners to post to the *General* channel
+### Allow only team owners to post to the first created channel of the team
 
-Reduce channel noise by having only team owners post to the *General* channel.
+Reduce channel noise by having only team owners post to the first created channel of the team.
 
-1. Go to the team, locate the *General* channel, and then select **... More options** > **Manage channel**.
-2. On the **Settings** tab, select **Permissions**, and then select **Only owners can post messages**.
+1. Go to the team, select **... More options** > **Manage team**.
+1. On the **Settings** tab, select **Permissions**, and then select **Only owners can post messages**.
 
 ### Turn off @team and @[team name] mentions
 
 Reduce @mentions to keep them from overloading the entire organization.
 
-1. Go to the team and select **... More options** > **Manage Team**.
-2. On the **Settings** tab, select **@mentions** > turn off **Show members the option to @team or @[team name]**.
+1. Go to the team and select **... More options** > **Manage team**. 
+1. On the **Channels** tab, locate the first created channel with the home icon.
+1. Select **... More options** > **Manage channel**.
+1. On the **Settings** tab, select **@mentions** and turn off **Show members the option to @team or @[team name]**.
 
-### Automatically show important channels
+### Recommend important channels
 
-Show important channels to ensure everyone in your organization engages in specific conversations. To learn more, see [Auto-favorite channels for the whole team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+Mark important channels as "Recommend that people show this channel in their channel lists" to ensure everyone in your organization engages in specific conversations. To learn more, see [Recommend channels for the whole team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
 
 ### Set up channel moderation
 

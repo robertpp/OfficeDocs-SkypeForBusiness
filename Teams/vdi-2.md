@@ -92,6 +92,11 @@ The plugin MSI automatically detects the CWA installation folder and places MsTe
 - Per-user installation of CWA isn't supported.
 - If no CWA is found on the endpoint, installation is stopped.
 
+|Release note version |Details  |
+|---------------------|---------|
+|2024.41.1.1          |October 2024</br>-When using SlimCore in multimonitor set ups, a Citrix user is unable to share entire screen or individual monitors.</br>-Attempts a [Reset-AppxPackage](/powershell/module/appx/reset-appxpackage) if SlimCoreVdi MSIX package registrations fail after the virtual channel is established. |
+|2024.32.X.X          |August 2024</br>-Plugin now attempts a Reset-AppxPackage for SlimCoreVdi MSIX package, in case AppExecution alias is missing. |
+
 ### Step 3: SlimCore MSIX staging and registration on the endpoint
 
 The plugin silently executes this step, without user or admin intervention. The staging and registration relies on the App Readiness Service (ARS) on the endpoint. It's possible that the MSIX package installation is blocked by registry keys set by a Group Policy or a third-party tool. For a complete list of applicable registry keys, see [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix).
@@ -311,8 +316,8 @@ This policy is now expanded with an additional argument as the only configuratio
 |Organizational custom backgrounds |Yes (Teams Premium license required)                            |No                            |
 |User-uploaded background effect   |Coming soon                                                     |No                            |
 |Zoom +/-                          |Yes                                                             |No                            |
-|Media bypass, Location-based routing, Operator connect |Yes                                        |No                            |
-|Call quality dashboard and Teams admin center          |Yes                                        |Limited                       |
+|Media bypass, Location-based routing, Operator connect <sup>1</sup> |Yes                           |No                            |
+|Call quality dashboard and Teams admin center|Yes                                                  |Limited                       |
 |Published app/Remote app          |No                                                              |Yes                           |
 |Give/Take control                 |Yes                                                             |Yes                           |
 |App sharing                       |Yes                                                             |Yes                           |
@@ -321,6 +326,9 @@ This policy is now expanded with an additional argument as the only configuratio
 |Share system audio                |Yes                                                             |Yes                           |
 |Secondary ringer                  |Yes                                                             |Yes                           |
 |Background blurring               |Yes                                                             |Yes                           |
+|Annotations                       |Only as presenter                                               |No                            |
+
+<sup>1</sup> Operator Connect in India with mobile numbers requires latitude and longitude access from the endpoint's OS and local internet breakout. Operator connect with wireline numbers can use IP or subnet to map to a location. For more details, check [Wireline and Wireless number types in India](operator-connect-india-plan.md#wireline-and-wireless-number-types-in-india).
 
 ## SlimCore user profile on the endpoint
 
@@ -387,6 +395,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
        - If the presenter maximizes the call monitor (which destroys the self preview of what the presenter is sharing).
   - Stopping and resharing the window should resolve the issue.
   - This issue has been resolved in new Teams 24335.206.X.X or higher versions.
+- If you're on a video call and you open the Start menu on the virtual machine, a blank screen shows in the Teams meeting window instead of the video feed.
 
 #### Citrix virtual channel allow list
 

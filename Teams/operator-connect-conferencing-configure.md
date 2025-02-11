@@ -150,7 +150,7 @@ From the **My operators** tab, you can view your operators, their status, and ma
 
 ## Release numbers from your Audio Conferencing bridge
 
-To release phone numbers from your Audio Conferencing bridge from the Teams admin center, see **Steps when you are unassigning a service phone number for a conferencing bridge** in [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-youre-unassigning-a-service-phone-number-for-a-conferencing-bridge).
+To release phone numbers from your Audio Conferencing bridge from the Teams admin center, see **Steps when you are unassigning a service phone number for a conferencing bridge** in [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-unassign-a-service-phone-number-for-a-conferencing-bridge).
 
 ## Additional information on managing Microsoft Audio Conferencing
 

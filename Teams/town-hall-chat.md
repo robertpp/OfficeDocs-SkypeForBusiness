@@ -1,5 +1,5 @@
 ---
-title: Manage event chat for Microsoft Teams town halls 
+title: Manage meeting chat for Microsoft Teams town halls 
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -21,10 +21,10 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
-description: Learn how to manage which organizers can use event chat for their Microsoft Teams town halls.
+description: Learn how to manage which organizers can use meeting chat for their Microsoft Teams town halls.
 ---
 
-# Manage event chat for Microsoft Teams town halls
+# Manage meeting chat for Microsoft Teams town halls
 
 **APPLIES TO:** ![Image of a x for no](/office/media/icons/cancel-teams.png)Meetings ![Image of a x for no](/office/media/icons/cancel-teams.png)Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town halls
 
@@ -33,34 +33,34 @@ description: Learn how to manage which organizers can use event chat for their M
 > [!NOTE]
 > This feature is currently in Public Preview.
 
-In Microsoft Teams town halls, only presenters, organizers, and co-organizers can use chat. If town hall organizers have a Teams Premium license, they can turn on **Event chat** in their **Meeting options** to allow attendees to a chat and interact with each other. Event chat is only available during the town hall. Organizers, presenters, and co-organizers can still chat separately.
+In Microsoft Teams town halls, only presenters, organizers, and co-organizers can use chat to communicate with each other. If town hall organizers have a Teams Premium license, they can turn on **Meeting chat** in their **Meeting options** to allow attendees to a chat and interact with each other. Meeting chat is only available during the town hall. Organizers, presenters, and co-organizers can still chat separately in the **Event group chat**.
 
-As an admin, you can manage whether town hall organizers with a Teams Premium license can turn on event chat for their attendees.
+As an admin, you can manage whether town hall organizers with a Teams Premium license can turn on meeting chat for their attendees.
 
-For details on how your users use event chat for town halls, see [Chat in a town hall in Microsoft Teams](https://support.microsoft.com/office/chat-in-a-town-hall-in-microsoft-teams-a4a0e102-ca45-4605-a0a8-83a884547338).
+For details on how your users use meeting chat for town halls, see [Chat in a town hall in Microsoft Teams](https://support.microsoft.com/office/chat-in-a-town-hall-in-microsoft-teams-a4a0e102-ca45-4605-a0a8-83a884547338).
 
-## Manage event chat for your organizers
+## Manage meeting chat for your organizers
 
-To manage whether town hall organizers with a Teams Premium license can turn on event chat for their attendees, use the **`-TownhallChatExperience`** parameter within the PowerShell [**CsTeamsEventsPolicy**](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
+To manage whether town hall organizers with a Teams Premium license can turn on meeting chat for their attendees, use the **`-TownhallChatExperience`** parameter within the PowerShell [**CsTeamsEventsPolicy**](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
 
 The following table shows the behaviors of the settings for the **`-TownhallChatExperience`** parameter:
 
 |Setting value| Behavior|
 |---------|---------------|
-|Optimized| **This is the default value.** Town hall organizers with this policy can turn on event chat for their attendees. |
-|None| Town hall organizers with this policy can't turn on event chat for their attendees.|
+|Optimized| **This is the default value.** Town hall organizers with this policy can turn on meeting chat for their attendees. |
+|None| Town hall organizers with this policy can't turn on meeting chat for their attendees.|
 
-### Turn off event chat
+### Turn off meeting chat
 
-To turn off event chat, use the following script:
+To turn off meeting chat, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -TownhallChatExperience None
 ```
 
-### Turn on event chat
+### Turn on meeting chat
 
-To turn on event chat, use the following script:
+To turn on meeting chat, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -TownhallChatExperience Optimized
@@ -68,8 +68,8 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -TownhallChatExperience Optimize
 
 ## Event chat eDiscovery and storage
 
-Messages for event chat in town halls are only stored in the organizer's mailbox for up to 30 days. During this time, if you do a content search for the organizer, you can see all the messages that were sent in that event chat.
-However, if you place the organizer’s mailbox on legal hold, the mailbox continues to keep the event chat messages for longer.
+Messages for meeting chat in town halls are only stored in the organizer's mailbox for up to 30 days. During this time, if you do a content search for the organizer, you can see all the messages that were sent in that meeting chat.
+However, if you place the organizer’s mailbox on legal hold, the mailbox continues to keep the meeting chat messages for longer.
 
 When the organizer leaves the company anytime from when the event is scheduled to 30 days after the town hall ends, the following details apply:
 
@@ -79,13 +79,13 @@ When the organizer leaves the company anytime from when the event is scheduled t
 
 If a town hall organizer leaves the company, you should reschedule the town hall.
 
-You can't see which users viewed specific messages during the event. You also can't search for event chat messages in an attendee's mailbox.
+You can't see which users viewed specific messages during the event. You also can't search for meeting chat messages in an attendee's mailbox.
 
 Learn more, see [Get started with Content search](/purview/ediscovery-content-search).
 
 ## Limitations
 
-- If a town hall restarts, event chat isn't available in the new town hall.
+- If a town hall restarts, meeting chat isn't available in the new town hall.
 - Attendees can only send up to 200 characters of text and emojis into the Event Chat.  
 - All other message composition options that are available in a [Teams Meeting chat](manage-meeting-chat.md) like sending pictures, sending GIFs, attaching files, or formatting text aren't supported. Hyperlinks are only supported if they're fewer than 200 characters.  
 - Attendees can't use `@` to mention others, reply to other chat messages using the 'Reply' function, or 'React' to messages.

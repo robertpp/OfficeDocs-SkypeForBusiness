@@ -16,7 +16,7 @@ Be sure you have read [Plan for Teams auto attendants and call queues](../plan-a
 
 This video shows a basic example of how to create a call queue in Teams.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=c5394239-b79f-4f41-9a85-78e6ff7087b6]
 
 ## How to set up your call queue
 

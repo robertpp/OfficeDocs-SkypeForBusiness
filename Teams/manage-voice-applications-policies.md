@@ -8,7 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: admin
-ms.date: 10/22/2024
+ms.date: 1/29/2025
 ms.collection: 
 - M365-voice
 - m365initiative-voice
@@ -110,7 +110,7 @@ Voice applications policies control the configuration changes and actions an aut
 
 Notes
 
-1. The authorized user requires a Teams Premium license and Queues app to access this functionality.
+1. The authorized user requires a Teams Premium license to access this functionality.
 1. In order to change the holiday schedule, the authorized user must be authorized for all auto attendants that reference the holiday.
 1. This option isn't currently available for authorized users.
    
@@ -155,8 +155,8 @@ Notes
 
 Notes
 
-1. The authorized user requires a Teams Premium license and Queues app to access this functionality.
-1. If the Call queue uses a distribution list, security group, Microsoft 365 group or a Microsoft Teams channel the owner of these can add or remove agents without a Teams Premium license or Queues app.
+1. The authorized user requires a Teams Premium license to access this functionality.
+1. If the Call queue uses a distribution list, security group, Microsoft 365 group, or a Microsoft Teams channel, the owner of these can add or remove agents without a Teams Premium license or Queues app.
 1. This option isn't currently available for authorized users.
 
 ### Call queues - Agent actions

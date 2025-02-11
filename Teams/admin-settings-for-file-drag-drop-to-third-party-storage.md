@@ -76,12 +76,8 @@ Admins should refer to the app description or third-party app documentation for 
 - For new app support, contact your desired third-party storage provider for the compatible app.
 
 ## Documentation for developers (third-party storage apps)
-In order for Teams apps to support drag-drop:
-- Use the latest version of the Teams SDK.
-- The app manifest should have the first action as Upload.
-- The third-party app calls thirdPartyCloudStorage API to get the drag-dropped files with the following parameters:
-  1. Concatenate two values to get the unique ID/cache ID:<br>**const uniqueIdForChats = replyToId + id** (that is, thread ID)<br>Note, if **replyToId** is **""** then the unique ID is **""+threadId**
-  2. Callback: (files: FilesFor3PStorage[], error?: SdkError): void;**
+
+For the Teams app developers to implement third-party cloud storage app for the drag-dropped files, see [third-party cloud storage app](/microsoftteams/platform/concepts/device-capabilities/third-party-storage-capability).
 
 - For more API information, see [thirdPartyCloudStorage module](/javascript/api/@microsoft/teams-js/thirdpartycloudstorage).
 - For more Teams SDK information, see [@microsoft/teams-js package](/javascript/api/@microsoft/teams-js).

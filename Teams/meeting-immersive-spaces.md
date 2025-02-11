@@ -1,7 +1,7 @@
 ---
 title: Manage the Mesh app in Microsoft Teams
-ms.author: tmilligan
-author: typride
+ms.author: sekerawa
+author: Sean-Kerawala
 manager: tyadams
 audience: ITPro
 ms.reviewer: sekerawa
@@ -60,7 +60,7 @@ Please refer to the [limitations and specifications for Immersive spaces (3D)](/
 
 ## License requirements
 
-Immersive spaces in Teams is available with the following licenses:
+Immersive spaces in Teams are available with the following licenses:
 
 Teams Essentials, Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, Microsoft 365 E3/E5, and Office 365 E1/E3/E5.
 
@@ -70,7 +70,7 @@ This section outlines the specific endpoints and firewall requirements for the M
 
 Configure your enterprise firewall settings to align with the standard set of Microsoft 365 requirements for **Microsoft Teams**, and **Microsoft 365 Common** outlined in [Microsoft M365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
-As part of this, ensure that you have configured your firewall to enable traffic to `*.cloud.microsoft.com`, `*.office.com`, and `*.microsoft.com` over `TCP 443`, `80`.
+As part of this, ensure that you have configured your firewall to enable traffic to `*.cloud.microsoft`, `*.office.com`, and `*.microsoft.com` over `TCP 443`, `80`.
 
 Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) for media capabilities such as audio, video, and screenshare.
 

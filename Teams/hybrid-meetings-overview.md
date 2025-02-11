@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 2/26/2024
+ms.date: 1/17/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -32,7 +32,7 @@ Microsoft Teams is the center of hybrid work across Microsoft. To see how to inc
 
 This short video shares Microsoft's vision for hybrid meetings with Teams Rooms. Many of the features, such as front row, are available today and are discussed in this solution.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEB5U]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=2a8305f9-1298-4ea0-a42f-dd0132ec9f98]
 >
 
 For information about how to get your infrastructure ready to support a hybrid work environment, see [Set up your infrastructure for hybrid work with Microsoft 365](/microsoft-365/solutions/empower-people-to-work-remotely).

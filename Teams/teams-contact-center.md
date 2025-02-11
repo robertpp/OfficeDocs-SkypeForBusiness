@@ -76,7 +76,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Intermedia` | https://www.intermedia.com/integration/contact-center-for-microsoft-teams                       |
 | `IPDynamics` | https://www.ipdynamics.de/ |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
-| `Luware` | https://luware.com/en/solutions/                                                                                       |
+| `Luware` | https://luware.com/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/  |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
@@ -94,13 +94,11 @@ The following providers offer contact center solutions that are integrated into 
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Evolve IP` | https://www.evolveip.net/contact-center   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
-| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
-| `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vier` | https://www.vier.ai/                   |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
+| `Zoom` | https://www.zoom.com/en/products/contact-center/               |
 
 This list will be updated as more solution providers join and meet the certification criteria.
 

@@ -52,7 +52,7 @@ Policies are implemented in one of the following ways:
 
 This video shows the steps to create and assign a custom meeting policy to a user (or users).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c7DS?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=f4c627dd-3871-4155-af29-ff264cd6ff69]
 
 ## Edit a meeting or event policy
 
@@ -68,7 +68,7 @@ You can edit the global policy and any custom policies that you create.
 
 This video shows the steps to edit an organizational-wide default meeting policy.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1ca7L?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=66131d94-fb4e-46ac-9d05-9d2a70a12adc]
 
 ## Assign a meeting or event policy to users
 
@@ -84,4 +84,3 @@ This video shows the steps to edit an organizational-wide default meeting policy
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)
-

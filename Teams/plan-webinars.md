@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams webinars
-ms.reviewer: justle
-ms.date: 1/16/2024
+ms.reviewer: sherimehmood,justle
+ms.date: 1/27/2025
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -111,32 +111,51 @@ Teams admins and organizers have different policies and settings to control the 
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
+|[Announce when callers join or leave](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)|Control whether an entry and exit announcement is played when attendees who dialed into the webinar join or leave.|No control.|
+|[Anonymous participants](anonymous-users-in-meetings.md)|Manage how anonymous attendees access Teams meetings in your org.|**(Public preview)** can prevent anonymous users from joining specific meetings if admin allows.|
 |[Attendance and engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
 |[Audio and video](meeting-policies-audio-and-video.md)|Can set audio and video modes and network settings.|Can allow or prevent attendee mic and cameras.|
+|[Cameras](meeting-policies-audio-and-video.md)|Can use the **IP Mode for Video** policy to control both outgoing and incoming video for the webinars users organize or attend.|Can use the **Allow camera for attendees** setting when creating the webinar to manage whether attendees can turn on cameras.|
+|[CART captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47)|No control|Can set up and offer Communication access real-time translation(CART) captioning to participants instead of the Microsoft Teams built-in live captions that are automatically generated.|
 |[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers, and attendees can read and write chat messages.|Can manage whether chat is available for their webinars.|
+|[Choose co-organizers](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|No control|Can assign different roles in a Teams webinar to give users specific permissions.|
 |[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes.|No control.|
+|[Compliance recording](teams-recording-policy.md)|Can implement an admin policy for automatic recording.|No control|
 |[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
+|[Convenience recording](meeting-recording.md)|Can allow or prevent recording and set recording expiration time.|If the admin allows recording, organizers can manage who can record (Teams Premium) and automatic recording.|
+|[Custom backgrounds (Teams Premium)](custom-meeting-backgrounds.md)|Can upload images for your users to display in the background of their video feed during meetings.|Can use backgrounds the admin uploaded.|
+|[Decorate my background (Teams Premium)](https://adoption.microsoft.com/microsoft-teams-premium/decorate-your-background/)|No control|Organizers and participants can use AI to decorate their backgrounds.|
 |[Download transcripts](https://support.microsoft.com/office/manage-webinar-recordings-in-microsoft-teams-8cf1ba61-c9d8-4628-8b5d-0dcdb8503144)|No control.|Can download transcripts from their webinars.|
 |[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their webinars.|Can edit email templates  before they're sent out.|
 |[External presenters](https://support.microsoft.com/office/schedule-a-webinar-in-microsoft-teams-0719a9bd-07a0-47fd-8415-6c576860f36a)|No control.|Can invite presenters from outside  of your organization. External presenters have a unique join link to join the webinar without waiting in the lobby.|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|No control.|Can choose if green room is used for a webinar.|
 |[Hide attendee names (Teams Premium)](hide-attendee-names.md) |Can control whether organizers with a Premium license can hide the names and photos of attendees from other attendees in the stage, roster, and chat. | Can hide attendee names during webinars to protect identities and privacy. |
 |[Join verification check](join-verification-check.md) | Can require human verification checks for anonymous users to join webinars in your org.|No control|
+|[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e) |No control |Can turn on language interpretation settings for a webinar, add interpreters before the webinar, and designate interpreters during the webinar.|
 |[Limit presenter role permissions](presenter-role-reduction.md) |Can limit presenter role permissions for the tenant. |No control.|
-|[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their webinars. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
+|[Live translated captions (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated captions for their webinars. |Can enable live translated captions for themselves; attendees can always turn on live translated captions. |
+|[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their webinars. |Can turn on live translated transcription for themselves; attendees can always turn on live translated transcription. |
+|[Lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new webinars.|Can choose lobby settings for each webinar.|
 |[Manage what attendees see (Teams Premium)](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|No control|Can decide whose avatars or video feeds to spotlight during a Teams meeting. Others are hidden from view.|
 |[Manage who can schedule webinars](set-up-webinars.md)|Can disable webinars for users and groups, control which organizers can schedule webinars,  and decide whether organizers can schedule public webinars.|Can schedule webinars if allowed by admin.|
+|[Microphones](meeting-policies-audio-and-video.md)|Can use the **IP Mode for Audio** policy to control both outgoing and incoming audio for the webinars users organize or attend.|Can use the **Allow mic for attendees** setting when creating the webinar to manage whether attendees can turn on their microphones.|
 |[Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)|Can control the default values and enforce specific values for Microsoft 365 Copilot in Teams meetings and events in organizers’ meeting options.|Can control whether Microsoft 365 Copilot in Teams meetings and events is used **Only during the meeting**, **During and after the meeting**, or **Off** during their webinars. Attendees can use Copilot if they have a Copilot Microsoft 365 Copilot license.|
+|[Outlook add-in(classic Outlook)](outlook-add-in-authentication-policy-requirements.md)|Can control whether users can schedule webinars from classic Outlook.|If admin allows, can schedule webinars from classic Outlook.|
+|[Prevent copying or forwarding chat, captions, and transcripts (Teams Premium)](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-chat-captions-and-transcripts)|Can prevent copying or forwarding of chat contents by using a meeting template or sensitivity label.|Can manage options if admin doesn't lock label or template settings. |
 |[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in webinars.|Can decide if Q&A is available for their webinars if allowed by admins. Webinar organizers and co-organizers can export the event's questions and answers to a CSV file.|
+|[Quality of service (QoS)](meetings-real-time-media-traffic.md)|Can prioritize real-time network traffic that's sensitive to network delays over traffic that's less sensitive.|No control|
 |[Reactions](manage-reactions-meetings.md)| Manage whether organizers with this policy can use reactions in their webinars. |Can control whether reactions can be used in their webinars. |
 |[Recording](meeting-recording.md)| Can allow or prevent webinar recording. |If the admin enables recording, organizers can set who can record and automatic recording. |
 |[Registration](set-up-webinars.md)| Can manage who can register for webinars. |Registration is required for attendees to attend webinars. Organizers can decide how many people can register for a webinar. With a Teams Premium license, they can also require manual registration approval, enable a waitlist, and limit registration start and end time.  |
 |[Registration form](manage-registration-form-webinars.md)| Can manage the types of questions an organizer can require attendees to answer when registering for webinars. | Can edit the registration form depending on admin settings.|
 |[RTMP-in (Premium)](meetings-rtmp-in.md)| Can allow or disable RTMP-in for organizers. | Can produce their Teams webinar directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP).|
+|[Speaker Coach](meeting-speaker-coach.md)|Manage whether users in your organization can use Speaker Coach during webinars.|No control- all participants can use Speaker Coach if the admin allows.|
 |[Theming](https://support.microsoft.com/office/customize-a-webinar-in-microsoft-teams-20491c28-863f-479b-8f61-85046d124f10) |No control.|Can customize their webinar's theme.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
+|[Video effects](meeting-policies-audio-and-video.md#participants-can-use-video-effects)|Control whether users can customize their video background.|If the admin allows, organizers and attendees can blur their video background, choose from the default set of images, or upload custom images to use as their background.|
 |[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify webinar recordings. |
 |[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in webinars.|Can enable voice isolation.|
+|[Watermarks (Teams Premium)](watermark-meeting-content-video.md)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if the admin allows.|
 |[Webinar join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and webinars.|Can choose meeting join and lobby settings for each webinar.|
 |[Webinar usage report](/microsoftteams/teams-analytics-and-reports/teams-webinar-usage-report)|View activity and usage trends for all webinars created in your organization.|No control.|
 

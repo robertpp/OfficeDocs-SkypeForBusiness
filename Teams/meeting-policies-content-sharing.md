@@ -31,6 +31,8 @@ Content sharing settings control how users present a screen or app during a chat
 
 For town halls, only presenters, organizers, and co-organizers can use shared notes and screen sharing.
 
+## Manage content sharing policies
+
 Follow these steps to manage content sharing policies:
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
@@ -39,7 +41,7 @@ Follow these steps to manage content sharing policies:
 1. Select the settings you want to use (described in the following sections).
 1. Select **Save**.
 
-#### Use PowerShell to configure content sharing
+### Use PowerShell to manage content sharing
 
 You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to control the content sharing settings. Set the following parameters:
 
@@ -64,7 +66,7 @@ This setting is a per-user policy. The setting controls whether a user can share
 
 ## PowerPoint Live
 
-This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
+This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. For details on how your users use PowerPoint Live, see [Present from PowerPoint Live in Microsoft Teams](https://support.microsoft.com/office/present-from-powerpoint-live-in-microsoft-teams-28b20e74-7165-499c-9bd4-0ad975d448ad).
 
 Let's look at the following example.
 

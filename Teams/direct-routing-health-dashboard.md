@@ -2,8 +2,8 @@
 title: "Health Dashboard for Direct Routing"
 ms.reviewer: nmurav
 ms.date: 05/24/2019
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.topic: conceptual
@@ -46,15 +46,15 @@ Health Dashboard provides the following information related to overall health of
 
    The NER measures the ability of networks to deliver calls to the far-end terminal--excluding user actions resulting in call rejections.  If the recipient rejected a call or sent the call to voicemail, the call is counted as a successful delivery. This means that an answer message, a busy signal, or a ring with no answer are all considered successful calls.
   
-   For example, assume Direct Routing sent a call to the SBC and the SBC returns SIP code “504 Server Time-out - The server attempted to access another server in attempting to process the request and did not receive a prompt response”. This response indicates there is an issue on the SBC side, and this will decrease the NER on the Health Dashboard for this SBC.
+   For example, assume Direct Routing sent a call to the SBC and the SBC returns SIP code “504 Server Time-out - The server attempted to access another server in attempting to process the request and didn't receive a prompt response.” This response indicates there's an issue on the SBC side, and this will decrease the NER on the Health Dashboard for this SBC.
   
-   Because the action you take might depend on the number of calls affected, Health Dashboard shows how many calls were analyzed to calculate a parameter. If the number of calls is less than 100, the NER might be quite low, but still be normal.
+   Because the action you take might depend on the number of calls affected, Health Dashboard shows how many calls were analyzed to calculate a parameter. If the number of calls is less than 100, the NER might be low, but still be normal.
 
    The formula used to calculate NER is:
 
    NER = 100 x (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures)/Total Calls
 
-- **Average call duration** - Information about average call duration can help you monitor the quality of calls. The average duration of a 1:1 PSTN call is four to five minutes.  However, for each company, this average can differ.  Microsoft recommends establishing a baseline for the average call duration for your company. If this parameter goes significantly below the baseline, it might indicate that your users are having issues with call quality or reliability and are hanging up earlier than usual. If you start seeing extremely low average call duration, for example 15 seconds, callers might be hanging up because your service is not performing reliably.
+- **Average call duration** - Information about average call duration can help you monitor the quality of calls. The average duration of a 1:1 PSTN call is four to five minutes. However, for each company, this average can differ. Microsoft recommends establishing a baseline for the average call duration for your company. If this parameter goes significantly below the baseline, it might indicate that your users are having issues with call quality or reliability and are hanging up earlier than usual. If you start seeing extremely low average call duration, for example 15 seconds, callers might be hanging up because your service isn't performing reliably.
 
    Because the action you take might depend on the number of calls affected, Health Dashboard shows how many calls were analyzed to calculate a parameter.
 
@@ -62,19 +62,19 @@ Health Dashboard provides the following information related to overall health of
 
    By clicking the Warning message, you can see a detailed issue description in a popup window on the right and recommendations for how to fix the issue.
 
-- **SIP options status** – By default, the SBC sends options messages every minute. This configuration can vary for different SBC vendors. Direct Routing warns if the SIP options are not sent or are not configured. For more information about SIP options monitoring, and conditions when an SBC can be marked as not functional, see [Monitor and troubleshoot Direct Routing](direct-routing-monitor-and-troubleshoot.md).
+- **SIP options status** – By default, the SBC sends options messages every minute. This configuration can vary for different SBC vendors. Direct Routing warns if the SIP options aren't sent or aren't configured. For more information about SIP options monitoring, and conditions when an SBC can be marked as not functional, see [Monitor and troubleshoot Direct Routing](direct-routing-monitor-and-troubleshoot.md).
 
-- **Detailed SIP options status** - In addition to showing that there is an issue with SIP options flow, the Health Dashboard also provides detailed descriptions of the errors. You can access the description by clicking the “Warning” message. A pop-up window on the right will show the detailed error description.
+- **Detailed SIP options status** - In addition to showing that there's an issue with SIP options flow, the Health Dashboard also provides detailed descriptions of the errors. You can access the description by clicking the “Warning” message. A pop-up window on the right shows the detailed error description.
 
    Possible values for SIP options status messages are as follows:
 
     - Active – The SBC is active--Microsoft Direct Routing service sees the options flowing on a regular interval.
 
-    - Warning, no SIP options - The Session Border Controller exists in the database (your administrator created it using the command New-CsOnlinePSTNGateway). It is configured to send SIP options, but the Direct Routing service never saw the SIP options coming back from this SBC.
+    - Warning, no SIP options - The Session Border Controller exists in the database (your administrator created it using the command New-CsOnlinePSTNGateway). It's configured to send SIP options, but the Direct Routing service never saw the SIP options coming back from this SBC.
 
     - Warning, SIP Messages aren't configured - Trunk monitoring using SIP options isn’t turned on. Microsoft Calling System uses SIP options and Transport Layer Security (TLS) handshake monitoring to detect the health of the connected Session Border Controllers (SBCs) at the application level. You’ll have problems if this trunk can be reached at the network level (by ping), but the certificate has expired or the SIP stack doesn’t work. To help identify such problems early, Microsoft recommends enabling sending SIP options. Check your SBC manufacturer documentation to configure sending SIP options.
 
-- **Concurrent calls capacity** - You can specify the limit of concurrent calls that an SBC can handle by using the New- or Set-CsOnlinePSTNGateway command with the -MaxConcurrentSessions parameter. This parameter calculates how many calls were sent or received by Direct Routing using a specific SBC and compares it with the limit set. Note:  If the SBC also handles calls to different PBXs, this number will not show the actual concurrent calls.
+- **Concurrent calls capacity** - You can specify the limit of concurrent calls that an SBC can handle by using the New- or Set-CsOnlinePSTNGateway command with the -MaxConcurrentSessions parameter. This parameter calculates how many calls were sent or received by Direct Routing using a specific SBC and compares it with the limit set. Note:  If the SBC also handles calls to different PBXs, this number won't show the actual concurrent calls.
 
 ## Detailed information for each SBC
 
@@ -100,7 +100,7 @@ The detailed view shows the following additional parameters:
 
    - Jitter – Is the millisecond measure of variation in network propagation delay time computed between two endpoints using RTCP (The RTP Control Protocol).
 
-   - Packet Loss – Is a measure of packet that failed to arrive; it is computed between two endpoints.
+   - Packet Loss – Is a measure of packet that failed to arrive; it's computed between two endpoints.
 
    - Latency - (Also known as round trip time) is the length of time it takes for a signal to be sent plus the length of time it takes for the acknowledgment of that signal to be received. This time delay consists of the propagation times between the two points of a signal.
 

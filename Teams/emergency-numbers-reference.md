@@ -37,14 +37,19 @@ The following table lists country, ISO country code, and the associated emergenc
 |Andorra |AD |110<br>112<br>116<br>118 |
 |Angola|AO|111<br>115<br>116|
 |Anguilla |AI |911 |
+|Antigua & Barbuda |AG |911<br>999 |
 |Argentina|AR|109<br>911<br>100<br>101<br>106<br>107<br>128|
 |Armenia |AM |911<br>100<br>101<br>102<br>103<br>104<br>177 |
 |Australia|AU|000<br>000 DialMask=112<br>106<br>132500|
 |Austria|AT|112<br>122<br>128<br>133<br>140<br>141<br>142<br>144<br>147|
 |Azerbaijan |AZ |112<br>101<br>102<br>103<br>104<br>199 |
+|Bahamas |BS |911<br>919 |
 |Bahrain  |BH |112<br>199<br>990<br>992<br>994<br>999 |
 |Bangladesh |BD |999<br>16163 |
+|Barbados |BB |211<br>311<br>511<br>911 |
+|Belarus |BY |112<br>101<br>102<br>103<br>104 |
 |Belgium|BE|100<br>101<br>102<br>103<br>105<br>106<br>107<br>108<br>110<br>112<br>117<br>119|
+|Belize |BZ |911<br>936<br>990 |
 |Benin|BJ |112<br>117<br>118 |
 |Bermuda |BM |911 |
 |Bhutan |BT |113<br>110<br>112<br>999 |
@@ -61,6 +66,7 @@ The following table lists country, ISO country code, and the associated emergenc
 |Cameroon|CM|117<br>118<br>119|
 |Canada|CA|911<br>911 DialMask=1911<br>911 DialMask=9911<br>933|
 |Cape Verde |CV |112 |
+|Cayman Islands |KY |911 |
 |Central African Republic |CF |114<br>117<br>118 |
 |Chad |TD |114<br>115 |
 |Chile|CL|130<br>131<br>132<br>133<br>134<br>135<br>136<br>137<br>138<br>1400|
@@ -134,7 +140,7 @@ The following table lists country, ISO country code, and the associated emergenc
 | Lesotho | LS | 112 |
 | Liberia | LR | 911<br>     144<br>     4455 |
 | Libya | LY | 1415<br>     112<br>     193<br>     1515 |
-| Liechtenstein | LI | 112<br>     117<br>     118<br>     143<br>     144<br>     147 |
+| Liechtenstein | LI | 112<br>     117<br>     118<br>     143<br>     144<br>     145<br>     147<br>     1414 |
 |Lithuania|LT|112|
 |Luxembourg|LU|112<br>113|
 | Madagascar | MG | 17<br>     117<br>     118 |
@@ -148,6 +154,7 @@ The following table lists country, ISO country code, and the associated emergenc
 |Mayotte|YT|112<br>15<br>17<br>18<br>114<br>191<br>196|
 |Mexico|MX|911|
 | Moldova | MD | 112 |
+|Monaco |MC |17<br>18<br>112<br>196 |
 | Mongolia | MN | 101<br>     102<br>     103 |
 | Montenegro | ME | 112<br>     122<br>     123<br>     124<br>     129 |
 | Morocco | MA | 15<br>     19<br>     177 |
@@ -177,6 +184,7 @@ The following table lists country, ISO country code, and the associated emergenc
 | Qatar | QA | 999 |
 |Reunion|RE|112<br>15<br>17<br>18<br>196|
 |Romania|RO|112<br>113|
+|Russia |RU |112<br>101<br>102<br>103<br>104 |
 |Rwanda|RW|112<br>110<br>113<br>912|
 |Saint Barthélemy|BL|112<br>15<br>17<br>18|
 |Saint Martin|MF|112<br>15<br>17<br>18|
@@ -199,16 +207,18 @@ The following table lists country, ISO country code, and the associated emergenc
 | Sudan | SD | 333<br>     777<br>     999 |
 |Svalbard|SJ|112|
 |Sweden|SE|112<br>11313<br>11414<br>1177|
-|Switzerland|CH|112<br>117<br>118<br>143<br>144<br>147|
+|Switzerland|CH|112<br>117<br>118<br>143<br>144<br>145<br>147<br>1414|
 |Taiwan|TW|112<br>110<br>119|
 | Tajikistan | TJ | 112<br>     101<br>     102<br>     103<br>     104 |
 | Tanzania | TZ | 110<br>     111<br>     112<br>     113<br>     114<br>     115 |
 |Thailand|TH|191<br>1669<br>199|
 | Timor-Leste | TL | 112 |
 | Togo | TG | 117<br>     118<br>     9200 |
+|Trinidad & Tobago |TT |911<br>811<br>990<br>999 |
 | Tunisia | TN | 190<br>     193<br>     194<br>     197<br>     198 |
 |Turkey|TR|112<br>132<br>156<br>158<br>177|
 | Turkmenistan | TM | 001<br>     002<br>     003<br>     004<br>     009 |
+|Turks & Caicos Islands |TC |911 |
 |Uganda|UG|999<br>112|
 | Ukraine | UA | 112 |
 | United Arab Emirates | AE | 112<br>     911<br>     991<br>     992<br>     997<br>     998<br>     999 |

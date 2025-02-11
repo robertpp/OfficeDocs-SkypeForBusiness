@@ -71,14 +71,14 @@ Your organization isn't eligible for this offer if you're a Syndication Partner 
 
 ## How users sign up for the Teams Exploratory experience
 
-Eligible users can sign up for the Teams Exploratory experience by signing into Teams from the desktop or web at [teams.microsoft.com](https://teams.microsoft.com). At this time, enabling Teams Exploratory through mobile isn't supported. When they sign up, they'll be assigned this license automatically, and the tenant admin will receive an email notification the first time someone in your org starts the Teams Exploratory experience.
+Eligible users can sign up for the Teams Exploratory experience by signing into Teams from the desktop or web at [teams.microsoft.com](https://teams.microsoft.com). When they sign up, they'll be assigned this license automatically, and the tenant admin will receive an email notification the first time someone in your org starts the Teams Exploratory experience.
 
 ## Manage the Teams Exploratory experience
 
 > [!NOTE]
 > There are two possible experiences of Teams Exploratory: **organizational** or **self-service**. Starting late April 2023, users in organizations that don't have the organizational trial will be eligible for the self-service trial. Some of the instructions in this article will depend on which experience of Teams Exploratory your users have access to.
 >
-> To see if you have users with a Teams Exploratory license, you can go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) > **Billing** > **Licenses** > and scroll to see if **Microsoft Teams Exploratory** is listed. If it is listed, you have users with a Teams Exploratory license.
+> To see if you have users with a Teams Exploratory license, you can go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) > **Billing** > **Licenses** > and scroll to see if **Microsoft Teams Exploratory** is listed. If it's listed, you have users with a Teams Exploratory license.
 >
 > From this Microsoft 365 admin center page, you can also check if your Teams Exploratory licenses are a tenant-based or self-service trial. Select the **Filter** icon, scroll to **Account type**, and choose either **Organizational** or **Self-service**. If the **Microsoft Teams Exploratory** license appears with the **Organizational** filter, your Teams Exploratory trial is tenant-based. If the license appears with the **Self-service** filter, it's self-service.
 
@@ -153,7 +153,7 @@ If you have tenant-based organizational Teams Exploratory licenses, you can canc
 
 ### Remove a Teams Exploratory license
 
-You can only remove users' Teams Exploratory licenses if they are tenant-based organizational licenses. For more information about managing self-service trials, see [Manage self-service purchases and trials (for admins)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins#view-who-has-licenses-for-a-purchase-or-trial-subscription).
+You can only remove users' Teams Exploratory licenses if they're tenant-based organizational licenses. For more information about managing self-service trials, see [Manage self-service purchases and trials (for admins)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins#view-who-has-licenses-for-a-purchase-or-trial-subscription).
 
 - If you would like to remove this license by using PowerShell, see [Remove licenses from user accounts with Office 365 PowerShell](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
 
@@ -174,22 +174,22 @@ For users with the **self-service Teams Exploratory trial**, there are two diffe
 - For Enterprise Agreement (EA) customers: 6-month trial period
 - For non-Enterprise Agreement customers: 3-month trial period
 
-The **self-service trial** period begins when a user signs up for Teams Exploratory. The expiry date is determined per-user. Each user will have a unique expiry date depending on the length of trial period they qualify for and when they sign up.
+The **self-service trial** period begins when a user signs up for Teams Exploratory. The expiry date is determined per-user. Each user has a unique expiry date depending on the length of trial period they qualify for and when they sign up.
 
 ### Tenant-based organizational Teams Exploratory trial
 
-For users with the **tenant-based organizational trial**, they will have a 12-month trial period.
+Users with the **tenant-based organizational trial** have a 12-month trial period.
 
-The **tenant-based trial** starts when the first user in an organization signs up for Teams Exploratory. The expiry date will apply to all users in the same tenant as the trial period begins on the first user's sign-up date.
+The **tenant-based trial** starts when the first user in an organization signs up for Teams Exploratory. The expiry date applies to all users in the same tenant as the trial period begins on the first user's sign-up date.
 
 > [!NOTE]
-> The end date for the experience is configured at an organization level, meaning it will apply to all users in the same organization. For example, User 1 signs up for the subscription on January 1, 2021. This initiates a subscription end-date of December 31, 2021. Another user, User 2, signs up for the subscription on October 1, 2021. User 2 can use Teams Exploratory for three months, as their end-date will be December 31, 2021 because they're under the same organization's subscription as User 1.
+> The end date for the experience is configured at an organization level, meaning it will apply to all users in the same organization. For example, User 1 signs up for the subscription on January 1, 2021. This initiates a subscription end-date of December 31, 2021. Another user, User 2, signs up for the subscription on October 1, 2021. User 2 can use Teams Exploratory for three months, as their end-date would be December 31, 2021 because they're under the same organization's subscription as User 1.
 
 ### What should administrators do at the end of the trial Teams Exploratory experience
 
 At the end of the trial period, administrators should convert all Teams Exploratory users to a paid license that includes Teams. It's vital to ensure this action is completed before the Teams Exploratory subscription expires to avoid any disruption to users' experience.
 
 > [!NOTE]
-> Customers will be disabled and blocked from starting a new Exploratory trial licenses for 3 months past the expiration of their previous Exploratory trial license.
+> Customers would be disabled and blocked from starting a new Exploratory trial licenses for 3 months past the expiration of their previous Exploratory trial license.
 
 For more information, see [Upgrade users from Teams Exploratory](#upgrade-users-from-teams-exploratory), above in this article.

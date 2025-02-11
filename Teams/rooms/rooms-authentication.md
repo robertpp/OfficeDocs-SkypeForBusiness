@@ -40,10 +40,3 @@ It’s important to note that Microsoft Teams Rooms resource accounts shouldn't 
 
 Teams Rooms resource account access to Microsoft 365 service can be limited using Conditional Access policies. Since Windows has no knowledge of resource account that is used by Teams room application, to apply device-level conditional access policies, you must enroll Teams Rooms on Windows devices with Microsoft Intune. Learn more about [Enrolling Microsoft Teams Rooms on Windows devices with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986). When the device is enrolled in Intune, the Teams Rooms application uses Windows enrolled account using Web access management (WAM) to send device compliance status for conditional access evaluation. To learn more about Conditional Access and Intune compliance policies, see [Conditional Access and Intune compliance for Microsoft Teams Rooms](/microsoftteams/rooms/conditional-access-and-compliance-for-devices) and [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](/microsoftteams/rooms/supported-ca-and-compliance-policies?tabs=mtr-w)
 
-## Teams Legacy Authorization
-
-Teams upgrade configuration policies offer a setting called **BlockLegacyAuthorization** which when enabled prevents Teams Rooms on Windows from connecting to Teams services. To learn more about this policy see, [Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/set-csteamsupgradeconfiguration) or run Get-CsTeamsUpgradeConfiguration to check if **BlockLegacyAuthorization** is enabled in your tenant.
-
-   ``` Powershell
-   Get-CsTeamsUpgradeConfiguration | fl BlockLegacyAuthorization
-   ```

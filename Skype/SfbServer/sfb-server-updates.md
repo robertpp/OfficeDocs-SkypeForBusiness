@@ -28,6 +28,7 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 
 |Package name|KB number|Release date|
 |:--- |:--- |:--- |
+|Skype for Business Server 2019 Cumulative Update 8|[KB 4470124](https://support.microsoft.com/kb/4470124)|December 2024|
 |Description of the security update for Skype for Business Server: October 10, 2023| [KB 5032429](https://support.microsoft.com/help/5032429) | October 2023 |
 | Skype for Business Server 2019 Cumulative Update 7, Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124) | July 2023 |
 | Skype for Business Server 2019 Cumulative Update 7 |[KB 4470124](https://support.microsoft.com/kb/4470124) | June 2023 |

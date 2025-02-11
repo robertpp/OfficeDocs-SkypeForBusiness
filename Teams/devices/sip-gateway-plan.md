@@ -108,37 +108,40 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |Trio 8500<sup>2</sup> |5.9.5.3182  |7.2.4.0185 |   |   |
 |          |Trio 8800<sup>2</sup> |5.9.5.3182  |7.2.4.0185 |   |   |
 |          |VVX150<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX201<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX250<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX201<sup>2</sup>    |5.9.5       |6.4.6.2640 |   |   |
+|          |Omegaline VVX250<sup>2</sup>    |5.9.5       |6.4.6.2681 |   |   |
+|          |VVX250<sup>2</sup>    |5.9.5       |6.4.6.2656 |   |   |
 |          |VVX300<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX301<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX301<sup>2</sup>    |5.9.5       |6.4.6.2640 |   |   |
 |          |VVX310<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX311<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX350<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX311<sup>2</sup>    |5.9.5       |6.4.6.2640 |   |   |
+|          |Omegaline VVX350<sup>2</sup>    |5.9.5       |6.4.6.2681 |   |   |
+|          |VVX350<sup>2</sup>    |5.9.5       |6.4.6.2656 |   |   |
 |          |VVX400<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX401<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX401<sup>2</sup>    |5.9.5       |6.4.6.2640 |   |   |
 |          |VVX410<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX411<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX450<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX411<sup>2</sup>    |5.9.5       |6.4.6.2640 |   |   |
+|          |Omegaline VVX450<sup>2</sup>    |5.9.5       |6.4.6.2681 |   |   |
+|          |VVX450<sup>2</sup>    |5.9.5       |6.4.6.2656 |   |   |
 |          |VVX500<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX501<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX501<sup>2</sup>    |5.9.5       |6.4.6.2640 |   |   |
 |          |VVX600<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX601<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX601<sup>2</sup>    |5.9.5       |6.4.6.2640 |   |   |
 |          |Rove B1<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove B2<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove B4<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove 20<sup>1</sup>    |8.0.5.0003  |8.0.5.0003 |   |   |
 |          |Rove 30<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove 40<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Edge E100<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E220<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E300<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E320<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E350<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E400<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E450<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E500<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E550<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E100<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
+|          |Edge E220<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
+|          |Edge E300<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
+|          |Edge E320<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
+|          |Edge E350<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
+|          |Edge E400<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
+|          |Edge E450<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
+|          |Edge E500<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
+|          |Edge E550<sup>2</sup>  |8.1.0.12774  |8.2.2.1176 |   |   |
 |          |ATA 400<sup>3</sup>  |4.0.1.6480     |4.0.1.6480  |   |[Poly ATA 400 Series Configuration Guide](https://kaas.hpcloud.hp.com/pdf-public/pdf_10029605_en-US-1.pdf)|
 |          |ATA 402<sup>3</sup>  |4.0.1.6480     |4.0.1.6480  |   |   |
 |          |OBi 300<sup>3</sup>  |3.2.4.8441     |3.2.5.8732  |   |   |
@@ -304,7 +307,7 @@ If you have a 3PIP or SIP device, you must have the following:
 > Gigaset Handsets receive firmware updates over the air from Gigaset IP-DECT servers. All Gigaset PRO DECT Handset models are compatible with Microsoft Teams SIP Gateway.
 
 > [!NOTE]
-> For Yealink DECT Base Stations, please use the appropriate region specific firmware version from the list to have the best calling experience.
+> For Yealink DECT Base Stations, use the appropriate region specific firmware version from the list to have the best calling experience.
 
 > [!NOTE]
 > For support queries, customers using IP-DECT systems with Teams SIP Gateway should reach out to their DECT manufacturer or their implementation channel partners.
@@ -316,16 +319,16 @@ If you have a 3PIP or SIP device, you must have the following:
 > For support queries, customers using the Algo Solutions' SIP enabled endpoints listed with Teams SIP Gateway should reach out directly to Algo Solutions.
 > [General Information on Algo integration with Teams](https://www.algosolutions.com/solutions/compatibility/msteams/)
 > [Configuration Guide](https://www.algosolutions.com/wp-content/uploads/2023/04/Configuration-Guide-Teams-2023.pdf)
-> [Troubleshooting Guide](https://www.algosolutions.com/wp-content/uploads/2023/07/Troubleshooting-Algo-Devices-in-MS-Teams.pdf)
+> [Troubleshooting Guide](https://www.algosolutions.com/wp-content/uploads/2023/07/Troubleshooting-Algo-Devices-in-MS-Teams.pdf).
 
 > [!NOTE]
 > Customers should contact their Tango Extend Reseller for support queries related to Tango Extend eSIM endpoints. Help and Support information are provided in the Tango Extend Teams App.
 >
-> **Emergency Calling** - Emergency calling is supported from the Tango Extend eSIM and this uses the Teams number. Teams isn't notified of emergency calls made from the eSIM but will receive returned calls towards the Teams number.
+> **Emergency Calling** - Emergency calling is supported from the Tango Extend eSIM and uses the Teams number. Teams isn't notified of emergency calls made from the eSIM but will receive returned calls towards the Teams number.
 >
 > **Tango Extend Supported Features** - Sign-in/out using Tango Extend Teams App with Teams policy sync, Make/receive calls with hold/resume and DTMF, dial-in to meeting, request to join, voicemail and MWI, Teams DND and Call Forwarding.
 >
 > **Currently Unsupported Features** - Sign-out / sign-in currently creates redundant (signed out) entries for the eSIM endpoint in Teams Admin Center.
-> Remote Sign-in from TAC is currently not supported by Tango Extend.
-> Teams mobile client – If users have both Tango Extend eSIM and Teams mobile client on their phones, then inbound calls will prioritize the Teams mobile client.
-> Call transfer – where presented by mobile dialler menu option this isn't supported by Tango Extend.
+> Tango Extend does not support remote sign-in from TAC.
+> If users have both Tango Extend eSIM and Teams mobile client on their phones, then inbound calls prioritize the Teams mobile client.
+> Tango Extend does not support call transfer when presented by the mobile dialer menu option.

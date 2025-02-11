@@ -150,11 +150,11 @@ To view your policy operations in the Activity log:
 
 This video shows the steps to view and manage the assigned and effective policies for a user.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c5gF?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=a75f83da-973e-497e-a5f8-de36f1f11fe0]
 
 This video is about differences between global and custom policies.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fHGV?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=e98ea01c-63b3-4fdb-b5fb-9e5514a7e3a8]
 
 ## Related topics
 

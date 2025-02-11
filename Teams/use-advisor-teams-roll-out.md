@@ -1,7 +1,7 @@
 ---
 title: Use Advisor for Teams to help you roll out Microsoft Teams
-author: DaniEASmith
-ms.author: danismith
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.reviewer: 
 ms.date: 10/11/2019
@@ -25,9 +25,9 @@ description: Use Advisor for Teams to help you plan and complete your Microsoft 
 
 # Use Advisor for Teams to help you roll out Microsoft Teams
 
-Advisor for Teams walks you through your Microsoft Teams rollout. It assesses your Microsoft 365 organization environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
+Advisor for Teams walks you through your Microsoft Teams rollout. It assesses your Microsoft 365 organization environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload. Using this Planner plan, you assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
 
-Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). At a minimum, you'll need a Microsoft 365 Business Basic license so you can take advantage of the Advisor for Teams integration with Forms and Planner. To begin using Advisor for Teams, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Teams Advisor**.
+Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). At a minimum, you need a Microsoft 365 Business Basic license so you can take advantage of the Advisor for Teams integration with Forms and Planner. To begin using Advisor for Teams, select the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Teams Advisor**.
 
 > [!IMPORTANT]
 > Advisor for Teams isn't available for Microsoft 365 Government (GCC High or DoD) deployments.
@@ -36,15 +36,15 @@ For a guided overview of the Advisor for Teams experience, check out the [Deploy
 
 ## Using Advisor for Teams
 
-**Teams, Forms, and Planner licenses are required to use Advisor for Teams.** However, you don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Administrator, or Global Administrator to open the tenant readiness assessments (this is because the special non-admin roles don't have access to the Microsoft Graph APIs underlying the assessments).
+**Teams, Forms, and Planner licenses are required to use Advisor for Teams.** However, you don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Administrator, or Global Administrator to open the tenant readiness assessments (this is because the special non-admin roles don't have access to the Microsoft Graph APIs underlying the assessments).
 
 > [!IMPORTANT]
 > If **Teams Advisor** is missing under **Planning** in the Teams admin center, it means the user isn't licensed for Teams.
 
-The first time you use Advisor for Teams, it will create a Deployment team for you in Teams. It adds a channel for each workload you select.
+The first time you use Advisor for Teams, it creates a Deployment team for you in Teams. It adds a channel for each workload you select.
 
 > [!IMPORTANT]
-> If a Deployment team has already been created and a different user tries to create it, they'll get an error telling them to contact their support team. This prevents Teams from unintentionally disclosing information about the existing team and its members. Ask the owner of the Deployment team to add you, or contact your support person for help.
+> If a Deployment team has already been created and a different user tries to create it, they get an error telling them to contact their support team. This notice prevents Teams from unintentionally disclosing information about the existing team and its members. Ask the owner of the Deployment team to add you, or contact your support person for help.
 
 ## Available Advisor for Teams plans
 
@@ -65,21 +65,19 @@ Advisor for Teams currently provides the following plans:
     - Planner plan, including adoption tasks
     - Forms user survey
     - Advisor for Teams bot
-    - Designed for customers who are currently using Skype for Business Online or Skype for Business on-premises environments, the Skype for Business upgrade plan will help you take the guesswork out of your upgrade journey. Leveraging a proven success framework for implementing change, the plan will guide you through the step-by-step process whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade. The plan will also connect you to [online guidance and best practices](./upgrade-start-here.md),  [downloadable assets](https://aka.ms/UpgradeSuccessKit), [live 1:many planning workshops](./upgrade-workshops-landing-page.yml), and additional resources to support your success.
+    - Designed for customers who are currently using Skype for Business Online or Skype for Business on-premises environments, the Skype for Business upgrade plan will help you take the guesswork out of your upgrade journey. Using a proven success framework for implementing change, the plan guides you through the step-by-step process whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade. The plan also connects you to [online guidance and best practices](./upgrade-start-here.md),  [downloadable assets](https://aka.ms/UpgradeSuccessKit), [live 1:many planning workshops](./upgrade-workshops-landing-page.yml), and extra resources to support your success.
 1. Education (visible only to Educational organizations)
     - Tenant assessment
     - Planner plan, including adoption tasks
     - Forms user survey
     - Advisor for Teams bot
-    - Designed for Educational organizations, the Education plan will help you deploy, adopt, and manage Teams in your educational institution.
+    - Designed for Educational organizations, the Education plan helps you deploy, adopt, and manage Teams in your educational institution.
 
 For commercial organizations, we recommend that you start with the Chat, teams, channels, and apps plan. For educational organizations, we recommend that you start with Education plan. When you're done deploying that workload, go back to Advisor for Teams and select **Add channel** to start the next workload.
 
-
-
 ## Tenant assessment
 
-Each plan includes a tenant readiness assessment that you can use to quickly identify aspects of your environment that may need remediation before you roll out Teams. The assessments include prerequisites and best practices. Each assessment test will have a green check mark or an orange warning triangle.
+Each plan includes a tenant readiness assessment that you can use to quickly identify aspects of your environment that may need remediation before you roll out Teams. The assessments include prerequisites and best practices. Each assessment test has a green check mark or an orange warning triangle.
 
 - <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>A green check mark means your tenant passed the specific test.
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>An orange warning triangle means that we suggest you follow up to determine if any action is needed (for example, a Microsoft 365 Group expiration policy is recommended but not required).
@@ -93,16 +91,16 @@ The sections below describe each assessment, including whether something is a pr
 
 |Assessment test  |What it tells you  |
 |---------|---------|
-|Vanity domain configured     |Whether there's a non-@onmicrosoft.com domain configured for your tenant (for example, @contoso.onmicrosoft.com). You can use the @onmicrosoft.com domain, of course, or you can configure a vanity domain - your choice. For more information, read [Add a domain to Microsoft 365](/microsoft-365/admin/setup/add-domain). |
+|Vanity domain configured     |Whether there's a non-@onmicrosoft.com domain configured for your tenant (for example, @contoso.onmicrosoft.com). You can use the @onmicrosoft.com domain, or you can configure a vanity domain. For more information, read [Add a domain to Microsoft 365](/microsoft-365/admin/setup/add-domain). |
 |Teams licenses     |This is a prerequisite - you **must have** Teams licenses in order to roll out Teams. Queries the Microsoft Graph to see whether you have Teams licenses (with at least one license available to assign). For more information, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).    |
 |Exchange Online licenses     |Whether you have an active subscription with available Exchange Online licenses. While Exchange isn't required for basic Teams functionality, integration with Exchange provides an optimal Teams experience. Queries the Microsoft Graph to analyze the subscriptions associated with your tenant and validate whether you have subscriptions with an eligible Exchange Online license (with at least one license available to assign). For more information, read [How Exchange and Teams interact](exchange-teams-interact.md).    |
 |SharePoint Online licenses     |Whether you have an active subscription with available SharePoint Online licenses. We recommend per-user SharePoint Online licenses to provide OneDrive for Business for file storage in chats. Queries the Microsoft Graph to see whether you have SharePoint Online licenses (with at least one license available to assign). For more information, read [How SharePoint Online and OneDrive for Business interact with Teams](./sharepoint-onedrive-interact.md).    |
 |Guest access enabled     |Whether [guest access](guest-access.md) is turned on. Guest access lets you invite external users to your join your teams. See [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) to walk through turning on guest access in Teams; the checklist includes the required Microsoft Entra configurations. |
-|External access configured     |Whether [external access](manage-external-access.md) is turned on. By default, it's turned on, with open federation. |
+|External access configured     |Whether [external access](manage-external-access.md) is turned on. By default, it's turned on with open federation. |
 
 ### Assessments for chat, teams, channels, and apps
 
-In addition to the [Assessment tests for all workloads](#assessment-tests-for-all-workloads), the following additional assessments are run for the chat, teams, channels, and apps workload:
+In addition to the [Assessment tests for all workloads](#assessment-tests-for-all-workloads), the following other assessments are run for the chat, teams, channels, and apps workload:
 
 |Assessment test  |What it tells you  |
 |---------|---------|
@@ -111,7 +109,7 @@ In addition to the [Assessment tests for all workloads](#assessment-tests-for-al
 
 ### Assessments for meetings and conferencing
 
-In addition to the [Assessment tests for all workloads](#assessment-tests-for-all-workloads), the following additional assessments are run for the meetings and conferencing workload:
+In addition to the [Assessment tests for all workloads](#assessment-tests-for-all-workloads), the following other assessments are run for the meetings and conferencing workload:
 
 |Assessment test  |What it tells you  |
 |---------|---------|
@@ -139,7 +137,7 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 >
 
 > [!IMPORTANT]
-> The Advisor for Teams Bot is only used to send a welcome message to your Deployment team. No additional data is collected.
+> The Advisor for Teams Bot is only used to send a welcome message to your Deployment team. No other data is collected.
 
 > [!IMPORTANT]
 > The Advisor for Teams bot is turned on by default. Don't turn it off if you use or plan on using Advisor for Teams.
@@ -174,7 +172,7 @@ To learn more, see [Plan your learning pathways content](/office365/customlearni
 
 Learning pathways provides a SharePoint site with a web part that's connected to an online catalog. The Microsoft 365 training page, which hosts the web part, shows all the training available in learning pathways. Have a look around to get familiar with what's available and how content is organized.
 
-[Go to your learning pathways site](/office365/customlearning/custom_goto), select **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then select the **Next** and **Previous** buttons to navigate through it. You can also click the down arrow to view the contents of the playlist and go to a specific topic.
+[Go to your learning pathways site](/office365/customlearning/custom_goto), select **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then select the **Next** and **Previous** buttons to navigate through it. You can also select the down arrow to view the contents of the playlist and go to a specific topic.
 
 #### Take an inventory of Teams learning resources in your organization
 
@@ -223,19 +221,19 @@ Check out these resources, which include guidance, adoption kits, best practices
 
 ### What are the licensing requirements for Advisor for Teams
 
-At a minimum, you'll need Microsoft 365 Business Basic so you can take advantage of the Advisor for Teams integration with Forms and Planner.
+At a minimum, you need Microsoft 365 Business Basic so you can take advantage of the Advisor for Teams integration with Forms and Planner.
 
 ### Can I delete the Deployment team
 
-After Advisor for Teams has created your Deployment team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, the Teams admin center will show that the team still exists.
+After Advisor for Teams creates your Deployment team, manage the team like any other team - including the ability to delete it. If you don't delete the team by using the Teams admin center, the Teams admin center shows that the team still exists.
 
 ### Can I add or remove channels in the Deployment team
 
-Yes, once the Deployment team has been created, you'll manage the channels the same way as any other team.
+Yes, once the Deployment team has been created, you manage the channels the same way as any other team.
 
 ### Can I add or remove project team members in the Deployment team
 
-Yes, once the Deployment team has been created, you'll manage it the same way as any other team.
+Yes, once the Deployment team has been created, you manage it the same way as any other team.
 
 ### Can I modify the Planner plans
 
@@ -247,15 +245,15 @@ Yes, after Advisor for Teams has created your Deployment team, you can modify th
 
 ### Are there any differences between Advisor for Teams in GCC
 
-Yes, user survey Forms are created but are not pinned in plan channels as the Teams Forms app is not available in GCC presently.
+Yes, user survey Forms are created but aren't pinned in plan channels as the Teams Forms app isn't available in GCC presently.
 
 ### What information is Advisor for Teams collecting about my organization
 
-Advisor for Teams requests your agreement to collecting non-EUII (end user identifying information). The information that is collected is in the form of telemetry that provides feedback to Microsoft on how well Advisor for Teams is driving successful outcomes and where it may need to be improved. This same data is used to identify opportunities for Microsoft to proactively engage with your organization in an effort to assist with your deployment.
+Advisor for Teams requests your agreement to collecting non-EUII (end user identifying information). The information that is collected is in the form of telemetry that provides feedback to Microsoft on how well Advisor for Teams is driving successful outcomes and where it may need to be improved. This same data is used to identify opportunities for Microsoft to proactively engage with your organization to assist with your deployment.
 
 ### Can I use Advisor for Teams with FastTrack
 
-Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Deployment team using Advisor for Teams (if required) and also provide as-needed support on specific topics during your Teams rollout.
+Yes, FastTrack uses Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Deployment team using Advisor for Teams (if necessary) and also provide as-needed support on specific areas during your Teams rollout.
 
 ### Can I use Advisor for Teams with a partner
 
@@ -269,7 +267,7 @@ Check out [Microsoft Planner help](https://support.office.com/article/Microsoft-
 
 Go to the [Forms help center](https://support.office.com/forms).
 
-## Related topics
+## Related articles
 
 [Customize your Teams advisor](/office365/customlearning/custom_teamsadvisor)
 

@@ -29,17 +29,15 @@ description: Learn about the Microsoft Teams Shared Devices licensing for common
 
 Microsoft Teams supports hybrid work scenarios and enables users to work in flexible spaces. The **Microsoft Teams Shared Devices** license was first introduced to designate certain devices including Teams Phone devices deployed in common areas, Teams displays <sup>1</sup>, Teams panels, and Android mobile phones as shared devices and license the extra software running on them with a shared use model.
 
-The Teams Shared Devices license includes [bring your own device (BYOD) rooms](/microsoftteams/rooms/bring-your-own-device), such as focus or huddle rooms, and [bookable desks](/microsoftteams/rooms/bookable-desks), unassigned desks arranged in a desk pool. Associating a Teams Shared Devices license to these shared space accounts enables valuable usage analytics, reports, and insights in Teams Rooms Pro Management portal. These usage reports can help IT teams optimize shared spaces throughout the organization and gain valuable intelligence for planning and budgeting.
+The Teams Shared Devices license includes [bring your own device (BYOD) rooms](/microsoftteams/rooms/bring-your-own-device), such as focus or huddle rooms. Associating a Teams Shared Devices license to these room accounts enables valuable usage analytics, reports, and insights in Teams Rooms Pro Management portal. These usage reports can help IT teams optimize BYOD rooms throughout the organization and gain valuable intelligence for planning and budgeting.
 
-The license can still be applied per device as originally introduced. In addition, it can now also be applied to a BYOD room or a desk pool. The Teams Shared Devices license provides usage analytics, reports, and insights for one BYOD room or a desk pool that includes up to 8 bookable desks<sup>2</sup>. Customers who already use a Teams Shared Devices licensed device in a BYOD room are granted access to the inventory function and usage analytics and reports for that space through the Teams Rooms Pro Management portal<sup>3</sup> without an extra add-on license.
+The license can still be applied per device as originally introduced. In addition, it can now also be applied to a BYOD room. The Teams Shared Devices license provides usage analytics, reports, and insights for one BYOD room. Customers who already use a Teams Shared Devices licensed device in a BYOD room are granted access to the inventory function and usage analytics and reports for that space through the Teams Rooms Pro Management portal<sup>2</sup> without an extra add-on license.
 
 For information about other Teams add-on licenses, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 <sup>1 End of certification for Teams display devices is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams apps provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.</sup>
 
-<sup>2 Analytics, reports, and usage insights in Teams Rooms Pro Management for bookable desks available soon.</sup>
-
-<sup>3 For BYOD rooms and desks, the Teams Shared Device license enables inventory, analytics, and reports but doesn't entitle access to the full set of Teams Rooms Pro Management capabilities that come with a Teams Rooms Pro-licensed meeting room.</sup>
+<sup>2 For BYOD rooms, the Teams Shared Device license enables inventory, analytics, and reports but doesn't entitle access to the full set of Teams Rooms Pro Management capabilities that come with a Teams Rooms Pro-licensed meeting room.</sup>
 
 The **Microsoft Teams Shared Devices** license includes the following service plans:
 
@@ -79,4 +77,4 @@ The following articles help you set up the various devices that use the **Teams 
 - [Microsoft Teams displays](/microsoftteams/devices/teams-displays)
 - [Set up an Android mobile phone as a common area phone](../devices/common-area-mobile-phones.md)
 - [Set up BYOD rooms](/microsoftteams/rooms/bring-your-own-device)
-- [Set up bookable desks](/microsoftteams/rooms/bookable-desks)
+

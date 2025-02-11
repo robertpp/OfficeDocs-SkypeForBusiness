@@ -44,10 +44,9 @@ If one or more of the following conditions are met and Packet Utilization is > 5
 |Round Trip|ALL|> 500|Average round-trip network propagation time, computed in milliseconds. Details available in [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|ALL|> 0.1|Average packet loss rate for stream.|
 |Jitter|ALL|> 30|Average jitter for stream in milliseconds.|
-||||
 
 > [!NOTE]
-> The Audio Classifier uses basic network performance telemetry to assess if the optimal conditions for good quality audio were present. If any one of the thresholds are broken then the audio will be marked _Poor_, but this doesn't mean the audio stream was actually of poor quality, nor does it mean the user perceived a quality issue. The Teams media stack is built to withstand and correct for poor network conditions, and can mitigate considerable network performance degradation in excess of the thresholds above before a drop in quality is perceived by users. We recommend admins make every effort to build and configure their networks and Teams deployments for the best possible quality, and the above metrics are a useful guideline to assess performance of those networks. 
+> The Audio Classifier uses basic network performance telemetry to assess if the optimal conditions for good quality audio were present. If any one of the thresholds breaks, then we mark the audio as _Poor_, but this doesn't mean the audio stream was actually of poor quality, nor does it mean the user perceived a quality issue. The Teams media stack is built to withstand and correct for poor network conditions, and can mitigate considerable network performance degradation in excess of the thresholds above before a drop in quality is perceived by users. We recommend admins make every effort to build and configure their networks and Teams deployments for the best possible quality, and the above metrics are a useful guideline to assess performance of those networks. 
 
 
 ### Video Classifier due to Freeze
@@ -58,17 +57,16 @@ The video stream is marked  _Good_ or _Poor_ based on the value of a classifier 
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |1|Video Poor Due to Freeze Classifier |Is Server Pair is Client : Server|>0.246|_Poor_|_Good_|_Unclassified_|A Score between 0 and 1 that is generated based on a combination of user experience, freeze duration statistics, and overall call experience |
 |2|Video Poor Due to Freeze Classifier |Is Server Pair is Client : Client|>0.524|_Poor_|_Good_|_Unclassified_|A Score between 0 and 1 that is generated based on a combination of user experience, freeze duration statistics, and overall call experience |
-|  |  |  |  |  |  |  |
 
 ### Video Classifier
-A video stream is marked as _Good_ or _Poor_ based on the value of the first available metric in the following order:
+
+Assuming a video stream's Packet Utilization is > 500 packets, the video stream is marked as _Good_ or _Poor_ based on the value of the first available metric in the following order:
 
 |Step #|Metric|Condition |Classification if Condition is True |Classification if Condition is False |Classification if Metric is Unavailable |Explanation |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|Proceed to step 2|Average percentage of video frames lost as displayed to the user. The average includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 7|_Poor_|_Good_|Proceed to step 3|Average frames per second received for a video stream, computed over the duration of the session.|
-|3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|Packet loss rate after FEC has been applied aggregated across all video streams and codecs.|
-|  |  |  |  |  |  |  |
+|3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|Packet loss rate after FEC has been applied, aggregated across all video streams and codecs.|
 
 ### VBSS Classifier
 
@@ -78,8 +76,6 @@ A VBSS stream is marked as _Good_ or _Poor_ based on the value of the first avai
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|Codec is NOT H264S</br>And</br>StreamDirection is Inbound</br></br>If FrameLoss > 50%|_Poor_|_Good_|_Unclassified_|Average percentage of video frames lost as displayed to the user. The average includes frames recovered from network losses. FrameLoss is only used for classifying inbound non-H264S streams.|
 |2|Video Frame Rate Avg|< 1|_Poor_|_Good_|_Unclassified_|Average frames per second received for a video stream, computed over the duration of the session. Applies to all outbound streams and either StreamDirection for H264S.|
-| |  | | | |  ||
-
 
 ### Application Sharing Classifier
 
@@ -90,7 +86,6 @@ An application sharing stream is marked as _Poor_ if one or more of the followin
 | Spoiled Tile Percent Total | > 36 | Percentage of tiles that are discarded instead of sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles might be caused by bandwidth restrictions between client and server. |
 | AppSharing RDP Tile Processing Latency Average | > 400 | Average latency in milliseconds processing tiles on the RDP Stack at the conferencing server. |
 | AppSharing Relative OneWay Average | > 1.75 | Average relative one-way delay between the endpoints in seconds for application sharing streams. |
-| | | |
 
 ## Unclassified Streams
 
@@ -103,12 +98,12 @@ If ICE connectivity succeeded for an _Unclassified_ stream, the stream is likely
 - **QoE reports weren't received** — The metrics used for classification are reported in a QoE report sent at the end of a call. If this report isn't produced (for example, because some third-party endpoints might not send QoE) or couldn't be sent (for example, because of a network outage), CQD is unable to classify the stream.
 
   > [!TIP]
-  > The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
+  > The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. This dimension has a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
 
 - **Short calls** — Short calls might not have enough media activity to compute key stream metrics. Without these metrics, CQD is unable to classify the stream.
 
   > [!TIP]
-  > The dimensions "Duration (Seconds)", "Duration (Minutes)", "Duration 5 seconds or less", and "Duration 60 seconds or more" can be used to determine the duration of a stream. The measurement "Avg Call Duration" can also be used to compute the average duration for a set of streams.
+  > The dimensions "Duration (Seconds)," "Duration (Minutes)," "Duration 5 seconds or less," and "Duration 60 seconds or more" can be used to determine the duration of a stream. The measurement "Avg Call Duration" can also be used to compute the average duration for a set of streams.
 
 - **Low packet utilization** — Like the "short call" scenario, sufficient packet utilization is required for computation of key stream metrics. Without these metrics, CQD is unable to classify the stream.
   - A common low packet utilization scenario occurs when an attendee joins a meeting to listen to the presenter, but never speaks (the microphone is muted for most of the call). Here, the audio stream inbound to the client has high packet utilization while the audio stream outbound from the client has little to no packet utilization. The duration of the stream might be an hour or longer but the packet utilization on the stream from the client to the server is low since the microphone was muted, and an _Unclassified_ stream results.
@@ -116,7 +111,8 @@ If ICE connectivity succeeded for an _Unclassified_ stream, the stream is likely
   > [!TIP]
   > The "Packet Utilization" dimension and "Avg Packet Utilization" measurement can be used to determine the packet activity of a stream.
 
-## Related Topics
+## Related articles
+
 [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
 [What is CQD?](CQD-what-is-call-quality-dashboard.md)

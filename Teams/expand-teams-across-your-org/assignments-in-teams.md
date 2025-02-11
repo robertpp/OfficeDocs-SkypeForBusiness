@@ -11,7 +11,7 @@ ms.collection:
   - tier2
 search.appverid: MET150
 ms.reviewer: jastark
-ms.date: 04/17/2019
+ms.date: 12/02/2024
 f1.keywords: 
 - CSH
 ms.custom:
@@ -218,3 +218,11 @@ If a user pulls up the diagnostic tool then closes it, no data is sent.
 When the data is sent to a Microsoft support agent, it's handled as Support Data under your organization's Microsoft 365 service agreements.
 
 For instructions on using this diagnostic tool that you can share with educators and students, see [Get diagnostic data to troubleshoot Assignments](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e).
+
+## Set up Classwork in Teams for Education
+
+The Classwork feature in Teams for Education allows educators to create and organize class resources, including Assignments, OneNote Class Notebook pages, web links, files, and Teams channels. With Classwork, educators can curate a view of content and resources that will help students navigate a class and see everything in one place. To set it up, check out [Set up Classwork in Teams for Education](./setup-classwork.md).
+
+[Learn more about helping your users get started with Classwork in Teams for Education](https://support.microsoft.com/topic/8a7f61e2-09ef-4fc9-8c16-c0e1a07166dd#ID0EBD=Manage_course_content).
+
+

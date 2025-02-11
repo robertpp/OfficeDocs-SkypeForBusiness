@@ -2,7 +2,7 @@
 title: Multitenant customer management for partners
 author: mstonysmith
 ms.author: tonysmit
-ms.date: 04/04/2024
+ms.date: 1/27/2025
 manager: pamgreen
 ms.reviewer: kimmatlock
 ms.topic: article

@@ -28,7 +28,7 @@ This article describes how to remote sign in and sign out Teams Android devices 
 
 This video shows how to sign into Teams devices.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fHGR?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=8b7feeaf-526c-414f-a0c7-4d5217f8c655]
 
 ## Remote sign in
 

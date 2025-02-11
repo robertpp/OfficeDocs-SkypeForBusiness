@@ -4,22 +4,22 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: nirawell
-ms.date: 02/26/2024
+ms.date: 02/09/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 f1.keywords: 
-  - NOCSH
+- NOCSH
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: How to enable or disable AI content recommendations for educators in an institution.
 ms.collection: 
-  - M365-collaboration
-  - tier2
-  - magic-ai-copilot
+- M365-collaboration
+- tier2
+- magic-ai-copilot
 ---
 
 # Set up AI content recommendations in an institution

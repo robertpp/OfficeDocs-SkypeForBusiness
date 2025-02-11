@@ -154,7 +154,7 @@ The following Teams clients are supported:
 - Teams mobile clients (iOS and Android)
 - Teams IP phones
 
-The Teams web client isn't supported.
+The Teams web client and IP Phones connected through SIP Gateway aren't supported.
 
 
 ## Related articles

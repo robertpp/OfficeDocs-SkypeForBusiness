@@ -64,7 +64,7 @@ To add a new team, click **Add**. In the **Add a new team** pane, give the team 
 
 This video shows the steps to create a new team and a channel for them.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c2ra?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=2c955813-1472-4bcc-ab81-6e6ede3f4ed3]
 
 ### Edit a team
 
@@ -72,7 +72,7 @@ To edit team-specific settings, select the team by clicking to the left of the t
 
 This video shows the steps to view and edit the details of an existing team.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c55e?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=289cef80-7b9c-4fe9-ba16-499984aa650c]
 
 ### Archive a team
 

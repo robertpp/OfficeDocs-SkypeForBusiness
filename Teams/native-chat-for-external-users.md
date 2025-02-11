@@ -3,16 +3,16 @@ title: Microsoft Teams chat experience when communicating with people outside th
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.custom: chat-teams-channels-revamp
 ms.collection: 
-  - Teams_ITAdmin_GuestAccess
-  - M365-collaboration
-  - m365initiative-externalcollab
-ms.reviewer: vinbel
-ms.date: 10/24/2019
+- Teams_ITAdmin_GuestAccess
+- M365-collaboration
+- m365initiative-externalcollab
+ms.reviewer: manish.jaisinghani
+ms.date: 02/09/2025
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
@@ -33,14 +33,14 @@ Text-only chat is available in all other chat experiences, including:
 
 - Communicating with Skype for Business users
 - Communicating with Skype users
-- Communicating between cloud environments, such as GCC to GCC High or commercial cloud
+- Communicating between cloud environments, such as GCC High to commercial cloud
 
 The following table shows the chat experience users get when communicating between organizations, across clouds, and with unmanaged Teams accounts (people with personal accounts).
 
 |Chat experience|Commercial|GCC|GCC High|DoD|
 |:---|:---------|:--|:-------|:--|
 |**Commercial**|Native|Text only|Text only|Text only|
-|**GCC**|Text only|Native|Text only|Text only|
+|**GCC**|Native|Native|Text only|Text only|
 |**GCC High**|Text only|Text only|Native|Text only|
 |**DoD**|Text only|Text only|Text only|Native|
 |**Skype**|Text only|Not available|Not available|Not available|
@@ -49,14 +49,14 @@ The following table shows the chat experience users get when communicating betwe
 
 ## Teams chat experience while migrating from Skype for Business Server
 
-Teams periodically checks the upgrade mode for people in other organizations and, when it finds them running Teams in the TeamsOnly upgrade mode, it prompt you to switch to a native Teams chat and lock the original chat.
+Teams periodically checks the upgrade mode for people in other organizations, and when it finds them running Teams in the `TeamsOnly` upgrade mode, it prompts you to switch to a native Teams chat and lock the original chat.
 
 When you switch to a native Teams chat, Teams doesn't merge the two conversations. Instead, you'll see both of the chats in your chat feed. The new, native-Teams chat is active, but the old, text-only chat is locked.
 
-If you were having a native Teams chat with people in other organizations and then one of you gets switched out of the TeamsOnly upgrade mode, Teams locks the native Teams chat and gives you a link for a limited, text-only chat. You won't be able to continue in the native Teams chat. You can still read the native Teams chat, but you can't continue the conversation there.
+If you were having a native Teams chat with people in other organizations and then one of you gets switched out of the `TeamsOnly` upgrade mode, Teams locks the native Teams chat and gives you a link for a limited, text-only chat. You won't be able to continue in the native Teams chat. You can still read the native Teams chat, but you can't continue the conversation there.
 
 If Teams finds an old text-only chat with this person, it revives that chat. Otherwise, Teams creates a new text-only chat.
 
-## Related topics
+## Related articles
 
 [Manage external access in Teams](manage-external-access.md)

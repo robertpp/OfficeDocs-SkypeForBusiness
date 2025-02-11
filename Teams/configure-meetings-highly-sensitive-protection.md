@@ -88,7 +88,7 @@ The sensitivity label or meeting template enforces the options listed as enforce
 Watch this video for a walkthrough of the procedures described in this article.
 <br>
 <br>
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1bXYL]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=97cb14c9-c2dc-4cfe-946b-12416885d800]
 
 ## Presentation options for highly sensitive meetings
 

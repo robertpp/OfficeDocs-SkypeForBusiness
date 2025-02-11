@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 02/21/2024
+ms.date: 01/29/2025
 ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
@@ -30,13 +30,10 @@ description: "Learn how to view a list of users in your organization that are en
 # See a list of users that are enabled for Audio Conferencing in Microsoft Teams
 
 After you enable Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who are enabled.
-
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## Viewing a list of users
+## View a list of users
 
-- In the Microsoft Teams admin center, in the left navigation, select **Users**.
+- In the Microsoft Teams admin center, in the navigation pane, select **Users**.
 
 ## What else should I know?
 
@@ -48,7 +45,7 @@ After you enable Microsoft Teams users in your organization for Audio Conferenci
 
 ## Run a Self-diagnostics tool
 
-Microsoft 365 admin users have access to diagnostics that can be run within the tenant to verify a user is able to create a PSTN conference call.
+Microsoft 365 admin users have access to diagnostics that can be run within the organization to verify that a user can create a PSTN conference call.
 
 > [!NOTE]
 >This feature isn't available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.

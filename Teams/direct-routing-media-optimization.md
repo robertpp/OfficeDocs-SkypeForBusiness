@@ -1,7 +1,7 @@
 ---
 title: Local Media Optimization for Direct Routing
-author: CarolynRowe
-ms.author: crowe
+author: sfrancis206
+ms.author: scottfrancis
 manager: pamgreen
 ms.date: 12/04/2023
 ms.topic: article

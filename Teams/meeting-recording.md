@@ -58,7 +58,7 @@ As an admin, you can manage the following recording policies:
 - [Block or allow download of channel meeting recordings](#block-or-allow-download-of-channel-meeting-recordings)
 - [Expiration policy](#expiration-policy)
 - [Set a custom privacy policy URL](#set-a-custom-privacy-policy-url)
-- [Meeting recording diagnostic tools](#meeting-recording-diagnostic-tools)
+- [Meeting recording diagnostic tools](/microsoftteams/troubleshoot/meetings/troubleshoot-meeting-recording-issues)
 
 ## External participants
 
@@ -109,7 +109,7 @@ Follow these steps in the Teams admin center to turn explicit consent on or off 
 4. Either select an existing policy or create a new one.
 5. Within your chosen policy, navigate to the **Recording & Transcription** section.
 6. Toggle the **Require participant agreement for recording and transcription** setting **On** or **Off**.
-7. Select Save.
+7. Select **Save**.
 
 #### Manage explicit consent through PowerShell
 
@@ -243,31 +243,10 @@ Once you add your privacy policy URL, your URL replaces the default Teams meetin
 
 Teams meeting recordings are stored in the organizer's OneDrive and SharePoint storage. The location and permissions depend on the type of meeting and the role of the user in the meeting. Users that have full edit rights on the video recording file can change the permissions and share it later with others as needed. To understand permissions and storage in OneDrive and SharePoint, see [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md).
 
-## Meeting recording diagnostic tools
+## Troubleshooting
 
-### User can't record meetings
-
-You can use the following diagnostic tool to validate that the user is properly configured to record a meeting in Teams:
-
-1. Select **Run Tests** to populate the diagnostic in the Microsoft 365 admin center.
-
-   > [!div class="nextstepaction"]
-   > [Run Tests: Meeting Recording](https://aka.ms/MeetingRecordingDiag)
-
-1. In the Run diagnostic pane, enter the email of the user who can't record meetings in the **Username or Email** field, and then select **Run Tests**.
-1. The tests will return the best next steps to address any tenant or policy configurations to validate that the user is properly configured to record a meeting in Teams.
-
-### Meeting recording is missing
-
-You can use the following diagnostic tool to validate that the meeting recording completed successfully and it was uploaded to OneDrive or SharePoint:
-
-1. Select **Run Tests** to populate the diagnostic in the Microsoft 365 admin center.
-
-   > [!div class="nextstepaction"]
-   > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
-
-1. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) and the date of the meeting in the **When was the meeting recorded?** field and then select **Run Tests**.
-1. The tests validate that the meeting recording completed successfully and it was uploaded to SharePoint or OneDrive.
+To learn about why users can't record meeting, see [I can't record a meeting in Microsoft Teams](https://support.microsoft.com/office/i-can-t-record-a-meeting-in-microsoft-teams-f35329c2-57b1-487f-b5e3-70a7efb0945b).</br>
+To learn how to use diagnostic tools, see [Issues that affect meeting recordings](/microsoftteams/troubleshoot/meetings/troubleshoot-meeting-recording-issues).
 
 ## Related topics
 

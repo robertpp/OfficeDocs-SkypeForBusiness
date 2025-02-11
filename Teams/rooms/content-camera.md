@@ -31,7 +31,7 @@ You can now use a content camera with a Microsoft Teams Rooms system. A content 
 
 See the following video for examples of content camera functionality.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E7fy]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=846d107c-e6c2-4d52-be1c-03acb8906fbd]
 
 ## Set up a content camera
 
@@ -120,4 +120,3 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 
 **Inversing the content camera**
 ![Inversing the camera.](../media/mtr-devices/content-camera-android2-800px.png)
-

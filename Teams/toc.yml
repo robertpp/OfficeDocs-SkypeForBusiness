@@ -366,6 +366,31 @@ items:
         - name: Intelligent recap
           href: privacy/intelligent-recap.md
 
+- name: AI, Copilot, and agents in Teams
+  items:
+    - name: AI features in Teams
+      items:
+      - name: Intelligent recap for Teams calls and meetings
+        href: intelligent-recap-calls-meetings.md
+      - name: Manage transcriptions and captions for Teams meetings
+        href: meeting-transcription-captions.md
+      - name: Manage voice isolation for calls and meetings
+        href: voice-isolation.md
+      - name: Data, privacy, and security for intelligent recap
+        href: /privacy/intelligent-recap.md
+      - name: Set up AI recommendations for educators
+        href: institution-settings.md
+    - name: Copilot in Teams
+      items:
+        - name: Manage Copilot in Teams meetings and events
+          href: copilot-teams-transcription.md
+        - name: Teams Rooms and Copilot overview
+          href: rooms/copilot-admin-mtr.md
+    - name: Agents for Teams
+      items:
+        - name: Set up Facilitator for AI notes
+          href: facilitator-teams.md
+
 - name: Manage and monitor Teams
   items: 
     - name: Overview
@@ -436,6 +461,8 @@ items:
       items: 
         - name: Monitor and improve call quality
           href: monitor-call-quality-qos.md
+        - name: Best practice configurations dashboard for meetings
+          href: best-practice-dashboard.md
         - name: Call Quality Dashboard (CQD)
           items: 
             - name: What is CQD?
@@ -597,6 +624,8 @@ items:
             href: create-an-org-wide-team.md
           - name: Create people manager teams
             href: create-manager-directs-teams.md
+          - name: Set up dynamic membership
+            href: dynamic-memberships.md
            
       - name: Manage teams
         items:
@@ -627,6 +656,8 @@ items:
           href: supervised-chat-non-edu.md
         - name: Block incoming chat messages
           href: block-incoming-chats.md
+        - name: Set up Live chat in Teams
+          href: set-up-live-chat.md
     - name: Channels
       items:
         - name: Overview of channels
@@ -718,6 +749,8 @@ items:
           items: 
             - name: Manage Microsoft 365 Copilot for Teams meetings and events
               href: copilot-teams-transcription.md
+            - name: Intelligent recap for Teams calls and meetings
+              href: intelligent-recap-calls-meetings.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
@@ -1038,6 +1071,8 @@ items:
                   href: aa-cq-cqd-historical-reports.md
                 - name: Real-time reporting
                   href: aa-cq-real-time-reports.md
+                - name: Historical reporting for GCC High and DoD
+                  href: aa-cq-cqd-historical-reports-v164.md
             - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
@@ -1060,6 +1095,8 @@ items:
           href: dial-pad-configuration.md
         - name: Call recording, transcription, and captions
           href: call-recording-transcription-captions.md
+        - name: Intelligent recap for Teams calls and meetings
+          href: intelligent-recap-calls-meetings.md
         
 
     - name: PSTN connectivity options
@@ -1074,6 +1111,8 @@ items:
               href: set-up-calling-plans.md
             - name: Country and region availability for Calling Plans
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+            - name: Setup billing for Calling plans
+              href: /microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services
         - name: Operator Connect
           items: 
             - name: Plan for Operator Connect
@@ -1208,7 +1247,7 @@ items:
               href: how-many-phone-numbers-can-you-get.md
             - name: Transfer phone numbers
               items: 
-                - name: What's a port order?
+                - name: Port planning
                   href: phone-number-calling-plans/port-order-overview.md
                 - name: Transfer phone numbers to Teams
                   href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
@@ -1359,8 +1398,11 @@ items:
             - name: Teams displays certified devices
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
-              href: devices/usb-devices.md
               items:
+                - name: Certified personal peripherals
+                  href: devices/usb-devices.md
+                - name: Certified Native Bluetooth devices
+                  href: devices/bluetooth-devices.md
                 - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/meetings/known-issues-teams-certified-peripherals
     - name: Teams Rooms and panels
@@ -1393,8 +1435,12 @@ items:
                       href: rooms/custom-backgrounds.md
                     - name: Content camera
                       href: rooms/content-camera.md
-                    - name: Coordinated meetings
+                    - name: Multiple camera view
+                      href: rooms/multicamera-view.md
+                    - name: Coordinated meetings                    
                       href: rooms/coordinated-meetings.md
+                    - name: Whiteboard in Teams Rooms
+                      href: rooms/whiteboard-rooms.md
                     - name: Intelligent speaker
                       items:
                         - name: Voice and face recognition
@@ -1461,8 +1507,8 @@ items:
               items:
                 - name: Teams Rooms release notes
                   href: rooms/rooms-release-note.md
-                - name: Teams panels release notes
-                  href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels
+                - name: Teams panels release notes 
+                  href: devices/devices-release-notes.md?tabs=panels#tabpanel_1_panels
                 - name: Management apps
                   href: devices/certified-device-apps.md
             - name: Troubleshooting and known issues
@@ -1481,6 +1527,8 @@ items:
               items:
                 - name: Preparing your network
                   href: rooms/rooms-prep.md
+                - name: 802.1x network authentication
+                  href: rooms/802-1x-authentication.md
                 - name: Quality of Service (QoS) for Teams Rooms
                   href: devices/qos-on-teams-devices.md
                 - name: Intune Enrollment for Windows
@@ -1611,8 +1659,20 @@ items:
           items:
             - name: Overview of Teams phones
               href: phones/phones-for-teams.md
-            - name: What's new in Teams phones
-              href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones
+            - name: Teams phones release notes
+              href: devices/devices-release-notes.md?tabs=phones#tabpanel_1_phones
+            - name: Features
+              items:
+                - name: Set the Teams phone interface
+                  href: phones/teams-android-devices-user-interface.md
+                - name: Line keys for speed dialing
+                  href: phones/line-keys.md
+                - name: Manage Teams phones
+                  href: phones/manage-teams-phones.md
+                - name: Update management
+                  href: phones/remote-update-teams-phones.md
+                - name: Queues app on Teams phones
+                  href: phones/queues-app.md
         - name: Deploy
           items:
             - name: Step 1 - Overview
@@ -1643,16 +1703,6 @@ items:
                   href: phones/remote-provision-remote-login-phones.md
                 - name: Remote sign in and sign out
                   href: phones/remote-sign-in-and-sign-out-phones.md
-        - name: Manage
-          items:
-            - name: Set the Teams phone interface
-              href: phones/teams-android-devices-user-interface.md
-            - name: Line keys for speed dialing
-              href: phones/line-keys.md
-            - name: Manage Teams phones
-              href: phones/manage-teams-phones.md
-            - name: Update management
-              href: phones/remote-update-teams-phones.md
         - name: Troubleshooting and known issues
           href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android.md#issues-with-teams-phones
           
@@ -1680,27 +1730,6 @@ items:
           href: devices/teams-displays.md
         - name: Hot desking Teams displays
           href: devices/hot-desking-teams-displays.md
-
-- name: AI, Copilot, and agents in Teams
-  items:
-    - name: AI features in Teams
-      items:
-      - name: Manage transcriptions and captions for Teams meetings
-        href: meeting-transcription-captions.md
-      - name: Manage voice isolation for calls and meetings
-        href: voice-isolation.md
-      - name: Set up AI recommendations for educators
-        href: institution-settings.md
-    - name: Copilot in Teams
-      items:
-        - name: Manage Copilot in Teams meetings and events
-          href: copilot-teams-transcription.md
-        - name: Teams Rooms and Copilot overview
-          href: rooms/copilot-admin-mtr.md
-    - name: Agents for Teams
-      items:
-        - name: Set up Facilitator for AI notes
-          href: facilitator-teams.md
 
 - name: Manage apps in Teams
   items: 
@@ -1847,6 +1876,8 @@ items:
               href: supervise-chats-edu.md
             - name: Set up Assignments in Teams
               href: expand-teams-across-your-org/assignments-in-teams.md
+            - name: Set up Classwork in Teams
+              href: expand-teams-across-your-org/setup-classwork.md
             - name: Set up Parent Connection in Teams
               href: edu-parents-app.md
         - name: LMS and LTI integrations

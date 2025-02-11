@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 02/21/2024
+ms.date: 01/28/2025
 ms.topic: conceptual
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
@@ -29,22 +29,17 @@ description: The following are some of the top questions we get from our custome
 
 # Audio Conferencing common questions
 
-The following are some of the top questions we get from our customers who want to use Audio Conferencing.
+This article lists some of the top questions we get from our customers who want to use Audio Conferencing.
   
 ## What are the benefits of Audio Conferencing?
 
-Calling in to meetings is beneficial when people are on the road, for example, and can't attend a meeting using the Microsoft Teams app on their laptop or mobile devices. But there are other scenarios in which using a phone to attend a Teams meeting can be a better option than using an app on a computer:
+Calling in to meetings is beneficial when people are on the road, for example, and can't attend a meeting using the Microsoft Teams app on their laptop or mobile devices. There are other scenarios where using a phone to attend a Teams meeting can be a better option than using an app on a computer:
   
 - Internet connectivity is limited.
-
 - A meeting is audio only.
-
 - The person tried to join a Teams meeting and it failed.
-
 - The call quality is better if they dial in.
-
 - People can join a meeting "hands free" using Bluetooth devices.
-
 - People find it's easier and more convenient for their situation.
 
 ## Who can attend an Audio Conferencing meeting? And who can I hear?
@@ -67,7 +62,7 @@ Local dial-in numbers, and also in some cases international dial-in numbers from
 
 For a current list of countries/regions, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
   
-## What is the maximum length of the Audio Conferencing meetings?
+## What's the maximum length of the Audio Conferencing meetings?
 
 The maximum length of time depends on who is in the meeting and the type of authentication they used to join the meeting.
   
@@ -104,7 +99,7 @@ Teams users can find the conference ID assigned to them by scheduling a meeting 
 Teams users can find the PIN in an email that is sent to them once they're set up.
 
 > [!NOTE]
-> Teams users can change their pin. There is a link at the bottom of the meeting invite to reset their pin.
+> Teams users can change their pin. There's a link at the bottom of the meeting invite to reset their pin.
   
 We're working on a solution that to let the user access and reset a PIN without help from an organization's administrator.
   
@@ -145,4 +140,4 @@ Scheduling a meeting that all attendees join by using a phone to dial in isn't d
 
 ## Related topics
 
-[Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md)
+- [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md)

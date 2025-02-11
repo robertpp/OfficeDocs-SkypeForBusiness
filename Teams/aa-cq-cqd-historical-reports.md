@@ -25,7 +25,7 @@ ms.custom:
   - Reporting
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
-description: Learn about how to use the updated Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto attendant and Call queue historical data.
+description: Learn how to use the Teams Auto Attendant & Call Queue Historical Reports with Power BI to view Auto attendant and Call queue historical data.
 ---
 
 
@@ -82,7 +82,7 @@ Use one of the following methods to control access to the historical reports:
   For more information about creating a voice applications policy, see [Manage voice applications policies in Microsoft Teams](./manage-voice-applications-policies.md).
 
   > [!TIP]
-  > Using the voice applications policy to control access is the recommended approach. With the voice applications policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without providing access to Teams admin Center.
+  > We recommend using the voice applications policy to control access to historical reports. With a voice applications policy and Authorized users, it's possible to control which Auto attendants, Call queues, and Agents a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without providing access to Teams admin Center.
 
 - Call Quality Dashboard (CQD) pipeline [legacy]
 
@@ -91,7 +91,7 @@ Use one of the following methods to control access to the historical reports:
   For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
   > [!NOTE]
-  > If a user is assigned a CQD access role and a voice applications policy, the CQD role takes precendence and the user can see all the Auto attendants, Call queues, and Agents in the tenant.
+  > If a user is assigned a CQD access role and a voice applications policy, the CQD role takes precedence and the user can see all the Auto attendants, Call queues, and Agents in the tenant.
 
 ## V3.x.x desktop installation
 
@@ -119,7 +119,7 @@ Perform the following steps:
 
    - **Per Call** reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent the user is authorized for and makes them available in the Power BI client. Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, Per Call reporting might result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
 
-   - **Per Day** reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent. This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
+   - **Per Day** reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent. This reporting results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
 
 5. Sign in with your Teams account.
    - Select **File**, then **Options and settings**, and then **Data source settings**.
@@ -208,7 +208,7 @@ You have to refresh the report to see any new data.
 
 #### Known issues
 
-1. Only 28 days of call history are available. Call queue and Agent data is considered personal data and is subject to data privacy retention policies.
+1. Only 28 days of call history are available. Call queue and Agent data are considered personal data and is subject to data privacy retention policies.
 1. The Call queues resource account ID's name instead of Call queue name is shown. To show all the traffic for a Call queue, you must select all the resource accounts assigned to the Call queue.
 1. The Agent's UPN name instead of their name is shown.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
@@ -355,7 +355,7 @@ Each report tab retrieves data for all Auto attendants, Call queues, or agents t
 
 **Each report tab is restricted to retrieving 90,000 rows.**
 
-If there's a large number of calls being processed each day, it's possible that the report won't show all calls for all days within the selected date range. There's no notification when this exclusion occurs. Try shortening the date range to avoid this issue.
+If there's a large number of calls being processed each day, it's possible that the report doesn't show all calls for all days within the selected date range. There's no notification when this exclusion occurs. Try shortening the date range to avoid this issue.
 
 If shortening the date range isn't sufficient, it's possible to increase the number of rows that can be retrieved by modifying the report as follows:
 
@@ -582,7 +582,7 @@ A valid query consists of several attributes in a JSON object:
 
 - **Filters**: used to filter data returned by VAAC
   - DataModelName should be one of the supported dimensions
-  - Value should be in the correct format (datetime, string, number etc.)
+  - Value should be in the correct format (datetime, string, number, etc.)
   - *Operands*:
     - 0 - Equals
     - 1 - Not Equals
@@ -606,7 +606,7 @@ A valid query consists of several attributes in a JSON object:
 - **LimitResultRowsCount**: the max count of rows returned by VAAC
 
 >[!NOTE]
-> When you submit a query that searches by `Date`, and the search criteria includes both date and time (ISO 8601 format), the time portion is ignored.
+> When you submit a query that searches by `Date`, and the search criteria include both date and time (ISO 8601 format), the time portion is ignored.
 
 ## Accessing VAAC outside of Power BI
 

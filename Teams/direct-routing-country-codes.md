@@ -1,7 +1,7 @@
 ---
 title: "Direct Routing country codes"
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.reviewer: 
@@ -32,7 +32,7 @@ By using the -MediaRelayRoutingLocationOverride parameter with the New-CsOnlineP
 
 Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
-Note that Microsoft only recommends setting this parameter if the call logs clearly indicate that the default assignment of the datacenter for the media path does not use the path closest to the SBC datacenter. 
+Microsoft only recommends setting this parameter if the call logs clearly indicate that the default assignment of the datacenter for the media path doesn't use the path closest to the SBC datacenter. 
  
 ## Country code reference table
 

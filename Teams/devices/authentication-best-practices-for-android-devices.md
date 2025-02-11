@@ -95,10 +95,3 @@ Use filters for devices to identify your shared devices and enable policies in t
 >[!NOTE] 
 > Some attributes such as **model**, **manufacturer**, and **operatingSystemVersion** can only be set when devices are managed by Intune. If your devices are not managed by Intune, use extension attributes.
 
-## Teams Legacy Authorization
-
-Teams upgrade configuration policies offer a setting called **BlockLegacyAuthorization** which when enabled prevents Teams Rooms on Android and Teams panels from connecting to Teams services. To learn more about this policy see, [Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/set-csteamsupgradeconfiguration) or run Get-CsTeamsUpgradeConfiguration to check if **BlockLegacyAuthorization** is enabled in your tenant.
-
-   ``` Powershell
-   Get-CsTeamsUpgradeConfiguration | fl BlockLegacyAuthorization
-   ```

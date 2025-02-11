@@ -66,7 +66,7 @@ Here are some examples of how you can manage phones in your organization.
 
 This video shows how to search for Teams devices.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fHGQ?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=bdf18709-a9fd-487e-a80b-e570ffe536b9]
 
 ### View issues with Teams phones
 

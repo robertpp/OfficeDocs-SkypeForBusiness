@@ -28,7 +28,7 @@ Administrators can monitor the health of devices installed with Microsoft Teams 
 
 This video shows how to monitor the health of devices.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fRYd]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=106b7a38-59dd-48e8-b80c-57f66e8ae8d4]
 
 Many types of issues can contribute towards device health status, and the Teams admin center system evaluates the severity of these issues as they occur.
 

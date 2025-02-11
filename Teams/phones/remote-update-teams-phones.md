@@ -156,7 +156,7 @@ To manage devices, you need to be a Global admin, Teams Service admin, or Teams 
 
 This video shows how to update Teams devices.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbK?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=6298f9d5-33f1-4caf-87ff-7cc5b35a9ca9]
     
 #### Tracking update status
 
@@ -183,4 +183,3 @@ Also, if the device is on an older version, like N-3. It is updated step-wise to
 1. **When do automatic updates happen?**  The updates are scheduled to happen during the Maintenance window to minimize impact. If the device is offline at that time, the updates get executed when the device comes back online the next time. If the Maintenance window is already over, the update is rescheduled for the next available window.
 
 1. **Why do Teams app and Firmware follow a different cadence in update phases?**   Updates phases allow Firmware auto-updates to start immediately (Validation phase), only after 30 days (General phase), or only after 90 days (Final phase). Since Firmware changes include significant changes, their rollout through auto-update is done at a slow pace to ensure minimal impact. On the other hand, the update phases allow Teams app to start immediately (for Validation phase), only after 15 days (for General phase), or only after 45 days (for Final phase). Teams app versions include smaller scope of changes for the devices than the Firmware and hence their auto-update rollout is done at a faster pace to bring the devices to recent versions.
-

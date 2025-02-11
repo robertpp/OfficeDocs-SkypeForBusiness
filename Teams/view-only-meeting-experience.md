@@ -69,7 +69,7 @@ When the capacity of the main meeting is reached, meeting attendees are informed
 
 Before the meeting reaches capacity, attendees always join the main meeting. Once the meeting reaches capacity, view-only attendees can't be promoted to the main meeting.
 
-If presenter and attendee roles are set, presenters who join after capacity is reached in the main meeting become view-only attendees. These presenters have the same limitations as other view-only attendees. Organizers are always guaranteed space in the main meeting.
+When presenter and attendee roles are set up, the main meeting reserves space for up to 50 presenters. Any extra presenters who join after the main meeting reaches capacity become view-only attendees. These presenters have the same limitations as other view-only attendees. Organizers are always guaranteed space in the main meeting.
 
 ## Meeting presenter and organizer limitations
 

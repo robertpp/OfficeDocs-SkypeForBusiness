@@ -248,7 +248,7 @@ The following Teams clients are supported:
 - Teams mobile clients (iOS and Android)
 - Teams IP phones
 
-The Teams web client and Skype for Business clients aren't supported.
+The Teams web clients, Skype for Business clients, and IP Phones connected through SIP Gateway aren't supported.
 
 ### Capabilities not supported by Location-Based Routing
 

@@ -29,7 +29,7 @@ appliesto:
 
 # Introduction to Teams recording
 
-**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Town halls ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Calls ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Live events
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Calls
 
 ## Overview
 
@@ -53,6 +53,8 @@ The following table compares convenience and compliance recording.
 | Retention policy      | [Meeting storage and permissions](tmr-meeting-recording-change.md) | Configurable with partner solution |
 | Recording policy                | Configurable with Teams Admin Center (Meeting policy + Calling policy) | Configurable with user policy        |
 
+#### Considerations
+
 - Guests can't initiate convenience recordings.
 
 - Users in trusted organizations can’t initiate convenience recordings when they join meetings in your organization.  
@@ -69,8 +71,9 @@ Meeting recordings don't capture:
 - Content shared by apps
 - Videos or animations embedded in PowerPoint Live presentations
 - Multi-screen share
+- Town Hall or Live Event attendee video streams
 
-Calls in Teams are unscheduled, peer-to-peer Teams client sessions (encompassing internal and external Teams users). In convenience and compliance recording, policy scope for calls includes Teams PSTN calls, if the user has one of the following licenses: Microsoft 365 E5, Office 365 E5, or Microsoft/Office 365 E3 with Teams Phone Add-on license.
+Calls in Teams are unscheduled, peer-to-peer Teams client sessions (encompassing internal and external Teams users). In convenience recording, policy scope for calls includes Teams PSTN calls, if the user has one of the following licenses: Microsoft 365 E5, Office 365 E5, or Microsoft/Office 365 E3 with Teams Phone Add-on license.
 
 > [!TIP]
 > To learn and share more about recording options that you may allow your users to control, refer to [Record a meeting in Microsoft Teams](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24).  

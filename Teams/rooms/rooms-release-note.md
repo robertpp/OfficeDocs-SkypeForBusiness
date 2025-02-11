@@ -39,7 +39,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
-|[5.2.115.0](#521150-9262024)| 9/26/2024 |
+|[5.2.115.0](#521150-9262024) | 9/26/2024 |
 |[5.1.28.0](#51280-882024) | 8/8/2024 |
 |[5.1.24.0](#51240-7302024) | 7/30/2024 |
 |[5.0.305.0](#503050-632024) | 6/3/2024 |
@@ -65,7 +65,12 @@ Teams Rooms app updates happen either using the Microsoft Store or using [manual
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 
 ### 5.2.115.0 (9/26/2024)
+ >[!NOTE]
+ >The following two features were added to the 5.2.115.0 release with a service side change on January 22, 2025.
 
+- **Multiple camera view** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Teams Rooms on Windows supports up to four single stream cameras that will be shown to remote meeting participants. With multiple camera view, remote meeting participants will have the ability to follow all the action in the room and manually toggle between views from the room that they want to see. [Learn more](/microsoftteams/rooms/multicamera-view).
+- **Start/stop recording** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Users can start or stop recording directly from Teams Rooms on Windows devices without having to join the meeting on a companion device. IT admins can allow or prevent users (including resource accounts) from recording meetings using the meeting recording policy on the Teams admin center. When users start recording a Meet now or Whiteboard session initiated from a Teams Rooms device, users must ensure that they invite themselves to the meeting so that they can access the recording file through the meeting chat on their Teams desktop or mobile app after the meeting. To ensure that IT-managed resource accounts do not become owners of the recording files, avoid assigning any Microsoft OneDrive for Business license to your resource accounts. [Learn more](/microsoftteams/tmr-meeting-recording-change#microsoft-teams-rooms-meetings).
+  
  >[!NOTE]
  >The following two features were added to the 5.2.115.0 release with a service side change on October 31, 2024. 
 
@@ -75,7 +80,7 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 Introduced in this update:
 
-- **Proximity based join experience improvements**: Proximity based join experience is updated to disable auto accepting all nudges from external or federated tenants. In addition, Teams Rooms on Windows with compatible consoles supports proximity join using ultrasound, providing an alternative to Bluetooth. [Learn more](/microsoftteams/rooms/proximity-join?tabs=portal).
+- **Proximity based join experience improvements**: Proximity based join experience is updated to disable auto accepting all nudges from external or federated tenants. In addition, Teams Rooms on Windows with compatible consoles support proximity join using ultrasound, providing an alternative to Bluetooth. [Learn more](/microsoftteams/rooms/proximity-join?tabs=portal).
 - **Dynamic video tile resizing based on people count** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:**  The room video tile on Teams desktop client dynamically adjusts size based on the number of people in the room. When one person is in the room, the tile matches the remote participant's size. With two or more people, the room tile expands to be four times larger. Room admins can enable or disable the people count. [Learn more](/microsoftteams/rooms/xml-config-file).
 - **Microsoft Teams Rooms on Windows room preview shows Cloud IntelliFrame** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** The Preview video of room shows IntelliFrame when Cloud IntelliFrame is enabled for the room, to let in room participants be aware of how they appear to those online. [Learn more](/microsoftteams/devices/cloud-intelliframe).
 - **Roster grouping for in-room participants through proximity join:**  When joining a meeting in a Microsoft Teams Room with a companion device, in-room participants are grouped under the room node. Participants must join through Proximity Join with Microsoft Teams Rooms. [Learn more](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2).
@@ -85,6 +90,7 @@ Introduced in this update:
   > The camera's OEM firmware is required.
 
 - **Breakout rooms support:** With breakout room support, Teams Rooms on Windows can be added to a breakout room as an attendee and moved in and out of the main room making it easy for breakout session coordination. [Learn more](https://support.microsoft.com/en-us/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461).
+
 
 Resolved issues:
 
@@ -144,7 +150,7 @@ Introduced in this update:
 - **Integration between Report a Problem and Pro Portal Management:** Admins can configure for easier tracking, via SendFeedbackToPMP XML setting, that when a user sends feedback through Report a Problem from a room with a Microsoft Teams Pro license, each feedback creates an event in the Teams Rooms Pro Management portal. 
 
   > [!IMPORTANT]
-  > Note that some systems maybe missing the minimum version of the Edge WebView2 runtime. Until Edge Webview2 runtimeversion 110.0.1587.63 or higher is installed, these devices will be missing some features.
+  > Note that some systems maybe missing the minimum version of the Edge WebView2 runtime. Until Edge Webview2 runtime version 110.0.1587.63 or higher is installed, these devices will be missing some features.
 
 ### 4.19.82.0 (1/31/2024)
 
@@ -751,6 +757,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2025010301](#144910962025010301-january-2025) | January 2025 |
 |[1449/1.0.96.2024110701](#144910962024110701-november-2024) | November 2024 |
 |[1449/1.0.96.2024101004](#144910962024101004-october-2024) | October 2024 |
 |[1449/1.0.96.2024091202](#144910962024091202-september-2024) | September 2024 |
@@ -784,12 +791,34 @@ Introduced in this update:
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
 
+### 1449/1.0.96.2025010301 (January 2025)
+
+Introduced in this update: 
+
+- **Required updates coming to the session flows:** Starting in June 2025, Teams app clients more than 5 months old will no longer work.
+
+Resolved Issues:
+
+- Resolved an issue where touch screen controls were shown on the Front of Room display after the feature is disabled in settings. 
+-	Resolved an issue where some Logi Rally Bar systems failed to swap screens [PM3.1]after restart.
+-	Fixed an issue where some backgrounds weren't being applied when set on Teams admin center.
+-	Resolved an issue where chat bubbles weren't being displayed on some Front of room displays.
+-	Resolved an issue where chats weren't being refreshed on the display.
+-	Resolved an issue where content sharing in meetings would stop in a dual display setup.
+-	Resolved an issue where some meeting participants might be displayed as **Unverified** even when they shouldn't be.
+
+
+
 ### 1449/1.0.96.2024110701 (November 2024)
 
 Introduced in this update: 
 
 
-- **Dual display mode and swap screens admin controls<sup>1</sup>** :::image type="icon" source="../media/mtr-pro-icon.png":::. IT admins can deliberately configure Teams Rooms on Android devices to run in dual display mode. Admins can also switch the screens of dual display rooms using the swap screens setting, easily correcting front-of-room displays that were set up invertedly. Both controls are accessible from the device settings and Teams Admin Center.
+- **Dual display mode and swap screens admin controls<sup>1</sup>** :::image type="icon" source="../media/mtr-pro-icon.png":::. IT admins can deliberately configure Teams Rooms on Android devices to run in dual display mode. Admins can also switch the screens of dual display rooms using the swap screens setting, easily correcting front-of-room displays that were set up inverted. Both controls are accessible from the device settings and Teams Admin Center.
+
+> [!NOTE]
+> If you are deploying Teams Rooms on Android devices with dual displays, be aware that dual display mode must be explicitly enabled in the configuration profile. By default, the dual display setting is disabled, which means that using an existing configuration profile (designed for single-display devices by default) may inadvertently disable dual display mode for your existing dual display rooms. To avoid this, you must create and maintain a separate configuration profile for any devices that require dual display support. [Learn more](/microsoftteams/devices/device-management#best-practices-for-managing-configuration-profiles).
+
 - **3x3 video gallery on dual displays<sup>2</sup>** :::image type="icon" source="../media/mtr-pro-icon.png":::. Dual display rooms can now show up to 18 participant videos (3x3 on each screen) when no content is being shared during meetings.  
 - **Receive Cloud IntelliFrame** :::image type="icon" source="../media/mtr-pro-icon.png":::. Cloud IntelliFrame enhances non-AI cameras, showing in-room participants in individual frames like remote attendees for a more natural, engaging experience. Teams Rooms on Android can now receive Cloud IntelliFrame video feeds, bringing uniformity across Windows and Android devices. [Learn more](/microsoftteams/devices/cloud-intelliframe). 
 - **Whiteboard enhancements**. When using the whiteboard outside of meetings, your content is retained even when a meeting begins. The whiteboard's contents are preserved and shared with remote participants instantly. You can also use the 'Follow me' function to guide participants as you navigate, and collaborative cursors let you see everyone working in real-time.   

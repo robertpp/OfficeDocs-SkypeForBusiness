@@ -2,8 +2,8 @@
 title: "Migrate to Direct Routing"
 ms.reviewer: 
 ms.date: 06/04/2018
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.topic: article

@@ -2,8 +2,8 @@
 title: "Translate phone numbers for Direct Routing"
 ms.reviewer: filippse
 ms.date: 02/13/2020
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.topic: article

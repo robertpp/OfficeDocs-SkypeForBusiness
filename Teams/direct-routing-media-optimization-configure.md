@@ -1,7 +1,7 @@
 ---
 title: Configure Local Media Optimization for Direct Routing
-author: CarolynRowe
-ms.author: crowe
+author: sfrancis206
+ms.author: scottfrancis
 manager: pamgreen
 ms.date: 04/07/2020
 ms.topic: article
@@ -38,7 +38,7 @@ The following diagram shows the network setup used in the examples throughout th
 
 ## Configure the user and the SBC sites
 
-To configure the user and the SBC sites, you will need to:
+To configure the user and the SBC sites, you'll need to:
 
 1. [Manage external trusted IP addresses](#manage-external-trusted-ip-addresses).
 
@@ -57,7 +57,7 @@ This article describes configuration for Microsoft components. For information o
 
 ## Manage external trusted IP addresses
 
-External trusted IPs are the Internet external IPs of the enterprise network. These IP's are the IP addresses used by Microsoft Teams clients when they connect to Microsoft 365. You need to add these external IPs for each site where you have users using Local Media Optimization.
+External trusted IPs are the Internet external IPs of the enterprise network. These IPs are the IP addresses used by Microsoft Teams clients when they connect to Microsoft 365. You need to add these external IPs for each site where you have users using Local Media Optimization.
 
 To add the public IP addresses for each site, use the New-CsTenantTrustedIPAddress cmdlet. You can define an unlimited number of trusted IP addresses for a tenant. If the external IPs seen by Microsoft 365 are both IPv4 and IPv6 addresses, you need to add both types of IP addresses. For IPv4, use mask 32. For IPv6, use mask 128. You can add both individual external IP addresses and external IP subnets by specifying different MaskBits on the cmdlet.
 
@@ -77,7 +77,7 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description
 
 This section describes how to define the network regions, network sites, and network subnets for your network topology.
 
-All parameters are case sensitive so you need to ensure that you use the same case that was used during setup.  (For example, GatewaySiteID values "Vietnam" and "vietnam" will be treated as different sites.)
+All parameters are case sensitive so you need to ensure that you use the same case that was used during setup. (For example, GatewaySiteID values "Vietnam" and "vietnam" are treated as different sites.)
 
 ### Define network regions
 
@@ -138,8 +138,8 @@ Note the following:
 
 - If the customer has a single SBC, the -ProxySBC parameter must be either mandatory $null or SBC FQDN value (Central SBC with centralized trunks scenario).
 - The -MediaBypass parameter must be set to $true in order to support Local Media Optimization.
-- If the SBC doesn't have the -BypassMode parameter set, X-MS headers will not be sent.
-- All parameters are case sensitive so you need to ensure that you use the same case that was used during setup.  (For example, GatewaySiteID values "Vietnam" and "vietnam" will be treated as different sites.)
+- If the SBC doesn't have the -BypassMode parameter set, X-MS headers won't be sent.
+- All parameters are case sensitive so you need to ensure that you use the same case that was used during setup. (For example, GatewaySiteID values "Vietnam" and "vietnam" are treated as different sites.)
 
 The following example adds three SBCs to the network sites Vietnam, Indonesia, and Singapore in the APAC region with mode Always bypass:
 
@@ -154,14 +154,14 @@ Set-CSOnlinePSTNGateway -Identity "IDsbc.contoso.com" -GatewaySiteID "Indonesia"
 > [!NOTE]
 > To ensure uninterrupted operations when Local Media Optimization and Location-Based Routing (LBR) are configured at the same time, downstream SBCs must be enabled for LBR by setting the GatewaySiteLbrEnabled parameter to $true for each downstream SBC. (This setting is not mandatory for the proxy SBC.)
 
-Based on the information above, Direct Routing will include three proprietary SIP Headers to SIP Invites and Re-invites as shown  in the following table.
+Based on the information above, Direct Routing includes three proprietary SIP Headers to SIP Invites and Re-invites as shown  in the following table.
 
 X-MS Headers introduced in Direct Routing on Invites and Re-Invites if BypassMode is defined:
 
 |Header name|Values|Comments|
 |---|---|---|
 |X-MS-UserLocation|internal/external|Indicates if user is internal or external|
-|Request-URI INVITE sip: +84439263000@VNsbc.contoso.com SIP /2.0|SBC FQDN|The FQDN which is targeted for the call even if the SBC is not directly connected to Direct Routing|
+|Request-URI INVITE sip: +84439263000@VNsbc.contoso.com SIP /2.0|SBC FQDN|The FQDN which is targeted for the call even if the SBC isn't directly connected to Direct Routing|
 |X-MS-MediaPath|Example: proxysbc.contoso.com, VNsbc.contoso.com|Order of SBCs that should be used for Media path between the user and target SBC. The final SBC is always last|
 |X-MS-UserSite|usersiteID|String defined by tenant administrator|
 
@@ -223,7 +223,7 @@ The following table shows the X-MS headers sent by Direct Routing:
 |---|---|---|---|---|
 |AlwaysBypass|Internal|The same site as SBC|Inbound|
 
-On an inbound call, the location of the user is unknown, and the SBC must guess where the user is. If the guess is not correct, a re-invite will be required. This case assumes user is internal, media can flow directly, and no further actions are required (re-invite).
+On an inbound call, the location of the user is unknown, and the SBC must guess where the user is. If the guess isn't correct, a re-invite will be required. This case assumes user is internal, media can flow directly, and no further actions are required (re-invite).
 The SBC connected to the Direct Routing service reports the originating SBC location by providing Record-Route and Contact fields. Based on these fields, the media path is calculated by Direct Routing.
 
 Note: Given that a user can have multiple endpoints, support of 183 is not possible. The Direct Routing will always use 180 Ringing in this case.
@@ -312,7 +312,7 @@ The following diagram shows an inbound call with OnlyForLocalUsers mode, and the
 
 Direct routing calculates X-MediaPath based on the reported location of the user and mode configured on the SBC.
 
-The following diagram shows an outbound call with OnlyForLocalUsers mode, and an internal user who is not at the same location as the SBC.
+The following diagram shows an outbound call with OnlyForLocalUsers mode, and an internal user who isn't at the same location as the SBC.
 
 > [!div class="mx-imgBorder"]
 > ![Another diagram shows SIP ladder.](media/direct-routing-media-op-16.png)
@@ -323,7 +323,7 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and an
 |---|---|---|---|
 |OnlyForLocalUsers|Internal|Different from SBC|Inbound|
 
-The following diagram shows an inbound call with OnlyForLocalUsers mode, and an internal user who is not at the same location as the SBC.
+The following diagram shows an inbound call with OnlyForLocalUsers mode, and an internal user who isn't at the same location as the SBC.
 
 > [!div class="mx-imgBorder"]
 > ![Yet another diagram showing SIP ladder.](media/direct-routing-media-op-17.png)

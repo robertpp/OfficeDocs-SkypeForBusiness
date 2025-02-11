@@ -35,41 +35,48 @@ The following table show what chat-related controls are available and where they
 |Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
 |:------|:----------:|:---------------:|:------:|:---------------:|
 |Meeting chat|Yes|Yes|Yes|Yes|
-|Prevent copying chat content to clipboard|No*|Yes|Yes|Yes|
+|Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts|No*|Yes|Yes|Yes|
 |Q&A|Yes|No|Yes|Yes|
 
-*Teams admin policy can be used to allow or prevent meeting organizers from using the *prevent copying chat content to clipboard* feature, but can't enforce the use of the feature.
+You can use the Teams admin policy to allow or prevent meeting organizers from using the **Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts** feature, but can't enforce the use of the feature.
 
 By default, chat is turned on for meeting participants. There are several ways you can manage chat:
 
 - Prevent anonymous meeting participants from using chat
 - Prevent the meeting chat from being used before or after the meeting
-- Preventing copying of chat contents
+- Preventing copying of chat, captions, and transcripts
 - Turn off the chat entirely
 
 If you want to prevent anonymous meeting participants from using chat, you  must use the **Chat in meetings** Teams admin policy to exclude them. Meeting organizers, meeting templates, and sensitivity labels can't control this setting.
 
 Meeting organizers can specify that the chat only be available while the meeting is in progress. This can also be configured by using a meeting template or sensitivity label if you require this for certain types of meetings.
 
-## Prevent copying or forwarding of chat
+## Prevent copying or forwarding chat, captions, and transcripts
 
 > [!IMPORTANT]
-> Prevent copying or forwarding of chat on mobile clients is only supported through sensitivity labels.
+> Allowing organizers to restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts on mobile clients is only supported through sensitivity labels.
 
-You can prevent copying or forwarding of chat contents by using a meeting template or sensitivity label. If a template or sensitivity label doesn't enforce this option, meeting organizers can control this feature in meeting options.
+As an admin, you can choose whether organizers in your organization can restrict participants from copying or forwarding meeting chat messages, live captions, transcripts, and AI-generated insights in the meeting recaps. This setting also restricts forwarding and sharing messages to Outlook. By default, this per-organizer setting is set **On**.
 
-If you want to ensure that meeting participants can copy or forward meeting chat messages, you can use a Teams admin policy to disable the setting in meeting options and templates. Meeting organizers who have the policy assigned can't prevent copying chat content to the clipboard in meetings they organize.
+You can require organizers to prevent copying or forwarding of chat messages, live captions, and transcripts with a meeting template or sensitivity label. If you don't enforce this option with a template or sensitivity label, meeting organizers can control this feature in their meeting options.
 
-To ensure that participants can copy or forward meeting chat content, use the following steps:
+### Allow participants to copy or forward chat messages, live captions, and transcripts
+
+> [!NOTE]
+> Currently, prevent copy meeting option only applies to live captions, transcript and recap content inside of Teams.
+
+If you want meeting participants to copy or forward meeting chat messages, you must use a Teams admin policy to turn off the setting. When you use a policy to turn off this feature, organizers won't see the **Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts** setting in their meeting options or template. Meeting organizers who have this feature turned **Off** in their assigned policy can't prevent participants from copying or forwarding of chat messages, live captions, and transcripts in meetings they organize.
+
+To allow participants to copy or forward meeting chat content, use the following steps:
 
 1. In the Teams admin center, expand **Meetings**, and then select **Meeting policies**.
 1. Choose the policy that you want to update, or create a new one.
-1. In the **Content sharing** section, set **Organizer can restrict participants from copying or forwarding meeting chat messages** to **Off**
+1. In the **Content sharing** section, set **Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts** to **Off**
 1. Select **Save**.
 
 Meetings with a sensitivity label that prevents copying chat content to the clipboard override the Teams admin policy.
 
-> [!NOTE]
+> [!IMPORTANT]
 > If a sensitivity label that restricts copying from the chat is specified as the default channel label in a container label, then teams with that container label will restrict copying from the chat for all channels in the team, both in and out of channel meetings.
 
 ## Options for meetings without chat

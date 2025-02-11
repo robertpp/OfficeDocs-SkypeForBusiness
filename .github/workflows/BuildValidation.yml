@@ -1,4 +1,4 @@
-name: Build validation
+name: PR has no warnings or errors
 
 permissions:
   pull-requests: write
@@ -11,7 +11,7 @@ on:
 jobs:
 
   build-status:
-    uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-BuildValidation.yml@workflows-test
+    uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-BuildValidation.yml@workflows-prod
     with:
       PayloadJson: ${{ toJSON(github) }}
     secrets:

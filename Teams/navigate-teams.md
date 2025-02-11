@@ -53,7 +53,7 @@ Getting started on your move from Kaizala to Teams is easier than ever with our 
 
 Create 1:1 or group chats to collaborate with a smaller group or to talk privately within Teams. You can pin chats and save messages for quick access. To begin chatting with our rich text formatting, emojis, and gifs, see [Chats in Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us).
 
-Communicate efficiently by starting 1:1 or group calls with anyone in your organization. With Teams, you have the flexibility to make both audio and video calls. To get started, see [Make calls](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us).
+Communicate efficiently by starting 1:1 or group calls with anyone in your organization. With Teams, you have the flexibility to make both audio and video calls. To get started, see [Make calls](https://learn-video.azurefd.net/vod/player?id=fbbb62eb-841f-49fc-98a4-4e07f1512237).
 
 You can move from Kaizala groups to Microsoft Teams through the creation of Teams, channels, and group chats in Teams.
 

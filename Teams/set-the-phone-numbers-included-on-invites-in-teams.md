@@ -30,9 +30,9 @@ description: Follow these steps to create a default phone number for callers to 
 
 # Set the phone numbers included on invites in Microsoft Teams
 
-Audio Conferencing in Microsoft 365 and Office 365 enables users in your organization to create Microsoft Teams meetings, and then allow users to dial in to those meetings using a phone number.
+Audio Conferencing in Microsoft 365 and Office 365 allows users in your organization to create Microsoft Teams meetings that participants can dial in to using a phone number.
 
-A conferencing bridge gives you a set of dial-in phone numbers for your organization. All of them can be used to join the meetings that a meeting organizer creates, but you can select which ones are included on their meeting invites.
+A conferencing bridge gives you a set of dial-in phone numbers for your organization. All of them can be used to join the meetings that a meeting organizer creates, but as an admin, you can select which ones are included on their meeting invites.
 
 In addition to the meeting organizer's included phone numbers, each meeting invite also has a link at the bottom to access the full list of all available dial-in numbers.
 
@@ -49,7 +49,7 @@ The phone numbers included in the meeting invites of users enabled for Audio Con
 As noted, in addition to phone numbers, each meeting invite contains a link that opens the full list of all dial-in phone numbers that can be used to join a given meeting.
 
 > [!IMPORTANT]
-> It can take up to 24 hours for the assigned phone numbers to show up on your meeting invite. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
+> It can take up to 24 hours for the assigned phone numbers to show up on your meeting invite. If you aren't seeing updated numbers appear, wait at least 24 hours before contacting support.
 
 ### New users
 
@@ -66,17 +66,9 @@ To Set or change the default audio conferencing phone number for users in PowerS
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
 1. Sign in to the Microsoft Teams admin center.
-
-2. In the left navigation, select **Users**.
-
-    ![Shows selecting users in the Microsoft Teams admin center.](media/Admin-users.png)
-
+2. In navigation pane, select **Users**.
 3. Select the user name from the list of available users.
-
 4. Next to **Audio Conferencing**, select **Edit**.
-
-    ![Click Edit next to Audio conferencing.](media/teams-set-phone-numbers-on-invites-image3.png)
-
 5. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
 
 > [!IMPORTANT]
@@ -98,5 +90,4 @@ To set or change the default audio conferencing phone number for a meeting organ
 ## Related topics
 
 - [Try or purchase Audio Conferencing in Microsoft 365 for Microsoft Teams](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-
 - [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

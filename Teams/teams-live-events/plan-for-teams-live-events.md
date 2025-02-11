@@ -157,15 +157,12 @@ You can use Teams live events in multiple regions across the world. The followin
 ### Live events are available in the following regional data centers
 
 - North America
-- Central America
-- South America
 - Asia Pacific
 - Europe/Africa
 
 ### Data location for the following countries/regions is supported
 
 - Australia
-- Brazil
 - Canada
 - France
 - Germany
@@ -174,10 +171,8 @@ You can use Teams live events in multiple regions across the world. The followin
 - Norway
 - Poland
 - Singapore
-- South Africa
-- South Korea
+- Sweden
 - Switzerland
-- UAE
 - United Kingdom
 
 #### Exclusions and considerations

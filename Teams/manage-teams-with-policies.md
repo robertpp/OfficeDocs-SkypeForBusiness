@@ -69,7 +69,7 @@ Policy type | Description
 
 This video is about differences between policies and settings.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbP?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=a68a9479-322f-4fc3-b0e3-ea93ae8f2807]
 
 ## Related topics
 

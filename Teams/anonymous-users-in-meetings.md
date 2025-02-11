@@ -1,10 +1,10 @@
 --- 
 title: Manage anonymous participant access to Teams meetings, webinars, and town halls (IT admins)
-author: DaniEASmith
-ms.author: danismith
-manager: jtremper
-ms.reviewer: 
-ms.date: 01/23/2024
+author: wlibebe
+ms.author: wlibebe
+manager: pamgreen
+ms.reviewer: jaydenlee
+ms.date: 01/14/2025
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - Tier1
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -24,86 +25,144 @@ description: For IT Pros - Learn how anonymous meeting participation works in Mi
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Town halls
 
-Anonymous participants in meetings, webinars, and town halls hosted by your organization are those participants who can't be verified. This could include:
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
-- People who aren't logged in to Teams with a work or school account 
-- People from non-trusted organizations (as configured in [external access](trusted-organizations-external-meetings-chat.md)) and from organizations that you trust but which don't trust your organization.
+In meetings, webinars, and town halls hosted by your organization, anonymous users are users whose identities aren't verified. These users could include:
 
-Anonymous meeting join is controlled by an organization level setting and user level policies. These also affect webinars and town halls. For anonymous meeting join to work:
-- The **Anonymous users can join a meeting** Teams meeting setting (organization level) must be turned on.
-- The meeting organizer must be assigned a Teams meeting policy where the **Anonymous users can join a meeting** control is turned on.
+- Users who aren't logged in to Teams with a work or school account.
+- Users from non-trusted organizations (as configured in [external access](trusted-organizations-external-meetings-chat.md)) and from organizations that you trust but which don't trust your organization. When defining trusted organizations for external meetings and chat, ensure both organizations allow each other's domains. Meeting organizers and participants should have user policies that allow external access. These settings prevent attendees from being considered anonymous due to external access settings. For details, see [IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md)
+
+As an admin, you have the following options to manage anonymous meeting join for your organization:
+
+- The organization-wide Anonymous users can join a meeting setting.
+- The per-organizer Anonymous users can join a meeting setting.
+- **(Public preview) Teams Premium** (per-organizer): only allow anonymous users to join meetings after verifying through a one-time passcode. Only organizers with a Teams Premium license can use this feature.
+
+When anonymous users join a meeting unverified, **Unverified** appears next to their name. If anonymous users join a meeting verified through a one-time passcode, **Email Verified** appears next to their name. When a user signs in to their Microsoft account, **External** appears next to their name.
+
+> [!IMPORTANT]
+> The **Anonymous users can join a meeting** organization-wide setting is going away. We recommend leaving this setting **On** and using the **Anonymous users can join a meeting** per-organizer meeting policy to manage anonymous meeting join instead.
+
+When anonymous meeting join is turned on, lobby policies affect how anonymous participants join meetings. For details, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
+
+## Anonymous users can join a meeting
+
+You can control whether anonymous users can join meetings for your entire organization or for specific organizers and groups.
+
+### Organization-wide
+
+To allow everyone in your organization to create meetings that allow anonymous users, you must turn on this organization-wide setting. When this setting is turned off, anonymous users can't attend meetings hosted by anyone in your organization.
+
+To manage anonymous meeting join for your entire organization, follow these steps:
+
+1. Go to the Teams admin center.
+2. Expand **Meetings** > **Meeting settings**.
+3. Under **Participants**, toggle the **Anonymous users can join a meeting** setting **On** or **Off**.
+4. Select **Save**.
+
+### Per-organizer
+
+To control which users or groups can host meetings that allow anonymous participants, assign a per-organizer meeting policy to each organizer or group. If the organization-wide **Anonymous users can join a meeting** setting is on, you can turn off this policy to prevent specific organizers from creating meetings that allow anonymous users to join.
+
+To manage anonymous meeting join for specific meeting organizers, follow these steps:
+
+1. Go to the Teams admin center.
+2. Expand **Meetings** > **Meeting policies**.
+3. Select an existing policy or create a new one.
+4. Under **Participants**, toggle the **Anonymous users can join a meeting** setting **On** or **Off**.
+5. Select **Save**.
+
+Changes to meeting policies might take up to 24 hours to take effect.
+
+### Organizer control (Public preview)
 
 > [!NOTE]
-> These settings also affects webinars and town halls.
+> This feature is currently in Public Preview.
 
-Anonymous meeting join is turned on by default for the organization and in the *Global (Org-wide default)* meeting policy. We recommend keeping the organization level setting on and using meeting policies to turn anonymous meeting join on or off for different users (meeting organizers).
+When you turn on the organization-wide or per-organizer **Anonymous users can join a meeting** setting, your organizers see the **Unverified participants can join the meeting** setting in their **Meeting options**. This setting is on by default, allowing unverified participants to join meetings. However, organizers can choose to turn off this setting for specific meetings to restrict access. If you turn off the organization-wide or per-organizer **Anonymous users can join a meeting** policy setting, organizers can't configure this meeting option.
 
-Note that if anonymous meeting join is enabled, lobby policies affect how anonymous participants join meetings. For details, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
+## Anonymous users can join a meeting after verifying with an email code (Public Preview for Teams Premium)
 
-For more details about hosting meetings with external participants, see [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md).
+> [!NOTE]
+> This feature is currently in Public Preview and requires organizers to have a Teams Premium license.
+>
+> This feature isn't supported for webinars or town halls.
 
-#### Meetings with trusted organizations
+You can require anonymous users to verify their identities to join meetings in your organization.
 
-When you set up trusted organizations for external meetings and chat, meeting attendees from those organizations may be considered anonymous if external access settings aren't configured correctly for both organizations. Both organizations must allow each other's domain and the meeting organizer in your organization and participants from other organizations must be assigned a user policy that allows external access. For details, see [trusted organizations for external meetings and chat](trusted-organizations-external-meetings-chat.md).
+When you set **Anonymous users can join a meeting after verifying** to **By email code** and the meeting organizer toggles the **Unverified participants can join the meeting** setting to **Off** in their **Meeting options**, unverified anonymous users are prompted to enter up a one-time passcode that gets sent to their email to join the meeting.
 
-## Manage anonymous meeting join for the organization
+If you turn off the **Anonymous users can join a meeting unverified** setting and **Anonymous users can join a meeting after verifying** is set to **No**, anonymous users can't join meetings in your organization.
 
-The organization level anonymous meeting join setting must be turned on for anyone in the organization to create meetings that allow anonymous participants.
+:::image type="content" source="media/prejoin-email-small.png" alt-text="Screenshot of an anonymous user entering their email on the prejoin screen to verify their identity to join a meeting" lightbox="media/prejoin-email-large.png":::
 
-> [!Important]
-> The **Anonymous users can join a meeting** organization-wide setting will be removed in the future. We recommend leaving this setting **On** and using the the **Anonymous users can join a meeting** user level meeting policy control to allow or prevent anonymous meeting join instead.
+:::image type="content" source="media/prejoin-mobile-code-small.png" alt-text="Screenshot of an anonymous user entering a onet-time passcode on the prejoin screen to verify their identity to join a meeting" lightbox="media/prejoin-mobile-code-expand.png":::
 
-To configure anonymous meeting join for the organization
-1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
+To manage whether unverified anonymous attendees can verify themselves with a one-time passcode to join meetings, follow these steps:
 
-1. In the left navigation, go to **Meetings** > **Meeting settings**.
-
-1. Under **Participants**, set **Anonymous participants can join a meeting** to **On** (recommended) or **Off**.
-
-    :::image type="content" alt-text="Screenshot of participants settings for meetings in the Teams admin center." source="media/meeting-settings-participants.png":::
-
+1. Go to the Teams admin center.
+1. Expand **Meetings** > **Meeting settings**.
+1. Under **Participants**, in the drop-down for **Anonymous users can join a meeting after verifying**, select **By email code** or **No**.
 1. Select **Save**.
 
-## Manage which meeting organizers can allow anonymous meeting join
+## Manage anonymous meeting join using PowerShell
 
-You can control which users or groups can host meetings that include anonymous participants. To do this, assign a meeting policy with anonymous meeting join turned on to each meeting organizer who needs to host meetings with anonymous participants.
+### Manage whether anonymous participants can join meetings
 
-To configure anonymous meeting join for specific meeting organizers
-1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
+The **`-DisableAnonymousJoin`** parameter controls whether anonymous users can join meetings for your organization, while the **`-AllowAnonymousUsersToJoinMeeting`** parameter controls this setting at the user or group level. You can use these parameters together to manage how anonymous users join meetings in your organization. For example, when you set **`-DisableAnonymousJoin`** to false for the organization, anonymous users can join meetings in your organization. If you also set **`-AllowAnonymousUsersToJoinMeeting`** to false for a specific user, that user can't create meetings that anonymous users can attend, even though the organization-wide setting allows it.
 
-1. In the left navigation, go to **Meetings** > **Meeting policies**.
+#### For your organization
 
-1. Select the policy that you want to modify.
+We recommend leaving **`-DisableAnonymousJoin`** set to False and using the **`-AllowAnonymousUsersToJoinMeeting`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to manage anonymous meeting join at the user or group level.
 
-1. Set **Anonymous users can join a meeting** to **On**.
+To allow anonymous participants to join meetings in your organization, use this script:
 
-    ![Screenshot of anonymous join meeting policy setting in the Teams admin center.](media/anonymous-users-can-join-meeting.png)
+```powershell
+Set-CsTeamsMeetingConfiguration -Identity <policy name> -DisableAnonymousJoin $false
+```per-organizer
+To prevent anonymous participants from joining meetings in your organization, use this script:
 
-1. Select **Save**.
+```powershell
+Set-CsTeamsMeetingConfiguration -Identity <policy name> -DisableAnonymousJoin $true
+```
 
-Changes to meeting policies may take up to 24 hours to take effect.
+#### For specific organizers
 
-## Configure anonymous meeting join using PowerShell
+To allow anonymous participants to join meetings organized by users or groups with this policy, use this script:
 
-You can control whether anonymous participants can join meetings by using:
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowAnonymousUsersToJoinMeeting $true
+```
 
-- The `-DisableAnonymousJoin` parameter in [Set-CsTeamsMeetingConfiguration](/powershell/module/teams/set-csteamsmeetingconfiguration) to configure the organization level setting. (We recommend leaving this set to False and using Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting to control anonymous meeting join at the user or group level.)
-- The `-AllowAnonymousUsersToJoinMeeting` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) to configure a user level meeting policy
+To prevent anonymous participants from joining meetings organized by users or groups with this policy, use this script:
 
-In order to allow anonymous participants to join meetings, you must configure both to allow anonymous meeting join by setting the following values:
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowAnonymousUsersToJoinMeeting $false
+```
 
-- `Set-CsTeamsMeetingConfiguration -DisableAnonymousJoin` set to **$false**
-- `Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting` set to **$true** for the relevant meeting organizers
+### Allow anonymous users to join a meeting after verifying an email code
 
-## Block anonymous meeting join for specific client types
+To allow unverified anonymous attendees to verify themselves with a one-time passcode to join meetings (default value), use the following script:
 
-When anonymous participants are allowed to join meetings, they can use either the Teams client or a custom client built using [Azure Communication Services](/azure/communication-services/). 
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AnonymousUserAuthenticationMethod OneTimePasscode
+```
 
-Admins can block either of these client types by using the `-BlockedAnonymousJoinClientTypes` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy#-blockedanonymousjoinclienttypes).
+To prevent unverified anonymous attendees from verifying their identity to join meetings, use the following script:
 
-## Anonymous participants’ meeting experience
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AnonymousUserAuthenticationMethod None
+```
 
-Anonymous participants don’t have all the same capabilities as other meeting participants. For example, anonymous participants:
+### Block anonymous meeting join for specific client types
+
+When anonymous participants are allowed to join meetings, they can use either the Teams client or a custom client built using [Azure Communication Services](/azure/communication-services/).
+
+Admins can block either of these client types by using the `-BlockedAnonymousJoinClientTypes` parameter. To learn more, see [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy#-blockedanonymousjoinclienttypes).
+
+## Anonymous participants' meeting experience
+
+Anonymous participants don't have all the same capabilities as other meeting participants. For example, anonymous participants:
 
 - Don't have access to meeting chat before and after the meeting
 - Don't have access to [profile cards](https://support.microsoft.com/office/e80f931f-5fc4-4a59-ba6e-c1e35a85b501)
@@ -111,28 +170,36 @@ Anonymous participants don’t have all the same capabilities as other meeting p
 
 ### How anonymous participants interact with apps in meetings
 
-By default, the setting to allow anonymous participants to interact with apps in meetings is enabled.
+By default, the setting to allow anonymous participants to interact with apps in meetings is enabled. Anonymous participants inherit the *Global (Org-wide default)* Teams apps permission policy. Anonymous participants can interact with apps in Teams meetings as long as the app is turned on in that policy and **Anonymous participants can interact with apps in meetings** is **On**.
 
-To configure app access for anonymous meeting participants
+Anonymous participants can only interact with apps that are already available in a meeting and can't add or manage these apps.
 
-1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
+To manage app access for anonymous meeting participants, follow these steps:
 
-1. In the left navigation, go to **Meetings** > **Meeting settings**.
-
+1. Go to the Teams admin center.
+1. Expand **Meetings** > **Meeting settings**.
 1. Under **Participants**, set  **Anonymous participants can interact with apps in meetings** to **On** or **Off**.
+1. Select **Save**.
 
-You can also control this with PowerShell by using `Set-CsTeamsMeetingConfiguration -DisableAppInteractionForAnonymousUsers`.
+#### PowerShell
 
-Anonymous participants inherit the *Global (Org-wide default)* Teams apps permission policy. Anonymous participants can interact with apps in Teams meetings as long as the app is enabled in that policy and **Anonymous participants can interact with apps in meetings** is **On**.
+To allow anonymous participants to interact with apps in meetings, use this script:
 
-Note that anonymous participants can only interact with apps that are already available in a meeting and can't add or manage these apps.
+```powershell
+Set-CsTeamsMeetingConfiguration -Identity <policy name> -DisableAppInteractionForAnonymousUsers $false
+```
+
+To prevent anonymous participants from interacting with apps in meetings, use this script:
+
+```powershell
+Set-CsTeamsMeetingConfiguration -Identity <policy name> -DisableAppInteractionForAnonymousUsers $true
+```
 
 ## Related articles
 
-[Join a meeting without a Teams account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)
-
-[Using the Microsoft Teams admin center to configure organization-wide policy](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
-
-[External participants receive "Sign in to Teams to join, or contact the meeting organizer"](/microsoftteams/troubleshoot/meetings/external-participants-join-meeting-blocked)
-
-[Assign policies in Teams – getting started](policy-assignment-overview.md)
+- [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md)
+- [Join a meeting without a Teams account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)
+- [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md)
+- [Using the Microsoft Teams admin center to configure organization-wide policy](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
+- [External participants receive "Sign in to Teams to join, or contact the meeting organizer"](/microsoftteams/troubleshoot/meetings/external-participants-join-meeting-blocked)
+- [Assign policies in Teams – getting started](policy-assignment-overview.md)

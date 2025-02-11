@@ -6,8 +6,8 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.subservice: teams-audio-conferencing
-ms.reviewer: 
-ms.date: 02/21/2024
+ms.reviewer: oscarr
+ms.date: 01/29/2025
 audience: admin
 description: Learn about Office 365 Audio Conferencing Extended Dial-out Minutes to US and Canada.
 ms.localizationpriority: medium

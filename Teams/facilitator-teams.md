@@ -78,7 +78,7 @@ For more information about security and privacy in Microsoft 365 Copilot, see th
 #### AI-generated notes for meetings limitations
 
 - AI-generated notes for meetings aren't automatically collected as cloud attachments in [Microsoft Preview eDiscovery](/purview/ediscovery-cloud-attachments) because it isn't currently supported.
-- Meeting settings like [Prevent copy and paste](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-of-chat) and [Watermarks](watermark-meeting-content-video.md) aren't applied to AI-generated notes in meetings.
+- Meeting settings like [Prevent copy and paste](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-chat-captions-and-transcripts) and [Watermarks](watermark-meeting-content-video.md) aren't applied to AI-generated notes in meetings.
 - AI-generated notes for meetings don't inherit the meeting's sensitivity label; however, a sensitivity label can be applied to the notes' Loop component in the [Loop app or OneDrive](/purview/sensitivity-labels-loop).
 
 ## Prerequisites and licensing
@@ -94,6 +94,7 @@ The following list contains the prerequisites for users to be able to access Fac
 - Be a Microsoft Teams Public preview participant.
   - For information on how to access Teams Public preview features, see [Microsoft Teams Public preview](/microsoftteams/public-preview-doc-updates).
 - [Have Loop experiences in Teams for AI-generated notes in meetings turned on](#3-turn-on-loop-experiences-in-teams-for-ai-generated-notes-in-meetings).
+- Transcription is auto-enabled and must stay on to use AI-generated notes in meetings.
 
 ## Facilitator note storage
 

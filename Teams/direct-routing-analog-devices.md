@@ -1,7 +1,7 @@
 ---
 title: "Direct Routing - Connecting analog devices"
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.reviewer: filippse

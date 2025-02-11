@@ -3,7 +3,7 @@ title: "Call sharing and group call pickup"
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.date: 12/12/2023
+ms.date: 1/30/2025
 ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -47,7 +47,7 @@ Users must be assigned a Microsoft Teams Phone license to set up and use call sh
 - A user can be a member of up to 25 call groups.
 - If you add more than five members to a call group, the ring order automatically switches to "Everyone at once."
 
-Mobile devices are only notified if they're set for banner and ringtone.
+Mobile devices are only notified if they're set for "banner" and "ring."
 
 ## Enable the use of group call pickup
 
@@ -67,7 +67,7 @@ To configure immediate call forward settings:
 1. On the user details page, go to the **Voice** tab.
 
 1. Under **Call answering rules**, you can select either:
-    - **Ring user's devices** and select **Group call pickup** from the **Also allow** dropdown
+    - **Ring user's devices** and select **Group call pickup** from the **Also allow** dropdown. You can also select **Group call pickup** from the **If unanswered** dropdown.
     - **Be immediately forwarded** and select **Group call pickup** from the **Call forward type** dropdown
 
 1. Select **Manage call group** and select **Add people** to add the appropriate users to the call group.

@@ -3,8 +3,8 @@ title: What's the status of your port orders?
 ms.author: scottfrancis
 author: sfrancis206
 manager: pamgreen
-ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 11/28/2017
+ms.reviewer: mikedav, roykuntz, jastark, leiaglezer
+ms.date: 01/22/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,7 +17,7 @@ f1.keywords:
   - CSH
 ms.custom: 
   - Calling Plans
-description: Learn how to get the status of your port orders, and what the different actions you can take on them. 
+description: Learn how to get the status of your telephone number port orders for Microsoft Teams
 ms.collection: 
   - M365-voice
   - m365initiative-voice
@@ -26,27 +26,24 @@ ms.collection:
 
 # What's the status of your port orders?
 
-To see the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then select **Order history**. Each port order status is listed in the **Status** column. See [how long does it take to port numbers](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) to learn about the order process. 
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png)Microsoft Calling Plans
 
-The following table lists port order statuses, and actions you can take if needed.
+To see the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Phone numbers**, and then select **Order history**. Each port order status is listed in the **Status** column.
 
-|**Status**|**Can you view the order?**|**Can you edit the order?**|**Can you cancel the order?**|**Can you delete the order?**|**Description**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Processing** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The admin created the order, and it's been received by Microsoft.  <br/> |
-|**Contacting carrier** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The order has been received and approved by Microsoft, and we're working with the losing carrier to get it approved.  <br/> |
-|**Transfer approved** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The order has been accepted by the losing carrier, and the Firm Order Commitment (FOC) date has been set.  <br/> |
-|**Transfer pending** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The transfer is less than 24 hours away, so the order can no longer be edited or canceled.  <br/> |
-|**Error** <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes (at this time, you can't delete the port order if there's an error. The port order needs to be re-created, or you need to contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).  <br/> |The losing carrier rejected the order.  <br/> |
-|**Completed** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The numbers have been successfully transferred.  <br/> |
-|**Cancelled** <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |The admin canceled the order.  <br/> |
+If the **Status** column isn't listed, select the gear-shaped setting icon in the **Order history** table, and enable the **Status** column.
 
-For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
+You can view orders that are saved but not submitted, and orders that are submitted and in progress by selecting the order name. Completed and canceled orders aren't viewable, but are included in the list for record-keeping.
 
-If you need help or if you need to get more phone numbers, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+Keep in mind the lead times for order processing, as described in [Port planning](port-order-overview.md).
+
+If you need to inquire about an existing order, use the [Phone Number Service Center Portal](https://pstnsd.powerappsportals.com/) to contact the [Telephone Number Services (TNS) Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+
+When making an inquiry about an existing port request, find the related case for your order in the Phone Number Service Center Portal and provide your inquiry in the case comments, rather than opening a new case.
 
 ## Related articles
 
 - [What's a port order?](port-order-overview.md)
+- [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md)
 - [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)

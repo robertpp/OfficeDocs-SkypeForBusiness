@@ -27,7 +27,7 @@ Connectors in Microsoft Teams deliver content and service updates directly from 
 
 Teams and Microsoft 365 groups use connectors. You can use the same connectors in Teams and Microsoft Exchange.
 
-Any team member can add a connector to a channel, if the team permissions allow it. The updates from the service, that the connector fetches information from, notifies all the team members. Any team member with the permissions to add or remove can modify connectors setup done by other members.
+Any team member can add a connector to a channel, if the team permissions allow it. The updates from the service, that the connector fetches information from, notifies all the team members.
 
 > [!IMPORTANT]
 > Developers can't register new connectors on the [Connector developer portal](https://aka.ms/connectorsdashboard).
@@ -58,6 +58,9 @@ To update the URL, follow these steps:
    * For connectors that contain a webhook URL, select **Manage** and **Update URL**.
 
       :::image type="content" source="media/connectors-update-url.png" alt-text="Screenshot showing the option to update a webhook URL.":::
+
+        > [!NOTE]
+        > If the **Update URL** button is greyed out and you're unable to update the URL, create a new connector configuration.
 
    * For other types of connectors, remove the connector and recreate the connector configuration.
 

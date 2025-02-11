@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 07/01/2024  
+ms.date: 01/17/2025  
 ms.topic: article
 audience: Admin
 appliesto: 
@@ -25,110 +25,152 @@ description: Helps admins set up Bookable Desks for their Microsoft Teams organi
 
 # Setting up Bookable Desks in Microsoft Teams
 
-This article helps guide you through the process of setting up Bookable Desks in Microsoft Teams. This includes creating desk pool accounts, searching for and identifying the devices you want included, and then linking those devices with desk pool accounts.
-
-Bookable Desks is the name of this feature on Microsoft Teams that utilizes Exchange Desk Pool accounts to provide users the ability to book or reserve an individual desk that is a part of a desk pool when they plug in to devices at that desk.
-
-## Bookable Desks in Microsoft Teams
-
-When end users are working in a hybrid work environment or need a landing place in a building to work for the day, they'll need to be able to book or reserve a space to get work done. Bookable Desks is the feature that can be used to make this easy. After you set up Bookable Desks in Teams, an end user can use the new Teams desktop app on Windows or a Mac to reserve a workspace.
-
-The Bookable Desk feature lets end users walk up to shared desks to reserve them when they plug in or book in advance and get notified when they get there about an existing booking if they have Teams app running on their Windows or Mac PC. 
-
-For admins, the Microsoft Teams Rooms Pro Management portal provides the manageability including the ability to discover devices, and make them visible in the inventory.
+Unlock the full potential of your desks with Microsoft Teams. Bookable desks in Microsoft Teams are designed to enhance the efficiency of your organization by enabling users to seamlessly reserve desks upon plug-in to peripherals while providing you with the tools to understand and manage those spaces.
 
 ## Overview of steps  
 
 To set up and use Bookable Desks in your organization, you must perform these tasks:
 
-- Step 1: Verify the prerequisites are met.
-- Step 2: Create desk pool accounts.
-- Step 3: Collect information on peripheral devices on individual desks.
-- Step 4: Test end-user experience.
+- Step 1: Review the prerequisites.
 
-## Step 1 - Verify the prerequisites are met
+- Step 2: Create resource accounts.
 
-- Verify you have access to the Microsoft Teams Pro Management portal.
-- Verify you have a minimum of one Teams Shared license or one Teams Rooms Pro license per organization.
-- Create and set up the required resource accounts found in Step 2.
-- Use the new version of Microsoft Teams desktop app on Windows or on a Mac.
+- Step 3: Collect information on peripheral devices on each desk such as a monitor.
+
+- Step 4: Enable additional features for users. 
+
+- Step 5: Verify the user experience. 
+
+- Step 6: Review data in usage reports. 
+
+## Step 1 - Review the prerequisites 
+
+- Confirm that you have access to the Microsoft Teams Pro Management portal.
+
+- Ensure that your users have access to the new version of Microsoft Teams desktop app on Windows or Mac.
 
 ## Step 2 - Create Desk Pool Accounts
 
-Desk pool accounts are slightly different from room accounts but are based on the workspace resource mailbox architecture. A desk pool can be reserved multiple times by different users at the same time, up to a defined capacity. However, rooms can only be reserved once at a specific time. Refer to the FAQ section below for more clarity. Since this experience is only supported for a group of desks, you need to create desk pool accounts. Creating a desk pool is like configuring a room.
+Desk pool accounts, known as **'workspaces'** in Exchange, are slightly different from room accounts. The capacity of a desk pool represents the number of seats in that pool and is set by the admin. The pool can be reserved by multiple users at the same time until all seats (the capacity) are taken. For example, the capacity on a desk pool is set to 2. User A and User B are both able to reserve it from 8am to 5pm, and the remaining capacity will be 0. This means that a third user won't be able to reserve it between 8am and 5pm.
 
-**To create a desk pool account**
+To create a desk pool account, you need to set up the workspace resource account in Exchange. We recommend following the steps outlined in [Configure desk booking](/microsoft-365/places/configure-desk-booking?branch=main#configure-desk-pools).
 
-- Step 1: Set up new workspaces or desk pools in Exchange. To do this, see [Create and book a workspace in Outlook](/exchange/troubleshoot/outlook-issues/create-book-workspace-outlook).
-- Step 2: Configure metadata for the Bookable Desks. To do this, see the [Set-Place](/powershell/module/exchange/set-place) cmdlet.
+After you create the account, allow 24 to 48 hours for the account to appear in Outlook, Teams, and Teams Rooms Pro Management Portal.
 
-After you create the workspaces and setting the metadata, the Bookable Desks are found when using Places Finder on Outlook or while booking a desk pool on Teams.  
+## Step 3 - Collect information on peripheral devices
 
-## Step 3 - Collect information on peripheral devices on individual desks
+Next, to ensure a seamless user experience, peripherals such as the monitors on the physical desks need to be associated or linked to the desk pool account you created earlier. To do this, you need to identify the peripherals based on their unique information such as product ID, vendor ID, and serial number.
 
-There are two ways that you can collect device and peripheral information - using a downloadable PowerShell script, or manually.
+You can use a free PowerShell script to fetch the details of a peripheral and ensure they're mapped to the corresponding desk pool accounts in the Teams Rooms Pro Management portal. The PowerShell script is located [here ](https://www.microsoft.com/en-us/download/details.aspx?id=106063)to download, and for detailed step-by-step instructions, see [Add peripherals to inventory](/microsoftteams/rooms/get-peripheral-information).
 
-### Using the PowerShell script to collect device and peripheral information
+## Step 4 - Enable additional features for users
 
-To ensure seamless end-to-end user experience, devices and peripherals such as monitors attached to the physical desks need to be associated or linked to a desk pool account you created earlier. To do this, you need to identify devices based on unique information such as product ID, vendor ID, serial number, model, and the manufacturer.
+You have the option to [enable the automatic work location update policy](/powershell/module/teams/new-csteamsworklocationdetectionpolicy) for your organization or for a group of users. Automatic work location updates are designed to enhance the end user experience by making it easier to keep their work location up-to-date and connect with others when they are in the office. With the policy enabled, users have the option to enable automatic work location updates. They can do so in Teams desktop client under **Settings** > **Privacy** > **Manage my work location**. After users have opted-in, their work location will automatically update to **In the office** when they connect to a bookable desk, provided their work location was previously set to unknown or remote. If the desk pool is parented to a building, their work location can also change to a specific building when they connect to a bookable desk, provided their work location was previously set to unknown, remote, or In the office. The detected location lasts until the end of their working hours. If they plug in after work hours, the location will be set until 11:59pm that day. This feature allows for a seamless transition between remote and in-office work, which enhances collaboration and communication within your team and other users. 
 
-You can use a custom script to get device details from desks to locate devices correctly and ensure they're mapped to the corresponding desk pool accounts. The PowerShell script located [here](https://www.microsoft.com/en-us/download/details.aspx?id=106063) must be ran with administrator permissions.
+## Step 5 - Test the end user experience
 
-For detailed step-by-step instructions, see [Get information for connected peripherals](../rooms/get-peripheral-information.md). After uploading information on the devices and peripherals, you then use the Teams Pro Management portal to confirm if the devices are correctly associated with the desk pools.
+Wait 24 hours after associating to test this experience. After that point, ensure that you're signed into Teams on a Windows or Mac laptop. Upon plugging the laptop into a peripheral you associated to a desk pool account and assuming there are seats available to book, you should receive an activity feed notification that 'The space is reserved and ready for you' along with a booking in your calendar. You can also reserve the desk for a future time slot. To learn more on the end user experience, see [First things to know about bookable desks in Microsoft Teams](https://support.microsoft.com/en-us/office/first-things-to-know-about-bookable-desks-in-microsoft-teams-5d10c217-1205-48a1-a883-ff4533f4ae71?preview=true).
 
-### Collecting device and peripheral information through auto discovery
+## Step 6 - Review data in usage reports 
 
-You can use the auto discovery feature to get the device information and then associate it to a correspond desk pool account using the Microsoft Teams Pro Management portal.
+Once the end-user experience is working, you can start to review reports to learn more on how your desk pools are being used. Desk usage reports are located in the Teams Rooms Pro Managements portal > Reports > Desks usage.   
+  
+The top metrics listed are described in the following table: 
 
-1. Sign in and open the [Microsoft Teams Pro Management portal](https://portal.rooms.microsoft.com/) > **Inventory** in the left navigation.
+|Metrics| Definition|
+| -------- | -------- |
+|Total associated desks|The total number of device groups associated to all desk pools.|
+|Total unused desk pools|The total number of desk pools that have 0% utilization.|
+|Unplanned reservations|The percentage of reservations across all desk pools that weren't planned in advance and were autobooked. |
 
-   Devices are automatically discovered using your users' Teams app to send device data to the Teams Pro Management Portal. When five users plug in to device on a desk any connected displays and USB audio/video peripherals are scanned and transmitted to the cloud. These devices populate the **Devices** tab within the **Inventory** section.
+Below the top metrics, there's a table that provides a granular breakdown of each desk pool, accompanied by specific metrics that highlight the usage of each. You can adjust the time filter to view usage over different time periods. 
 
-2. Go to **Planning** > **Inventory** > **Devices** page.
-3. Select the specific device you want to associate to a desk pool. You see a **Needs action** banner.
-4. Verify that a new panel displays device information and a call-to-action button labeled **Add device to a room or desk**.
-5. Select **Add device to a room or desk**.
-6. The list of desk pools is displayed that allows you to select the desired desk pool from the list where the device is located. 
+| Column| Description|
+| -------- | -------- |
+|Display name|The name of the desk pool.|
+|Utilization   | The percentage of time users were plugged into associated desks during business hours in the given time period.|
+|Associated desks|The number of device groups associated to this desk pool, out of the total capacity set on this desk pool.|
+|Reservations|The number of reservations across bookable desks in the selected time period.|
+|Unplanned reservations|The percentage of reservations that weren't planned in advance and were autobooked.|
+|Reservation occupancy|The percentage of time users spent plugged into bookable desks during reservations. Lower values indicate more reservations were spent with less time plugged in.|
 
-   > [!NOTE]
-   > If you want to look for a specific desk pool use the **PlaceType:** desks filter in the search bar to see only Desk Pool accounts in the organization.
+## Settings
 
-7. Once you select the desk pool, select **Save**.
+### Turning off automatic discovery and usage data collection in the Teams client 
 
-   The device is now associated with the Desk Pool account.
+Bookable desks in Microsoft Teams use peripheral data crowdsourced from the Teams desktop client running on the users' laptops to discover peripherals as well as understand when those desk pools they are associated to are used. No personally identifiable data is collected, but should you feel this data collection is inappropriate for your tenant or a group of users in your tenant, you may use the following PowerShell cmdlets to configure the policy appropriately. Please note that for government clouds, this policy is off by default. 
 
-8. Go to **Inventory** > **Desks** page and make sure the device has the specific associated desk pool under the location.
+First, ensure that your Microsoft Teams module is on version 6.5.0 or higher. To confirm the version, please run the following:
 
-   > [!NOTE]
-   > The Desk pool is named **Desk** in the Microsoft Teams Pro Management portal.  
 
-## Step 4 - Test the end user experience
+```powershell
+Import-Module MicrosoftTeams
+Get-Module -Name MicrosoftTeams
+```
 
-1. Take the laptop or tablet and sign in to Teams.
+If you don't have the Microsoft Teams module installed, please run the following and then re-run the above command to check the version:
 
-1. Physically plug in the laptop. When you plug in to this associated device, you receive a desk reservation notification with a booking appearing on Teams calendar. You will also reserve a desk using the Teams app or Places Finder on Outlook. If you reserve a Bookable Desk, you will see an arrival notification for an existing reservation.  
 
-## Step 5 - Enable automatic work location updates
+```powershell
+Install-Module -Name MicrosoftTeams -Force -AllowClobber
+Import-Module MicrosoftTeams
+```
 
-Once the end user experience is working, you have the option to [enable the automatic work location update policy](/powershell/module/teams/new-csteamsworklocationdetectionpolicy) for your organization or for a group of users. Automatic work location updates are designed to enhance the end user experience by making it easier to keep their work location up-to-date and connect with others when they are in the office. With the policy enabled, users will have the option to enable automatic work location updates. They can do so in Teams desktop client under **Settings** > **Privacy** > **Sharing your work location**. After users have opted-in, their work location will automatically update to **In the office** when they connect to a bookable desk, provided their work location was previously set to unknown or remote. The detected location will last until the end of their working hours. If they plug in after work hours, the location will be set until 11:59pm that day. This feature allows for a seamless transition between remote and in-office work, which enhances collaboration and communication within your team and other users. 
+If your version is lower than 6.5.0, please follow [these instructions](/microsoftteams/teams-powershell-install) to update it. 
+
+Use the following commands to create, set, grant, or remove a configuration in the TeamsBYODAndDesks policy: 
+
+
+```powershell
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams
+Get-CSTeamsBYODAndDesksPolicy
+Set-CSTeamsBYODAndDesksPolicy -Identity Test -DeviceDataCollection Enabled
+Grant-CSTeamsBYODAndDesksPolicy -PolicyName Test -Identity testuser@test.onmicrosoft.com
+Grant-CSTeamsBYODAndDesksPolicy -Group 
+Grant-CSTeamsBYODAndDesksPolicy -Global -PolicyName Test
+Remove-CSTeamsBYODAndDesksPolicy -Identity Test
+```
+
+### Configuring cloud data
+
+**Delete device data**
+
+This setting enables admins to delete all device management data for a specific user. 
+
+**Inventory management permission**
+
+The inventory management permission in Teams Rooms Pro Management portal allows others to view and manage the inventory. You can create roles under **Settings** > **Roles** in Teams Room Pro Management portal and grant permissions to access inventory and associate peripherals to desks. 
 
 ## Frequently asked questions
 
-**Question:** What are Desk Pools?  
+**Question: What are Desk Pools?**  
 
-**Answer:** Desk Pools are a group of individual desks close to each other setup with the same equipment and experience. Desk Pools empower employees to book a desk while simultaneously reducing the overhead for administrators to manage thousands of individual desks in the system. When an employee books a desk in the desk pool, they're guaranteed a desk in the desk pool and can select which exact desk to sit at once they arrive at the space.
+**Answer:** Desk pools are a group of seats in the office that are close to one other and in the same area. When an employee books a desk in the desk pool, they're reserving a seat in the desk pool.
 
-**Question:** are bookable desks feature available on Classic (old Teams) and new Teams?  
+**Question: What is the difference between individual desks** **and desk pools?**
 
-**Answer:** No, the bookable desk experience is only available on the new Teams client. To download and switch to the latest Teams client see, [Switch to the new Microsoft Teams](https://adoption.microsoft.com/new-microsoft-teams/).
+**Answer**: Individual desks are a new type of resource account in Exchange which will allow a user to book a specific seat instead of booking one of the seats in a desk pool. Support for individual desks for the Bookable desks solution is coming soon.
 
-**Question:** Will the bookable desk feature work if the Teams app isn't running actively on the laptop?  
+**Question:** **Is the bookable desks feature available on Classic (old Teams) and new Teams?**
 
-**Answer:** No, for the bookable desk feature to work, meaning to let end users reserve a desk upon plug-in Teams app must be already running on your laptop before plugging in.  
+**Answer**: No, the bookable desk experience is only available on the new Teams client. To download and switch to the latest Teams client see, [New Microsoft Teams](https://adoption.microsoft.com/en-us/new-microsoft-teams/).
 
-**Question:** What is the difference between individual desks, desk pools and Bookable Desks in this article?
+**Question: Does Bookable** **desks work with Microsoft Places?**
 
-**Answer:** Individual desks that are part of a desk pool have the same User Principal Name (UPN) or resource email address, often identical and close to each other in an office. Desk pools are a cluster of individual desks that have a dedicated resource account. The resource account is on Exchange supported by workspace mailbox architecture. The capacity of a desk pool along with metadata such as location can be set using [Set-Place](/powershell/module/exchange/set-place) cmdlet. All devices need to be associated to desk pool accounts on the Teams Pro Management Portal for the end-to-end functionality to work.
+**Answer**: Yes, it does! If a user is automatically reserved in a desk pool, the booking will also appear as the user's desk booking for the day in Places. If a user books a seat in a desk pool in advance through Places, upon plug-in to a bookable desk, the user sees a confirmation message that they're all set for their reservation.
+
+**Question: How can I be sure that it will work with my devices? Do I need** **to buy new hardware?**
+
+**Answer**: That is one of the beauties of Bookable desks! No new hardware is required. We have designed our solution with the goal of working with all models and manufacturers, which is dependent on the device having unique properties. We currently support monitor and devices with both audio and video capabilities. Support for docking stations and webcams are coming soon. 
+
+**Question: Is there another way I can associate my devices other than the PowerShell script?**
+
+**Answer**: Yes, there is! You can also associate the device manually through Pro Management portal. Navigate to **Planning > Inventory > Devices >** select on an unassociated device (one with a 'Needs action' tag) > select on 'Add device to a room or desk' > search for the desired desk pool you'd like to assign the device to. To make it easier to discover devices, they are automatically discovered using your users' Teams app. Once five unique users have plugged into a device on a desk, it will automatically surface in the **Devices** tab for association.
+
+**Question: What do I need to access usage reports?**
+
+**Answer:** These reports are currently in preview and don't require a license to access. 
 
 ## Related links
 

@@ -2,8 +2,8 @@
 title: "User accounts in hybrid environment with PSTN"
 ms.reviewer:
 ms.date: 06/04/2018
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.topic: conceptual

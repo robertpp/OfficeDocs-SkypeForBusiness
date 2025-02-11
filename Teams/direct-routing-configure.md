@@ -2,8 +2,8 @@
 title: "Configure Direct Routing"
 ms.reviewer: filippse
 ms.date: 09/24/2024
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.topic: article

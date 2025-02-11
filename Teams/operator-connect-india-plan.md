@@ -78,7 +78,7 @@ Operator Connect for India supports both number types and Microsoft's method of 
 
 - The users in scope must be in **TeamsOnly** mode. It isn't required for the entire organization to be in TeamsOnly mode, but the users getting provisioned with Operator Connect in India must be in TeamsOnly mode. To learn more, see Understand [Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-- Operator Connect for India wireless numbers aren't supported by Teams Phone devices, SIP Device Hub devices, and Microsoft Teams Room systems.
+- Operator Connect for India wireless numbers aren't supported by Teams Phone devices, SIP Device Hub devices, Microsoft Teams Room systems, and Teams web client.
 
 - It isn't possible to convert wireline numbers to wireless numbers.
 

@@ -5351,6 +5351,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/CQD-teams-aa-cq-historical-report.md",
+    "redirect_url": "/microsoftteams/aa-cq-cqd-historical-reports",
+    "redirect_document_id": false 
+  },
+  {
     "source_path": "Teams/devices/phones-panels-deploy.md",
     "redirect_url": "/microsoftteams/devices/mtra-panels-deploy",
     "redirect_document_id": false

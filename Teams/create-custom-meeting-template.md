@@ -40,7 +40,7 @@ For each option in the template, you can define the following:
 Watch this video for a walkthrough of the procedures described in this article.
 <br>
 <br>
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW11u1o]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=08de04c0-50de-4f11-849d-849a0c2b1bfb]
 
 ## Create a custom meeting template
 
@@ -70,7 +70,8 @@ To create a custom meeting template
 |End-to-end encryption|Specifies if the meeting uses end-to-end encryption. Recording and transcription don't work if this is on.|
 |Enable watermark for screenshare|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
 |Enable watermark for video|Specifies if a watermark is overlaid on attendees' video feeds in the meeting.|
-|Restrict participants from copying or forwarding meeting chat messages|Prevents participants from copying or forwarding content in the meeting chat.|
+|Require verification checks from|Controls whether anonymous users must complete a verification check to join meetings and webinars in your org.|
+|Organizer can restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts|Prevent participants from copying messages, links, live captions, transcripts, and AI-generated insights in the meeting recaps. This setting also prevents forwarding and sharing messages to Outlook.|
 
 ### Audio & video
 

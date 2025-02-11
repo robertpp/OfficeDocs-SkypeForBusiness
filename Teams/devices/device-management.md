@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: srpall
-ms.date: 07/08/2024
+ms.date: 01/29/2025
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -38,7 +38,7 @@ To manage devices, such as change device configuration, restart devices, manage 
 
 For more information about admin roles in Teams, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
-For more information about Teams Rooms Pro management role based access control, see [Role-based access control in the Microsoft Teams Rooms Pro Management Portal](../rooms/rooms-pro-rbac.md)
+For more information about Teams Rooms Pro management role based access control, see [Role-based access control in the Microsoft Teams Rooms Pro Management Portal](../rooms/rooms-pro-rbac.md).
 
 ## What devices can you manage?
 
@@ -54,7 +54,7 @@ To manage devices, in the left navigation of the [Microsoft Teams admin center](
 
 ## Manage Teams Rooms in Teams Rooms Pro Management
 
-To manage devices in Teams Rooms Pro Management, see [Microsoft Teams Rooms Pro Management Portal](../rooms/managed-meeting-rooms-portal.md)
+To manage devices in Teams Rooms Pro Management, see [Microsoft Teams Rooms Pro Management Portal](../rooms/managed-meeting-rooms-portal.md).
 
 ## Manage Teams Rooms on Windows devices in Teams Admin Center
 
@@ -95,7 +95,7 @@ Here are some examples of how you can manage phones, Teams Rooms on Android, Tea
 
 This video shows how to search for Teams devices.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fHGQ?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=bdf18709-a9fd-487e-a80b-e570ffe536b9]
 
 ### View issues with Android-based Teams devices
 
@@ -133,3 +133,21 @@ After creating a configuration profile for a Teams device type, assign it to one
 3. In the **Assign a configuration** pane, search for configuration profile to assign to the selected devices.
 4. Click **Apply**.
    For the devices to which you applied the configuration policy, the **Action** column displays **Config Update** and the **Configuration profile** column displays the configuration profile name.
+
+#### Best practices for managing configuration profiles
+
+When configuring Teams Android devices, especially in organizations with multiple locations and different device configurations, managing configuration profiles can become complex. Teams Android devices allow for a variety of settings (e.g., Language, Timezone, Touch controls, Dual display mode, and Whiteboard) which may require the creation of multiple profiles to meet the needs of different teams, rooms, or locations. Here are key considerations for effective management: 
+
+1. **Create one profile per configuration set** - You’ll need a separate profile for each combination of settings. For example, if you manage rooms in different time zones, you’ll need a distinct configuration profile for each time zone. Settings like **Touch controls** or **Dual display mode** require additional profiles to account for variations in devices. For example, for rooms in Berlin with the same timezone, you would need at least three configuration profiles:
+
+   1. Touch controls set to OFF, Dual display mode set to OFF (for single display devices with console)
+      
+   1. Touch controls set to OFF, Dual display mode set to ON (for dual display devices with console)
+      
+   1. Touch controls set to ON, Dual display mode set to OFF (for touch board devices)
+
+1. **Adopt a systemic naming convention** - As new features and settings are added, existing profiles may need duplication. While this increases the number of profiles, it is necessary to ensure that each room or device type receives the appropriate configuration. Use a systemic naming convention that clearly indicates the variable settings included in each profile to stay organized (e.g., Berlin-Timezone-Touch-NoDualDisplay). This will help ensure that profiles are easily identifiable and prevent confusion when applying them to different rooms. 
+
+1. **Group devices by shared configuration needs** - As your deployment grows, group devices with shared configurations to minimize the number of profiles. As Teams Android devices features evolve, keep an eye on new settings that may require additional profiles. Always ensure that each device receives the precise configuration it requires. 
+
+By maintaining a clear structure for your profiles and carefully managing device specific settings, you can ensure smoother deployment and operation of Teams Android devices across your organization. 

@@ -29,7 +29,9 @@ The Teams Meeting add-in lets users schedule a Teams meeting from Outlook. This 
 
 This article details authentication requirements and functionality of the Teams Meeting add-in in Outlook for your users. Additionally, it provides guidance on enabling private meetings and managing policy settings for users in Island Mode.
 
-If you're having issues with the add-in, see our [Resolve issues that affect the Teams Meeting add-in for classic Outlook](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues).
+If you're having issues with the add-in, see [Resolve issues that affect the Teams Meeting add-in for classic Outlook](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues).
+
+For details on how your users can schedule meetings in Outlook, see [Schedule a Microsoft Teams meeting from Outlook](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f). To understand the differences between new and classic Outlook, see [Feature comparison between new Outlook and classic Outlook](https://support.microsoft.com/office/feature-comparison-between-new-outlook-and-classic-outlook-de453583-1e76-48bf-975a-2e9cd2ee16dd).
 
 ## Prerequisites
 
@@ -65,9 +67,7 @@ The Teams client installs the correct add-in by determining if users need the 32
 
 The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013, Office 2016, Office 2019, or Office 2021 installed on their Windows PC. Your users see the Teams Meeting add-in on the Outlook Calendar ribbon.
 
-![Screenshot of Teams Meeting add-in on Outlook ribbon.](media/Teams-add-in-for-Outlook.png)
-
-If you're using an Office Outlook installation from the Microsoft Store, the Teams Meeting add-in isn't supported. Users who need this add-in should install Click-to-Run version of Office. For details on installing theClick-to-Run version of Office, see [Office on Windows 10 in S mode](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
+If users are using an Office Outlook installation from the Microsoft Store, the Teams Meeting add-in isn't supported. Users who need this add-in should install Click-to-Run version of Office. For details on installing theClick-to-Run version of Office, see [Office on Windows 10 in S mode](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
 
 If your users don't see the Teams Meeting add-in, they should follow these steps:
 
@@ -93,15 +93,11 @@ The meeting coordinates (the Teams join link and dial-in numbers) will be added 
 
 The Teams Meetings button in Outlook Web App appears as part of new event creation if the user is using Outlook on the web. To learn more, see [Outlook Blog](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral) .
 
-![Screenshot of Teams Meeting add-in in Outlook Web App.](media/teams-meeting-add-in-web.png)
-
 The meeting coordinates (the Teams join link and dial-in numbers) are added to the meeting invite after the user selects **Send**.  
 
 ## Teams Meeting add-in in Outlook mobile (iOS and Android)
 
 The Teams Meeting button shows up in latest builds of the Outlook iOS and Android app.
-
-![Screenshot of Teams Meeting add-in in Outlook mobile.](media/teams-meeting-add-in-mobile.png)
 
 The meeting coordinates (the Teams join link and dial-in numbers) are added to the meeting invite after the user selects **Send**.  
 

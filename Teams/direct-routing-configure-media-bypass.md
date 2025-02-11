@@ -1,7 +1,7 @@
 ---
 title: "Configure media bypass with Direct Routing"
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.reviewer: 

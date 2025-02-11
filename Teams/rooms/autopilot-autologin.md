@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
-ms.date: 03/20/2024
+ms.date: 1/27/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -54,17 +54,17 @@ To successfully deploy Microsoft Teams Rooms consoles, verify that these prerequ
    1. For the Teams Management Pro portal, the account has the Teams Rooms Pro Manager permissions.
 
 3. You must [Set up Windows automatic Intune enrollment](/autopilot/tutorial/self-deploying/self-deploying-automatic-enrollment#set-up-windows-automatic-intune-enrollment).
-4. You must Microsoft Entra join devices. Autopilot self-deploying mode is not supported for Microsoft Entra hybrid join devices.
+4. You must join Microsoft Entra devices. Autopilot self-deploying mode is not supported for Microsoft Entra hybrid join devices.
 5. You must create and set up the required resource accounts. See, [Create a resource account](/microsoftteams/rooms/create-resource-account).
 6. You must be only deploying Microsoft Teams Rooms on Windows consoles with Windows 11 installed. See, [Teams Rooms Windows support](/microsoftteams/rooms/rooms-lifecycle-support).
 
 ## Step 2: Registering Teams Rooms consoles using Windows Autopilot
 
-To register your Teams Rooms consoles for your organization, you can use Windows Autopilot device registration to collect the hardware identity of your consoles using hardware hashes and having this information in a comma-separated-values (CSV) file, and the uploading it to Intune. See [Register devices as Autopilot
+To register your Teams Rooms consoles for your organization, you can use Windows Autopilot device registration to collect the hardware identity of your consoles using hardware hashes and having this information in a comma-separated-values (CSV) file, and then uploading it to Intune. See [Register devices as Autopilot
 devices](/autopilot/tutorial/self-deploying/self-deploying-register-device).
 
 > [!IMPORTANT]
-> For Teams Rooms on Windows consoles, it is required that the GroupTag has the prefix **MTR-ConsoleName**. You can easily do this by adding the GroupTag to the .csv file described [here](/autopilot/add-devices#ensure-that-the-csv-file-meets-requirements) or entering the prefix and console name in the **Group name** field by adding it using the Microsoft Partner Center.
+> For Teams Rooms on Windows consoles, it is required that the GroupTag has the prefix **MTR-**. You can easily do this by adding the GroupTag to the .csv file described [here](/autopilot/add-devices#ensure-that-the-csv-file-meets-requirements) or entering the prefix and console name in the **Group name** field by adding it using the Microsoft Partner Center.
 
 This GroupTag field is critical for the Teams Pro Management portal so it can tell the difference between the Teams Rooms consoles and other devices that are registered with Windows Autopilot. The GroupTag field is also useful when you're using dynamic device groups.
 
@@ -172,7 +172,7 @@ To assign an account to an Autopilot device, the device must have an Autopilot p
 1. Select a device from the list.
 2. Select **Assign account**.
 3. On the **Device selection** page, the device is preselected. Select **Next**.
-4. On the **Account selection** page, select the account you want to use on this device, then elect **Next**.
+4. On the **Account selection** page, select the account you want to use on this device, then select **Next**.
 5. On the **Configuration** page:
     - Enter the credentials if manual was selected.
     - Generate password automatically. This sets a password for the account.
@@ -251,9 +251,9 @@ To start the Autopilot deployment process on the console that is Autopilot regis
 
 **Question** Why does the console not automatically login after resetting the console?
 
-**Answer** If the console has not completed Windows Autopilot provisioing before, a Windows reset is required. It is recommended to reset to a factory image. A simple reset initiated through the Teams app will not reset Windows. 
+**Answer** If the console has not completed Windows Autopilot provisioning before, a Windows reset is required. It is recommended to reset to a factory image. A simple reset initiated through the Teams app will not reset Windows. 
 
-If the device succesfully completed Windows Autopilot provisioning and the Teams app fails to login, check the respective device in the Pro Management portal and verify the **Provisioing status** shows as **Ready**.
+If the device successfully completed Windows Autopilot provisioning and the Teams app fails to log in, check the respective device in the Pro Management portal and verify the **provisioning status** shows as **Ready**.
 
 **Question** Can I use Autopilot to EntraID join the device into one tenant and manually log in the Teams Room app to a resource account from another tenant?
 

@@ -1,7 +1,7 @@
 ---
 title: Teams dial pad configuration
-author: mkbond007
-ms.author: mabond
+author: sfrancis206
+ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: cbland
 ms.date: 05/21/2024

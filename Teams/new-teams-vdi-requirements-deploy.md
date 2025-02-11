@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 05/09/2024
+ms.date: 01/14/2025
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -27,12 +27,12 @@ This article describes the requirements and limitations of using the new Microso
 
 ## Important announcement for classic Teams for VDI
 
-The **classic Teams for VDI** will reach end of support on **October 1, 2024**, and end of availability on **July 1, 2025**. For more information, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
+The **classic Teams for VDI** reached end of support on **October 1, 2024**, and end of availability on **July 1, 2025**. For more information, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
 
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
 >[!Note]
->New Teams for VDI is now generally available for customers in public clouds, GCC, GCC High and DoD government cloud.
+>New Teams for VDI is now generally available for customers in public clouds, GCC, GCC High, and DoD government cloud.
 
 ## Requirements
 
@@ -41,14 +41,14 @@ In addition, virtual machines must meet the minimum requirements listed here:
 
 |Requirement |Version|
 |:-----|:-----|
-|Windows|- Windows 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app) </br>- Windows Server 2019 (10.0.17763) </br>- Windows Server 2022 (20348.2402) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
+|Windows|- Windows 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app) </br>- Windows Server 2019 (10.0.17763) </br>- Windows Server 2022 (20348.2402) or higher</br>- -Windows Server 2025 (26100.2886) or higher, in public preview</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle. Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the **Show Notification Banners** setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
 |Exclude antivirus and DLP|Add new Teams to antivirus and DLP applications so Teams can start correctly. </br>Learn more: [Exclude antivirus and DLP applications from blocking Teams](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp)|
 
 > [!NOTE]
-> Support for Microsoft Teams and Microsoft 365 Apps is defined by the [Modern Lifecycle Policy](/lifecycle/policies/modern), which requires customers maintain an up-to-date configuration to stay supported. End-of-support dates for Windows Server 2019 and Windows Server 2022 are October 2025 and October 2026 respectively. For further information, please check [this link](https://go.microsoft.com/fwlink/?linkid=2274805).
+> Support for Microsoft Teams and Microsoft 365 Apps is defined by the [Modern Lifecycle Policy](/lifecycle/policies/modern), which requires customers maintain an up-to-date configuration to stay supported. End-of-support dates for Windows Server 2019 and Windows Server 2022 are October 2025 and October 2026 respectively. For further information, check [this link](https://go.microsoft.com/fwlink/?linkid=2274805).
 
 ## Virtualization provider requirements
 
@@ -120,7 +120,7 @@ Citrix Virtual Delivery Agent (VDA):
 
 - 2203 LTSR (and any CU)
 - 2212 CR
-- 1912 CU6 (but latest CU recommended - please note App Sharing is not supported on 1912)
+- 1912 CU6 (but latest CU recommended - App Sharing is not supported on 1912)
 
 In addition, you must deploy the following registry key on the VDA for the new Teams client to be optimized:
 
@@ -148,7 +148,7 @@ To learn more on the latest requirements and instructions, including how to conf
 To deploy the new Microsoft Teams client to your organization, select one of the following options.
 
 >[!IMPORTANT]
->You must use the latest version of the bootstrapper.exe. If you have downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
+>You must use the latest version of the bootstrapper.exe. If .exe was already downloaded, check **Properties > Details > Product version** for your version and compare it to the properties on the latest download.
 
 > [!NOTE]
 > Make sure you have these KBs in your system, as they address many [policy settings restricting download and installation](/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues#policy-settings-restricting-download--install) of new Teams.
@@ -189,6 +189,9 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 
    :::image type="content" source="media/new-teams-bulk-offline-unc.png" alt-text="offline location using unc":::
 
+> [!NOTE]
+> Teamsbootstrapper.exe logs are located in C:\WINDOWS\Temp\teamsprovision.log.xxxxxxxx.
+
 ### Option 2: Install both apps 'side by side'
 
 Let the user switch between them by using the toggle on the top left of the Teams UI.
@@ -201,7 +204,7 @@ If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies.":::
 
 > [!IMPORTANT]
-> The 'side by side' method is only supported in persistent environments. Classic Teams 1.7.00.7956 or higher will suppress the app switcher toggle irrespective of the Teams Admin Center policy value when classic Teams is running in a non-persistent environment, where non-persistent is detected based on the installation folder of classic Teams MSI, C:\Program Files (x86).
+> The 'side by side' method is only supported in persistent environments. Classic Teams 1.7.00.7956 or higher suppresses the app switcher toggle irrespective of the Teams Admin Center policy value when classic Teams is running in a non-persistent environment, where non-persistent is detected based on the installation folder of classic Teams MSI, C:\Program Files (x86).
 
 ## Classic Teams versus new Teams installers in VDI environments
 
@@ -241,13 +244,13 @@ For Windows Server 2019, the only supported installation method is:
 Dism /Online /Add-ProvisionedAppxPackage /PackagePath:<MSIX package path> /SkipLicense
 ```
 
-Make sure sideloading is enabled, and that WebView2 is installed. See 'Requirements' section above.
+Make sure sideloading is enabled, and that WebView2 is installed. See the [Requirements](#requirements) section.
 
 The /SkipLicense command is needed because the MSIX package isn't considered a "Store Package" (since it wasn't downloaded from the store). Therefore, for the Dism installation command to succeed, you need to enable this policy as well during installation time:
 Computer Configuration > Administrative Templates > Windows Components > App Package Deployment > **Allow all trusted apps to install**.
 
 > [!IMPORTANT]
-> `AllowAllTrustedApps` must be enabled after the new Teams package is successfully staged in the golden image. Otherwise, the registration of the package to each user (which happens only on login) will fail and users wont be able to launch the app.
+> `AllowAllTrustedApps` must be enabled after the new Teams package is successfully staged in the golden image. Otherwise, the registration of the package to each user (which happens only on login) fails and users aren't able to launch the app.
 
 Known limitations:
 
@@ -263,10 +266,10 @@ For Outlook to properly display presence status, the following steps are require
 1. Install [KB5035849](https://support.microsoft.com/topic/march-12-2024-kb5035849-os-build-17763-5576-719f5f8d-51c6-43f0-a612-1c15802fed06) March 2024 cumulative update from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=2024-03%20Cumulative%20Update%20for%20Windows%20Server%202019%20for%20x64-based%20Systems%20(KB5035849)) or WSUS for Enterprises.
 1. Install machine-wide (ALLUSERS=1) the '[MSTeamsNativeUtility.msi](https://statics.teams.cdn.office.net/evergreen-assets/DesktopClient/MSTeamsNativeUtility.msi)'.
 1. Reboot the virtual machine.
-1. Install new Teams 24033.811.2738.2546 or higher, using Dism as described in the section above.
+1. Install new Teams 24033.811.2738.2546 or higher, using Dism as described previously.
 
 > [!NOTE]
-> Steps 1, 2, 3, 4, and 5 are only required once. Subsequent golden image maintenances will not need these steps repeated.
+> Steps 1, 2, 3, 4, and 5 are only required once. Subsequent golden image maintenances don't need these steps repeated.
 
 > [!IMPORTANT]
 > Outlook must be started **after** new Teams is launched for presence to be shown correctly.
@@ -297,7 +300,7 @@ Value: 1
 
 The auto-start behavior of Teams is controlled by three components:
 
-1. By default, MSIX-based applications will not auto-start until there is a first launch, because the Windows OS doesn't auto-start packages in a provisioned state. An AppX registration is needed with user consent. After the first launch, users can go to **Settings** > **General** and fill the **Auto-start Teams** checkbox, or enable auto-start from the Windows Setting menu.
+1. By default, MSIX-based applications doesn't auto-start until there is a first launch, because the Windows OS doesn't auto-start packages in a provisioned state. An AppX registration is needed with user consent. After the first launch, users can go to **Settings** > **General** and fill the **Auto-start Teams** checkbox, or enable auto-start from the Windows Setting menu.
 
 2. If the "Auto-start Teams" checkbox is greyed out, it means a system-wide GPO is disabling this option for UWP apps:
 
@@ -309,7 +312,7 @@ The auto-start behavior of Teams is controlled by three components:
 "SupportUwpStartupTasks"=dword:00000000
 ```
 
-This registry setting causes the option to be unavailable in the operation systems under **Settings** > **Apps** > **Installed Apps**. In order to change this, create the regkeys with the values as shown below:
+This registry setting causes the option to be unavailable in the operation systems under **Settings** > **Apps** > **Installed Apps**. In order to change this setting, create the regkeys with the values as shown in this example:
 
 ```Registry editor
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
@@ -334,13 +337,13 @@ Restart the virtual machine to see the startup options active in the operative s
 |Disabled         |0      |The task is disabled.                                                    |
 |DisabledByUser   |1      |The task was disabled by the user. It can only be re-enabled by the user.|
 |EnabledByUser    |2      |The task is enabled.                                                     |
-|DisabledByPolicy |3      |The task is disabled by the administrator or group policy. Platforms that don't support startup taks also report DisabledByPolicy. |
+|DisabledByPolicy |3      |The task is disabled by the administrator or group policy. Platforms that don't support startup tasks also report DisabledByPolicy. |
 |EnabledByPolicy  |4      |The task is enabled by the administrator or group policy.                |
 
 You can learn more at [this link](/uwp/api/windows.applicationmodel.startuptaskstate#fields).
 
 > [!IMPORTANT]
-> If you're using non-persistent VDI, you must make sure the TeamsTfwStartupTask registry key is roamed. FSLogix ODFC containers won't roam this, so you must rely on your other profile management tools (VMWare DEM, AppSense, Citrix UPM) to persist this key.
+> If you're using non-persistent VDI, you must make sure the TeamsTfwStartupTask registry key is roamed. FSLogix ODFC containers don't roam this registry key, so you must rely on your other profile management tools (VMWare DEM, AppSense, Citrix UPM) to persist this key.
 
 ## Profile and cache location for new Teams Client
 
@@ -367,7 +370,7 @@ Make sure these folders and files are persisted for proper Teams functioning.
 
 **TeamsSharedConfig** stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
 
-The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as this could cause issues with the default meeting coordinates in the meeting templates inserted into Outlook.
+The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as persisting could cause issues with the default meeting coordinates in the meeting templates inserted into Outlook.
 
 >[!Important]
 >Microsoft recommends FSLogix 2210 HotFix 4 ([2.9.8884.27471](/fslogix/overview-release-notes#fslogix-2210-hotfix-4-29888427471)) in order to guarantee proper integration with the new Teams client in VDI. The following issues have been addressed on that release:
@@ -381,10 +384,10 @@ The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as th
 >- New Microsoft Teams wouldn't on-demand register during profile creation and wouldn't register during future sign-ins, despite being installed.
 >- User-based Group Policy settings would persist in the user's profile after the policy setting was removed or set to disabled.
 >
->*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
+>*Note:* Customers using Profile and ODFC, or just ODFC containers, still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
 >[!Note]
->[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) aren't supported with the new Teams client in VDI environments since they can't roam folders in AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams. Customers can continue to use Folder Redirection or Roaming User Profiles with a complementary product, such as FSLogix, Citrix Profile Manager, and VMware DEM, that can roam the Appdata\Local folders above.
+>[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) aren't supported with the new Teams client in VDI environments since they can't roam folders in AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams. Customers can continue to use Folder Redirection or Roaming User Profiles with a complementary product, such as FSLogix, Citrix Profile Manager, and VMware DEM, that can roam the Appdata\Local folders.
 
 > [!IMPORTANT]
 > Citrix recommends Citrix Profile Manager version 2402 or 2203 CU5, as those address new Teams registrations errors and "the parameter is incorrect" error when trying to launch the application.
@@ -395,14 +398,14 @@ The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as th
 
 #### Disk storage usage
 
-The new Teams app takes up about 50% less disk space than the classic version. To make it easier to distribute our client to Windows devices, we have added support for MSIX, which improves the dependability of installations and app updates, as well as reduces network bandwidth and disk space consumption. This packaging technology also shows the accurate disk space usage. Users may see larger disk usage than classic Teams in Windows settings, but the difference is mainly because the disk space related to Electron-based classic Teams is not fully and correctly shown.
+The new Teams app takes up about 50% less disk space than the classic version. To make it easier to distribute our client to Windows devices, support is added for MSIX, which improves the dependability of installations and app updates, as well as reduces network bandwidth and disk space consumption. This packaging technology also shows the accurate disk space usage. Users may see larger disk usage than classic Teams in Windows settings, but the difference is mainly because the disk space related to Electron-based classic Teams is not fully and correctly shown.
 
 #### Disk Footprint - Key folders and location
 
 - **App installer**: C:\Program Files\WindowsApps\MSTeams_[version]_[arch]__8wekyb3d8bbwe
   Includes the installation package, supports the ability to reset the app, and allows single instancing.
 - **User and app data**: C:\Users\<alias>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe
-  This includes code (Javascript bundles), code cache, browser caches, databases for user data (like conversations which scales based on usage), and web storage (from domains hosted within Teams, such as Sharepoint, Viva learning, Apps, and so on).
+  Includes code (Javascript bundles), code cache, browser caches, databases for user data (like conversations which scales based on usage), and web storage (from domains hosted within Teams, such as Sharepoint, Viva learning, Apps, and so on).
 
 The underlying folder structure is logically similar to Electron-based classic Teams. For non-persistent setups where storage footprint is a consideration, the following guidance applies:
 
@@ -422,13 +425,13 @@ The underlying folder structure is logically similar to Electron-based classic T
 |-------------------|---------|---------|---------|
 |**Service worker** |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\ Service Worker\CacheStorage </br>LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\Code Cache |Code and caching of Web/JS Scripts for the app to run. |- Reduced performance to download and load scripts on every app launch </br>- No offline access to app |
 |**IndexedDB**      |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\IndexedDB |Holds app and user data and is the recommended way to cache data at scale in a web app to improve responsiveness. |- Significantly higher app launch times as data (such as chat or channel conversations) must be pulled down, along with network usage as data needing to be downloaded and cached every time. </br>- The size of the data varies based on the user profile. </br>- Users might see **We’re setting things up for you** in the launch splash-screen. |
-|**Cache**          |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\Cache |Cache used and managed by the browser for the contents of all network calls that leave the app. Also known as Disk Cache. |For example, profile pictures in Teams are mostly cached in this storage by the browser. These will need to be downloaded again. |
+|**Cache**          |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\Cache |Cache used and managed by the browser for the contents of all network calls that leave the app. Also known as Disk Cache. |For example, profile pictures in Teams are mostly cached in this storage by the browser. These pictures need to be downloaded again. |
 
 Other than the folders in this section, we don't recommend excluding additional directories.
 
 ## New Teams and Outlook integration
 
-When the "Register the new Teams as the chat app for Microsoft 365" checkbox is selected under Settings > General > System, this lets the new Teams client integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP, etc.).
+When the "Register the new Teams as the chat app for Microsoft 365" checkbox is selected under Settings > General > System, this selection lets the new Teams client integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP, etc.).
 
 For example, Outlook goes through the discovery process outlined here to integrate with the default IM client application:  [Integrating IM applications with Office](/office/client-developer/shared/integrating-im-applications-with-office#discovering-the-im-application)
 
@@ -450,7 +453,7 @@ All new Teams files that are installed on the computer are signed, so IT admins 
 >[!Note]
 >In Windows Server or Windows 10/11 Multiuser environments, installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error *"Installation success or error status: 1625."*.
 
-This error is caused by GPOs affecting Windows Installer. This includes [**DisableUserInstalls**](/windows/win32/msi/disableuserinstalls), [**DisableMSI**](/windows/win32/msi/disablemsi), or AppLocker policies based on Publisher rule conditions, or a RuleCollection for MSI installs. In this case you must create an exception such as:
+This error is caused by GPOs affecting Windows Installer, and includes [**DisableUserInstalls**](/windows/win32/msi/disableuserinstalls), [**DisableMSI**](/windows/win32/msi/disablemsi), or AppLocker policies based on Publisher rule conditions, or a RuleCollection for MSI installs. In this case you must create an exception such as:
 
 - FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI"
 
@@ -605,32 +608,34 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 ## Features currently not available and known issues in VDI with the new Teams
 
+- Teams version 24335.208.3315.1951 fails to install on Windows Server 2019 with DISM error 15606 (0x3CF6) due to a change in the AppxManifest.xml. This issue is fixed on 25007.607.3371.8436.
+- In some scenarios, Citrix RemotePC users might experience a Teams crash and restart loop when using VDA 2411 and accessing Teams locally (not via HDX). Check CTX585013 for more details.
 - New Microsoft Teams doesn't on-demand register during FSLogix profile creation (even with HotFix 4), and doesn't register during future signins, despite being installed. The issue is caused by a race condition between Process Lifetime Manager (PLM) service and AppxSvc causing a transient failure when updating the package with error 0x80004001 (E_NOTIMPL). If the PLM service is not running, the new Teams registration fails.
-  - (In MSIX, Registration occurs on a per-user basis and begins when a user logs on. The OS will then load the preinstalled packaged app, creating user-specific app data, FTAs, and app tiles in the Start menu. This is done by the AppReadiness Service, which is aware of all preinstalled apps and requests the Appx Deployment Service (AppxSvc) deploy those packages.)
+  - (In MSIX, Registration occurs on a per-user basis and begins when a user logs on. The OS then loads the preinstalled packaged app, creating user-specific app data, FTAs, and app tiles in the Start menu. This action is done by the AppReadiness Service, which is aware of all preinstalled apps and requests the Appx Deployment Service (AppxSvc) deploy those packages.)
   - Customers hitting this error, even with FSLogix Hotfix 4, must deploy these KBs:
     - Windows 11 21H2 [KB5043067](https://support.microsoft.com/topic/september-10-2024-kb5043067-os-build-22000-3197-62287850-4f0d-4e4a-9fe8-b026bb1be994)
     - Windows Server 2022 [KB5042881](https://support.microsoft.com/topic/september-10-2024-kb5042881-os-build-20348-2700-5b548143-9613-4e5a-9454-8ed9be8b2bd2)
     - Windows Server 2019 [KB5043050](https://support.microsoft.com/topic/september-10-2024-kb5043050-os-build-17763-6293-66e9809a-1838-4474-a6a7-90d64f042f00)
-  - This bug has addressed with [KB5037849](https://support.microsoft.com/help/5037849) for Windows 10 (May 2024). The issue isn't present on Windows 11 22H2 or higher.
+  - This bug is addressed with [KB5037849](https://support.microsoft.com/help/5037849) for Windows 10 (May 2024). The issue isn't present on Windows 11 22H2 or higher.
 - New Teams fails to launch for users logging into single-user non-persistent Windows 10 virtual desktops, or the app isn't visible in the Start Menu, but the app might become visible and launches successfully fifteen minutes after logging in.
   - This issue is addressed in [KB5041582](https://support.microsoft.com/topic/august-29-2024-kb5041582-os-build-19045-4842-preview-f4c4d191-5457-475c-80ac-e1d43cf9c941)/[KB5041587](https://support.microsoft.com/topic/august-27-2024-kb5041587-os-builds-22621-4112-and-22631-4112-preview-9706ea0e-6f72-430e-b08a-878963dafe08) for Windows 10/11, and Teams 24215.1007.3082.1590 (or higher) - both components are needed.
-  - You might also need to exclude the following location from your roaming profile solution ( for FSLogix customers, as an example, via redirections.xml): `AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\TempState`
+  - You might also need to exclude the following location from your roaming profile solution (for FSLogix customers, as an example, via redirections.xml): `AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\TempState`
   - **NOTE** - The issue isn't seen in **multi-user** Windows 10 or 11. For Windows 2019, the StartMenuExperienceHost exclusion (`AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\TempState`) should be a workaround until a KB for that OS is published on Microsoft's October patch Tuesday (KB 5044277).
-- Customers installing new Teams on a golden image which later undergoes a sysprep to generalize it are failing to launch the app. This includes templates from Azure Image Gallery.
+- Customers installing new Teams on a golden image which later undergoes a sysprep to generalize it are failing to launch the app. This circumstance includes templates from Azure Image Gallery.
   - Users logging in to the provisioned virtual machines see the Teams icon greyed out in the start menu and clicking on it has no effect.
   - The AppX log in the Event Viewer has the error 0x80073CF1.
   - Running `Get-AppxPackage -name MsTeams -allusers` from an elevated PowerShell window shows that PackageUserInformation is in a **Paused state** for SID S-1-15-18 (LocalSystem). This error is not seen on W11 22H2 or higher. Install [KB5039299](https://support.microsoft.com/topic/june-25-2024-kb5039299-os-build-19045-4598-preview-d4e3e815-fdd8-465e-8144-42afa165efed) for Windows 10 [KB5040437](https://support.microsoft.com/topic/july-9-2024-kb5040437-os-build-20348-2582-5b28d9b8-fcba-43bb-91e6-062f43c7ec7c) for WS2022, and [KB5040431](https://support.microsoft.com/topic/july-9-2024-kb5040431-os-build-22000-3079-346db750-842d-41b8-a55a-103cc04d175a) for W11 21H2.
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365 (This issue is now fixed on RD Client 1.2.5105 and Redirector Service
 [1.50.2402.29001](/azure/virtual-desktop/whats-new-webrtc#updates-for-version-150240229001)).
 - Screen sharing from chat for Citrix when using Workspace app 2311 only.
-- msteams_autostart.exe "The parameter is incorrect": In non-persistent environments that use FSLogix (any version prior to 2210 HotFix 4) or Citrix Profile Manager profile containers, when new Teams attempts to autostart or a user tries to launch Teams from the Start menu, it throws the error: "The parameter is incorrect." The frequency and reproducibility of the error varies depending on the environment and especially the antivirus software being used (SentinelOne, Palo Alto, Trend Micro, Bitdefender, CrowdStrike, and so on.) and exclusions in place. This issue is now fixed on FSLogix 2210 HotFix 4. Customers facing this issue with Citrix Profile Manager are must upgrade to CPM 2402 or 2203 CU5.
-  - "The parameter is incorrect" error can be caused by other file system drivers. Running fltmc from an elevated command window will list the drivers. Two Citrix drivers (UPMAction and upmjit) can cause the error, even if you're only using FSLogix HotFix 4 and don't have Citrix Profile Manager. This is because Citrix VDA installers typically install profilemgt_x64.msi by default for Citrix Director monitoring of logon time counters. Removing that MSI can fix "the parameter is incorrect" error.
+- msteams_autostart.exe "The parameter is incorrect": In non-persistent environments that use FSLogix (any version before 2210 HotFix 4) or Citrix Profile Manager profile containers, when new Teams attempts to autostart or a user tries to launch Teams from the Start menu, it throws the error: "The parameter is incorrect." The frequency and reproducibility of the error varies depending on the environment and especially the antivirus software being used (SentinelOne, Palo Alto, Trend Micro, Bitdefender, CrowdStrike, and so on.) and exclusions in place. This issue is now fixed on FSLogix 2210 HotFix 4. Customers facing this issue with Citrix Profile Manager are must upgrade to CPM 2402 or 2203 CU5.
+  - "The parameter is incorrect" error can be caused by other file system drivers. Running fltmc from an elevated command window lists the drivers. Two Citrix drivers (UPMAction and upmjit) can cause the error, even if you're only using FSLogix HotFix 4 and don't have Citrix Profile Manager. This is because Citrix VDA installers typically install profilemgt_x64.msi by default for Citrix Director monitoring of logon time counters. Removing that MSI can fix "the parameter is incorrect" error.
 - New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is **not** visible in the Start Menu.
   - Admins don't experience this issue - after installing new Teams on the golden image they can launch it successfully.
-  - After sealing the golden image and deploying it at scale (with provisioning tools like Citrix MCS/PVS or VMware Instant-Clones), users log into the virtual machines and click on the new Teams icon, but aren't able to launch the app. The issue is caused by a failed registration of the MSIX package at the user level with different profile management software (FSLogix prior to 2210 HotFix 4, Citrix CPM 2308 or 2311 **but not on 2402**, Ivanti UEM, and so on), even though the staging of the package was successful (the OS stored the package’s contents on the disk in the %ProgramFiles%\WindowsApps directory). This issue can be confirmed by running Get-AppxPackage -name MsTeams for the affected users. Running this code will return an empty output.
+  - After sealing the golden image and deploying it at scale (with provisioning tools like Citrix MCS/PVS or VMware Instant-Clones), users log in to the virtual machines and click on the new Teams icon, but aren't able to launch the app. The issue is caused by a failed registration of the MSIX package at the user level with different profile management software (FSLogix before 2210 HotFix 4, Citrix CPM 2308 or 2311 **but not on 2402**, Ivanti UEM, and so on), even though the staging of the package was successful (the OS stored the package’s contents on the disk in the %ProgramFiles%\WindowsApps directory). This issue can be confirmed by running Get-AppxPackage -name MsTeams for the affected users. Running this code returns an empty output.
   - If Get-AppxPackage -name MsTeams -allusers is now run from an elevated powershell command window, the output shows that Teams is registered (see line PackageFullName) and the Status is **OK**.
-  - This issue has been fixed in FSLogix 2210 HotFix 4.
-- Teams meetings can't be launched when selecting a link from Outlook. There's an authentication prompt (Access to '{tenant}' tenant is denied) when users attempt to join an **external** meeting. This has been fixed on New Teams 24091.214.2846.1452.
+  - This issue is fixed in FSLogix 2210 HotFix 4.
+- Teams meetings can't be launched when selecting a link from Outlook. There's an authentication prompt (Access to '{tenant}' tenant is denied) when users attempt to join an **external** meeting. This is fixed on New Teams 24091.214.2846.1452.
 - The PowerShell window shows after New Teams is provisioned. If the virtual machine's OS has the right KB fixes (see [Deploy the new Microsoft Teams client](#deploy-the-new-microsoft-teams-client), the second bullet in the Notes section), then Admins can delete this registry key and the Powershell window won't show anymore:
 
  ```powershell
@@ -669,7 +674,7 @@ New Teams for Web isn't supported in VDI environments, so performance and reliab
 
 ## Features not supported in VDI
 
-The following features aren't supported in either classic Teams or new Teams when using the WebRTC-based optimization. Most of these limitations have been addressed with the new SlimCore-based optimization. Check out the [Feature list with the new optimization](vdi-2.md#feature-list-with-the-new-optimization) section of our VDI 2.0 article for more information.
+The following features aren't supported in either classic Teams or new Teams when using the WebRTC-based optimization. Most of these limitations are addressed with the new SlimCore-based optimization. Check out the [Feature list with the new optimization](vdi-2.md#feature-list-with-the-new-optimization) section of our VDI 2.0 article for more information.
 
 - QoS.
 - 1080p.
@@ -677,14 +682,14 @@ The following features aren't supported in either classic Teams or new Teams whe
 - Teams Premium features (End to End Encryption, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations).
 - Avatars.
 - Gallery View 3x3 and 7x7.
-- Noise Suppression (except for Azure Virtual Desktop/W365, where noise suppression is on by default, but confirmation isn't shown in Teams client UI. This is by design).
+- Noise Suppression (except for Azure Virtual Desktop/W365, where noise suppression is on by default, but confirmation isn't shown in Teams client UI. This behavior is by design).
 - Zoom In / Out.
 - Location Based Routing.
 - Media Bypass.
 - HID (Citrix only).
 - Share System Audio (VMware only).
 - Broadcast and live event producer and presenter roles.
-- Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
+- Cross cloud anonymous join in Government Clouds (GCC, GCC High, and DoD).
 - **Record video clip** doesn't capture screen share.
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share.
 - Teams calls drop on a local machine that has an HID peripheral connected if a user launches a virtual desktop from that local machine and logs into Teams (Azure Virtual Desktop/W365 and VMware only).

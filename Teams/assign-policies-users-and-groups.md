@@ -4,23 +4,23 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.reviewer: tomkau, ritikag, jastark
-ms.date: 06/25/2024
+ms.date: 02/09/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-  - M365-collaboration
+- M365-collaboration
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 ms.custom:
-  - has-azure-ad-ps-ref, azure-ad-ref-level-one-done
+- has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 search.appverid: MET150
 description: Learn the different ways to assign policies to users and groups in Microsoft Teams.
 f1keywords: 
-  - ms.teamsadmincenter.bulkoperations.users.edit
-  - ms.teamsadmincenter.bulkoperations.edit
+- ms.teamsadmincenter.bulkoperations.users.edit
+- ms.teamsadmincenter.bulkoperations.edit
 ---
 
 # Assign policies to users and groups
@@ -33,7 +33,7 @@ Before reading, be sure you've read [Assign policies in Teams - getting started]
 
 This video shows how to assign policies to multiple users.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbM?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=9e9c810d-9eb6-46f2-88f4-f5a25f986f0e]
 
 ## Assign a policy to individual users
 
@@ -84,6 +84,9 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 To learn more, read [Manage policies via PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell).
 
 ## Assign a policy to a group
+
+> [!IMPORTANT]
+> Groups with the `HiddenGroupMembership` setting enabled can't use group policy assignment. Class Teams have this setting enabled by default.
 
 Policy assignment to groups lets you assign a policy to a group of users, such as a Microsoft 365 group, a security group, or a distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
@@ -150,7 +153,7 @@ To change the ranking of a group assignment, you need to remove the group policy
 
 This video shows the steps to create and assign a custom meeting policy to a group.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1ca7M?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=10211f80-e38c-47e1-a5a2-2bc3b45ab508]
 
 ### Install and connect to the Microsoft Teams PowerShell module
 
@@ -367,17 +370,17 @@ When you unassign policies in bulk, you're removing policy assignments that were
  You can unassign policies in bulk from the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
 1. Go to **Users** > **Manage users**.
-2. In the top right corner of the page, select **Unassign policies in bulk** from the **Actions** drop-down menu.
+1. In the top right corner of the page, select **Unassign policies in bulk** from the **Actions** drop-down menu.
 
     ![Manage users page in the Teams admin center.](media/manage-users-unassign-policies.png)
-
+   
     > [!NOTE]
     > You can also unassign policies from the individual policy pages by choosing a policy and selecting **Manage users**.
 
-3. Select a policy type.
+1. Select a policy type.
 
     ![Unassign policies in bulk page in the Teams admin center.](media/unassign-policies-page.png)
-
+   
 4. Choose the policy that you want to reassign and select **Load data** to get the number of users who are currently assigned to that policy.
 
     > [!IMPORTANT]

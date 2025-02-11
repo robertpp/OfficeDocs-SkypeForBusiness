@@ -74,3 +74,5 @@ To use QoS to manage meeting traffic, read [Set how you want to handle real-time
 [Manage call and meeting quality in Teams](quality-of-experience-review-guide.md)
 
 [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
+
+[Best practice configurations dashboard for Microsoft Teams meetings](best-practice-dashboard.md)

@@ -2,8 +2,8 @@
 title: "Monitor Direct Routing"
 ms.reviewer: 
 ms.date: 07/11/2018
-ms.author: crowe
-author: CarolynRowe
+ms.author: scottfrancis
+author: sfrancis206
 manager: pamgreen
 audience: ITPro
 ms.topic: troubleshooting

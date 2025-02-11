@@ -43,9 +43,9 @@ Participants can be users in your organization, or if you allow it, people outsi
 
 The following types of meetings are available:
 
-- Private meetings - meetings that individual users schedule with specific people
-- Channel meetings - meetings that are visible to everyone in a channel
-- Meet now meetings - a method of starting an unscheduled meeting with people through a chat
+- Private meetings - Meetings that individual users schedule with specific people.
+- Channel meetings - Meetings that are visible to everyone in a channel.
+- Meet now meetings - A method of starting an unscheduled meeting with people through a chat.
 
 To specify which users in your organization can start or schedule meetings, see [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md).
 
@@ -59,7 +59,7 @@ For a complete list of meeting policies, see [Teams setting and policies referen
 
 ## Customization with Teams Premium
 
-With a Teams Premium license, you can extend your organization's visual identity and compliance requirements across the meeting experience by adding logos and backgrounds that can be displayed in the meeting’s pre-join screen, lobby, and during the meeting experience. To learn more, see [Custom meetings overview](custom-meetings-overview.md).
+With a Teams Premium license, you can extend your organization's visual identity and compliance requirements across the meeting experience by adding logos and backgrounds that can be displayed in the meeting's pre-join screen, lobby, and during the meeting experience. To learn more, see [Custom meetings overview](custom-meetings-overview.md).
 
 ## Audio Conferencing for meetings
 
@@ -125,9 +125,12 @@ Teams admins and organizers have different policies and settings to control the 
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
-|[Anonymous participants](anonymous-users-in-meetings.md)|Manage how anonymous attendees access Teams meetings in your org.|No control |
+|[Announce when callers join or leave](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)|Control whether an entry and exit announcement is played when participants who dialed into the meeting join or leave.|No control|
+|[Anonymous participants](anonymous-users-in-meetings.md)|Manage how anonymous attendees access Teams meetings in your org.|**(Public preview)** can prevent anonymous users from joining specific meetings if admin allows.|
+|[Anonymous users can join a meeting after verifying (Teams Premium- Public preview)](anonymous-users-in-meetings.md#anonymous-users-can-join-a-meeting-after-verifying-with-an-email-code-public-preview-for-teams-premium)|**(Public preview)** Manage whether anonymous users can verify themselves with a one-time passcode to join meetings in your org.|**(Public preview)** If admin allows, can require anonymous to verify themselves with a one-time passcode to join specific meetings.|
 |[Attendance and engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
 |[Audio and video](meeting-policies-audio-and-video.md)|Can set audio and video modes and network settings.|Can allow or prevent attendee mic and cameras.|
+|[Best practice configurations dashboard](best-practice-dashboard.md)|Manage and monitor your environment for Teams meetings and highlight locations that aren't following best practice configurations.|No control.|
 |[Breakout rooms](https://support.microsoft.com/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461)|No control|Can create and manage breakout rooms.|
 |[CART captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47)|No control|Can set up and offer Communication access real-time translation(CART) captioning to participants instead of the Microsoft Teams built-in live captions that are automatically generated.|
 |[Channel meeting scheduling](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|No control|Can schedule meetings from channels.|
@@ -136,7 +139,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes.|No control|
 |[Compliance recording](teams-recording-policy.md)|Can implement an admin policy for automatic recording.|No control|
 |[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
-|[Convenience recording](meeting-recording.md)|Can allow or prevent meeting recording and set recording expiration time.|If the admin enables recording, organizers can manage who can record (Teams Premium) and automatic recording.|
+|[Convenience recording](meeting-recording.md)|Can allow or prevent meeting recording and set recording expiration time.|If the admin allows recording, organizers can manage who can record (Teams Premium) and automatic recording.|
 |[Custom backgrounds (Teams Premium)](custom-meeting-backgrounds.md)|Can upload images for your users to display in the background of their video feed during meetings.|Can use backgrounds the admin uploaded.|
 |[Decorate my background (Teams Premium)](https://adoption.microsoft.com/microsoft-teams-premium/decorate-your-background/)|No control|Organizers and participants can use AI to decorate their backgrounds.|
 |[eCDN for view-only meetings](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for organizers. Admins can also turn off the Microsoft eCDN for view-only meeting organizers with a Premium license and switch to a partner eCDN provider.| No control|
@@ -146,15 +149,17 @@ Teams admins and organizers have different policies and settings to control the 
 |[Hide attendee names (Teams Premium)](hide-attendee-names.md) |Can control whether organizers with a Premium license can hide the names and photos of attendees from other attendees in the stage, roster, and chat. | Can hide attendee names during meetings to protect identities and privacy. |
 |[Intelligent meeting recap (Teams Premium)](/microsoftteams/privacy/intelligent-recap) | Give your users a more personalized rundown of their meetings with intelligent meeting recap.|No control|
 |[Join verification check](join-verification-check.md) | Can require human verification checks for anonymous users to join meetings in your org.|No control|
-|[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e) |No control |Can enable language interpretation settings for a meeting, add interpreters before the meeting, and designate interpreters during the meeting.|
+|[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e) |No control |Can turn on language interpretation settings for a meeting, add interpreters before the meeting, and designate interpreters during the meeting.|
 |[Limit presenter role permissions](presenter-role-reduction.md) |Can limit presenter role permissions for the tenant. |No control|
+|[Live translated captions (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated captions for their meetings. |Can turn on live translated captions for themselves; attendees can always turn on live translated captions. |
 |[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their meetings. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 |[Manage what attendees see (Teams Premium)](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|No control|Can decide whose avatars or video feeds to spotlight during the town hall.|
 |[Manage who can present and request control](meeting-who-present-request-control.md) |Control who can present in meetings and whether participants and external participants can request control of the presentation.|Can manage who can present in their meeting options.|
 |[Meeting join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings.|Can choose meeting join and lobby settings for each meeting.|
 |[Meeting themes (Teams Premium)](meeting-themes.md)|Can define meeting themes, including colors, images, and logo.|Can turn the admin-defined theme on or off.|
 |[Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)|Can control the default values and enforce specific values for Microsoft 365 Copilot in Teams meetings and events in organizers’ meeting options.|Can control whether Microsoft 365 Copilot in Teams meetings and events is used **Only during the meeting**, **During and after the meeting**, or **Off**. Attendees can use Copilot if they have a Copilot Microsoft 365 Copilot license.|
-|[Prevent copying or forwarding of chat (Teams Premium)](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-of-chat)|Can prevent copying or forwarding of chat contents by using a meeting template or sensitivity label.|Can manage options if admin doesn't lock label or template settings. |
+|[Outlook add-in](outlook-add-in-authentication-policy-requirements.md)|Can control whether users can schedule meetings from Outlook.|If admin allows, can schedule meetings from Outlook.|
+|[Prevent copying or forwarding chat, captions, and transcripts (Teams Premium)](manage-chat-sensitive-meetings.md#prevent-copying-or-forwarding-chat-captions-and-transcripts)|Can prevent copying or forwarding of chat contents by using a meeting template or sensitivity label.|Can manage options if admin doesn't lock label or template settings. |
 |[Prevent users from joining external meetings](external-meeting-join.md)|Can control which types of Microsoft Teams meetings your users can join.|No control|
 |[Prevent users from sharing content in external meetings (Teams Premium)](block-external-content-share.md)|Can control which types of external Microsoft Teams meetings your users share content in.|No control|
 |[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in meetings.|Can decide if Q&A is available for their meetings if allowed by admins.|
@@ -162,15 +167,16 @@ Teams admins and organizers have different policies and settings to control the 
 |[Reactions](manage-reactions-meetings.md)| Manage whether reactions can be used in meetings created by organizers with this policy. |Can control whether reactions can be used in their meetings. |
 |[Recording storage and permissions](manage-reactions-meetings.md)| Manage recording storage and permissions. |Permissions depend on admin settings. |
 |[Real time telemetry](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md)|Can look at your users’ scheduled meetings and see audio, video, content sharing, and network-related issues. You can use this telemetry to investigate these issues during meetings and troubleshoot in real time.|No control|
-|[Restrict who can record (Teams Premium)](manage-meeting-recording-options.md#manage-who-can-record-and-transcribe-meetings)| Can restrict which users can record by using a meeting template or sensitivity label. |Can manage options if admin doesn't lock label or template settings. |
+|[Restrict who can record and transcribe (Teams Premium)](manage-meeting-recording-options.md#manage-who-can-record-and-transcribe-meetings-teams-premium)| Can restrict which users can record by using a meeting template or sensitivity label. |Can manage options if admin doesn't lock label or template settings. |
 |[RTMP-In (Teams Premium)](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their meetings. |Can produce their Teams meetings directly from an external hardware or software-based encoder to integrate different types of media. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |
 |[Scheduling](manage-who-can-schedule-meetings.md)|Can define who can schedule private and channel meetings.|Can schedule meetings if allowed by admin.|
 |[Sensitivity labels](manage-who-can-schedule-meetings.md)|Can create sensitivity labels for Teams meetings.|Can apply your sensitivity label to meeting invites from Outlook or Teams. Recipients in your organization see the sensitivity label and all recipients see any headers or footers as configured content markings. Optionally, the meeting invite can be encrypted so only authorized people can see it and access the meeting link. Usage rights can further restrict access, for example, preventing the invite from being forwarded.|
 |[Speaker Coach](meeting-speaker-coach.md)|Manage whether users in your organization can use Speaker Coach during meetings and events.|No control- all participants can use Speaker Coach if the admin allows.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
+|[Video effects](meeting-policies-audio-and-video.md#participants-can-use-video-effects)|Control whether users can customize their video background.|If the admin allows, organizers and meeting participants can blur their video background, choose from the default set of images, or upload custom images to use as their background.|
 |[View-only](view-only-meeting-experience.md)|Allow organizers to host large meetings where after the meeting reaches around 900 users, additional attendees join with a view-only experience.|No control|
 |[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in meetings and calls.|Can enable voice isolation.|
-|[Watermarks (Teams Premium)](watermark-meeting-content-video.md)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if allowed by the admin|
+|[Watermarks (Teams Premium)](watermark-meeting-content-video.md)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if the admin allows.|
 
 ## Related articles
 

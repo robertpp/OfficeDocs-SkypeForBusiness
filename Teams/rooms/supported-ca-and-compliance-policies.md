@@ -61,15 +61,15 @@ The following list includes the supported Conditional Access policies for Teams 
 | Use Conditional Access App Control      | Not supported   | Not Supported                | Not supported 
 | Sign-in frequency | Supported| Supported  | Supported |
 | Persistent browser session    | Not supported     | Not supported   | Not supported    |
-| Customize continuous access evaluation  | Not supported    | Not supported   | Not supported  |
+| Continuous access evaluation  | Not supported    | Not supported   | Not supported  |
 | Disable resiliency defaults | Not supported | Not supported  | Not supported 
 | Require token protection for sign-in sessions (Preview)     | Not supported      | Not supported    | Not supported
 
 > [!NOTE]
-> Using Conditional Access policies with Sign-in frequency configured, will make all Teams Android devices periodicly sign out.  This is expected behavior.
+> Using Conditional Access policies with Sign-in frequency configured, will make all Teams Android devices periodically sign out.  This is expected behavior.
 
 > [!NOTE]
-> Authentication Strength including but not limited to, FIDO2 Security keys, is not supported for use with Conditional Access policys that will affect all Teams Devices.
+> Authentication Strength including but not limited to, FIDO2 Security keys, is not supported for use with Conditional Access policies that will affect all Teams Devices.
 
 ## Supported device compliance policies 
 

@@ -154,9 +154,26 @@ Applications= {
 |--------------------------------------|---------|
 |Classic Teams configuration           |"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = **TEAMS10;**</br>} |
 |New Teams configuration with old name |"/Applications/Microsoft Teams **(work or school).app**"</br>=     {</br>"Application ID" = **TEAMS21**;</br>} |
-|Serving multiple configurations       |"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS10**;;</br>}</br>"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS21**;</br>} |
+|Serving multiple configurations of the same path but with different app IDs      |"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS10**;</br>}</br>"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS21**;</br>} |
 
-- A special case might happen when the registration is correct, but your application is still called **Microsoft Teams (work or school).app**. When this case happens, you need to manually download and install the [latest version of Teams](https://aka.ms/getteams). If someone don't have permission to install software, contact an administrator to perform the installation. After the installation is done, you'll continue to receive updates automatically.
+#### Update issues caused by name mismatch
+
+A special case might occur when the registration is correct, but your application is still called Microsoft Teams (work or school).app. This issue mostly impacts early adopters and dogfooders. In this situation, you have two options:
+
+1. Manually download and install the [latest version of Teams](https://aka.ms/getteams). If you don't have permission to install software, contact an administrator to perform the installation. After the installation is done, you'll continue to receive updates automatically.
+2. Add an additional registration for MAU preferences. Use the following registration to address the name mismatch:
+
+```xml
+/Applications/Microsoft Teams.app = {
+    "Application ID" = TEAMS21;
+}
+/Applications/Microsoft Teams (work or school).app = {
+    "Application ID" = TEAMS21;
+}
+/Applications/Microsoft Teams (work preview).app = {
+    "Application ID" = TEAMS21;
+}
+```
 
 ## Updates to Teams on VDI
 

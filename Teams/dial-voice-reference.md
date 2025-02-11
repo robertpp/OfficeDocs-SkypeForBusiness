@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 11/22/2024
+ms.date: 1/29/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -34,9 +34,9 @@ Dial by Name or Extension is an Auto attendant feature that enables callers to r
 
 ## Searching for users
 
-Teams users who can be reached by using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. For multi-national organizations, Dial by Name finds and transfers callers to Microsoft Teams users who are in different countries or regions.
+Teams users who can be reached by using Dial by Name or Dial by Extension **aren't required to have a phone number or have Calling Plans assigned to them**. For multi-national organizations, Dial by Name and Dial by Extension finds and transfers callers to Microsoft Teams users who are in different countries or regions. To enable search for users, you also need to have an [appropriately configured dial plan](what-are-dial-plans.md) for your users.
 
-Teams users who can be reached by using Dial by Extension **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. You also need to have an appropriately configured dial plan for your users. For multi-national organizations, Dial by Extension finds and transfers callers to Microsoft Teams users who are in different countries or regions. Teams Assigned Phone number, LineURI, isn't supported for Auto attendant Dial by Extension.
+Teams Assigned Phone number, LineURI, isn't supported for Auto attendant Dial by Extension.
 
 Given the prerequisites involved, Dial by Name or Extension must be explicitly enabled when configuring an Auto attendant.
 
@@ -138,7 +138,7 @@ Users you want to make available for **Dial By Extension** need to have an exten
 - HomePhone (AD) - legacy field 
 - OtherTelephone (AD) - legacy field 
 
-It's recommended to avoid using the *HomePhone* and *OtherTelephone* fields due to their legacy status. While both fields are currently supported, there might be long-term implications.
+We don't recommend using the *HomePhone* and *OtherTelephone* fields due to their legacy status. While both fields are currently supported, there might be long-term implications.
 
 The required format to enter the extension in the user phone number field can be one of the following formats:
 

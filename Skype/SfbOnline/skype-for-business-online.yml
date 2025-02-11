@@ -7,7 +7,7 @@ metadata:
   title: Skype for Business Online Admin  # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Learn how to manage Skype for Business Online for your organization. # Required; article description that is displayed in search results. < 160 chars.
   services: skype-for-business-online-admin
-  ms.service: skype-for-business-online-admin #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: skype-for-business-online #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: landing-page # Required
   search.appverid: MET150
   ms.tgt_pltfrm: na

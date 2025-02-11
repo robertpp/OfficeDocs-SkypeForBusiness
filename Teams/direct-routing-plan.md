@@ -1,7 +1,7 @@
 ---
 title: "Plan Direct Routing"
-author: CarolynRowe
-ms.author: crowe
+author: sfrancis206
+ms.author: scottfrancis
 manager: pamgreen
 audience: ITPro
 ms.reviewer: filippse

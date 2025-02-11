@@ -55,7 +55,7 @@ The sensitivity label or meeting template enforces options that are listed as en
 Watch this video for a walkthrough of the procedures described in this article.
 <br>
 <br>
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c0sf]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=f7ecdfac-085c-4b40-973f-2b02469675da]
 
 ## Presentation options for sensitive meetings
 

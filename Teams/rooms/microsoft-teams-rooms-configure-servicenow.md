@@ -26,7 +26,7 @@ This article describes the prerequisites and steps to configure your ServiceNow 
 
 ## Watch: Microsoft Teams Rooms Pro Management — Service Now Integration
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=e709fb8e-ddb1-4d90-a83a-b8ce609ab683]
 
 
 ### Teams Rooms prerequisites

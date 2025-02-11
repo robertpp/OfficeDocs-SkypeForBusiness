@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 02/22/2024
+ms.date: 01/29/2025
 ms.topic: conceptual
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
@@ -58,10 +58,10 @@ Shared audio conferencing phone numbers are automatically assigned to organizati
 To see a list of those countries/regions that have phone numbers automatically assigned to organizations, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!NOTE]
-> The country or region location of your organization can be found by signing in to the **Microsoft 365 admin center** and looking under **Organization Profile**.
+> You can find your organization's country/region in the **Microsoft 365 admin center** under **Organization Profile**.
 
 > [!CAUTION]
-> Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory.
+> Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions don't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory.
 
 ## What else should you know?
 

@@ -39,6 +39,10 @@ highlightedContent:
     - title: Discover Microsoft Teams Premium
       itemType: overview
       url: ./enhanced-teams-experience.md
+    # Card
+    - title: Skill up for the era of AI at the Microsoft 365 Community Conference
+      itemType: whats-new
+      url: https://aka.ms/MCAG/IPM/ML25002B
 
 # productDirectory section (optional)
 productDirectory:

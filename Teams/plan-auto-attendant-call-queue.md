@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 12/13/2024
+ms.date: 1/29/2025
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -129,7 +129,7 @@ You can nest Auto attendants and Call queues in two ways:
 For more information, see [Nested Auto attendants and Call queues](#nested-auto-attendants-and-call-queues).
 
 > [!NOTE]
-> If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits, the call will fail.
+> If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), are consumed. Without a Calling Plan or Communication Credits, the call fails.
 >
 > Direct Routing service numbers for Auto attendant and Call queues are supported for Microsoft Teams users and call agents only.
 >
@@ -137,7 +137,7 @@ For more information, see [Nested Auto attendants and Call queues](#nested-auto-
 >
 > In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
 >
-> New Commerce Experience customers are not yet supported for resources accounts when an auto attendant or call queue needs to transfer calls to an external number.
+> New Commerce Experience customers aren't supported yet for resource accounts when an auto attendant or call queue needs to transfer calls to an external number.
 
 ## Business decisions
 
@@ -185,11 +185,18 @@ Conference mode is enabled by default. If you have agents who don't meet the req
 
 ## Nested Auto attendants and Call queues
 
-The first Auto attendant or Call queue that answers a call requires a resource account and associated licensing. Nested auto attendants or call queues that receive calls that have already been answered by an auto attendant or call queue don't require resource accounts.
+The first Auto attendant or Call queue that answers a call requires a resource account and associated licensing. Nested auto attendants or call queues that receive calls that have already been answered by an auto attendant or call queue don't require resource accounts. 
 
 Nesting without resource accounts is the recommended approach. This method eliminates the need to create and license additional resource accounts and makes auto attendant call flows and call queue exception handling flows easier to understand and maintain.
 
 However, there might be times when you require nesting with resource accounts. For example, when agents in a call queue receive a call, the information in the toast is determined by how the call arrived in the queue. If the call was transferred to the queue without a resource account, the agent receives the name of the call queue in the toast. If the call was transferred to the queue through a resource account, the agent receives the display name of the resource account.
+
+> [!NOTE]
+> Direct calls are only possible to nested auto attendants and call queues with assigned resource accounts.
+
+> [!IMPORTANT]
+> Nesting Auto attendants and Call queues without a resource account isn't currently supported for [Authorized users](aa-cq-authorized-users-plan.md) in Queues App. If you nest an Auto attendant or Call queue without a resource account, authorized users can't edit the auto attendant or call queue.
+>
 
 ## Click-to-call restrictions
 
@@ -216,7 +223,7 @@ Once you complete the planning tasks in this article, follow these steps to get 
 1. If you plan to allow dial by extension, ensure that you add your users' extension number to their Azure Active Directory (Azure AD) profile.
 1. Optionally, [set up call parking and retrieval](call-park-and-retrieve.md) if you want to use this feature to help with call transfers.
 
-Once you completed the steps above, you're ready to create your Auto attendants and Call queues. Because Auto attendants and Call queues can redirect calls to each other, refer to the workflow diagram that you created to determine which Auto attendant or Call queue should be created first. In the example in the diagram above, you would create the sales and support Call queues before you create the Contoso main Auto attendant because the main Auto attendant needs to direct callers to the sales and support Call queues.
+Once you complete the steps above, you're ready to create your Auto attendants and Call queues. Because Auto attendants and Call queues can redirect calls to each other, refer to the workflow diagram that you created to determine which Auto attendant or Call queue should be created first. In the example in the diagram above, you would create the sales and support Call queues before you create the Contoso main Auto attendant because the main Auto attendant needs to direct callers to the sales and support Call queues.
 
 See the following articles for information on how to create Auto attendants and Call queues:
 

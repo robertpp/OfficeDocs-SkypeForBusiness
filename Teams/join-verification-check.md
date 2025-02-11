@@ -37,7 +37,7 @@ If your organizers allow anonymous users to bypass the lobby, web bots might joi
 
 ## Manage verification checks for meetings and webinars in your org
 
-You can use the Teams admin center or PowerShell manage verification checks for meetings and webinars in your org. You could also use a sensitivity label in Purview or a meeting template to require verification checks. To use meeting templates and sensitivity labels, you must have a Teams Premium license.
+You can use the Teams admin center or PowerShell to manage verification checks for meetings and webinars in your org.
 
 |Teams admins center policy value |PowerShell setting value | Behavior|
 |---------|---------|---------------|
@@ -85,19 +85,11 @@ Verification checks are supported on the following clients and platforms:
 
 When participants from the following clients and platforms attend meetings that require a verification check, they join without completing the CAPTCHA challenge:
 
-**Clients:** Cloud Video Interop (CVI), Azure Communication Services (ACS) platform, MTR Android devices
+**Clients:** Cloud Video Interop (CVI), Azure Communication Services (ACS) platform, Meeting Teams Rooms Android devices
 
 **Platforms:** Third party devices
 
 ## Related articles
 
-- [Manage meeting templates in Microsoft Teams - Microsoft Teams | Microsoft Learn](manage-meeting-templates.md)
-- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
-- [Configure Teams meetings with baseline protection - Microsoft Teams | Microsoft Learn](configure-meetings-baseline-protection.md)
-- [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md)
-- [Configure Teams meetings with protection for highly sensitive data](configure-meetings-highly-sensitive-protection.md)
-- [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
-- [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
-- [Use sensitivity labels to protect calendar items, Teams meetings, and chat](meeting-templates-sensitivity-labels-policies.md)
 - [Plan for Teams meetings](plan-meetings.md)
 - [Plan for Teams webinars](plan-webinars.md)

@@ -106,11 +106,10 @@ The provisioned device appears in the **Waiting for sign in** tab. Start the rem
 
    This video shows how admins can remotely provision Android-based and SIP devices.
 
-   > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fRYe?autoplay=false]
+   > [!VIDEO https://learn-video.azurefd.net/vod/player?id=2fcbab2c-fa30-4b86-9b9c-31eab0316b20]
 
 ## Related articles
 
 - [Manage your devices in Teams](device-management.md)
 - [Remote sign in and sign out](remote-sign-in-and-sign-out.md)
 - [Update Teams devices remotely](remote-update.md)
-

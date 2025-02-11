@@ -44,7 +44,9 @@ If the script is run in Intune or other device management software:
 
 ### Teams meeting add-in issue resolution
 
-To address the TMA issue when it does occur, Microsoft has [an additional script](https://download.microsoft.com/download/d/f/c/dfc1a7ce-e3da-4e12-94fc-bea60ba3d9ba/DetectAndUninstallTMA.ps1) to resolve the issue.
+Please check the Teams version using [Find the version of Microsoft Teams you're using - Microsoft Support](https://support.microsoft.com/en-us/office/find-the-version-of-microsoft-teams-you-re-using-e6d3421f-b4f2-4fc6-a69e-ebc528fb1216). 
+
+If version is below 24215.1007.3082.1590, then Microsoft has [an additional script](https://download.microsoft.com/download/d/f/c/dfc1a7ce-e3da-4e12-94fc-bea60ba3d9ba/DetectAndUninstallTMA.ps1) to prevent the TMA issue. 
 
 > [!NOTE]
 > If the new Teams client is running and the TMA issue is detected by this script, it can't fix the issue. If you need to have this TMA script run across all devices in your organization in user context, please refer to these [sample instructions](https://github.com/microsoft/MDE-PowerBI-Templates/blob/master/ASR_scripts/AddShortcuts_with_Intune.md) for running the script in Intune. (User context can be selected by setting **Run this script using the logged-on credentials** to **Yes**.)
