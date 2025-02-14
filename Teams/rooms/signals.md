@@ -28,19 +28,21 @@ f1keywords:
 
 The following signals are available for devices with the Android operating system and firmware.
 
-| Console | Processor | RAM | Disk |
-|:-|:-|:-|:-|
+|**Signal name**|**Description**|**Category**|**Severity**|**Remidiation**|**Notes**|
+|:-|:-|:-|:-|:-|:-|
 
 ## [Signals for MDEP](#tab/MDEP)
 
 The following signals are available for devices with MDEP.
 
-| Console | Processor | RAM | Disk |
-|:-|:-|:-|:-|
+|**Signal name**|**Description**|**Category**|**Severity**|**Remidiation**|**Notes**|
+|:-|:-|:-|:-|:-|:-|
 
 ## [Signals for Windows](#tab/Windows)
 
 The following signals are available for devices with the Windows operating system.
 
-| Console | Processor | RAM | Disk |
-|:-|:-|:-|:-|
+|**Signal name**|**Description**|**Category**|**Severity**|**Remidiation**|**Notes**|
+|:-|:-|:-|:-|:-|:-|
+|Recorded issue|[Available](media/signals/signals-available.png)|[Not available](media/signals/signals-not-available.png)|[Applicable](media/signals/signals-applicable.png)|[Available](media/signals/signals-available.png)|[Available](media/signals/signals-available.png)|
+|Sign in (Exchange)|[Available](media/signals/signals-available.png)|[Not available](media/signals/signals-not-available.png)|[Applicable](media/signals/signals-applicable.png)|[Available](media/signals/signals-available.png)|[Available](media/signals/signals-available.png)|
