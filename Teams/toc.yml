@@ -1637,6 +1637,8 @@ items:
                   items:
                     - name: Signal settings
                       href: rooms/signal-settings.md  
+                    - name: Signals 
+                      href: rooms/signals.md  
                     - name: Configure ServiceNow
                       href: rooms/microsoft-teams-rooms-configure-servicenow.md
                     - name: Viewing events

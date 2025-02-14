@@ -18,11 +18,11 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Customize which signals are enabled with the new Signal settings.
+description: In this article you will learn about the health signals that are available for Windows, Android, and MDEP devices and what remediation is available for each. 
 f1keywords: 
 ---
 
-# Signal settings
+# Signals
 
 ## [Signals for Android](#tab/Android)
 
