@@ -44,5 +44,5 @@ The following signals are available for devices with the Windows operating syste
 
 |**Signal name**|**Description**|**Category**|**Severity**|**Remidiation**|**Notes**|
 |:-|:-|:-|:-|:-|:-|
-|Recorded issue|[Available](media/signals/signals-available.png)|[Not available](media/signals/signals-not-available.png)|[Applicable](media/signals/signals-applicable.png)|[Available](media/signals/signals-available.png)|[Available](media/signals/signals-available.png)|
-|Sign in (Exchange)|[Available](media/signals/signals-available.png)|[Not available](media/signals/signals-not-available.png)|[Applicable](media/signals/signals-applicable.png)|[Available](media/signals/signals-available.png)|[Available](media/signals/signals-available.png)|
+|Recorded issue|![Available](media/signals/signals-available.png)|![Not available](media/signals/signals-not-available.png)|![Applicable](media/signals/signals-applicable.png)|![Available](media/signals/signals-available.png)|![Available](media/signals/signals-available.png)|
+|Sign in (Exchange)|![Available](media/signals/signals-available.png)|![Not available](media/signals/signals-not-available.png)|![Applicable](media/signals/signals-applicable.png)|![Available](media/signals/signals-available.png)|![Available](media/signals/signals-available.png)|
