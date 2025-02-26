@@ -53,7 +53,7 @@ The transcription is [stored together with the meeting recordings in OneDrive an
 
 ### Use the Teams admin center to enable or disable transcription
 
-In the Teams admin center, you can enable or disable the **Transcription** setting for your users within a meeting policy located under **Meetings** > **Meeting policies**. This setting is off by default.
+In the Teams admin center, you can enable or disable the **Transcription** setting for your users within a meeting policy located under **Meetings** > **Meeting policies**. This setting is **On** by default for new policies.
 
 ### Use PowerShell to enable or disable transcription
 
@@ -139,7 +139,7 @@ To run the diagnostic tool for transcripts, follow these steps:
 1. Select the Run Tests button to populate the diagnostic in the Microsoft 365 admin center:
 
    > [!div class="nextstepaction"]
-   > [Run Tests: Teams Call Forwarding](https://aka.ms/MeetingTranscribeDiag)
+   > [Run Tests](https://aka.ms/MeetingTranscribeDiag)
 
 2. In the Username or Email field, enter the email address of the affected user.
 3. In the Teams Meeting URL field, enter the meeting URL.

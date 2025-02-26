@@ -241,8 +241,8 @@ Transcription allows users to play back meeting recordings with closed captions 
 To turn on meeting transcription.
 
 1. In the [Teams admin center](https://admin.teams.microsoft.com/), go to **Meetings** > select **Meeting Policies**.
-2. Either select an existing policy or create a new one. 
-3. On the meeting policy page, under **Recording & transcription**, turn on **Meeting recording**. This setting is off by default.
+2. Either select an existing policy or create a new one. The transcription setting is on by default for new policies.
+3. On the meeting policy page, under **Recording & transcription**, turn on **Meeting recording**.
 
 > [!NOTE]
 > Under **Recording & transcription**, there are several other recording options that are available for you to set. Review all of the settings to ensure that they meet the needs of your organization.

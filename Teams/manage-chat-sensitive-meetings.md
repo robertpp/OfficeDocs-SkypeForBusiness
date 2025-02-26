@@ -53,9 +53,6 @@ Meeting organizers can specify that the chat only be available while the meeting
 
 ## Prevent copying or forwarding chat, captions, and transcripts
 
-> [!IMPORTANT]
-> Allowing organizers to restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts on mobile clients is only supported through sensitivity labels.
-
 As an admin, you can choose whether organizers in your organization can restrict participants from copying or forwarding meeting chat messages, live captions, transcripts, and AI-generated insights in the meeting recaps. This setting also restricts forwarding and sharing messages to Outlook. By default, this per-organizer setting is set **On**.
 
 You can require organizers to prevent copying or forwarding of chat messages, live captions, and transcripts with a meeting template or sensitivity label. If you don't enforce this option with a template or sensitivity label, meeting organizers can control this feature in their meeting options.

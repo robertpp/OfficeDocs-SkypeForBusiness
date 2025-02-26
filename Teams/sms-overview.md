@@ -226,7 +226,9 @@ Teams Calling Plans support sending SMS where the sender type is a 10 digit long
 
 Further prerequisites and next steps can be found in the following article: [Step 1: Create a brand](sms-setup-brand.md)
 
-For end user documentation, see [SMS support for Teams end users](https://support.microsoft.com/office/88ed0a06-6b59-43a3-8cf7-40c01f2f92f2).
+SMS messages in Teams are supported with one-on-one Chat conversations. MMS, attachments, emojis, stickers, and GIFs are not currently supported.
+
+For end user documentation, see [Send and receive SMS in Microosft Teams](https://support.microsoft.com/office/send-and-receive-sms-in-microsoft-teams-a7d163cb-3562-4f4a-b1c1-81c722c1a0f1).
 
 ## Related articles
 

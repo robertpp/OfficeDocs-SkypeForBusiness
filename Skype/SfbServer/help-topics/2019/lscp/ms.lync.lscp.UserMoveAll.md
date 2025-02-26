@@ -6,7 +6,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: reference
 ms.custom:
 - ms.lync.lscp.UserMoveAll
 ms.service: skype-for-business-server

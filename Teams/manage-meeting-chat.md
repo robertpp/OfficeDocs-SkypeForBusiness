@@ -117,6 +117,10 @@ To enable chat in Teams meetings hosted by other organizations for users with th
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowExternalNonTrustedMeetingChat $True 
 ```
 
+## Limitations
+
+- Microsoft Teams Rooms on Windows with a Pro license can't use chat when they join meetings as a presenter.
+
 ## Related topics
 
 - [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md)
