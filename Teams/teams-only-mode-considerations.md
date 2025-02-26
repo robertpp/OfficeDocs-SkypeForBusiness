@@ -4,7 +4,7 @@ ms.author: jtremper
 author: jacktremper
 manager: serdars
 ms.date: 01/09/2019
-ms.topic: conceptual
+ms.topic: concept-article
 audience: admin
 ms.service: msteams
 ms.reviewer: landerl
