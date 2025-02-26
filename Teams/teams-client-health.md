@@ -22,7 +22,8 @@ ms.localizationpriority: medium
 
 # Teams client health dashboard in the Teams admin center
 
-[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
+> [!IMPORTANT]
+> [!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 This article provides an overview of the new Teams client health dashboards and tools for managing Teams clients in the Microsoft Teams admin center.
 
