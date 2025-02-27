@@ -5,7 +5,7 @@ ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 audience: ITPro
-ms.topic: conceptual
+ms.topic: article
 manager: serdars
 ms.service: skype-for-business-server
 f1.keywords:
@@ -24,7 +24,7 @@ description: "Summary: Learn about the environmental requirements for Edge Serve
  
 **Summary:** Learn about the environmental requirements for Edge Server in Skype for Business Server.
   
-A lot of planning and preparation needs to take place outside of the Skype for Business Server Edge Server environment itself. In this article, we'll review what preparations need to be made in the organizational environment, as per our list below:
+A lot of planning and preparation needs to take place outside of the Skype for Business Server Edge Server environment itself. In this article, we review what preparations need to be made in the organizational environment, as per the following list:
   
 - [Topology planning](edge-environmental-requirements.md#TopoPlan)
     
@@ -44,7 +44,7 @@ Skype for Business Server Edge Server topologies are able to use:
 - Non-routable private IP addresses, if **symmetric** network address translation (NAT) is used.
     
 > [!TIP]
-> Your Edge Server can be configured to use a single IP address with distinct ports for each service, or it can use distinct IP addresses for each service, but use the same default port (which by default will be TCP 443). We have more information in IP Address requirements section, below. 
+> Your Edge Server can be configured to use a single IP address with distinct ports for each service, or it can use distinct IP addresses for each service, but use the same default port (which by default is TCP 443). We have more information in IP Address requirements section. 
   
 If you choose non-routable private IP addresses with NAT, remember these points:
   
@@ -76,7 +76,7 @@ We have several topology options available for Skype for Business Server Edge Se
     
 To help you choose one, we have the following table which gives a summary of what options you have for each topology:
   
-|**Topology**|**High availability**|**Additional DNS records required for external Edge Server in the Edge pool?**|**Edge failover for Skype for Business Server sessions**|**Edge failover for Skype for Business Server federation sessions**|
+|**Topology**|**High availability**|**other DNS records required for external Edge Server in the Edge pool?**|**Edge failover for Skype for Business Server sessions**|**Edge failover for Skype for Business Server federation sessions**|
 |:-----|:-----|:-----|:-----|:-----|
 |Single consolidated Edge with private IP addresses and NAT  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
 |Single consolidated Edge with public IP addresses  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
@@ -88,10 +88,10 @@ To help you choose one, we have the following table which gives a summary of wha
   
 ### IP Address requirements
 
-On a fundamental level, three services need IP addresses; Access Edge service, Web Conferencing Edge service, and A/V Edge service. You have the option of either using three IP addresses, one for each of the services, or you can use one and opt to put each service on a different port (you can check out the [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) section for more information on some of that). For a single consolidated Edge environment, that's pretty much it.
+On a fundamental level, three services need IP addresses; Access Edge service, Web Conferencing Edge service, and A/V Edge service. You have the option of either using three IP addresses, one for each of the services, or you can use one and opt to put each service on a different port (you can check out the [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) section for more information on some of that). For a single consolidated Edge environment, that's it.
   
 > [!NOTE]
-> As noted above, you can choose to have one IP address for all three services and run them on different ports. But to be clear, we don't recommend this. If your customers can't access the alternate ports you'd be using in this scenario, they can't access the full functionality of your Edge environment, either. 
+> As noted, you can choose to have one IP address for all three services and run them on different ports. But to be clear, we don't recommend this. If your customers can't access the alternate ports you'd be using in this scenario, they can't access the full functionality of your Edge environment, either. 
   
 It can be a little more complicated with scaled consolidated topologies, so let's look at some tables that lay out the IP Address requirements, keeping in mind that the primary decision points for topology selection are high availability and load balancing. High availability needs can influence your load balancing choice (we'll talk about that more after the tables).
   
@@ -113,9 +113,9 @@ It can be a little more complicated with scaled consolidated topologies, so let'
 |4  <br/> |4  <br/> |1 (1 per VIP) + 4  <br/> |
 |5  <br/> |5  <br/> |1 (1 per VIP) + 5  <br/> |
    
-Let's look at some additional things to think about while planning.
+Let's look at some other things to think about while planning.
   
-- **High availability**: If you need high availability in your deployment, you should deploy at least two Edge Servers in a pool. It's worth noting that a single Edge pool will support up to 12 Edge Servers (though Topology Builder will allow you to add up to 20, that's not tested or supported, so we advise you don't do that). If you need more than 12 Edge Servers, you should create additional Edge pools for them.
+- **High availability**: If you need high availability in your deployment, you should deploy at least two Edge Servers in a pool. It's worth noting that a single Edge pool will support up to 12 Edge Servers (though Topology Builder will allow you to add up to 20, that's not tested or supported, so we advise you don't do that). If you need more than 12 Edge Servers, you should create more Edge pools for them.
     
 - **Hardware load balancing**: We recommend DNS load balancing for most scenarios. Hardware load balancing is also supported, of course, but notably it's required for a single scenario over DNS load balancing:
     
@@ -136,11 +136,11 @@ Let's look at some additional things to think about while planning.
 ## DNS planning
 <a name="DNSPlan"> </a>
 
-When it comes to Skype for Business Server Edge Server deployment, it's vital to prepare for DNS properly. With the right records in place, the deployment will be much more straightforward. Hopefully you've chosen a topology in the section above, as we're going to do an overview, and then list a couple of tables outlining the DNS records for those scenarios. We'll also have some [Advanced Edge Server DNS planning for Skype for Business Server](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) for more in-depth reading, if you need it.
+When it comes to Skype for Business Server Edge Server deployment, it's vital to prepare for DNS properly. With the right records in place, the deployment is much more straightforward. Hopefully you've chosen a topology in the section above, as we're going to do an overview, and then list a couple of tables outlining the DNS records for those scenarios. We'll also have some [Advanced Edge Server DNS planning for Skype for Business Server](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) for more in-depth reading, if you need it.
   
 ### DNS records for Single consolidated Edge Server scenarios
 
-These will be the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Because this is sample data, we'll give example IPs so you can work out your own entries more easily:
+These are the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Because this is sample data, we'll give example IPs so you can work out your own entries more easily:
   
 - Internal network adapter: 172.25.33.10 (no default gateways assigned)
     
@@ -157,7 +157,7 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
   - A/V Edge: 131.107.155.30 (secondary)
     
-  Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+  Web conferencing and A/V Edge public IP addresses are other (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
   - Private IPs:
     
@@ -167,7 +167,7 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
   - A/V Edge: 10.45.16.30 (secondary)
     
-Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+Web conferencing and A/V Edge public IP addresses are other (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
   
 > [!TIP]
 >There are other possible configurations here:
@@ -187,7 +187,7 @@ Web conferencing and A/V Edge public IP addresses are additional (secondary) IP 
    
 ### DNS records for Scaled DNS and hardware Edge Server scenarios
 
-These will be the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Because this is sample data, we'll give example IPs so you can work out your own entries more easily:
+These are the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Because this is sample data, we'll give example IPs so you can work out your own entries more easily:
   
 - Internal network adapter:
     
@@ -210,7 +210,7 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
         - A/V Edge: 131.107.155.30 (secondary)
     
-          Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+          Web conferencing and A/V Edge public IP addresses are other (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
     - Private IPs:
     
@@ -220,7 +220,7 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
          - A/V Edge: 10.45.16.30 (secondary)
     
-      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Web conferencing and A/V Edge public IP addresses are other (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
   - Node 2
     
@@ -232,7 +232,7 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
       - A/V Edge: 131.107.155.31 (secondary)
     
-      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Web conferencing and A/V Edge public IP addresses are other (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
   - Private IPs:
     
@@ -242,7 +242,7 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
     - A/V Edge: 10.45.16.31 (secondary)
     
-      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Web conferencing and A/V Edge public IP addresses are other (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
 There are other possible configurations here:
   
@@ -325,10 +325,10 @@ Regardless of whether you're doing a single Edge Server or an Edge pool, this is
   
 |**Component**|**Subject name (SN)**|**Subject alternative names (SAN)/order**|**Notes**|
 |:-----|:-----|:-----|:-----|
-|External Edge  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |This is the certificate you need to request from a public CA. It'll need to be assigned to the external Edge interfaces for the following:  <br/> • Access Edge  <br/> • Web Conferencing Edge  <br/> • Audio/Video Authentication  <br/> <br/>The good news is that SANs are automatically added to your certificate request, and therefore your certificate after you submit the request, based on what you defined for this deployment in Topology Builder. You'll only need to add SAN entries for any additional SIP domains or other entries you need to support. Why is sip.contoso.com replicated in this instance? That happens automatically as well, and it's needed for things to work properly.  <br/><br/> **Note:** This certificate can also be used for Public Instant Messaging connectivity. You don't need to do anything differently with it, but in previous versions of this documentation, it was listed as a separate table, and now it's not. <br/> |
+|External Edge  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |This is the certificate you need to request from a public CA. It'll need to be assigned to the external Edge interfaces for the following:  <br/> • Access Edge  <br/> • Web Conferencing Edge  <br/> • Audio/Video Authentication  <br/> <br/>The good news is that SANs are automatically added to your certificate request, and therefore your certificate after you submit the request, based on what you defined for this deployment in Topology Builder. You'll only need to add SAN entries for any other SIP domains or other entries you need to support. Why is sip.contoso.com replicated in this instance? That happens automatically as well, and it's needed for things to work properly.  <br/><br/> **Note:** This certificate can also be used for Public Instant Messaging connectivity. You don't need to do anything differently with it, but in previous versions of this documentation, it was listed as a separate table, and now it's not. <br/> |
 |Internal Edge  <br/> |sfbedge.contoso.com  <br/> |NA  <br/> |You can get this certificate from a public CA or an internal CA. It'll need to contain the server EKU (Enhanced Key Usage), and you'll assign it to the internal Edge interface.  <br/> |
    
-If you need a certificate for Extensible Messaging and Presence Protocol (XMPP), it will look identical to the External Edge table entries above, but will have the following two additional SAN entries:
+If you need a certificate for Extensible Messaging and Presence Protocol (XMPP), it will look identical to the External Edge table entries above, but will have the following two other SAN entries:
   
 - xmpp.<span></span>contoso<span></span>.com
     
@@ -389,7 +389,7 @@ The Source IP address and Destination IP address will contain information for us
    
 ### Hardware load balancers for Edge port tables
 
-We're giving hardware load balancers (HLBs) and Edge ports their own section, as things are a little more complicated with the additional hardware. Please refer to the tables below for guidance for this particular scenario:
+We're giving hardware load balancers (HLBs) and Edge ports their own section, as things are a little more complicated with the other hardware. Please refer to the following tables for guidance for this particular scenario:
   
 #### External port firewall summary table
 

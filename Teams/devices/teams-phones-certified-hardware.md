@@ -83,7 +83,8 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 #### <b> Audiocodes </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------|
-| C470HD | `2.3.480 (AOSP)` | `N/A`| Teams client: `1449/1.0.94.2024092304` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product`| December 18, 2024| 
+| C430HD/C435HD/C455HD/C470HD | `2.3.497 (AOSP)` | `2.3.453`| Teams client: `1449/1.0.94.2024122303` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| February 24, 2025| 
+| C470HD | `2.3.480 (AOSP)` | `2.3.453`| Teams client: `1449/1.0.94.2024092304` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| December 18, 2024| 
 | C430HD | `2.3.461` | `1.19.584`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product`| November 20, 2024| 
 | C435HD/C455HD/C470HD | `2.3.453` | `1.19.584`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 19, 2024|
 | C430HD | `2.3.423` | `N/A`| Teams client: `1449/1.0.94.2024062010` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 17, 2024| 

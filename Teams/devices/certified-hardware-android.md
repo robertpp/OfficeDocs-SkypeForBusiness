@@ -79,7 +79,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Jabra PanaCast 50 Touch Console | `1.1.0-1` | September 3, 2025 | Compatible with Jabra PanaCast 50 VBS | 10 |
 | Logitech Rally Board 65 (VR0039)  | `0.901.13` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
 | Logitech Rally Bar Huddle (VR0034)  | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
-| Logitech Tap IP (VR0029) | `1.6.565` | September 3, 2025 | Compatible with Logitech RoomMate, Rally Bar, and Rally Bar Mini | 10 |
+| Logitech Tap IP Touch console (VR0029) | `1.6.565` | September 3, 2025 | Compatible with Logitech Room Mate, Rally Bar, Rally Bar Mini and Rally Bar 65 | 10 |
 | Logitech Roommate (VR0030) | `1.4.71` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Logitech Tap USB Touch Console | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar, Rally Bar Mini, and Roommate | 10 |
 | Logitech Rally Bar Mini (VR0020) | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
@@ -127,9 +127,9 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Microsoft Intune | Authenticator | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|
-| Audiocodes RXV81 | `2.6.293 (AOSP)` | N/A| `1449/1.0.96.2024091202` | `N/A`| `24.09.1` | `6.2410.7268` |  `1.0.0.202407050618.product` | December 19, 2024|
-| Audiocodes RX-Pad | `2.6.293 (AOSP)` | N/A | `1449/1.0.96.2024091202` | `N/A`| `24.09.1` | `6.2410.7268` | `1.0.0.202407050618.product` | December 19, 2024|
-| Audiocodes RXV200 | `2.6.293 (AOSP)` | N/A | `1449/1.0.96.2024091202` | `N/A`| `24.09.1` | `6.2410.7268` | `1.0.0.202407050618.product` | December 19, 2024|
+| Audiocodes RXV81 | `2.6.293 (AOSP)` | N/A| `1449/1.0.96.2024091202` | `N/A`| `24.09.1` | `6.2410.7268` |  `1.0.0.202407050618.product (733)` | December 19, 2024|
+| Audiocodes RX-Pad | `2.6.293 (AOSP)` | N/A | `1449/1.0.96.2024091202` | `N/A`| `24.09.1` | `6.2410.7268` | `1.0.0.202407050618.product (733)` | December 19, 2024|
+| Audiocodes RXV200 | `2.6.293 (AOSP)` | N/A | `1449/1.0.96.2024091202` | `N/A`| `24.09.1` | `6.2410.7268` | `1.0.0.202407050618.product (733)` | December 19, 2024|
 | Audiocodes RXV81 | `2.6.280` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`|`N/A`|`N/A`|  `1.0.0.202407050618.product` | October 18, 2024|
 | Audiocodes RX-Pad | `2.6.280` | N/A | `1449/1.0.96.2024080804` | `5.0.6152.0`|`N/A`|`N/A`| `1.0.0.202407050618.product` | October 18, 2024|
 | Audiocodes RXV200 | `2.6.280` | N/A | `1449/1.0.96.2024080804` | `5.0.6152.0`|`N/A`|`N/A`| `1.0.0.202407050618.product` | October 18, 2024|
@@ -158,17 +158,17 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Microsoft Intune | Authenticator | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|
-| Cisco Board Pro 55 | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| Cisco Board Pro 75 | `ce11.24.1.8 (AOSP)` |  N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| Cisco Room Bar | `ce11.24.1.8 (AOSP)` |  N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| Cisco Room Kit Pro | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| Cisco Desk Pro | `ce11.24.1.8 (AOSP)` |  N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| Cisco Room Bar Pro | `ce11.24.1.8 (AOSP)` |  N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| Cisco Room Kit EQ | `ce11.24.1.8 (AOSP)` |  N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| Cisco Navigator | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| Cisco Room Kit EQX | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| Cisco Board Pro G2 55 | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| Cisco Board Pro G2 75 | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
+| Cisco Board Pro 55 | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Cisco Board Pro 75 | `ce11.24.1.8 (AOSP)` |  N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Cisco Room Bar | `ce11.24.1.8 (AOSP)` |  N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Cisco Room Kit Pro | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Cisco Desk Pro | `ce11.24.1.8 (AOSP)` |  N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Cisco Room Bar Pro | `ce11.24.1.8 (AOSP)` |  N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Cisco Room Kit EQ | `ce11.24.1.8 (AOSP)` |  N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Cisco Navigator | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Cisco Room Kit EQX | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Cisco Board Pro G2 55 | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.produc (733)t`| February 19, 2025|
+| Cisco Board Pro G2 75 | `ce11.24.1.8 (AOSP)` | N/A | `1449/1.0.96.2025010301` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
 | Cisco Board Pro 55 | `ce11.22.1.12` |  `N/A`  | `1449/1.0.96.2024101004` | `5.0.6152.0` | `N/A` | `N/A` | `1.0.0.202407050618.product` | December 16, 2024|
 | Cisco Board Pro 75 | `ce11.22.1.12` |   `N/A`  | `1449/1.0.96.2024101004` | `5.0.6152.0` | `N/A` | `N/A` | `1.0.0.202407050618.product` |  December 16, 2024|
 | Cisco Room Bar | `ce11.22.1.12` |   `N/A`  | `1449/1.0.96.2024101004` | `5.0.6152.0` | `N/A` | `N/A` | `1.0.0.202407050618.product` |  December 16, 2024|
@@ -277,10 +277,10 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Microsoft Intune | Authenticator | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|
-| DTEN Bar |`1.3.13.1 (AOSP)` | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| DTEN D7X 75" |`1.6.13.1 (AOSP)` | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| DTEN D7X 55" |`1.6.13.1(AOSP)`   | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
-| DTEN Mate Touch Console | `2.3.13.1 (AOSP)` | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product`| February 19, 2025|
+| DTEN Bar |`1.3.13.1 (AOSP)` | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| DTEN D7X 75" |`1.6.13.1 (AOSP)` | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| DTEN D7X 55" |`1.6.13.1(AOSP)`   | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
+| DTEN Mate Touch Console | `2.3.13.1 (AOSP)` | N/A| `1449/1.0.96.2024091202` | `N/A`|`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)`| February 19, 2025|
 | DTEN Bar |`1.3.2.0` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`|`N/A`|`N/A`| `1.0.0.202402202353.product`| November 21, 2024|
 | DTEN Mate Touch Console | `2.3.2.1` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`|`N/A`|`N/A`| `1.0.0.202402202353.product`| November 21, 2024|
 | DTEN Bar |`1.3.1.1` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`|`N/A`|`N/A`| `1.0.0.202402202353.product`| October 15, 2024|
@@ -330,8 +330,8 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Microsoft Intune | Authenticator | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|
-| Jabra Panacast 50 VBS | `6.5.0-7 (MDEP)`| `3.6.0-31`| `1449/1.0.96.2024091202`|`N/A`| `24.09.1` | `6.2410.7268` |  `1.0.0.202407050618.product` | February 13, 2025|
-| Jabra Panacast 50 TC | `6.5.0-7 (MDEP)`| `3.6.0-31`| `1449/1.0.96.2024091202`|`N/A`| `24.09.1` | `6.2410.7268` |  `1.0.0.202407050618.product` | February 13, 2025|
+| Jabra Panacast 50 VBS | `6.5.0-7 (MDEP)`| `3.6.0-31`| `1449/1.0.96.2024091202`|`N/A`| `24.09.1` | `6.2410.7268` |`1.0.0.202407050618.product (733)` | February 13, 2025|
+| Jabra Panacast 50 TC | `6.5.0-7 (MDEP)`| `3.6.0-31`| `1449/1.0.96.2024091202`|`N/A`| `24.09.1` | `6.2410.7268` |`1.0.0.202407050618.product (733)` | February 13, 2025|
 | Jabra Panacast 50 VBS | `3.6.0-31` |  N/A|  `1449/1.0.96.2024080804` | `5.0.6152.0` |`N/A`|`N/A`| `1.0.0.202402202353.product` | September 11, 2024|
 | Jabra Panacast 50 TC | `3.6.0-31` | N/A | `1449/1.0.96.2024080804` | `5.0.6152.0` |`N/A`|`N/A`| `1.0.0.202402202353.product` | September 11, 2024|
 | Jabra Panacast 50 VBS | `2.8.0-15` |  N/A|  `1449/1.0.96.2024020802` | `5.0.5484.0` |`N/A`|`N/A`| `1.0.0.202402202353.product` | May 20, 2024|
@@ -554,12 +554,12 @@ For information about the latest Teams app releases, see [What's new in Microsof
 #### Yealink
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Microsoft Intune | Authenticator | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|
-| Yealink MeetingBar A10 | `278.320.0.58 (AOSP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product` | February 19, 2025 |
-| Yealink MeetingBar A20 | `133.320.0.65 (AOSP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`|  `1.0.0.202407050618.product` | February 19, 2025 |
-| Yealink MeetingBar A30 | `133.320.0.65 (AOSP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product` | February 19, 2025 |
-| Yealink MeetingBoard 65" | `155.15.0.80 (AOSP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product` | February 19, 2025 |
-| Yealink MeetingBoard 86" | `155.15.0.80 (AOSP)` |N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product` | February 19, 2025 |
-| Yealink CTP18 | `137.320.0.78 (AOSP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product` | February 19, 2025 |
+| Yealink MeetingBar A10 | `278.320.0.58 (AOSP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)` | February 19, 2025 |
+| Yealink MeetingBar A20 | `133.320.0.65 (AOSP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`|  `1.0.0.202407050618.product (733)` | February 19, 2025 |
+| Yealink MeetingBar A30 | `133.320.0.65 (AOSP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)` | February 19, 2025 |
+| Yealink MeetingBoard 65" | `155.15.0.80 (AOSP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)` | February 19, 2025 |
+| Yealink MeetingBoard 86" | `155.15.0.80 (AOSP)` |N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)` | February 19, 2025 |
+| Yealink CTP18 | `137.320.0.78 (AOSP)` | N/A | `1449/1.0.96.2024091202`| `N/A` |`24.09.1`|`6.2410.7268`| `1.0.0.202407050618.product (733)` | February 19, 2025 |
 | Yealink MeetingBar A40 | `289.320.0.43` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` |`N/A`|`N/A`| `1.0.0.202402202353.productt` | December 6, 2024 |
 | Yealink CTP25 | `311.320.0.34` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` |`N/A`|`N/A`| `1.0.0.202402202353.product` | December 6, 2024 |
 | Yealink MeetingBar A10 | `278.320.0.48` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` |`N/A`|`N/A`| `1.0.0.202402202353.product` | September 17, 2024 |

@@ -70,10 +70,6 @@ To learn more about how to deploy Teams displays using Intune, see [Deploy Teams
 
 Manage and keep your Teams phones up-to-date using the Microsoft Teams admin center. For more information, see [Manage your devices in Teams](../devices/device-management.md).
 
-## Upgrade your phones to Teams displays
-
-[Microsoft Teams displays](../devices/teams-displays.md) are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction.
-
 ## See also
 
 [Teams Marketplace](https://office.com/teamsdevices)

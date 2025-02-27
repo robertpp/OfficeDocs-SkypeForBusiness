@@ -66,6 +66,10 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 ### 5.2.115.0 (9/26/2024)
  >[!NOTE]
+ >The following feature was added to the 5.2.115.0 release with a service side change on February 26, 2025.
+- **Room can join Events as presenters** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Teams Rooms on Windows devices can now join events in Teams (webinars and town halls) as presenters. You can present directly from the Teams Room, with features like green room access and stage control for organizers and presenters. [Learn more](/MicrosoftTeams/meeting-webinar-town-hall-feature-comparison).
+>
+ >[!NOTE]
  >The following two features were added to the 5.2.115.0 release with a service side change on January 22, 2025.
 
 - **Multiple camera view** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Teams Rooms on Windows supports up to four single stream cameras that will be shown to remote meeting participants. With multiple camera view, remote meeting participants will have the ability to follow all the action in the room and manually toggle between views from the room that they want to see. [Learn more](/microsoftteams/rooms/multicamera-view).
