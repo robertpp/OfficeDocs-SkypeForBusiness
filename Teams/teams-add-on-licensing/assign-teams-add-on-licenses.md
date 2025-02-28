@@ -2,9 +2,9 @@
 title: Assign Teams add-on licenses to users
 author: DaniEASmith
 ms.author: danismith
-manager: pamgreen
+manager: jtremper
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.custom:
   - has-azure-ad-ps-ref
@@ -17,23 +17,23 @@ ms.collection:
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
-ms.reviewer: mikedav
-ms.date: 03/26/2024
-description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Phone System, and Calling Plans.
+ms.reviewer: alexcerone
+ms.date: 02/27/2025
+description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Teams Phone, and Calling Plans.
 appliesto: 
   - Microsoft Teams
 ---
 
 # Assign Teams add-on licenses to users
 
-Add-on licenses are licenses for specific Teams capabilities like Audio Conferencing, Phone System, and Calling Plans. This article describes how to assign add-on licenses to individual users and large sets of users in bulk.
+Add-on licenses are licenses for specific Teams capabilities like Audio Conferencing, Teams Phone, and Calling Plans. This article describes how to assign add-on licenses to individual users and large sets of users in bulk.
 
 > [!NOTE]
 > See [Teams add-on licensing](./microsoft-teams-add-on-licensing.md) for Teams capabilities that are available with add-on licenses. You'll also find information about which licenses you need to buy and how to buy them, depending on your plan. After you decide which capabilities you want for your users, assign the licenses to them.
 
 You can use the Microsoft 365 admin center or PowerShell to assign licenses to users in your organization. You must be a User management admin to manage licenses.
 
-## What you need to know before you assign Phone System, Calling Plan, and Communication Credits licenses
+## What you need to know before you assign Teams Phone, Calling Plan, and Communication Credits licenses
 
 Before you get started, review the following requirements:
 
@@ -51,7 +51,7 @@ Before you get started, review the following requirements:
 
 Use the Microsoft 365 admin center to assign licenses to individual users or small sets of users at a time.
 
-You assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page (for up to 40 users at a time). The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
+You assign licenses on the **Billing** > **Licenses** page (for up to 20 users at a time) or the **Users** > **Active users** page (for up to 40 users at a time). The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
 
 For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -144,7 +144,7 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 
 | Product name| SKU part name |
 |--------------|---------------|
-| Microsoft Enterprise E5 (with Phone System) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (with Teams Phone) | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E5 (without Audio Conferencing) | ENTERPRISEPREMIUM_NOPSTNCONF |
 | Microsoft Enterprise E5 (with Audio Conferencing) | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E3 | ENTERPRISEPACK |

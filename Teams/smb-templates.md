@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 audience: ITPro
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: medium

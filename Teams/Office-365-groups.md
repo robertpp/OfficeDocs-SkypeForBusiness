@@ -5,7 +5,7 @@ ms.date: 06/11/2024
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: concept-article
 audience: admin
 ms.service: msteams
 ms.localizationpriority: medium

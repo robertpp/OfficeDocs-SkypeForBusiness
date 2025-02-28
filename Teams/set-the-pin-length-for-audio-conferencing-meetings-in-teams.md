@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 02/22/2024
+ms.date: 02/18/2025
 ms.topic: article
 ms.assetid: b86d31c6-1543-478f-b8c6-4b71e708403a
 ms.tgt.pltfrm: cloud
@@ -29,29 +29,16 @@ description: "Learn the parameters for the length and requirements of a PIN and 
 
 # Set the PIN length for Audio Conferencing meetings in Microsoft Teams
 
-When you set up audio conferencing for Microsoft Teams, you get an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers. The phone number you set is included on the meeting invites for the Microsoft Teams app.
+When you set up Audio Conferencing for Microsoft Teams, you get an Audio Conferencing bridge. A conferencing bridge can contain one or more phone numbers. The phone number you set is included on the meeting invites for the Microsoft Teams app.
   
-The audio conferencing bridge answers a call for people who are dialing in to a meeting using a phone. It answers the caller with voice prompts from an auto attendant and then, depending on your settings, can play notifications and ask callers to record their name. **Microsoft bridge settings** allow you to change the settings for meeting notifications and the meeting join experience, and set the length of the PINs that are used by meeting organizers. Meeting organizers use PINs to start meetings if they can't join the meeting using the Microsoft Teams app.
+The Audio Conferencing bridge answers a call for users who dial-in to a meeting using a phone. It answers the caller with voice prompts from an auto attendant and then, depending on your settings, can play notifications and ask callers to record their name.
+
+As an admin, you can use **Microsoft bridge settings** to change the settings for meeting notifications and the meeting join experience. You can also set the length of the PINs that are used by meeting organizers. Meeting organizers use PINs to start meetings if they can't join the meeting using the Microsoft Teams app.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-  
-## Setting the PIN length
 
-Using the Microsoft Teams admin center:
-
-1. In the left navigation, go to **Meetings** > **Conference Bridges**.
-
-2. At the top of the **Conference Bridges** page, select **Bridge Settings**.
-
-3. In the **Bridge settings** pane, under **PIN length**, select the number of digits you want for the PIN.
-
-4. Select **Save**.
-
-> [!NOTE]
-> A PIN is different from a conference ID. Conference IDs are used by callers when they join the meeting. They are used to identify the meeting. The PIN is used to authenticate a caller as the meeting organizer.
-
-## Want to know more about PIN settings?
+## What's a PIN?
 
 - PINs can be from 4 to 12 digits; the default is 5. Numbers are only used when creating PINs. Letters and special characters aren't used.
 
@@ -59,15 +46,17 @@ Using the Microsoft Teams admin center:
 
 - PIN security settings are applied to all of the phone numbers that are associated with a Microsoft bridge. They're applied to all meetings that use the phone numbers associated with a given bridge.
 
-## Want to know more about Windows PowerShell?
+> [!NOTE]
+> A PIN and a conference ID serve different purposes in a meeting. Callers use the conference ID to join the meeting and identify it. On the other hand, a meeting organizer uses a PIN to authenticate themselves and start the meeting when dialing in.
+  
+## Set the PIN length
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these articles:
+Using the Microsoft Teams admin center:
 
-- [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-
-- [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams).
+1. In the navigation pane, expand **Meetings** > **Conference Bridges**.
+2. Select **Bridge Settings**.
+3. In the **Bridge settings** pane, under **PIN length**, select the number of digits you want for the PIN.
+4. Select **Save**.
 
 ## Related topics
 

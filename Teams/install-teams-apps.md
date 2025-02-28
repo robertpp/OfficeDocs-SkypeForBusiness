@@ -3,7 +3,7 @@ title: Preinstall Teams apps for your org users
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started

@@ -6,7 +6,7 @@ ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
-ms.topic: conceptual
+ms.topic: article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
@@ -26,7 +26,7 @@ The [Skype for Business on Mac Client](https://products.office.com/skype-for-bus
   
 ## Hardware and software requirements for Skype for Business on Mac
 
-The Skype for Business on Mac client requires Mac OS X El Capitan and higher, and uses at least 100MB of disk space. We support the use of all built-in audio and video devices. External devices must be listed at [Microsoft Teams devices](https://www.microsoft.com/microsoft-teams/across-devices/devices). 
+The Skype for Business on Mac client requires macOS X El Capitan and higher, and uses at least 100MB of disk space. We support the use of all built-in audio and video devices. External devices must be listed at [Microsoft Teams devices](https://www.microsoft.com/microsoft-teams/across-devices/devices). 
   
 > [!NOTE]
 > This list is preliminary and some devices may be qualified for Lync, but not supported on Skype for Business on the Mac. 
@@ -34,7 +34,7 @@ The Skype for Business on Mac client requires Mac OS X El Capitan and higher, an
   
 ### Legacy Mac clients
 
-Skype for Business Server 2015 also supports the following legacy clients on computers that are running Mac OS 10.5.8 or latest service pack or release (Intel-based) operating systems (Mac OS 10.9 operating system is not currently supported). For details about supported features, see [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md).
+Skype for Business Server 2015 also supports the following legacy clients on computers that are running macOS 10.5.8 or latest service pack or release (Intel-based) operating systems (macOS 10.9 operating system is not currently supported). For details about supported features, see [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md).
   
 - Microsoft Lync for Mac 2011 (see [Lync for Mac 2011 Deployment Guide](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14)))
     
@@ -51,7 +51,7 @@ The client has the same requirements as our mobility clients in that you must ha
   
 ### Authentication
 
-The Skype for Business on Mac client supports Cert-based authentication, Microsoft Modern Authentication, and Multi-Factor Authentication when deployed and enabled.
+The Skype for Business on Mac client supports Cert-based authentication, Microsoft Modern Authentication, and multifactor authentication when deployed and enabled.
   
 > [!NOTE]
 > Due to a current limitation, the user's Exchange credentials must be the same as their Skype for Business credentials. 

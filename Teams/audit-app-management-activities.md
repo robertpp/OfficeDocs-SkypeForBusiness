@@ -3,7 +3,7 @@ title: Search the audit logs of app management events
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin

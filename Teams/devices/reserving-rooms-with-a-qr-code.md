@@ -6,7 +6,7 @@ ms.reviewer: eviegrimshaw
 ms.date: 08/21/2024
 manager: pamgreen
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.subservice: itpro-devices
 ms.collection: 

@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eshanmathur
 ms.date: 09/26/2024
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: itpro-rooms

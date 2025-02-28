@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 01/22/2024
+ms.date: 01/31/2025
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -18,7 +18,7 @@ f1.keywords:
 description: Learn what changes have been made in the new Microsoft Teams and how they compare to classic Teams.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ---
 
 # Features that are changing in the new Microsoft Teams

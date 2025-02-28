@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
 ms.date: 9/06/2024
-ms.topic: article
+ms.topic: how-to
 audience: admin
 appliesto: 
   - Microsoft Teams
@@ -23,7 +23,7 @@ description: Learn more about how
 ---
 # Configure digital signage on Teams Rooms
 
-Digital signage on Microsoft Teams Rooms expands organizational communications into your meeting spaces, enabling you to inform, connect, and engage your teams. When your Teams Rooms devices aren't used for meetings or presentations, they can be configured to display dynamic content and relevant information like how to guides, company or organizational news, upcoming events, and more in signage mode. You can adjust when signage mode is activated and deactivated, including whether signage mode will adhere to the operating system's screen time-out setting. When your Teams Rooms devices are in signage mode, signage content appears in full screen on the front-of-room displays. You have the option to show the Teams Rooms banner so that users can see the room information and calendar preview alongside the signage content on the front-of-room displays. Tapping the touch console during signage mode seamlessly returns the user to the home screen.
+Digital signage on Microsoft Teams Rooms expands organizational communications into your meeting spaces, enabling you to inform, connect, and engage your teams. When your Teams Rooms devices aren't used for meetings or presentations, they can be configured to display dynamic content and relevant information like how to guides, company or organizational news, upcoming events, and more in signage mode. You can adjust when signage mode is activated and deactivated, including whether signage mode will adhere to the operating system's screen time-out setting. When your Teams Rooms devices are in signage mode, signage content appears in full screen on the front-of-room displays. You can show the Teams Rooms banner so that users can see the room information and calendar preview alongside the signage content on the front-of-room displays. Tapping the touch console during signage mode seamlessly returns the user to the home screen.
 
 :::image type="content" source="media/digital-signage/ds-meeting-enlarged-console.jpg" alt-text="Teasms Rooms homescreen." lightbox="media/digital-signage/ds-meeting-enlarged-console.jpg":::
 
@@ -55,7 +55,7 @@ To enable digital signage for your Teams Rooms devices, you need to follow these
 1. Assign a source and settings to rooms which register rooms onto supported third-party content management systems (if applicable).
 
 > [!IMPORTANT]
-> Before you enable and set up digital signage, consider your privacy and compliance requirements. See [Adding an external signage source](#step-3---adding-an-external-signage-source) for more information.
+> Before you enable and set up digital signage, consider your privacy and compliance requirements. For more information, see [Adding an external signage source](#step-3---adding-an-external-signage-source).
 The following sections show you how to complete each step.
 
 ## Step 1 - Managing permissions for digital signage
@@ -73,7 +73,7 @@ By default, Microsoft 365 Global Admins and Teams Rooms Pro Managers have the di
   
 - Digital signage *room* management permission
   - Enable, disable, and reset digital signage for a room.
-  - Select an existing signage source from the list of sources that has been added to the tenant for a room.
+  - Select an existing signage source from the list of sources that was added to the tenant for a room.
   - Modify signage settings for a room.
   
 Microsoft 365 Global Admins and Teams Rooms Pro Managers can assign additional users with digital signage tenant management and/or digital signage room management permissions using the role-based access control:
@@ -83,8 +83,8 @@ Microsoft 365 Global Admins and Teams Rooms Pro Managers can assign additional u
 
 1. Sign in to **Teams Rooms Pro Management** portal > go to **Settings** > **Roles** > select **Create** **role** > enter a unique name and description for the role > select **Next**.
 1. Under **Role permissions**, select **Digital signage tenant management: View, Modify** and/or **Digital signage room management: Modify** as desired > select **Next** > enter a name and description for the assignment > select **Next**.
-1. Under **Assign members**, search and/or select user(s) and/or security group(s) that will be part of this role with the selected permissions > select **Next**.
-1. Under **Assign scope**, search and/or select room(s) and/or room group(s) that this role can manage > select **Next** > **Add new role**.
+1. Under **Assign members**, search and/or select users and/or security groups that are part of this role with the selected permissions > select **Next**.
+1. Under **Assign scope**, search and/or select rooms and/or room groups that this role can manage > select **Next** > **Add new role**.
 
 > [!IMPORTANT]
 > The **digital signage** ***tenant*** **management: modify** permission grants the ability to apply signage source and settings to all rooms in the tenant. Any room or room group specified under the assign scope step will only apply to the **digital signage** ***room*** **management: modify** permission and other permissions that are selected in the wizard.
@@ -95,7 +95,7 @@ To enable digital signage for your tenant, sign in to **Teams Rooms Pro Manageme
 
 Next, you need to add a signage source. You can add multiple signage sources for your tenant and assign a different source per room or room group. Supported signage sources include third-party digital signage providers and web URLs. Native integrations with the following trusted third-party digital signage providers are available:
 
-- [Appspace](https://www.appspace.com/microsoft-teams-rooms/)
+- [AppSpace](https://www.appspace.com/microsoft-teams-rooms/)
 
 - [XOGO](https://www.xogo.io/xogo-for-microsoft-teams-rooms)
 
@@ -104,7 +104,7 @@ Next, you need to add a signage source. You can add multiple signage sources for
 
 ## Step 3 - Adding an external signage source
 
-To enable a third party integration, from the digital signage tenant management page, select **Add source** > enter a unique name and description for this source > select **Next** > choose the third party system of your choice > enter a valid integration ID that you must obtain from the third-party system > select **Validate** > **Next** > acknowledge terms of use > select **Next** > review and finish > select **Submit**. You can find the setup instructions for the following supported third party providers below:
+To enable a third party integration, from the digital signage tenant management page, select **Add source** > enter a unique name and description for this source > select **Next** > choose the third party system of your choice > enter a valid integration ID that you must obtain from the third-party system > select **Validate** > **Next** > acknowledge terms of use > select **Next** > review and finish > select **Submit**. You can find the setup instructions for the following supported third party providers:
 
 - [Appspace](https://docs.appspace.com/latest/devices-app/advanced-registration-microsoft-meeting-room-devices/)
 
@@ -117,6 +117,9 @@ If you don’t use any of the supported third party providers, you can set web U
 - Accessible within a browser InPrivate window without requiring authentication or permission from the resource account.
 - Loads within an iframe that runs in sandbox="allow-scripts allow-same-origin" environment. For more information, see [CSP: frame-ancestors - HTTP | MDN (mozilla.org)](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
 
+> [!IMPORTANT]
+> You must add *https://teams.microsoft.com/* to the Content-Security-Policy (CSP) frame-ancestors directive for your web URL to load successfully. 
+
 To add a web URL as signage source, from the digital signage tenant management page, select **Add source** > enter a unique name and description for this source > select **Next** > choose **Custom**> enter a web URL that meets the requirements above > select **Next** > acknowledge terms of use > select **Next** > review and finish > select **Submit**.
 
 > [!NOTE]
@@ -124,17 +127,17 @@ To add a web URL as signage source, from the digital signage tenant management p
 
 > [!IMPORTANT]
 > By adding a signage source to your tenant, you accept full responsibility for all signage content that is displayed in your rooms and acknowledge that Microsoft isn't responsible for the signage content that is displayed nor the data that may be transferred out of our system to the external signage source. 
-> Supported third party providers will receive the name and email of the specific rooms where they have been assigned as the signage source, allowing seamless integration.
+> Supported third party providers receive the name and email of the specific rooms where they have been assigned as the signage source, allowing seamless integration.
 
 ## Step 4 - Assigning signage source and settings
 
 Once you've added signage source(s) for your tenant, you can now assign a signage source and settings to your rooms. If you're assigning one of the trusted third party providers as a signage source to a room, this step automatically registers that specific room onto the third-party content management system. You can assign a signage source and settings for multiple rooms or room groups at the tenant level or for individual rooms at a room level:
 
-- Tenant-level - from the digital signage tenant management page, choose a signage source > select **Assign to rooms** > confirm the preselected source that you intend to assign > select **Next** > review or modify signage settings > select **Next** > search or select room(s) and/or room group(s) where you'd like to assign your chosen source and settings > select **Next** > choose when the configuration will be applied > review and finish > select **Submit**.
+- Tenant-level - from the digital signage tenant management page, choose a signage source > select **Assign to rooms** > confirm the preselected source that you intend to assign > select **Next** > review or modify signage settings > select **Next** > search or select rooms and/or room groups where you'd like to assign your chosen source and settings > select **Next** > choose when the configuration will be applied > review and finish > select **Submit**.
 - Room-level - navigate to the specific room's settings. Go to **Rooms** > choose a specific room > select **Settings** > **Digital signage** > toggle ON **Digital signage** > modify signage settings as desired > choose a signage source from any of the sources added to the tenant > select **Apply** > choose when the configuration will be applied > select **Submit**.
 
 > [!IMPORTANT]
-> Whether you choose to apply the settings now or during the maintenance window, the room must be online, connected, and signed into the Teams Rooms app for settings to be applied. Note that after a room restarts, it takes about 10-15 minutes for the Teams Rooms Pro Management agent to be connected.
+> Whether you choose to apply the settings now or during the maintenance window, the room must be online, connected, and signed into the Teams Rooms app for settings to be applied. After a room restarts, it takes about 10-15 minutes for the Teams Rooms Pro Management agent to be connected.
 
 > [!NOTE]
 > To find the setting application results, go to **Rooms** > select **Export** **all** and filter through the rooms and settings in the CSV file.
@@ -144,36 +147,36 @@ Once settings have been applied, rooms are now registered with the third party p
 > When designing signage content, avoid placing texts or images on the top 15% of the screen height to avoid being obstructed by the Teams Rooms banner.
 
 > [!WARNING]
-> Make sure that there is signage content assigned to your room from the third party service. If there isn't signage content from the third party service available for your room, signage mode won't activate even when configured to do so to avoid showing blank screens on front-of-room displays.
+> Make sure that there's signage content assigned to your room from the third party service. If there isn't signage content from the third party service available for your room, signage mode won't activate even when configured to do so to avoid showing blank screens on front-of-room displays.
 
 ## Modifying default source and settings
 
 While each room or room group can be assigned with a unique configuration, you can set your preferred default signage settings for your tenant, including the default source, signage mode user interface, and display period. To do so:
 
-- **Signage source** - from the digital signage tenant management page, choose a source > select **Set as default.**
-- **Signage mode user interface** - from the digital signage tenant management page, select **Preferences** > toggle On or Off **Show Teams Rooms banner** as desired. Turn On to show room information including room name and calendar preview alongside signage content. Turn Off to hide room information in signage mode.
-- **Display period** - from the digital signage tenant management page, select **Preferences** >
-  - **Activation timer** - enter the number of minutes (between 1 to 100) that a device has been idle before signage mode activates.
-  - **Deactivation** **timer** - enter the number of minutes (between 0 to 100) before a scheduled meeting starts when signage mode deactivates and returns to the home screen.
-  - **Screen timeout** - toggle On or Off **Allow screen timeout when device is idle** as desired. Turn On to adhere to the operating system's screen timeout settings (that is, the screen light goes out regardless of when signage mode is activated). Turn Off to bypass the operating system's screen timeout settings (that is, the screen remains lit up on idle devices when signage mode is activated).
+- **Signage source** - From the digital signage tenant management page, choose a source > select **Set as default**.
+- **Signage mode user interface** - From the digital signage tenant management page, select **Preferences** > toggle On or Off **Show Teams Rooms banner** as desired. Turn On to show room information including room name and calendar preview alongside signage content. Turn Off to hide room information in signage mode.
+- **Display period** - From the digital signage tenant management page, select **Preferences**:
+  - **Activation timer** - Enter the number of minutes (between 1 to 100) that a device has been idle before signage mode activates.
+  - **Deactivation** **timer** - Enter the number of minutes (between 0 to 100) before a scheduled meeting starts when signage mode deactivates and returns to the home screen.
+  - **Screen timeout** - Toggle On or Off **Allow screen timeout when device is idle** as desired. Turn On to adhere to the operating system's screen time out settings (that is, the screen light goes out regardless of when signage mode is activated). Turn Off to bypass the operating system's screen time out settings (that is, the screen remains lit up on idle devices when signage mode is activated).
   
 > [!NOTE]
-> If you add video content in your signage playlist, the screen timeout setting might not consistently honored due to underlying operating system behavior for video playback.
+> If you add video content to your signage playlist, the screen time-out setting might not be consistently honored due to the underlying operating system behavior for video playback.
 
 > [!TIP]
-> To maximize the visibility of signage mode and ensure your teams see signage content when walking into a room, passing by a room, or lingering in a room after a meeting ends, set the activation and deactivation timers to the lowest possible values and extend the operating system's screen timeout timer or bypass the screen timeout settings by turning Off **Allow screen timeout when device is idle**.
+> To maximize the visibility of signage mode and ensure your teams see signage content when walking into a room, passing by a room, or lingering in a room after a meeting ends, set the activation and deactivation timers to the lowest possible values and extend the operating system's screen time out timer or bypass the screen time-out settings by turning Off **Allow screen timeout when device is idle**.
 
 ## Monitoring and insights (coming soon)
 
-When using a supported third party digital signage provider as the signage source of a room, you can proactively monitor the health of digital signage in the room using the new digital signage health signal when you expand the display signal. To view the digital signage health signal: go to **Rooms** > choose the specific room > select **Status** > toggle On **Show all signals** > expand **Display** > select **Digital signage**. Alternatively, go to **Incidents** > expand **Display** > select **Digital** **signage**.
+When using a supported third party digital signage provider as the signage source of a room, you can proactively monitor the health of digital signage in the room using the new digital signage health signal when you expand the display signal. To view the digital signage health signal: go to **Rooms** > choose the specific room > select **Status** > toggle On **Show all signals** > expand **Display** > select **Digital signage**. Alternatively, go to **Incidents** > expand **Display** > select **Digital signage**.
 
 When there's an issue with the third party player or signage content, the issue description, and actions you can take to resolve the issue (if applicable) will be visible in the messages. Depending on the nature of the issue, the Teams Rooms experience varies:
 
 - If there's no signage content available to play in a room whether caused by a system error (that is, server error, offline) or human error (that is, no content assigned to the room, no cached content), signage mode will remain deactivated until the issue is resolved at the next device restart. The room remains on the home screen to avoid showing error messages or empty screens on front-of-room displays. Alerts are provided on the Teams Rooms Pro Management portal and the third party content management system as appropriate.
-- If there's signage content available to play in a room (i.e., cached content) despite an error, signage mode continues to activate per the activation timer. Any applicable alerts will still be provided on the Teams Rooms Pro Management portal and/or the third party content management system.
+- If there's signage content available to play in a room (that is, cached content) despite an error, signage mode continues to activate per the activation timer. Any applicable alerts will still be provided on the Teams Rooms Pro Management portal and/or the third party content management system.
 
 > [!NOTE]
-> The digital signage health signal is not available for rooms with a web URL (custom option) signage source.
+> The digital signage health signal isn't available for rooms with a web URL (custom option) signage source.
 
 ### Help and support
 
@@ -184,7 +187,7 @@ For issues with getting a valid integration ID, how your Teams Rooms devices app
 |Issue or limitation|Workaround|
 | -------- | -------- |
 |Regardless of the signage source, the digital signage health signal isn't available on the Teams Rooms Pro Management portal.|There's no workaround. Users must report issues for you to be alerted of digital signage issues in the room.|
-|When the **Apply now** option for applying settings is selected and the room is in use, the settings won't be applied immediately to avoid disruption in the room. Rather, we'll retry to apply the settings during the maintenance window.|When settings fail to apply immediately, you can either wait for the maintenance window or push another update when the room is no longer in use to override the settings scheduled to be applied during the maintenance window.|
+|When the **Apply now** option for applying settings is selected and the room is in use, the settings won't be applied immediately to avoid disruption in the room. Rather, we retry to apply the settings during the maintenance window.|When settings fail to apply immediately, you can either wait for the maintenance window or push another update when the room is no longer in use to override the settings scheduled to be applied during the maintenance window.|
 |There's a 2-hour delay before changes to digital signage settings appear in the **Export all** report.|Navigate to the room's digital signage settings page to view the latest settings of the room.|
 |In some instances, assigning an Appspace channel to a room results in a failure to load signage mode in the room.|To troubleshoot, run the **Restart device-Clear cache** action with the **Delete Teams cache** option selected on the Teams Rooms Pro Management portal for the impacted room. If the issue persists, contact Appspace.|
 |Rooms with dual displays that use Appspace may see a black screen on one of the displays when the Appspace player loads for the first time.|When a black screen is showing on of one of the dual displays, tap the touch console to exit signage mode. When the room goes back to the home screen, the next time signage mode loads, both screens will properly show signage mode.|

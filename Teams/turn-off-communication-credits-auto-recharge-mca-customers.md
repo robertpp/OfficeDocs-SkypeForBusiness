@@ -5,7 +5,7 @@ author: DaniEASmith
 manager: jtremper
 ms.reviewer: dachocro
 ms.date: 11/18/2024
-ms.topic: article
+ms.topic: how-to
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
 audience: admin

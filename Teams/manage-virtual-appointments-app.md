@@ -1,11 +1,11 @@
 ---
 title: Manage the Virtual Appointments app in Microsoft Teams
-author: lana-chin
-ms.author: v-chinlana
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: revathim
+ms.reviewer: danewman
 ms.date: 09/18/2023
 search.appverid: MET150
 searchScope:
@@ -26,6 +26,8 @@ appliesto:
 ---
 
 # Manage the Virtual Appointments app for your organization in Microsoft Teams
+
+[!INCLUDE [va-app-retirement](includes/va-app-retirement.md)]
 
 ## Overview of Virtual Appointments
 

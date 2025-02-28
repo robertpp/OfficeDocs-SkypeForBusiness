@@ -102,6 +102,7 @@
   "need_generate_intellisense": false,
   "redirection_files": [
     ".openpublishing.redirection.json",
-    ".openpublishing.redirection.lync.json"
+    ".openpublishing.redirection.lync.json",
+    ".openpublishing.redirection.sfb-online.json"
   ]
 }

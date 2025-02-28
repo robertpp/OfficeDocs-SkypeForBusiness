@@ -190,6 +190,8 @@ Teams Premium provides more ways to elevate Teams webinars in your org with the 
 
 ## Advanced Virtual Appointments
 
+[!INCLUDE [va-app-retirement](includes/va-app-retirement.md)]
+
 With any Microsoft 365 license, your end users can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, users can schedule appointments in the Bookings calendar and external attendees can join through a browser without having to download Teams.
 
 To learn more about Virtual Appointments, see [Manage the Virtual Appointments app for your organization in Microsoft Teams](manage-virtual-appointments-app.md).

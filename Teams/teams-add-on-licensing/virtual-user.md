@@ -2,9 +2,9 @@
 title: Microsoft Teams Phone Resource Account licenses
 author: DaniEASmith
 ms.author: danismith
-manager: pamgreen
+manager: jtremper
 ms.reviewer: roykuntz
-ms.date: 02/24/2023
+ms.date: 02/27/2024
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -41,27 +41,27 @@ The **Teams Phone Resource Account** license should never be assigned to users t
 
 ## Resource Account license allocation
 
-Your organization is allotted **Teams Phone Resource Account** licenses based on its overall size. Any organization that has a subscription with Phone System features, such as **Teams Phone Standard**, **Teams Phone with Calling Plan**, and **Teams Shared Devices** licenses, is allocated 25 **Teams Phone Resource Account** licenses available at no cost.
+Your organization is allotted **Teams Phone Resource Account** licenses based on its overall size. Any organization that has a subscription with Teams Phone features, such as **Teams Phone Standard**, **Teams Phone with Calling Plan**, and **Teams Shared Devices** licenses, is allocated 25 **Teams Phone Resource Account** licenses available at no cost.
 
-For every 10 user licenses of **Teams Phone Standard**, **Teams Phone with Calling Plan**, or devices with **Teams Shared Devices** license in your organization, one more **Teams Phone Resource Account** license becomes available.  Most organizations will have enough **Teams Phone Resource Account** licenses based on this scaling plan.
+For every 10 user licenses of **Teams Phone Standard**, **Teams Phone with Calling Plan**, or devices with **Teams Shared Devices** license in your organization, one more **Teams Phone Resource Account** license becomes available.  Most organizations have enough **Teams Phone Resource Account** licenses based on this scaling plan.
 
 In the event more **Teams Phone Resource Account** licenses are required, you can purchase more **Teams Phone Resource Account** licenses beyond the standard allocation through EA, EAS, EES, CSP, Web Direct, MCA – Customer led, and MCA – Partner led or your Microsoft account representative at a cost.
 
-Your allocation of **Teams Phone Resource Account** licenses is not automatically added to your tenant. You will need to go through the purchasing process for **Teams Phone Resource Account** licenses. Licenses within your allocation of **Teams Phone Resource Account** licenses will be zero cost. Any **Teams Phone Resource Account** license that exceeds your allocation of licenses will have a cost.
+Your allocation of **Teams Phone Resource Account** licenses isn't automatically added to your tenant. You need to go through the purchasing process for **Teams Phone Resource Account** licenses. Licenses within your allocation of **Teams Phone Resource Account** licenses are zero cost. Any **Teams Phone Resource Account** license that exceeds your allocation of licenses has a cost.
 
 ### License allocation example
 
-Contoso, Inc. purchased 500 licenses that include Phone System (one for each employee) and has 100 devices licensed with the **Teams Shared Devices** license. Contoso is allotted an initial 25 plus 60 **Teams Phone Resource Account** licenses, 85 in total. Their organization has 90 call queues and auto attendants. They need to assign all the **Teams Phone Resource Account** licenses and purchase five extra **Teams Phone Resource Account** licenses.
+Contoso, Inc. purchased 500 licenses that include Teams Phone (one for each employee) and has 100 devices licensed with the **Teams Shared Devices** license. Contoso is allotted an initial 25 plus 60 **Teams Phone Resource Account** licenses, 85 in total. Their organization has 90 call queues and auto attendants. They need to assign all the **Teams Phone Resource Account** licenses and purchase five extra **Teams Phone Resource Account** licenses.
 
 ## How to obtain Microsoft Teams Phone Resource Account licenses
 
 You obtain Teams Phone Resource Account licenses from the same purchasing channel you purchased the subscription containing Teams Phone. For example, if you purchased Resource Account licenses through an Enterprise Agreement (EA), you need to order through EA.
 
 For Web Direct customers:
+
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
-1. Go to **Billing** > [**Purchase services**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Add-ons**.
-    > [!NOTE]
-    > If **Purchase Services** isn't available, go to **Marketplace** and search for *Resource*. Select **Microsoft Teams Phone Resource Account**.
+1. Go to **Marketplace** > **All products**.
+1. Search for *Resource* and select **Microsoft Teams Phone Resource Account**.
 1. Scroll to find the **Microsoft Teams Phone Resource Account** license.
 1. Select the **Details** button.
 1. Choose the number of licenses you wish to purchase and your billing frequency.
@@ -84,8 +84,7 @@ If you have existing resource accounts using a **Teams Phone Standard** license,
 >
 > If this happens, we recommend you create a new resource account using the **Teams Phone Resource Account** license and remove the broken resource account.
 
-## Related information
+## Related articles
 
-[Auto Attendant and Call Queues Service Update](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
-
-[Manage resource accounts in Microsoft Teams](../manage-resource-accounts.md)
+- [Auto Attendant and Call Queues Service Update](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+- [Manage resource accounts in Microsoft Teams](../manage-resource-accounts.md)

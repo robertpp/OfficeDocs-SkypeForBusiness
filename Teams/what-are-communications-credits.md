@@ -5,7 +5,7 @@ author: DaniEASmith
 manager: jtremper
 ms.reviewer: dachocro
 ms.date: 11/18/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
 ms.tgt.pltfrm: cloud
 ms.service: msteams

@@ -92,6 +92,7 @@ Learn more, see [Get started with Content search](/purview/ediscovery-content-se
 - Event Chat is only available for attendees, presenters, and organizers during the town hall. Event chat isn't available before or after the town hall.
 - During the town hall, attendees can only see the last 200 messages.
 - Attendees sending chat messages might experience a 15-30 second latency from the presenters and organizers.
+- Microsoft Teams Rooms on Windows with a Pro license can't use chat when they join webinars and town halls as a presenter.
 
 ## Related articles
 

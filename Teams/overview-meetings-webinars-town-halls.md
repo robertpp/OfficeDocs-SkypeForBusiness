@@ -123,6 +123,8 @@ For detailed information on how to plan for Teams town halls, see [Plan for Team
 
 With a Teams Premium add-on license, you have access to enhanced administrative and telemetry support, as well as enhanced experiences, security, and protection for your users' meetings and events. To learn more, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md).
 
+To learn how to manage Teams Premium licenses and features for your organization from a one place, see [Manage Teams Premium for your organization](teams-premium-dashboard.md).
+
 ## Best practices for large meetings and events
 
 This section provides guidance for admins, along with tips that admins can share with their presenters and organizers.

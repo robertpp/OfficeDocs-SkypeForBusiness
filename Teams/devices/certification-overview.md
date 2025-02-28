@@ -4,8 +4,8 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: slamprianou
-ms.date: 07/17/2024
-ms.topic: article
+ms.date: 2/28/2025
+ms.topic: concept-article
 audience: Admin
 appliesto: 
   - Microsoft Teams

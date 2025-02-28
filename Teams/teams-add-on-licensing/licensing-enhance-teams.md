@@ -5,7 +5,7 @@ author: DaniEASmith
 manager: pamgreen
 ms.reviewer: margidesai, spraveen
 ms.date: 03/26/2024
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.subservice: teams-premium
 search.appverid: MET150
@@ -67,7 +67,7 @@ This article is for IT admins who wish to understand Teams Premium licensing and
   - [How do I purchase Teams Premium licenses?](#how-do-i-purchase-teams-premium-licenses)
   - [Is admin configuration required after assigning users licenses?](#is-admin-configuration-required-after-assigning-users-licenses)
 
-To learn how to set up and configure Teams Premium features, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience), which also includes links to end-user documentation.
+To learn how to set up and configure Teams Premium features, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience), which also includes links to end-user documentation. To learn how to manage licenses and features in one place, see [Manage Teams Premium for your organization](/microsoftteams/teams-premium-dashboard).
 
 > [!IMPORTANT]
 > For admins to be able to manage Teams Premium features, their tenant needs at least one user with an active Teams Premium license.
@@ -224,6 +224,8 @@ In the meeting recap, your users can find the most important parts of a meeting,
 > Intelligent recap features will be available as a part of the Copilot for Microsoft 365 license.
 
 ### Virtual Appointments
+
+[!INCLUDE [va-app-retirement](../includes/va-app-retirement.md)]
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|

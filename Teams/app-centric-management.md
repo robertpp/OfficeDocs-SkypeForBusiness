@@ -3,7 +3,7 @@ title: App centric management to manage user access to Teams apps
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps

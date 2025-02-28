@@ -3,7 +3,7 @@ title: Turn off Teams Native File Upload policy
 author: danieasmith
 ms.author: danismith
 manager: jtremper
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: 
 ms.date: 11/12/2024

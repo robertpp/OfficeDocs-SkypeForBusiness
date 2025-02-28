@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: mattslomka
 ms.date: 10/17/2024
-ms.topic: article
+ms.topic: concept-article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin

@@ -3,8 +3,8 @@ title: Create and manage meeting themes for Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.date: 2/29/2024
-ms.reviewer: nraghavan
+ms.date: 2/18/2025
+ms.reviewer: nraghavan, margidesai
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -31,11 +31,11 @@ description: Using approved corporate branding assets like images and logos to c
 
 ## Overview
 
-Meeting themes consist of your organization’s brand colors, a custom image to represent your org, and your org’s logo. Applying a custom theme allows you, as an admin, to customize the visual appearance of the meeting invite, prejoin, and lobby screens for your users' meetings. Meeting themes don't apply to webinars; instead, the webinar registration page is used for configuring the webinar's branding for registration and emails.
+Meeting themes consist of your organization’s brand colors, a custom image to represent your org, and your org’s logo. Applying a custom theme allows you, as an admin, to customize the visual appearance of the meeting invite, pre-join, and lobby screens for your users' meetings. Meeting themes don't apply to webinars; instead, the webinar registration page is used for configuring the webinar's branding for registration and emails.
 
 Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. An organization’s images and colors help foster internal corporate culture building and increase overall brand awareness with guests. With the help of an organization's brand management and corporate communications teams, you can easily set up and create meeting themes for various business units and departments within a single tenant.
 
-Teams premium licensed users with an assigned meeting customization policy can create meetings with meeting themes. Anyone who joins these meetings can see the themes (including unlicensed internal users, guests, and anonymous users). 
+Teams Premium licensed users with an assigned meeting customization policy can create meetings with meeting themes. Anyone who joins these meetings can see the themes (including unlicensed internal users, guests, and anonymous users).
 
 :::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
 
@@ -125,7 +125,7 @@ Once you add your meeting assets, you can preview how your theme looks before sa
 
 ### 6. Save your meeting theme
 
-By selecting **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** saves the meeting theme, but doesn't apply it to any of your meetings. To apply this theme, select **Save** on the meeting theme creator, or use the **Currently active** toggle on the meeting theme table on the customization policy page.
+When you select **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** saves the meeting theme, but doesn't apply it to any of your meetings. To apply this theme, select **Save** or use the **Currently active** toggle on the meeting theme table on the customization policy page.
 
 ### Manage meeting themes in PowerShell
 
@@ -149,7 +149,7 @@ Grant-CsTeamsMeetingBrandingPolicy -identity " alice@contoso.com" -PolicyName "P
 
 ### Assigning a meeting customization policy to users
 
-Meeting customization policies can be assigned to one, many, or a predefined user group in your Tenant. Make sure that these users have a Teams premium license to use these features.
+Meeting customization policies can be assigned to one, many, or a predefined user group in your Tenant. Make sure that these users have a Teams Premium license to use these features.
 
 - All licensed users automatically get the global default policy assigned to them.
 - Custom customization policies override the global default.
@@ -190,9 +190,9 @@ While only licensed users who are assigned a meeting customization policy can cr
 
 ## Allow organizers to turn off meeting themes for a meeting
 
-Admins can allow meeting organizers to disable meeting themes for a specific meeting. Disabling meeting themes returns the meeting to the default Teams theme.
+Admins can allow meeting organizers to turn off meeting themes for a specific meeting. Turning off meeting themes returns the meeting to the default Teams theme.
 
-To give your meeting organizers the ability to disable meeting themes:
+To allow your meeting organizers to turn off meeting themes:
 
 1. Navigate to the **Meeting customization policy**.
 1. Toggle the **Allow organizer to control meeting theme** setting to **On**.
@@ -243,3 +243,9 @@ To support this use case, Tenant Admins can create two distinct customization po
 They can proceed to assign the licensed employees in Contoso Technical Services to Policy A, and licensed employees of Contoso Education to Policy B.
 
 :::image type="content" source="media/meeting-themes-tech-services-small.png" alt-text="Screenshot of policy A, Contoso Technical Services' meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-tech-services.png":::
+
+## Related topics
+
+- [Teams Premium meetings customization options](custom-meetings-overview.md)
+- [IT Admins- Manage and create custom meeting backgrounds for Teams meetings](custom-meeting-backgrounds.md)
+- [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)

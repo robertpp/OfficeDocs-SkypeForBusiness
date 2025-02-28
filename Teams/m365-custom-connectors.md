@@ -3,7 +3,7 @@ title: Manage Microsoft 365 connectors and custom connectors
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin

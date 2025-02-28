@@ -3,7 +3,7 @@ title: Microsoft Teams apps permissions and consent
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: conceptual
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps

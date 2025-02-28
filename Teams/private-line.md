@@ -94,7 +94,7 @@ Private lines can be configured in the Teams admin center or with PowerShell. Yo
 
 #### Assign a private line to a user
 
-Accounts for new users who need private lines use the same [CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as accounts for new users who don't need private lines. The only difference is that you need to specify the parameter `-AssignmentPlan` with the **Private** attribute.
+Accounts for new users who need private lines use the same [CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as accounts for new users who don't need private lines. The only difference is that you need to specify the parameter `-AssignmentCategory` with the **Private** attribute.
 
 The following PowerShell script assigns the Microsoft Calling Plan phone number +4532759474 as a private line for user1@contoso.com:
 

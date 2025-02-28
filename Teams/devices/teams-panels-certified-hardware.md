@@ -74,7 +74,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Audiocodes </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------|:----------------------------|
-| RX Panel | `2.6.293 (AOSP)` | N/A| Teams client: `1449/1.0.97.2024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product`| December 18, 2024|
+| RX Panel | `2.6.293 (AOSP)` | N/A| Teams client: `1449/1.0.97.2024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| December 18, 2024|
 | RX Panel | `2.6.280` | N/A| Teams client: `1449/1.0.97.2024081207` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product`| October 16, 2024|
 | RX Panel | `2.6.228` | N/A| Teams client: `1449/1.0.97.2024053104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 21, 2024|
 | RX Panel | `2.4.124` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 1, 2024|
@@ -85,6 +85,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Cisco </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------|:---------------------------|
+| Cisco Room Navigator | `11.24.1.8 (AOSP) ` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202412110504.product (753)`| February 19, 2025|
 | Cisco Room Navigator | `11.22.1.12` | N/A | Teams client: `1449/1.0.97.2024081207` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| December 20, 2024|
 
 #### <b> Crestron </b>
@@ -151,6 +152,8 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Yealink </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:------------------------------------------------------------------------------|:------------------------------------------|
+| Room Panel | `147.520.0.44 (AOSP)` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Room Panel Plus | `269.520.0.44 (AOSP)` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| February 19, 2025|
 | RoomPanel E2 | `324.520.0.7` | N/A | Teams client: `1449/1.0.97.2024071105` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353`| January 07, 2025|
 | Room Panel | `147.520.0.21` | N/A| Teams client: `1449/1.0.97.2023121202` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 07, 2024|
 | Room Panel Plus | `269.520.0.21` | N/A| Teams client: `1449/1.0.97.2023121202` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 07, 2024|

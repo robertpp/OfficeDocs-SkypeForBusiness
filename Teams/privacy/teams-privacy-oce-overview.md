@@ -4,7 +4,7 @@ ms.author: danbrown
 author: DHB-MSFT
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration

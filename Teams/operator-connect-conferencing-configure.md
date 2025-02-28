@@ -3,7 +3,7 @@ title: Configure Operator Connect Conferencing
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.date: 02/22/2024
+ms.date: 02/18/2025
 ms.topic: article
 ms.service: msteams
 ms.subservice: teams-audio-conferencing
@@ -33,31 +33,17 @@ This article details how to configure Operator Connect Conferencing for your org
 
 Before configuring Operator Connect Conferencing, read [Plan for Operator Connect Conferencing](operator-connect-conferencing-plan.md) for information about benefits and licensing requirements.
 
-The articles covered in this article include:
-
-- [Set up an operator](#set-up-an-operator)
-- [Acquire numbers for your Audio Conferencing bridge](#acquire-numbers-for-your-audio-conferencing-bridge)
-- [Change the default phone numbers that are included in the meeting invites of users](#change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users)
-- [Sending outbound calls from Microsoft Teams meetings through an operator](#sending-outbound-calls-from-microsoft-teams-meetings-through-an-operator)
-- [Manage your operators](#manage-your-operators)
-- [Release numbers from your Audio Conferencing bridge](#release-numbers-from-your-audio-conferencing-bridge)
-- [Additional information on managing Microsoft Audio Conferencing](#additional-information-on-managing-microsoft-audio-conferencing)
-
 ## Set up an operator
 
-You can set up, edit, and remove operators in the Teams admin center. In the left navigation pane, go to **Voice > Operators**.
+You can set up, edit, and remove operators in the Teams admin center. In the left navigation pane, go to **Voice > Operator Connect**.
 
 To set up an operator:
 
-1. **Choose an operator.** In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs. Then, select the operator you want to use. For Operator Connect Conferencing, verify that your operator has **Conferencing** listed as an available product.
-
-2. **Select countries/regions.** Under **Operator settings**, select the countries/regions you want to enable with your selected operator.
-
-3. **Provide contact information** Your contact information, including your full name and email address, are shared with your operator. You can change this information later. Additionally, you need to provide company size, with the option to provide your phone number. Operators use this information to contact you with more details about Operator Connect Conferencing.
-
+1. **Choose an operator**: In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs. Then, select the operator you want to use. For Operator Connect Conferencing, verify that your operator has **Conferencing** listed as an available product.
+2. Under **Operator settings**, select the countries/regions you want to enable with your selected operator.
+3. **Operator can contact me using this information**: Enter your contact information, including your full name and email address, to share with your operator. You can change this information later. You need to provide company size, with the option to provide your phone number. Operators use this information to contact you with more details about Operator Connect Conferencing.
 4. Accept the data transfer notice.
-
-5. **Add your operator.** Select **Add as my operator** to save.
+5. Select **Add as my operator** to save.
 
 ## Acquire numbers for your Audio Conferencing bridge
 
@@ -71,10 +57,10 @@ To acquire phone numbers for your Audio Conferencing bridge, follow these steps:
 
 3. **Assign numbers to your Audio Conferencing bridge.** You can assign numbers to your Audio Conferencing bridge from the Teams admin center under **Meetings > Conference Bridges > Add**. For more information, see [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
->[!NOTE]
->You can't assign Operator Connect Conferencing numbers as default numbers of a bridge. Once a phone number is assigned to your Audio Conferencing bridge, the number will be listed in the **Find a local number page** included in meeting invites of users in your organization with an Audio Conferencing license or an Operator Connect Conferencing license.
+> [!NOTE]
+> You can't assign Operator Connect Conferencing numbers as default numbers of a bridge. Once a phone number is assigned to your Audio Conferencing bridge, the number will be listed in the **Find a local number page** included in meeting invites of users in your organization with an Audio Conferencing license or an Operator Connect Conferencing license.
 >
->To route outbound calls through an operator, see the [**Sending outbound calls from Teams meetings through an operator**](#sending-outbound-calls-from-microsoft-teams-meetings-through-an-operator) section further down in this article.
+> To route outbound calls through an operator, see the [**Sending outbound calls from Teams meetings through an operator**](#sending-outbound-calls-from-microsoft-teams-meetings-through-an-operator) section further down in this article.
 
 ## Change the default phone numbers that are included in the meeting invites of users
 
@@ -88,8 +74,8 @@ Once the changes are applied, organizers' new meeting invites include the new de
 
 With a Microsoft Audio Conferencing Standard subscription or an Operator Connect Conferencing license, you can configure outbound calls from Teams meetings to route through your operator by setting up an Audio Conferencing Routing policy.
 
->[!NOTE]
->With an Operator Connect Conferencing license, outbound calls can only go through your operator. If you have Operator Connect Conferencing licenses, you need to configure the service as described to enable outbound calls from Teams meetings to telephone numbers.
+> [!NOTE]
+> With an Operator Connect Conferencing license, outbound calls can only go through your operator. If you have Operator Connect Conferencing licenses, you need to configure the service as described to enable outbound calls from Teams meetings to telephone numbers.
 
 You can apply Audio Conferencing Routing policies at the user level, meaning that your operator routes only the outbound calls from Teams meetings organized by users with the associated policy. You can also apply these policies at the global level, meaning that your operator routes outbound calls from Teams meetings organized by all users in your organization.
 
@@ -128,8 +114,8 @@ New-CsOnlineAudioConferencingRoutingPolicy "International Policy" -OnlinePstnUsa
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity <identity of the organizer of the meeting> -PolicyName "International Policy"
 ```
 
->[!NOTE]
->To set an Audio Conferencing Routing policy as global and apply it to all users in your organization, you can use the ``-Global`` parameter instead of the ``-Identity`` parameter. For example, ``Grant-CsOnlineAudioConferencingRoutingPolicy -Global -PolicyName "International Policy"``.
+> [!NOTE]
+> To set an Audio Conferencing Routing policy as global and apply it to all users in your organization, you can use the ``-Global`` parameter instead of the ``-Identity`` parameter. For example, ``Grant-CsOnlineAudioConferencingRoutingPolicy -Global -PolicyName "International Policy"``.
 
 When you create an Audio Conferencing Routing policy and apply it to a user, the operator that provides the phone number specified in the ``BridgeSourcePhoneNumber`` parameter routes Teams outbound calls to PSTN phone numbers. Additionally, the ``BridgeSourcePhoneNumber`` parameter specifies the phone number to use as the calling line identification phone number of outbound calls to PSTN phone numbers.
 
@@ -145,19 +131,17 @@ From the **My operators** tab, you can view your operators, their status, and ma
 - Suspend an operator
 - Remove an operator
 
->[!NOTE]
->Before removing an operator from your organization or from a country/region, you must remove all phone numbers assigned to the users and your Audio Conferencing bridge, then contact the operator to release the numbers.
+> [!NOTE]
+> Before removing an operator from your organization or from a country/region, you must remove all phone numbers assigned to the users and your Audio Conferencing bridge, then contact the operator to release the numbers.
 
 ## Release numbers from your Audio Conferencing bridge
 
 To release phone numbers from your Audio Conferencing bridge from the Teams admin center, see **Steps when you are unassigning a service phone number for a conferencing bridge** in [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-unassign-a-service-phone-number-for-a-conferencing-bridge).
 
-## Additional information on managing Microsoft Audio Conferencing
+## Related topics
 
 For more information on how to manage Microsoft Audio Conferencing for your organization, see the following articles:
 
 - Managing the Microsoft Audio Conferencing service settings for your organization: [Manage the Audio Conferencing settings for your organization in Microsoft Teams](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-
 - Managing the Microsoft Audio Conferencing service setting of the users in your organization: [Manage the Audio Conferencing settings for a user in Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-
 - Changing the auto attendant languages of your Audio Conferencing phone numbers: [Set auto attendant languages for Audio Conferencing in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)

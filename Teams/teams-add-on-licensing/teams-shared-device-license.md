@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms. reviewer: chester, sirigudur
 ms.date: 11/11/2024
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
@@ -46,9 +46,6 @@ The **Microsoft Teams Shared Devices** license includes the following service pl
 - Microsoft Intune (Microsoft Intune Plan 1 and Plan 2)
 - Microsoft Entra ID P1
 - Exchange Online Plan (Cloud-based voicemail capabilities only.)
-
-> [!IMPORTANT]
-> You can't use an account that only has the Teams Shared Device license assigned to sign in to Teams using the desktop or web clients.
 
 ## Teams Shared Devices license availability
 

@@ -39,7 +39,7 @@ Before an app developer can submit their app to Microsoft, the developer is requ
 
 Publisher attestation is the next tier in the app compliance program. Publisher attested apps provide confidence to admins about security and compliance measures of an app. It also helps reduce the time to review this information for an app. The attestation reflects an app's security, data handling, and compliance practices against more than 80 risk factors identified by [Microsoft Defender for Cloud Apps](/defender-cloud-apps/). Publisher attestation process can start before Publisher verification is complete.
 
-App developers are asked to complete a self-assessment that includes questions frequently asked by customers and IT admins to evaluate the security and compliance of an app. Microsoft then publishes this information for easier and more timely evaluation. To know more, see [Attestation guide](/microsoft-365-app-certification/docs/enterprise-app-attestation-guide).
+App developers are asked to complete a self-assessment that includes questions frequently asked by customers and IT admins to evaluate the security and compliance of an app. Microsoft then publishes this information for easier and more timely evaluation. To know more, see [attestation guide](/microsoft-365-app-certification/docs/userguide).
 
 Admins can quickly check for Published attested apps in three different ways.
 
@@ -66,7 +66,7 @@ App certification is achieved through:
 * Approval of a comprehensive assessment centering on an app's security and compliance frameworks, processes, and procedures.
 * A qualified analyst's review.
 
-We check the app against a series of security controls derived from leading industry-standard frameworks. Developers demonstrate following strong security and compliance practices to protect customer data when their app is used in an organization. More information about how admins and users benefit from the certification is available at [Overview of Microsoft 365 app compliance program](/microsoft-365-app-certification/docs/enterprise-app-certification-guide).
+We check the app against a series of security controls derived from leading industry-standard frameworks. Developers demonstrate following strong security and compliance practices to protect customer data when their app is used in an organization. More information about how admins and users benefit from the certification is available at [overview of Microsoft 365 app compliance program](/microsoft-365-app-certification/overview).
 
 Administrators can find Microsoft 365 certified apps and information about such apps in the following ways:
 

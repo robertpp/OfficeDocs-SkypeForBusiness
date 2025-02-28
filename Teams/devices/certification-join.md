@@ -4,8 +4,8 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: slamprianou
-ms.date: 07/17/2024
-ms.topic: article
+ms.date: 2/28/2025
+ms.topic: how-to
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -26,7 +26,7 @@ description: Learn more about how to join the Teams certification program.
 
 ## Requirements and available programs
 
-This is not an open program, but by invitation only. Some programs already have sufficient partners to achieve our current product and market reach needs and aren't seeking new partners. 
+This isn't an open program, but by invitation only. Some programs already have sufficient partners to achieve our current product and market reach needs and aren't seeking new partners. 
 
 Vendors interested in submitting their products for the **Certified for Microsoft Teams** program must have:
 
@@ -44,8 +44,8 @@ Vendors that meet the general requirements for partners above may follow the pro
 
 1. Sign the terms and agreements.</br>
 
-Vendors that meet the full requirements for the program will be provided detailed program information (specifications, policies and program fees), provided there's capacity in the program at the time. Program **Terms and Conditions** are made available for acceptance when these requirements are fulfilled.</br>
+Vendors that meet the full requirements for the program will be provided detailed program information (specifications, policies, and program fees), provided there's capacity in the program at the time. Program **Terms and Conditions** are made available for acceptance when these requirements are fulfilled.</br>
 Signing the terms and agreements completes the partner onboarding process and allows the partner to submit products for testing and certification according to the program guidelines.
 
 > [!NOTE]
-> Test labs are independent companies that have been trained and are approved to complete testing on behalf of these programs. All fees for testing are payable directly to test labs. In cases where test requirements are published publicly, the test labs may offer unofficial testing services to companies not yet admitted to the program. These unofficial test results do not constitute a certification or endorsement from Microsoft and would not be used in any Microsoft material.
+> Test labs are independent companies that have been trained and are approved to complete testing on behalf of these programs. All fees for testing are payable directly to test labs. In cases where test requirements are published publicly, the test labs may offer unofficial testing services to companies not yet admitted to the program. These unofficial test results don't constitute a certification or endorsement from Microsoft and wouldn't be used in any Microsoft material.

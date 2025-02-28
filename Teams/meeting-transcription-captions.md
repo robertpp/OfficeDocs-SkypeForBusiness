@@ -53,7 +53,7 @@ The transcription is [stored together with the meeting recordings in OneDrive an
 
 ### Use the Teams admin center to enable or disable transcription
 
-In the Teams admin center, you can enable or disable the **Transcription** setting for your users within a meeting policy located under **Meetings** > **Meeting policies**. This setting is off by default.
+In the Teams admin center, you can enable or disable the **Transcription** setting for your users within a meeting policy located under **Meetings** > **Meeting policies**. This setting is **On** by default for new policies.
 
 ### Use PowerShell to enable or disable transcription
 
@@ -126,6 +126,25 @@ For information on how your end users can use live translated captions, see [Use
 ## Manage whether organizers can prevent participants from copying or forwarding meeting chat messages, live captions, and transcripts
 
 As an admin, you can choose whether organizers in your organization can restrict participants from copying or forwarding meeting chat messages, live captions, transcripts, and AI-generated insights in the meeting recaps. This setting also restricts forwarding and sharing messages to Outlook. By default, this per-organizer setting is set **On**. To learn more, see [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md).
+
+## Diagnostics
+
+You can run the Teams transcripts diagnostic tool in the Microsoft 365 admin center to verify if a user’s account meets the requirements to transcribe a Teams meeting.
+
+> [!NOTE]
+> Diagnostics in the Microsoft 365 admin center aren't available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
+
+To run the diagnostic tool for transcripts, follow these steps:
+
+1. Select the Run Tests button to populate the diagnostic in the Microsoft 365 admin center:
+
+   > [!div class="nextstepaction"]
+   > [Run Tests](https://aka.ms/MeetingTranscribeDiag)
+
+2. In the Username or Email field, enter the email address of the affected user.
+3. In the Teams Meeting URL field, enter the meeting URL.
+4. Select **Run Tests**.
+5. After the diagnostic runs, select the provided links to resolve the issues that were found.
 
 ## Related topics
 

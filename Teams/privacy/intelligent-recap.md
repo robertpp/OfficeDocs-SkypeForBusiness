@@ -3,7 +3,7 @@ title: Data, privacy, and security for intelligent recap in Teams Premium
 ms.author: danbrown
 author: DHB-MSFT
 manager: laurawi
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.reviewer: meajam
 audience: ITPro

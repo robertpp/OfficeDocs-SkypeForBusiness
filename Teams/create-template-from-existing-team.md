@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms.reviewer: aaglick
 ms.date: 07/27/2020
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150

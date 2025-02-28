@@ -3,7 +3,7 @@ title: Manage Teams with policies
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: 
 ms.date: 06/20/2024

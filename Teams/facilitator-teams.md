@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms.reviewer: solomon.alex, grace.culver
 ms.date: 11/27/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
@@ -58,7 +58,7 @@ Facilitator, Copilot, and Microsoft 365 are built on Microsoft's comprehensive a
 
 When you use Microsoft Purview for your security and compliance management, AI-generated notes are supported by new [auditing events](/purview/audit-log-activities#microsoft-teams-activities) that surface in [Data Security Posture Management for AI](/purview/ai-microsoft-purview#data-security-posture-management-for-ai-provides-insights-policies-and-controls-for-ai-apps) and can be used by [eDiscovery with a KQL query](/purview/edisc-keyword-query-language).
 
-To [automatically retain or delete](/purview/retention) AI-generated notes in chat, use a Microsoft Purview Data Lifecycle Management retention policy with the **Teams chat** location. Because AI-generated notes in meetings are [stored in OneDrive](#facilitator-note-storage), these notes can be automatically retained or deleted  with a retention policy or retention labels with the **OneDrive accounts** location. To learn more about retention labels, see [Summary of governance, lifecycle, and compliance capabilities for Loop experiences](/microsoft-365/loop/loop-compliance-summary).
+To [automatically retain or delete](/purview/retention) AI-generated notes in chat, use a Microsoft Purview Data Lifecycle Management retention policy with the **Teams chat** location. Because AI-generated notes in meetings are [stored in OneDrive](#facilitator-note-storage), these notes can be automatically retained or deleted  with a retention policy or retention labels with the **OneDrive accounts** location.
 
 Other Microsoft Purview solutions either aren't applicable for AI-generated notes or aren't yet supported.
 
@@ -98,7 +98,7 @@ The following list contains the prerequisites for users to be able to access Fac
 
 ## Facilitator note storage
 
-AI-generated notes for meetings created by Facilitator are stored as a `.loop` file in a OneDrive folder titled **Meetings** of the user who initiated Facilitator in Teams. This data is treated as meeting transcript data.
+AI-generated notes for meetings created by Facilitator are stored as a `.loop` file in a OneDrive folder titled **Meetings** of the user who initiated Facilitator in Teams. This data is treated as meeting transcript data. To learn more about how this data is handled, see [Summary of governance, lifecycle, and compliance capabilities for Loop experiences](/microsoft-365/loop/loop-compliance-summary).
 
 AI-generated notes for chats created by Facilitator are stored as messaging data in each users' Exchange mailbox. This data is treated like all other Teams chat data.
 

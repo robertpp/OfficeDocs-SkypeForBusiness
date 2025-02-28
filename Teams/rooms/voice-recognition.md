@@ -98,10 +98,10 @@ The following are the required policies to set an Intelligent Speaker and user r
 
 |Policy|Description|Values and Behavior|
 |-|-|-|
-|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Rooms accounts.| **Off**<br><ul><li>The Room device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker.</ul><br>**Distinguish**<br> <ul><li>Rooms users will be distinguished and separated as speaker 1, speaker 2, ....speaker in the transcription.</li><li>Irrespective of enrollment status of the user, their name won't show in the transcription.</li></ul>|
+|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Rooms accounts, and BYOD user accounts.| **Off**<br><ul><li>The Room device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker.</ul><br>**Distinguish**<br> <ul><li>Rooms users will be distinguished and separated as speaker 1, speaker 2, ....speaker in the transcription.</li><li>Irrespective of enrollment status of the user, their name won't show in the transcription.</li></ul>|
 |AllowTranscription|Required for BYOD user and Teams Room accounts.|**True** and **False**|
 
-In the Teams admin center, set the **Transcription** policy. Settings are **Off** by default.
+In the Teams admin center, set the **Transcription** policy. 
 
 > [!NOTE]
 > After a policy is assigned, it can take up to 48 hours to take effect. To get the policy to take effect sooner, accounts must be signed out and signed back in.

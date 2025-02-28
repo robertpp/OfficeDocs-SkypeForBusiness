@@ -3,7 +3,7 @@ title: Assign team owners and members in Microsoft Teams admin center
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 ms.reviewer: dansteve

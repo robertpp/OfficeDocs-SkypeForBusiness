@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
 ms.date: 8/21/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 audience: Admin
 appliesto: 
   - Microsoft Teams

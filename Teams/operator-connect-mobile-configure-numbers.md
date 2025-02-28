@@ -59,7 +59,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 1. Ensure you have eligible Microsoft 365 subscriptions for Teams Phone Mobile. 
 
-2. [Remove the phone number to be moved for respective users](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). 
+2. [Remove the phone number to be moved for respective users](assign-change-or-remove-a-phone-number-for-a-user.md#use-teams-admin-center-to-remove-a-phone-number-from-a-user).
 
 3. Contact your operator to port your numbers to Teams Phone Mobile on an eligible wireless voice plan which is SIM-enabled. 
 
@@ -71,7 +71,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 1. Ensure you have eligible Microsoft 365 subscriptions for Teams Phone Mobile. 
 
-2. [Remove the phone number to be moved for respective users](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). 
+2. [Remove the phone number to be moved for respective users](assign-change-or-remove-a-phone-number-for-a-user.md#use-teams-admin-center-to-remove-a-phone-number-from-a-user).
 
 3. Contact your existing Operator Connect provider to remove the phone numbers from your tenant.
 

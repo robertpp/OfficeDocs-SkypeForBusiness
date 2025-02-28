@@ -3,8 +3,8 @@ title: Intelligent recap for Teams calls and meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.reviewer: weizxue, nijait
-ms.date: 1/16/2025
+ms.reviewer: weizxue, nijait, benjamin.olson
+ms.date: 2/28/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,6 +21,7 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
+  - magic-ai-copilot
   - m365initiative-voice
 description: Learn how to manage Intelligent recap for Teams calls and meetings. Understand the licenses your users need to use intelligent recap for VoIP and PSTN calls.
 ---
@@ -87,6 +88,12 @@ After the meeting ends, your users can access the following AI powered features 
 - Meeting chapters divide the meeting into chapters, and meeting topics that allow your users to jump to a point in the meeting when a certain topic was discussed.
 
 :::image type="content" source="media/new-i-recap-meetings-small.png" alt-text="Screenshot of intelligent meeting recap from the recap tab." lightbox="media/new-i-recap-meetings-expand.png":::
+
+## Intelligent meeting recap for external meetings
+
+Intelligent meeting recap for external meetings allows your users to share the meeting's recap with external attendees. To share the recap via Outlook with specified external attendees, after the meeting, in the **Recap** tab, users can select **Share** > **Share via Outlook**.
+
+To manage policies that allow external attendees to attend meetings in your organization, see [IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
 ## Supported meetings and call types
 

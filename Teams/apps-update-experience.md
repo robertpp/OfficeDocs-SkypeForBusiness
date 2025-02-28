@@ -3,7 +3,7 @@ title: Microsoft Teams apps update experience and admin role
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps

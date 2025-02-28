@@ -5,7 +5,7 @@ ms.date: 04/07/2020
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: best-practice
 ms.service: msteams
 audience: admin
 description: Learn about best practices for managing large teams in Microsoft Teams to meet your organization's needs.

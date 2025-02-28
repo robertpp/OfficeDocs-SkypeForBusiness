@@ -3,7 +3,7 @@ title: Introduction to Microsoft Teams for admins
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 audience: admin
 ms.reviewer: serdars

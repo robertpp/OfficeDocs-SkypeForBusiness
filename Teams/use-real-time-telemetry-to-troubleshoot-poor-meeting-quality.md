@@ -5,7 +5,7 @@ ms.author: jtremper
 manager: pamgreen
 ms.reviewer: vapati
 ms.date: 06/17/2024
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams

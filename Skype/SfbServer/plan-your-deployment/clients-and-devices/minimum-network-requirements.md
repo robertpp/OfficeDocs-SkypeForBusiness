@@ -6,7 +6,7 @@ ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 6/4/2018
 audience: ITPro
-ms.topic: conceptual
+ms.topic: article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH

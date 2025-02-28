@@ -3,7 +3,7 @@ title: Set up your team targeting hierarchy
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.reviewer: andfried
 ms.date: 04/18/2024
@@ -90,7 +90,7 @@ The CSV file must contain the following three columns, in the following order, s
 | TeamId        | Yes, if the team publishes tasks or receives tasks from a parent node.       | This contains the ID of the team you want to link a node to. Each node must refer to a unique team, so each TeamId value can appear only once in the hierarchy file. To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This command lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
 
 > [!NOTE]
-> If a node isn't a root node or a leaf node and you don't need the team membership to grant the corresponding permissions for publishing and reporting, you can leave the TeamId blank. This method can be used to add more granularity when choosing recipient teams or for viewing completion reports without having a corresponding team.
+> If a node isn't a root node or a leaf node and you don't need the team membership to grant the corresponding permissions for publishing and reporting, you can leave the TeamId blank. This method can be used to add more granularity when choosing recipient teams or viewing completion reports without having a corresponding team.
 
 ### Add attribute columns
 

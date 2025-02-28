@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms.reviewer: jastark
 ms.date: 01/29/2025
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
@@ -21,19 +21,19 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 - chat-teams-channels-revamp
-description: "Learn about Messaging policies and how they can be used to control chat messaging in Teams."
+description: Learn about Messaging policies and how they can be used to control chat messaging in Teams.
 ---
 
 # Manage messaging policies in Teams
-
-<!--- Add zone marker here--->
 
 Messaging policies are used to control which chat and channel messaging features are available to [users (owners and members)](assign-roles-permissions.md) in Microsoft Teams. You can use the global (Org-wide default) policy that's created automatically or create and assign custom messaging policies.
 
 Users in your organization will automatically get the global policy, unless you create and assign a custom policy. Edit the settings in the global policy or create and assign one or more custom policies to turn on or turn off the features that you want.
 
+For information on Microsoft's policy for SMS messaging in Microsoft Teams, see [Microsoft's policy for SMS messaging in Microsoft Teams](sms-microsoft-teams-policy.md). For more information on SMS in Teams, see [Plan for SMS in Teams](sms-overview.md).
+
 > [!NOTE]
-> To ensure syncing after a policy change, a reboot may be necessary for certain instances. 
+> To ensure syncing after a policy change, a reboot may be necessary for certain instances.
 
 ## Create a custom messaging policy
 
@@ -69,15 +69,13 @@ A user can only be assigned one messaging policy at a time.
 > [!NOTE]
 > You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
 
-<!--- End zone marker here--->
-
 ## Messaging policy settings
 
 Here are the messaging policy settings that you can configure.
 
 - **Owners can delete sent messages** -   Enable this setting to allow owners to delete messages or posts sent by users, excluding their own. *To allow owners to delete their own sent messages, activate the **Delete Sent Messages** setting*.
 - **Delete sent messages** - Use this setting to let users delete individual messages that they sent in chat.
-- **Delete chat** - Use this setting to let users have the option to delete entire conversations from their chat list. This will only delete the chat content for the user taking the action; other users in the chat will still be able to see all of the messages. The user who deleted the chat will not see any existing messages in their activity feed or search results for the deleted chat; this user will also be removed from the deleted chat. Users will be prompted to confirm the decision to delete a chat. This setting is on by default. If this setting is turned off, users will no longer see the delete option for their chats.
+- **Delete chat** - Use this setting to let users have the option to delete entire conversations from their chat list. This will only delete the chat content for the user taking the action; other users in the chat will still be able to see all of the messages. The user who deleted the chat won't see any existing messages in their activity feed or search results for the deleted chat; this user will also be removed from the deleted chat. Users will be prompted to confirm the decision to delete a chat. This setting is on by default. If this setting is turned off, users will no longer see the delete option for their chats.
 - **Edit sent messages** - Use this setting to let users edit the messages that they sent in chat.
 - **Read receipts** - Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer. Message read receipts remove uncertainty about whether a message was read, and improve team communication. Read receipts aren't captured in eDiscovery reporting.  
   - **User controlled** - This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF.
@@ -107,7 +105,7 @@ Here are the messaging policy settings that you can configure.
   > Audio messages are not captured in eDiscovery reporting.
   - **Allowed in chats and channels** - This means that users can leave audio messages in both chats and channels.
   - **Allowed in chats only** - This means that users can leave audio messages in chats, but not in channels.
-  - **Not enabled** - This means that users cannot create audio messages in chats or channels.  
+  - **Not enabled** - This means that users can't create audio messages in chats or channels.  
 - **On mobile devices, display favorite channels above recent chats** - Enable this setting to move favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them.
 - **Remove users from group chats** - Turn this setting ON to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
 - **Text predictions** - Turn on this setting to let a user get text predictions for chat messages.
@@ -115,6 +113,7 @@ Here are the messaging policy settings that you can configure.
 - **Chat permission role** - Use this setting to define the supervised chat role of the user. Learn more about [supervised chat](supervise-chats-edu.md).
 - **Users with full chat permissions can delete any message** - Use this setting to let users with full permissions delete any group or meeting chat message.
 - **Video messages** - Turn this setting on if you want users in your organization to be able to use the Teams app to send video messages to other people in chats and channels.
+- **Viva Engage experiences in Teams** - Turn this setting on if you want users in your organization to be able to integrate Viva Engage experiences, like Storyline, into their chats.
 
 > [!NOTE]
 > Some of these settings, such as using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.
@@ -126,24 +125,24 @@ Teams Chat supports closed captions for video messages. Users can disable captio
 > [!NOTE]
 > Captions are auto-generated and currently available only in English.
 
-As an administrator, you can hide or show captions for users by using the PowerShell cmdlet.
+As an administrator, you can hide or show captions for users by using PowerShell cmdlets.
 
--	Use the following command to enable captions:
-     
+- Use the following command to enable captions:
+
     ```powershell
     Set-CsTeamsMessagingConfiguration -EnableVideoMessageCaptions $true
           
     ```
 
--	Use the following command to disable captions:
-    
+- Use the following command to disable captions:
+
     ```powershell
     Set-CsTeamsMessagingConfiguration -EnableVideoMessageCaptions $false
         
     ```
 
-- Use the following command to get the value for `TeamsMessagingConfiguration`:	
-    
+- Use the following command to get the value for `TeamsMessagingConfiguration`:
+
     ```powershell
     Get-CsTeamsMessagingConfiguration
         
@@ -151,8 +150,7 @@ As an administrator, you can hide or show captions for users by using the PowerS
 
 For more information about PowerShell, see [Microsoft Teams PowerShell Overview - Microsoft Teams | Microsoft Learn](teams-powershell-overview.md).
 
-
-### Related topics
+### Related articles
 
 - [Teams policies reference - Messaging policies](settings-policies-reference.md#messaging-policies)
 - [Assign policies to users and groups in Teams](assign-policies-users-and-groups.md)

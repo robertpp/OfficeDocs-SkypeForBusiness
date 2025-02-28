@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: srpall
 ms.date: 08/21/2024
-ms.topic: article
+ms.topic: how-to
 audience: admin
 appliesto:
 - Microsoft Teams
@@ -20,8 +20,7 @@ f1.keywords:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn how to manage your Teams Rooms devices in the Teams Room Pro Management portal.
-ai-usage:  
-- ai-assisted
+ai-usage: ai-assisted
 ms.custom: QuickDraft
 ---
 
