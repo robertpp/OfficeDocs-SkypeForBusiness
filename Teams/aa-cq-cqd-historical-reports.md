@@ -47,9 +47,9 @@ What's New
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v316-new.png) report shows analytics for calls coming into your Auto attendants.
-- The [Call Queue](media/aa-cq-historical-report-sample-cq-v316-new.png) report shows analytics for calls coming into your Call queues.
-- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v316-new.png) report shows a timeline view of agents being active in Call queue calls.
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v320.png) report shows analytics for calls coming into your Auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v320.png) report shows analytics for calls coming into your Call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v320.png) report shows a timeline view of agents being active in Call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
@@ -115,7 +115,7 @@ Perform the following steps:
 
    :::image type="content" source="media/aa-cq-historical-report-01-v320.png" alt-text="Screenshot showing the Lanuage, Report Level, and UTC Offset selections.":::
 
-   - **Language & Report Level**: Select the language and level for the report
+   - **Language**: Select the language and report level
      - Select `Per Call` to retrieve all the individual call records.
      - Select `Per Day` to retrieve an aggregated total for each day. 
    - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in. Only valid when the **Report Level** is `Per Call`
