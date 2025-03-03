@@ -129,12 +129,12 @@ Perform the following steps:
 5. Sign in with your Teams account.
    - Select **File**, then **Options and settings**, and then **Data source settings**.
      
-   :::image type="content" source="media/aa-cq-historical-report-01-v320.png" alt-text="Screenshot showing the Lanuage and UTC Offset selections.":::
+   :::image type="content" source="media/aa-cq-historical-report-02-v320.png" alt-text="Screenshot showing the Lanuage and UTC Offset selections.":::
 
    - Select **Edit Permissions**, and then **Edit**.
    - Select **Organizational account**, and then **Sign in**.
 
-     :::image type="content" source="media/aa-cq-historical-report-02-v320.png" alt-text="Screenshot showing data sources for v3.2.x":::
+     :::image type="content" source="media/aa-cq-historical-report-03-v320.png" alt-text="Screenshot showing data sources for v3.2.x":::
      
    - Select **Save**, then **OK**, and then **Close**.
 
