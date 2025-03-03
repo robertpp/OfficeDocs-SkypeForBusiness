@@ -189,7 +189,7 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-cq-v316-new-explain.png" alt-text="Screenshot showing sample cloud call queue analytics report." lightbox="media/aa-cq-historical-report-sample-cq-v316-new-explain.png":::
+:::image type="content" source="media/aa-cq-historical-report-sample-cq-v320-explain.png" alt-text="Screenshot showing sample cloud call queue analytics report." lightbox="media/aa-cq-historical-report-sample-cq-v320-explain.png":::
 
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
