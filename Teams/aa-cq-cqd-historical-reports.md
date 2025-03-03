@@ -156,7 +156,7 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-aa-v320-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report." lightbox="media/aa-cq-historical-report-sample-aa-v20-explain.png":::
+:::image type="content" source="media/aa-cq-historical-report-sample-aa-v320-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report." lightbox="media/aa-cq-historical-report-sample-aa-v320-explain.png":::
 
 | Callout | Title | Description |
 |:-|:-|:-|
