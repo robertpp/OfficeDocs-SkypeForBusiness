@@ -132,15 +132,16 @@ Perform the following steps:
    :::image type="content" source="media/aa-cq-historical-report-02-v320.png" alt-text="Screenshot showing the Lanuage and UTC Offset selections.":::
 
 6. For each of the two data sources do the following:
+   - Select the data source.
    - Select **Edit Permissions**, and then **Edit**.
    - Select **Organizational account**, and then **Sign in** (or **Sign in as different user**).
    - Sign in with your Teams account.
 
      :::image type="content" source="media/aa-cq-historical-report-03-v320.png" alt-text="Screenshot showing data sources for v3.2.x":::
 
-7. Select **Save**, then **OK**, and then **Close**.
+8. Select **Save**, then **OK**, and then **Close**.
 
-8. Select **Refresh**, in the ribbon bar and the data refreshes.
+9. Select **Refresh**, in the ribbon bar and the data refreshes.
 
 ## Data latency for Auto attendant and Call queue analytics
 
