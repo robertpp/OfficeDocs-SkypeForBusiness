@@ -234,7 +234,7 @@ You have to refresh the report to see any new data.
 | 4 | UTC Offset   | The selected UTC offset. |
 | 5 | Date         | The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues-2) |
 | 2 | Agent Username | The agents to report on. If the full username is **user@microsoft.com**, then this value is: **user** <br>Default: All    |
-| 7 | Call Queue Resource Accounts<br><br>Call Queue | **Admin:** The Resource Accounts to report on.<sup>1</sup><br<br><br>**Auth Users:** The Call Queues to report on.<br>Default: All       |
+| 7 | Call Queue Resource Accounts<br><br>Call Queue | **Admin:** The Resource Accounts to report on.<sup>1</sup><br><br><br><br>**Auth Users:** The Call Queues to report on.<br>Default: All       |
 | 8 | Messages     | Informational messages |
 | 9 | Quick Stats -> Incoming Calls  | The breakdown shows the total number of calls answered, the average number of calls answered per agent and the average call length of answered calls handled.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 | 10 | Calls Answered (by date) | The breakdown shows the number of agent-answered calls by date |
