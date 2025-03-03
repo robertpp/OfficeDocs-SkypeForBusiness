@@ -161,8 +161,8 @@ You have to refresh the report to see any new data.
 | Callout | Title | Description |
 |:-|:-|:-|
 | 1 | Version & Documentation link | The report version and link to this documentation. |
-| 2 | Locale | The selected locale. |
-| 3 | Level | The selected report level. |
+| 2 | Language | The selected langauge and locale. |
+| 3 | Report Level | The selected report level. |
 | 4 | UTC Offset | The selected UTC offset. |
 | 5 | Date | The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues) |
 | 6 | Time Range | The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on. |
