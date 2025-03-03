@@ -176,6 +176,7 @@ You have to refresh the report to see any new data.
 | 13 |  | The breakdown shows the caller paths through the auto attendant and the final call result.<br><br>Column definitions:<br><ul><li>**MM-DD** - The month and day the call</li><li>**Start Hour** - The hour the call started</li><li>**Name** - The Resource Account name</li><li>**Call flow** - The call flow the call followed. See [Auto Attendant dimensions -> AutoAttendantCallFlow](#auto-attendant-dimensions)</li><li>**Call Type** - The connectivity method for the call. CalllingPlan or DirectRouting</li><li>**Call Result** - The end result of the call (see #7 Call Results)</li><li>**Call Count** - The number of calls that followed this same path</li><li>**Average Call Duration (seconds)** - The average number of seconds the call spent in the Auto Attendant</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 
 #### Notes
+
 1. Admins: To see the calls for a specific Auto attendant, select all the resource accounts assigned to that Auto attendant. If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test**
 
 #### Known issues
@@ -210,7 +211,7 @@ You have to refresh the report to see any new data.
 
 #### Notes
 
- 1. To see the calls for a specific Call queue, select all the resource accounts assigned to that Call queue. If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test**
+1. To see the calls for a specific Call queue, select all the resource accounts assigned to that Call queue. If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test**
 
 #### Known issues
 
@@ -223,18 +224,27 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-at-v316-new-explain.png" alt-text="Screenshot showing sample cloud call queue agent timeline report." lightbox="media/aa-cq-historical-report-sample-at-v316-new-explain.png":::
+:::image type="content" source="media/aa-cq-historical-report-sample-at-v320-explain.png" alt-text="Screenshot showing sample cloud call queue agent timeline report." lightbox="media/aa-cq-historical-report-sample-at-v320-explain.png":::
 
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
-|1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues-2) |
-|2        |Agent Username                         |The agents to report on. If the full username is **user@microsoft.com**, then this value is: **user** <br>Default: All    |
-|3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. To see the calls for a specific Call queue, select all the resource accounts assigned to that Call queue.<br>Default: All       |
-|4        |Quick Stats -> Incoming Calls          |The breakdown shows the total number of calls answered, the average number of calls answered per agent and the average call length of answered calls handled.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
-|5        |Calls Answered (by date)               |The breakdown shows the number of agent-answered calls by date |
-|6        |                                       |The breakdown shows how many calls each agent in the queue answered and the average call duration for those calls. |
-|7        |Calls Answered (by hour)               |The breakdown shows the number of agent-answered calls by hour  |
-|8        |                                       |The breakdown shows the number of calls answered by agent, by Call Queue.<br><br>Column definitions:<br><ul><li>**MM-DD** - The month and day the call</li><li>**Hour** - The hour the call was answered</li><li>**CQ Name** - The Resource Account name</li><li>**Agent Name** - The URI name of the agent who answered the call</li><li>**Calls Answered** - The number of calls answered by this agent from this Call Queue</li><li>**Average Call Duration (Seconds)** - The average call duration of each call in seconds</li><li>**Total Call Duration (Minutes)** - The total call duration for all calls</li><li>**Total Call Duration (HH:MM:SS)** - The total call duration for all calls</li></ul> |
+| 1 | Version      | The report version and link to this documentation. |
+| 2 | Language     | The selected langauge and locale. |
+| 3 | Report Level | The selected report level. |
+| 4 | UTC Offset   | The selected UTC offset. |
+| 5 | Date         | The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues-2) |
+| 2 | Agent Username | The agents to report on. If the full username is **user@microsoft.com**, then this value is: **user** <br>Default: All    |
+| 7 | Call Queue Resource Accounts<br><br>Call Queue | **Admin:** The Resource Accounts to report on.<sup>1</sup><br<br><br>**Auth Users:** The Call Queues to report on.<br>Default: All       |
+| 8 | Messages     | Informational messages |
+| 9 | Quick Stats -> Incoming Calls  | The breakdown shows the total number of calls answered, the average number of calls answered per agent and the average call length of answered calls handled.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
+| 10 | Calls Answered (by date) | The breakdown shows the number of agent-answered calls by date |
+| 11 |                          |The breakdown shows how many calls each agent in the queue answered and the average call duration for those calls. |
+| 12 | Calls Answered (by hour) | The breakdown shows the number of agent-answered calls by hour  |
+| 13 |       |The breakdown shows the number of calls answered by agent, by Call Queue.<br><br>Column definitions:<br><ul><li>**MM-DD** - The month and day the call</li><li>**Hour** - The hour the call was answered</li><li>**CQ Name** - The Resource Account name</li><li>**Agent Name** - The URI name of the agent who answered the call</li><li>**Calls Answered** - The number of calls answered by this agent from this Call Queue</li><li>**Average Call Duration (Seconds)** - The average call duration of each call in seconds</li><li>**Total Call Duration (Minutes)** - The total call duration for all calls</li><li>**Total Call Duration (HH:MM:SS)** - The total call duration for all calls</li></ul> |
+
+#### Notes
+
+1. To see the calls for a specific Call queue, select all the resource accounts assigned to that Call queue. If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test**
 
 #### Known issues
 
