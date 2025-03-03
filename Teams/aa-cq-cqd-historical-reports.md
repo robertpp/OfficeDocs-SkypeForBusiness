@@ -166,7 +166,7 @@ You have to refresh the report to see any new data.
 | 4 | UTC Offset | The selected UTC offset. |
 | 5 | Date | The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues) |
 | 6 | Time Range | The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on. |
-| 7 | Auto Attendant Resource Accounts (for admin access)<br>Auto Attendant (for auth users) | The Resource Accounts to be reported on.<sup>1</sup><br>The Auto Attendants to be reported on. | |
+| 7 | Auto Attendant Resource Accounts<br>Auto Attendant | Admins: The Resource Accounts to be reported on.<sup>1</sup><br>Auth Users: The Auto Attendants to be reported on.<br>Default: All | |
 | 8 | Messages | Informational messages |
 | 9 | Quick Stats -> Incoming Calls | The breakdown shows the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 | 10a | Quick Stats -> Usage Statistics | The breakdown shows the average call duration in the Auto Attendant and the average number of caller actions. |
@@ -176,8 +176,7 @@ You have to refresh the report to see any new data.
 | 13 |  | The breakdown shows the caller paths through the auto attendant and the final call result.<br><br>Column definitions:<br><ul><li>**MM-DD** - The month and day the call</li><li>**Start Hour** - The hour the call started</li><li>**Name** - The Resource Account name</li><li>**Call flow** - The call flow the call followed. See [Auto Attendant dimensions -> AutoAttendantCallFlow](#auto-attendant-dimensions)</li><li>**Call Type** - The connectivity method for the call. CalllingPlan or DirectRouting</li><li>**Call Result** - The end result of the call (see #7 Call Results)</li><li>**Call Count** - The number of calls that followed this same path</li><li>**Average Call Duration (seconds)** - The average number of seconds the call spent in the Auto Attendant</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 
 #### Notes
-1. To see the calls for a specific Auto attendant, select all the resource accounts assigned to that Auto attendant. If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test**<br>Default: All
-
+1. Admins: To see the calls for a specific Auto attendant, select all the resource accounts assigned to that Auto attendant. If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test**
 
 #### Known issues
 
