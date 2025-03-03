@@ -37,7 +37,13 @@ description: Learn how to use the Teams Auto Attendant & Call Queue Historical R
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
-## V3.1.8 published on August 12, 2024
+## V3.2.0 published on March 24, 2025
+
+What's New
+- localization - 45 languages
+- Auth users report by name for AA/CQ
+
+## Overview
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
@@ -99,21 +105,20 @@ The following steps assume the Power BI Desktop client is installed on your comp
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.8.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.2.0.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.8.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.2.0.pbit` template file. Power BI Desktop should launch.
 
 4. Select the **DataSource**, **Report Level**, and **UTC Offset**.
 
-   :::image type="content" source="media/aa-cq-historical-report-01-v318.png" alt-text="Screenshot showing the DataSource, Report Level, and UTC Offset selections.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v320.png" alt-text="Screenshot showing the Lanuage, Report Level, and UTC Offset selections.":::
 
-   - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
-   - **Report Level**:
-     - Select `Per Call` (default) to retrieve all the individual call records.
+   - **Language & Report Level**: Select the language and level for the report
+     - Select `Per Call` to retrieve all the individual call records.
      - Select `Per Day` to retrieve an aggregated total for each day. 
-   - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in. Only valid when the **Report Level** is set to `Per Call`
+   - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in. Only valid when the **Report Level** is `Per Call`
 
    #### Per Day vs Per Call 
 
@@ -740,7 +745,8 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.1.8    |August 12, 2024    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Bug fix for Date slicer on Call Queue tab                               |
+|3.2.0    |March 24, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.0 |Localization in 45 languages, reporting by Auto Attendant and Call Queue name for authorized users    |
+|3.1.8    |August 12, 2024    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.8 |Bug fix for Date slicer on Call Queue tab                               |
 |3.1.7    |July 15, 2024      |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Improved support for authorized users, removed original reporting templates |
 |3.1.6    |April 15, 2024     |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
 |3.1.5    |January 29, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
