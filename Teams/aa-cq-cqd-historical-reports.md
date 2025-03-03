@@ -113,7 +113,7 @@ Perform the following steps:
 
 4. Select the **Language**, and **UTC Offset**.
 
-   :::image type="content" source="media/aa-cq-historical-report-01-v320.png" alt-text="Screenshot showing the Lanuage, Report Level, and UTC Offset selections.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v320.png" alt-text="Screenshot showing the Lanuage and UTC Offset selections.":::
 
    - **Language**: Select the language and report level
      - Select `Per Call` to retrieve all the individual call records.
@@ -129,7 +129,7 @@ Perform the following steps:
 5. Configure the data sources authentication.
    - Select **File**, then **Options and settings**, and then **Data source settings**.
      
-   :::image type="content" source="media/aa-cq-historical-report-02-v320.png" alt-text="Screenshot showing the Lanuage and UTC Offset selections.":::
+   :::image type="content" source="media/aa-cq-historical-report-02-v320.png" alt-text="Screenshot showing data sources for v3.2.x":::
 
 6. For each of the two data sources do the following:
    - Select the data source.
@@ -137,7 +137,7 @@ Perform the following steps:
    - Select **Organizational account**, and then **Sign in** (or **Sign in as different user**).
    - Sign in with your Teams account.
 
-     :::image type="content" source="media/aa-cq-historical-report-03-v320.png" alt-text="Screenshot showing data sources for v3.2.x":::
+     :::image type="content" source="media/aa-cq-historical-report-03-v301.png" alt-text="Screenshot showing data source sign in screen":::
 
 8. Select **Save**, then **OK**, and then **Close**.
 
