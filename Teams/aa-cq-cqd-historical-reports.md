@@ -134,7 +134,7 @@ Perform the following steps:
    - Select **Edit Permissions**, and then **Edit**.
    - Select **Organizational account**, and then **Sign in**.
 
-     :::image type="content" source="media/aa-cq-historical-report-03-v320-ds.png" alt-text="Screenshot showing data sources for v3.2.x":::
+     :::image type="content" source="media/aa-cq-historical-report-02-v320.png" alt-text="Screenshot showing data sources for v3.2.x":::
      
    - Select **Save**, then **OK**, and then **Close**.
 
