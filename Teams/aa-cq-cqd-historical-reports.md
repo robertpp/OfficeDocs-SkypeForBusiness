@@ -166,7 +166,7 @@ You have to refresh the report to see any new data.
 | 4 | UTC Offset   | The selected UTC offset. |
 | 5 | Date         | The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues) |
 | 6 | Time Range   | The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on. |
-| 7 | Auto Attendant Resource Account<br<br>Auto Attendant | **Admins:** The Resource Accounts to report on.<sup>1</sup><br><br><br>**Auth Users:** The Auto Attendants to report on.<br>Default: All | |
+| 7 | Auto Attendant Resource Account<br><br>Auto Attendant | **Admins:** The Resource Accounts to report on.<sup>1</sup><br><br><br>**Auth Users:** The Auto Attendants to report on.<br>Default: All | |
 | 8 | Messages     | Informational messages |
 | 9 | Quick Stats -> Incoming Calls | The breakdown shows the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 | 10a | Quick Stats -> Usage Statistics | The breakdown shows the average call duration in the Auto Attendant and the average number of caller actions. |
