@@ -111,7 +111,7 @@ Perform the following steps:
 
 3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.2.0.pbit` template file. Power BI Desktop should launch.
 
-4. Select the **DataSource**, **Report Level**, and **UTC Offset**.
+4. Select the **Language**, and **UTC Offset**.
 
    :::image type="content" source="media/aa-cq-historical-report-01-v320.png" alt-text="Screenshot showing the Lanuage, Report Level, and UTC Offset selections.":::
 
@@ -128,11 +128,15 @@ Perform the following steps:
 
 5. Sign in with your Teams account.
    - Select **File**, then **Options and settings**, and then **Data source settings**.
+     
+   :::image type="content" source="media/aa-cq-historical-report-01-v320.png" alt-text="Screenshot showing the Lanuage and UTC Offset selections.":::
+
    - Select **Edit Permissions**, and then **Edit**.
    - Select **Organizational account**, and then **Sign in**.
-   - Select **Save**, then **OK**, and then **Close**.
 
-   :::image type="content" source="media/aa-cq-historical-report-03-v301.png" alt-text="Screenshot showing sign-in for V3.x.x.":::
+     :::image type="content" source="media/aa-cq-historical-report-03-v320-ds.png" alt-text="Screenshot showing data sources for v3.2.x":::
+     
+   - Select **Save**, then **OK**, and then **Close**.
 
 6. Select **Refresh**, in the ribbon bar and the data refreshes.
 
