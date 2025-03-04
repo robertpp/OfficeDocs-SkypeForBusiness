@@ -257,15 +257,15 @@ You have to refresh the report to see any new data.
 
 1. The selected language applies to the reports only and not the Power BI components or tooltips.  Power BI defaults to the same language as the Windows desktop.
 
-To change the Power BI language (not required for testing), do the following:
-  - File
-  - Options and Settings
-  - Options
-  -	Regional Settings
-  -	Application Language
-    - Default set to “Use Windows default display language”
-    - Select the desired language from the drop down
-      - Note: The list of languages shown here may be different than those available for the report template.
+    To change the Power BI language select:
+      - File
+      - Options and Settings
+      - Options
+      -	Regional Settings
+      -	Application Language
+        - Default set to “Use Windows default display language”
+        - Select the desired language from the drop down
+          - Note: The list of languages shown here may be different than those available for the report template.
 
 2. The name of the zip file and the actual report template files are in English only.
 3. The splash screen shows the filename (see #2) and the words "Language" and "UTC Offset" in English only.
