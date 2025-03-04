@@ -37,7 +37,7 @@ This Power BI template provides three reports that allow organizations to report
 
 ## V3.2.0 published on March 24, 2025
 
-What's New
+What's new in this release:
 - Reports are available in 46 languages/locales.
 - Authorized users will see the reports by Auto Attendant and Call Queue names vs Resource Account names
   - Admin users continue to see the reports by Resource Account names
