@@ -261,38 +261,48 @@ You have to refresh the report to see any new data.
 
 |Name                                    |Data Type                |Description                                                                              |
 |:---------------------------------------|:------------------------|:----------------------------------------------------------------------------------------|
-|AA Name                                 |Text                     |Name of the resource account attached to the Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test** |
-|AA Start Date Local                     |Date                     |Auto Attendant call start date - Local (based on selected UTC Offset)                    |
-|AA Start Hour                           |Whole Number             |Auto Attendant call start hour - Local (based on selected UTC Offset)                    |
-|AA Start Time Local                     |Date/time                |Auto Attendant call start time - Local (based on selected UTC Offset)                    |
-|AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
-|AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
-|AACallerActionCountAverage (Measure)    |Whole number             |Average of AACallerActionCount - zero instead of blank                                   |
-|AACallFlow                              |Text                     |See [Auto Attendant dimensions -> AutoAttendantCallFlow](#auto-attendant-dimensions)     |
+|AACallerActionCount                     |Whole number             |Summarized: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
+|AACallerActionCountAVG (Measure)        |Whole number             |Average of AACallerActionCount - zero instead of blank           |
+|AACallFlowRAW                           |Text                     |See [Auto Attendant dimensions -> AutoAttendantCallFlow](#auto-attendant-dimensions)     |
+|AACallFlowString                        |Text                     |COLIN|
 |AACallResult                            |Text                     |See [Auto Attendant dimensions -> AutoAttendantCallResult](#auto-attendant-dimensions)   |
-|AACallResultLegend                      |Text                     |Legend items for on AACallResult. Possible values are:<br><ul><li>**Terminated (No Caller Action)** - Call was disconnected - the caller didn't make any selections</li><li>**Terminated (With Caller Action)** - Call was disconnected - the caller made selections</li><li>**Terminated (Disconnected)** - Call was disconnected per the auto attendant configuration</li><li>**Terminated (No Operator)** - Call was disconnected as there was no operator to transfer the call to</li><li>**Terminated (Transfer Failed)** - Call was disconnected as the configured transfer failed</li><li>**Transferred (AA)** - Call was transferred to another Auto Attendant</li><li>**Transferred (CQ)** - Call was transferred to a Call Queue</li><li>**Transferred (Operator)** - Call was transferred to the Operator</li><li>**Transferred (Voicemail)** - Call was transferred to Shared Voicemail</li><li>**Transferred (External)** - Call was transferred to an External Number</li><li>**Transferred (User)** - Call was transferred to a Person in the organization</li><li>**Other** - Some other condition occurred</li></ul>                |
-|AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
-|AAChainDurationAverage (Measure)        |Decimal number           |Average of AAChainDuration - zero instead of blank                                       |
-|AAChainIndex                            |Whole Number             |                                                                                         |
-|AAConnectivityType                      |Text                     |See [Common dimensions -> PSTNConnectivityType](#common-dimensions)                      |
-|AACount                                 |Whole Number             |Summarized: Sum<br>Number of Auto Attendants involved in call                            |
+|AACallResultLegendCode                  |COLIN                    |COLIN|
+|AACallResultLegendString                |Text                     |Legend items for on AACallResult. Possible values are:<br><ul><li>**Terminated (No Caller Action)** - Call was disconnected - the caller didn't make any selections</li><li>**Terminated (With Caller Action)** - Call was disconnected - the caller made selections</li><li>**Terminated (Disconnected)** - Call was disconnected per the auto attendant configuration</li><li>**Terminated (No Operator)** - Call was disconnected as there was no operator to transfer the call to</li><li>**Terminated (Transfer Failed)** - Call was disconnected as the configured transfer failed</li><li>**Transferred (AA)** - Call was transferred to another Auto Attendant</li><li>**Transferred (CQ)** - Call was transferred to a Call Queue</li><li>**Transferred (Operator)** - Call was transferred to the Operator</li><li>**Transferred (Voicemail)** - Call was transferred to Shared Voicemail</li><li>**Transferred (External)** - Call was transferred to an External Number</li><li>**Transferred (User)** - Call was transferred to a Person in the organization</li><li>**Other** - Some other condition occurred</li></ul>                |
+|AAChainDuration                         |Decimal number           |Summarized: Sum<br>Duration of call in Auto Attendant              |
+|AAChainDurationAavg (Measure)           |Decimal number           |Average of AAChainDuration - zero instead of blank                |
+|AAChainIndex                            |Whole Number             |                                                                   |
+|AAConnectivityTypeCode                  |Text                     |COLIN |
+|AAConnectivityTypeRaw                   |Text                     |See [Common dimensions -> PSTNConnectivityType](#common-dimensions) |
+|AAConnectivityTypeString                |Text                     |COLIN |
+|AACount                                 |Whole Number             |Summarized: Sum<br>Number of Auto Attendants involved in call     |
 |AADirectorySearchMethod                 |Text                     |See Auto [Attendant dimensions -> AutoAttendantDirectorySearchMethod](#auto-attendant-dimensions)  |
-|AADirectorySearchMethodCountDTMF (Measure)  |Whole number         |Count of calls that used DTMF to search the directory - zero instead of blank            |
-|AADirectorySearchMethodCountVoice (Measure) |Whole number         |Count of calls that used Voice to search the directory - zero instead of blank           |
-|AADirectorySearchMethodLegend           |Text                     |Legend items for AADirectorySearchMethod. Possible values are:<br><ul><li>**DTMF** - Caller used the telephone dial pad to search for the user's name</li><li>**Voice** - Caller used voice input to search for the user's name</li></ul>                             |
-|AATransferAction                        |Text                     |See [Auto Attendant Dimensions -> AutoAttendantTransferAction](#auto-attendant-dimensions)   |
-|Call Duration Seconds                   |Whole number             |Call duration                                                                            |
-|Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
-|Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
-|Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
-|Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
+|AADirectorySearchMethodDTMFCOUNT (Measure)  |Whole number         |Count of calls that used DTMF to search the directory - zero instead of blank            |
+|AADirectorySearchMethodLegendCode       |COLIN                    |COLIN |
+|AADirectorySearchMethodLegendString     |Text                     |Legend items for AADirectorySearchMethod. Possible values are:<br><ul><li>**DTMF** - Caller used the telephone dial pad to search for the user's name</li><li>**Voice** - Caller used voice input to search for the user's name</li></ul>                             |
+|AADirectorySearchMethodVoiceCOUNT (Measure) |Whole number         |Count of calls that used Voice to search the directory - zero instead of blank           |
+|AAGUID            |COLIN |COLIN|
+|AAName            |Text                     |Name of the auto attendant (Authorized users only) |
+|AARAName          |Text                     |Name of the resource account attached to the Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test** |
+|AASlicer          |Text                     |Admins: AARAName<br>Auth Users: AAName |
+|AAStartDateLocal  |Date                     |Auto Attendant call start date - Local (based on selected UTC Offset)                    |
+|AAStartHourLocal  |Whole Number             |Auto Attendant call start hour - Local (based on selected UTC Offset)                    |
+|AAStartTimeLocal  |Date/time                |Auto Attendant call start time - Local (based on selected UTC Offset)                    |
+|AAStartTimeUTC    |Date/time                |Auto Attendant call start time - UTC                                                     |
+|AATransferAction  |Text                     |See [Auto Attendant Dimensions -> AutoAttendantTransferAction](#auto-attendant-dimensions)   |
+|CallDurationSeconds |Whole number           |Summarized: Sum<br>Total call duration                                            |
+|CallDurationSecondsAVG (Measure) |Whole number           |COLIN                                                  |
+|CallEndTimeLocal    |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
+|CallEndTimeUTC      |Date/time                |Call end time - UTC                                                                      |
+|CallStartTimeLocal  |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
+|CallStartTimeUTC    |Date/time                |Call start time - UTC                                                                    |
 |ConferenceID (Per Day only)             |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |DialogID (Per Day only)                 |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |DocumentID (Per Day only)               |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
-|PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
-|TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
-|TotalCallCountSum (Measure)             |Whole number             |Sum of TotalCallCount                                                                    |
+|LanguageCode          | Text | Language locale selected for report |
+|MM-DD                 |Text                     |Auto Attendant call month-day                                              |
+|PSTNMinutes           |Whole number             |Summarized: Sum<br>Total minute usage                                       |
+|TotalCallCount        |Whole number             |Summarized: Sum<br>Always 1 - used to provide sum of all calls              |
+|TotalCallCountSUM (Measure)             |Whole number             |Sum of TotalCallCount                                    |
 
 ### Cloud Call Queue Analytics report
 
