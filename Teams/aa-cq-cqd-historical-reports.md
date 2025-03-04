@@ -261,24 +261,24 @@ You have to refresh the report to see any new data.
 |:-------------------------------------------|:--------------|:----------------------------------------------------------------|
 |AACallerActionCount                         |Whole number   |Summarized: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
 |AACallerActionCountAVG (Measure)            |Whole number   |Average of AACallerActionCount - zero instead of blank           |
-|AACallFlowRAW                               |Text           |See [Auto Attendant dimensions -> AutoAttendantCallFlow](#auto-attendant-dimensions)     |
-|AACallFlowString                            |Text           |COLIN|
-|AACallResult                                |Text           |See [Auto Attendant dimensions -> AutoAttendantCallResult](#auto-attendant-dimensions)   |
-|AACallResultLegendCode                      |Whole number   |COLIN|
-|AACallResultLegendString                    |Text           |Legend items for on AACallResult. Possible values are:<br><ul><li>**Terminated (No Caller Action)** - Call was disconnected - the caller didn't make any selections</li><li>**Terminated (With Caller Action)** - Call was disconnected - the caller made selections</li><li>**Terminated (Disconnected)** - Call was disconnected per the auto attendant configuration</li><li>**Terminated (No Operator)** - Call was disconnected as there was no operator to transfer the call to</li><li>**Terminated (Transfer Failed)** - Call was disconnected as the configured transfer failed</li><li>**Transferred (AA)** - Call was transferred to another Auto Attendant</li><li>**Transferred (CQ)** - Call was transferred to a Call Queue</li><li>**Transferred (Operator)** - Call was transferred to the Operator</li><li>**Transferred (Voicemail)** - Call was transferred to Shared Voicemail</li><li>**Transferred (External)** - Call was transferred to an External Number</li><li>**Transferred (User)** - Call was transferred to a Person in the organization</li><li>**Other** - Some other condition occurred</li></ul>                |
+|AACallFlowRAW                               |Text           |See [Auto Attendant dimensions -> AutoAttendantCallFlow](#auto-attendant-dimensions)<br>Not localized     |
+|AACallFlowString                            |Text           |AACallFlowRAW localized |
+|AACallResult                                |Text           |See [Auto Attendant dimensions -> AutoAttendantCallResult](#auto-attendant-dimensions)<br>Not localized   |
+|AACallResultLegendCode                      |Whole number   |AACallResult converted to numeric codes |
+|AACallResultLegendString                    |Text           |Legend items for on AACallResult. Possible values are:<br><ul><li>**Terminated (No Caller Action)** - Call was disconnected - the caller didn't make any selections</li><li>**Terminated (With Caller Action)** - Call was disconnected - the caller made selections</li><li>**Terminated (Disconnected)** - Call was disconnected per the auto attendant configuration</li><li>**Terminated (No Operator)** - Call was disconnected as there was no operator to transfer the call to</li><li>**Terminated (Transfer Failed)** - Call was disconnected as the configured transfer failed</li><li>**Transferred (AA)** - Call was transferred to another Auto Attendant</li><li>**Transferred (CQ)** - Call was transferred to a Call Queue</li><li>**Transferred (Operator)** - Call was transferred to the Operator</li><li>**Transferred (Voicemail)** - Call was transferred to Shared Voicemail</li><li>**Transferred (External)** - Call was transferred to an External Number</li><li>**Transferred (User)** - Call was transferred to a Person in the organization</li><li>**Other** - Some other condition occurred</li></ul><br>Localized                |
 |AAChainDuration                             |Decimal number |Summarized: Sum<br>Duration of call in Auto Attendant              |
 |AAChainDurationAavg (Measure)               |Decimal number |Average of AAChainDuration - zero instead of blank                |
 |AAChainIndex                                |Whole number   |                                                                   |
-|AAConnectivityTypeCode                      |Whole number   |COLIN |
-|AAConnectivityTypeRaw                       |Text           |See [Common dimensions -> PSTNConnectivityType](#common-dimensions) |
-|AAConnectivityTypeString                    |Text           |COLIN |
+|AAConnectivityTypeCode                      |Whole number   |AAConnectivityTypeRaw coverted to numeric codes |
+|AAConnectivityTypeRaw                       |Text           |See [Common dimensions -> PSTNConnectivityType](#common-dimensions)<br>Not localized |
+|AAConnectivityTypeString                    |Text           |AAConnectivityTypeRaw localized |
 |AACount                                     |Whole Number   |Summarized: Sum<br>Number of Auto Attendants involved in call     |
 |AADirectorySearchMethod                     |Text           |See Auto [Attendant dimensions -> AutoAttendantDirectorySearchMethod](#auto-attendant-dimensions)  |
 |AADirectorySearchMethodDTMFCOUNT (Measure)  |Whole number   |Count of calls that used DTMF to search the directory - zero instead of blank            |
-|AADirectorySearchMethodLegendCode           |Whole number   |COLIN |
-|AADirectorySearchMethodLegendString         |Text           |Legend items for AADirectorySearchMethod. Possible values are:<br><ul><li>**DTMF** - Caller used the telephone dial pad to search for the user's name</li><li>**Voice** - Caller used voice input to search for the user's name</li></ul>                             |
+|AADirectorySearchMethodLegendCode           |Whole number   |AADirectorySearchMethod converted to numeric codes |
+|AADirectorySearchMethodLegendString         |Text           |Legend items for AADirectorySearchMethod. Possible values are:<br><ul><li>**DTMF** - Caller used the telephone dial pad to search for the user's name</li><li>**Voice** - Caller used voice input to search for the user's name</li></ul><br>Localized                             |
 |AADirectorySearchMethodVoiceCOUNT (Measure) |Whole number   |Count of calls that used Voice to search the directory - zero instead of blank           |
-|AAGUID                                      |Text           |COLIN|
+|AAGUID                                      |Text           |Auto Attendant unique identifier|
 |AAName                                      |Text           |Name of the auto attendant (Authorized users only) |
 |AARAName                                    |Text           |Name of the resource account attached to the Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test** |
 |AASlicer                                    |Text           |Admins: AARAName<br>Auth Users: AAName |
