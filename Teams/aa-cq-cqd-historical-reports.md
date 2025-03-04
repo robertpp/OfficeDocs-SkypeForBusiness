@@ -275,7 +275,8 @@ You have to refresh the report to see any new data.
    
 The above items are limitations of file naming conventions, the splash screen in Power BI, and how browsers work.
 
-7. Customer provided information such as Auto attendant and Call queue names, is not localized.
+7. The legend on the **Call Queue - Call Volume, Abandoned Calls and Agent Opt-in Count** visual is in English only.
+8. Customer provided information such as Auto attendant and Call queue names, is not localized.
 
 
 ## Auto attendant and Call queue historical reports field definitions
