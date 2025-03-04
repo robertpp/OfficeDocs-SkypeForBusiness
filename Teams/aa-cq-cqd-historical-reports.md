@@ -275,7 +275,7 @@ To change the Power BI language (not required for testing), do the following:
    
 The above items are limitations of file naming conventions, the splash screen in Power BI, and how browsers work.
 
-7. Customer provided information such as Auto attendant and Call queue names is not localized.
+7. Customer provided information such as Auto attendant and Call queue names, is not localized.
 
 
 ## Auto attendant and Call queue historical reports field definitions
