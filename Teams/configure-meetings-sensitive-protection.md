@@ -3,7 +3,7 @@ title: Configure Teams meetings with protection for sensitive data
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: yilin.yang
 ms.date: 12/13/2024

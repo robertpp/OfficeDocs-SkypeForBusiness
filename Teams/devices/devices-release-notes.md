@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 01/23/2025
+ms.date: 03/04/2025
 ms.topic: release-notes
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -33,7 +33,13 @@ To view feature updates for Microsoft Teams Rooms, go to:
 
 ## [Teams panels](#tab/panels)
 
-### January 2025
+## March 2025
+
+**Applies to:** *Teams app version: 1449/1.0.97.2025021101*
+
+- Fixes for check-in and auto-release.
+
+## January 2025
 
 **Applies to:** *Teams app version: 1449/1.0.97.2024122401*
 

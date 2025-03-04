@@ -3,7 +3,7 @@ title: Troubleshooting live streaming in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.service: msteams
 audience: admin
 ms.collection: 

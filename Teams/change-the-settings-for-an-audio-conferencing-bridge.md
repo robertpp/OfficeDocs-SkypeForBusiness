@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 11/1/2024
-ms.topic: article
+ms.topic: how-to
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -48,14 +48,14 @@ When a user dials in to a meeting using a phone, the conferencing bridge answers
 2. At the top of the **Conference bridges** page, select **Bridge settings**.
 
 3. In the **Bridge settings** pane, select:
-   - **Meeting entry and exit notifications**- If you turn off this setting, users in the meeting aren't notified when someone enters or leaves the meeting.
+   - **Meeting entry and exit notifications** - If you turn off this setting, users in the meeting aren't notified when someone enters or leaves the meeting.
 
    - When you turn on **Meeting entry and exit notifications**, you can select one of these options:
 
-     - **Names or phone numbers**- When users join a meeting by dialing in, their phone number is played.
+     - **Names or phone numbers** - When users join a meeting by dialing in, their phone number is played.
        - Toggle **Ask callers to record their name before joining the meeting** **On** or **Off**. If you turn this off, callers aren't asked to record their name before they join a meeting.
 
-     - **Tones**- When users join a meeting by dialing in, an audio tone is played.
+     - **Tones** - When users join a meeting by dialing in, an audio tone is played.
 
 4. To set the PIN length for meetings, select the number of digits you want for the PIN in the **PIN length** list.
 

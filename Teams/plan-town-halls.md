@@ -4,7 +4,7 @@ ms.reviewer: sachung
 ms.date: 3/8/2024
 ms.author: wlibebe
 author: wlibebe
-ms.topic: article
+ms.topic: concept-article
 manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings

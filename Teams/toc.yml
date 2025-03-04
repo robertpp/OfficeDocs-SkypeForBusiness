@@ -1198,6 +1198,8 @@ items:
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Languages for voicemail greetings and messages
               href: languages-for-voicemail-greetings-and-messages.md
+            - name: Manage Shared Voicemail
+              href: manage-shared-voicemail.md
         - name: Shared line appearance
           href: shared-line-appearance.md
         - name: Dial pad configuration

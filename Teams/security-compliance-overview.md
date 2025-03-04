@@ -101,7 +101,7 @@ We've provided information on these areas in this document, and you can use [Mic
 
 ### Auditing
 
-Microsoft Purview Audit (Standard), Audit (Premium), and audit log search plug right into the Microsoft Purview compliance portal and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft Purview compliance portal, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in the Microsoft Purview compliance portal, see [Search the audit log for events in Microsoft Teams](/purview/audit-teams-audit-log-events).
+Microsoft Purview Audit (Standard), Audit (Premium), and audit log search plug right into Microsoft Purview, and gives you the ability to set alerts and report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft Purview compliance portal, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in  Microsoft Purview, see [Search the audit log for events in Microsoft Teams](/purview/audit-teams-audit-log-events).
 
 ### Communication compliance
 
@@ -109,7 +109,7 @@ Microsoft Purview Communication Compliance allows you to add users to in-scope p
 
 ### Content search
 
-Content search can be used to search for all Teams data through rich filtering capabilities. The resulting data can be exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Refer to [Content Search](/purview/ediscovery-teams-content-search) to learn more about how to conduct a compliance content search for Microsoft Teams and other Microsoft 365 or Office 365 content in the Microsoft Purview compliance portal.
+Content search can be used to search for all Teams data through rich filtering capabilities. The resulting data can be exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Refer to [Content Search](/purview/ediscovery-teams-content-search) to learn more about how to conduct a compliance content search for Microsoft Teams and other Microsoft 365 or Office 365 content in Microsoft Purview.
 
 > [!TIP]
 > Using content search, you can filter down to Microsoft Teams only content, such as Chat and Channel Messages, Meetings, and Calls, if necessary.
@@ -143,7 +143,7 @@ For information on Data Loss Prevention in Teams, see [DLP for Microsoft Teams](
 
 Microsoft Purview eDiscovery (Premium) supports the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation. Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, meeting and call summaries. For Teams meetings and Calls, a summary of the events that happened in the meeting and call are created and made available in eDiscovery.
 
-For more information about how to use eDiscovery tools in the Microsoft Purview compliance portal to search for Teams content, see:
+For more information about how to use eDiscovery tools in Microsoft Purview to search for Teams content, see:
 
 - [Conduct an eDiscovery investigation of content in Microsoft Teams](/purview/ediscovery-teams-investigation).
 - [eDiscovery](/purview/ediscovery-manage-legal-investigations)
@@ -164,7 +164,7 @@ During litigation, you may need all data associated with a user (custodian) or a
 
 In either case, once the hold is set it ensures that, even if end users delete or edit channel messages that are in the group mailbox, immutable copies of that content are maintained and available through eDiscovery search. Legal holds are generally applied within the context of an eDiscovery case.
 
-See [Overview of retention policies](/purview/retention) to understand more about preservation and holds in the Microsoft Purview compliance portal. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](/purview/ediscovery-teams-legal-hold) for you to learn more.
+See [Overview of retention policies](/purview/retention) to understand more about preservation and holds in Microsoft Purview. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](/purview/ediscovery-teams-legal-hold) for you to learn more.
 
 ### Retention policies
 
@@ -202,7 +202,7 @@ When it comes to information protection capabilities, Microsoft 365 subscription
 For information on determining the licensing needs to implement features for security and compliance, please review the [licensing requirements](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) for security and compliance features.
 
 > [!NOTE]
-> Content search, eDiscovery (Standard), and eDiscovery (Premium) don't need to be enabled in the Microsoft Purview compliance portal to work. For more information, see [Microsoft 365 eDiscovery solutions](/purview/ediscovery).
+> Content search, eDiscovery (Standard), and eDiscovery (Premium) don't need to be enabled in Microsoft Purview to work. For more information, see [Microsoft 365 eDiscovery solutions](/purview/ediscovery).
 
 ## Location of data in Teams
 

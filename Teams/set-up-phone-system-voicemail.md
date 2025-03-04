@@ -35,6 +35,8 @@ Cloud Voicemail is sent if a user misses a call on Teams or Skype for Business a
 
 Cloud Voicemail doesn't support third-party email systems. For Exchange Online licensing requirements, see [Exchange Online service description](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans). For more information about administrator roles, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
+For information configuring Shared Voicemail for Auto Attendants and Call Queues, see [Manage Shared Voicemail](manage-shared-voicemail.md).
+
 ## Cloud Voicemail provisioning
 
 For Teams users, Cloud Voicemail is automatically set up and provisioned. *A Microsoft Teams Phone license isn't required for Cloud Voicemail.*
@@ -185,3 +187,5 @@ To help your users learn about how to use and manage Cloud Voicemail features, y
 [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
 
 [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
+
+[Manage Shared Voicemail](manage-shared-voicemail.md) 

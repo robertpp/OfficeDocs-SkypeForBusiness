@@ -5,7 +5,7 @@ author: wlibebe
 ms.reviewer: jason.hochstadt
 ms.date: 10/31/2024
 manager: pamgreen
-ms.topic: article
+ms.topic: install-set-up-deploy
 audience: admin
 ms.service: msteams
 searchScope:

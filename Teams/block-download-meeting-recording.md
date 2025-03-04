@@ -7,7 +7,7 @@ manager: pamgreen
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.localizationpriority: medium
 ms.date: 9/18/2024

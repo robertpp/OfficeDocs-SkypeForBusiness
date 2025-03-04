@@ -3,7 +3,7 @@ title: Set up a Campaign for SMS in Microsoft Teams
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: nijait
+ms.reviewer: nijait, julienp
 ms.date: 02/24/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -19,25 +19,28 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
   - CSH
-description: Learn how to set up a Campaign for SMS in Microsoft Teams
+description: Learn how to set up a Campaign to enable SMS in Microsoft Teams.
 ---
 
 # Create a Campaign for SMS in Microsoft Teams
+
+> [!NOTE]
+> Due to a high volume of requests for SMS in Teams, processing times to approve Campaigns and Brands for SMS in Teams may take longer than usual. We appreciate your patience as we work diligently to address all requests. Thank you for your understanding.
 
 This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams and need to register their company's Campaign with The Campaign Registry (TCR).
 
 Before reading this article, make sure you've read [Plan for SMS in Teams](sms-overview.md) and [Step 1: Create a brand](sms-setup-brand.md).
 
-SMS in Teams is only available in the United States, Puerto Rico, and Canada.
+SMS in Teams is only available in the United States (including Puerto Rico) and Canada.
 
-> [!NOTE] 
-> United States, Puerto Rican, and Canadian customers must have an approved Brand and Campaign before enabling SMS for Teams Calling Plan numbers.
+> [!NOTE]
+> Customers in the United States and Canada must have an approved Brand and Campaign before enabling SMS for Teams Calling Plan numbers.
 
 ## Prerequisites
 
 Ensure fundamental understanding of the *purpose* for a Campaign, as described in [Learn about SMS Texting in Teams](sms-overview.md).
 
-Administrators must have one of the following Role-Based Access Control (RBAC) roles assigned:
+Administrators must have one of the following role-based access control (RBAC) roles assigned:
 
 - Teams Administrator
 - Teams Communications Administrator
@@ -82,8 +85,9 @@ Examples of details that TCR may require, based on [your Brand](sms-setup-brand.
 The Teams Admin Center allows you to provide the minimum details about your company's Campaign.
 
 To initiate Campaign approval application, do the following steps:
+
 1. In the Teams admin center, navigate to **Voice** > **Service configuration** > **SMS** > **Step 2: Create campaign**.
-1. Select **Create Campaign / Update Campaign / View details** to open a right-side configuration slide-out and populate the fields with your company's campaign information. The ability to apply for Campaign approval won't be supported until the Brand is approved.
+1. Select **Create Campaign / Update Campaign / View details** to open a right-side configuration slide-out and populate the fields with your company's campaign information. Your Brand must be approved before you can apply for Campaign approval.
 
 Populate your campaign application to TCR according to the following steps associated with the Campaign field sections:
 
@@ -116,10 +120,10 @@ After reviewing your Campaign's details and accepting Microsoft's terms and cond
 
 After submission, the Campaign status shows as **Submitted** and the campaign information can't be modified without Microsoft Support intervention.
 
-> [!Note]
+> [!NOTE]
 > If TCR *rejects* your campaign submission, a Microsoft case is automatically opened on your behalf with Microsoft's Telephone Number Services (TNS) - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and then selecting the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
 
-Once your Campaign has been approved by TCR, you can move on to [Step 3: Enable SMS](sms-management.md).
+Once TCR approves your Campaign, you can move on to [Step 3: Enable SMS](sms-management.md).
 
 ## Considerations
 
