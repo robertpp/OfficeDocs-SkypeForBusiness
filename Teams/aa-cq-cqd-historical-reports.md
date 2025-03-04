@@ -39,8 +39,8 @@ This Power BI template provides three reports that allow organizations to report
 
 What's New
 - Reports are available in 46 languages/locales.
-- Authorized users wills ee the report by Auto Attendant and Call Queue name vs Resource Account name
-  - Admin users continue to see the reports by Resource Account name
+- Authorized users will see the reports by Auto Attendant and Call Queue names vs Resource Account names
+  - Admin users continue to see the reports by Resource Account names
 
 ## Overview
 
