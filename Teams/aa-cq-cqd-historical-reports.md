@@ -130,7 +130,7 @@ Perform the following steps:
      
    :::image type="content" source="media/aa-cq-historical-report-02-v320.png" alt-text="Screenshot showing data sources for v3.2.x":::
 
-6. For each of the two data sources do the following:
+6. Do the following for each of the two data sources shown:
    - Select the data source.
    - Select **Edit Permissions**, and then **Edit**.
    - Select **Organizational account**, and then **Sign in** (or **Sign in as different user**).
@@ -252,6 +252,31 @@ You have to refresh the report to see any new data.
 1. When an agent answers a call in a different call queue due to redirection through Call Overflow exception handling, the call is counted in the original call queue where the exception occurred instead of the one they answered the call in.
 1. Callback calls handled by agents aren't captured resulting in a discrepancy between the number of calls answered on the Call Queue report and the Agent Timeline report.
 1. The agent tooltip which shows the individual calls for the agent shows all calls instead of only the calls within the selected date range.
+
+## Localization known issues
+
+1. The selected language applies to the reports only and not the Power BI components or tooltips.  Power BI defaults to the same language as the Windows desktop.
+
+To change the Power BI language (not required for testing), do the following:
+  - File
+  - Options and Settings
+  - Options
+  -	Regional Settings
+  -	Application Language
+    - Default set to “Use Windows default display language”
+    - Select the desired language from the drop down
+      - Note: The list of languages shown here may be different than those available for the report template.
+
+2. The name of the zip file and the actual report template files are in English only.
+3. The splash screen shows the filename (see #2) and the words "Language" and "UTC Offset" in English only.
+4. The refresh screen shows the table names in English only.
+5. The report tab names are in English only.
+6. The documentation link uses the language set in your browser which may be different than than the language selected for the report
+   
+The above items are limitations of file naming conventions, the splash screen in Power BI, and how browsers work.
+
+7. Customer provided information such as Auto attendant and Call queue names is not localized.
+
 
 ## Auto attendant and Call queue historical reports field definitions
 
