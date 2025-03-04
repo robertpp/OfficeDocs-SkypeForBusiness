@@ -100,7 +100,7 @@ Use one of the following methods to control access to the historical reports:
 
 ## V3.x.x desktop installation
 
-The following steps assume the Power BI Desktop client is installed on your computer and that your account has the necessary permissions to access the CQD data pipeline.
+The following steps assume the Power BI Desktop client is installed on your computer and that your Teams account has been configured as an [Authorized user](./aa-cq-authorized-users-plan.md), or has a [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) assigned.
 
 Perform the following steps:
 
