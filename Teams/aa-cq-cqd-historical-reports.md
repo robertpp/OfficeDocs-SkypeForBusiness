@@ -310,31 +310,40 @@ You have to refresh the report to see any new data.
 
 |Name                                    |Data Type                |Description                                                                              |
 |:---------------------------------------|:------------------------|:----------------------------------------------------------------------------------------|
-|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                                        |
-|Call Count Abandoned                    |Whole number             |Summarize: Sum<br>Number of abandoned calls                                              |
-|Call Count Sum (Measure)                |Whole number             |Call Count Sum - zero instead of blank                                                   |
-|Call Count Sum Abandoned (Measure)      |Whole number             |Call Count Abandoned - zero instead of blank                                             |
-|Call Duration Seconds                   |Whole number             |Summarize: Sum<br>Call duration                                                          |
-|Call Duration Seconds AVG (Measure)     |While number             |Average Call Duration Seconds                                                            |
-|Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
-|Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
-|Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the Call queue                          |
-|Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the Call queue                            |
-|Call Queue Call Result                  |Text                     |See [Call Queue Dimensions -> CallQueueCallResult](#call-queue-dimensions)               |
-|Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Result. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered** - the caller was answered by an agent</li><li>**Overflowed** - the call overflow exception occurred</li><li>**Timed Out** - the call timeout exception occurred</li><li>**No Agents** - the no agents exception occurred</li><li>**Other** - some other condition occurred</li></ul>                                      |
-|Call Queue Target Type                  |Text                     |See [Call Queue Dimensions -> CallQueueTargetType](#call-queue-dimensions)               |
-|Call Queue Target Type Legend           |Text                     |Legend items for Call Queue Target Type. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered (Call)** - the caller was answered by an agent</li><li>**Agent Answered (Callback)** - the callback was answered by an agent</li><li>**Overflowed (Application)** - the call overflow exception occurred - call routed to another application</li><li>**Overflowed (Disconnect)** - the call overflow exception occurred - call disconnected</li><li>**Overflowed (External)** - the call overflow exception occurred - call was transferred externally</li><li>**Overflowed (User)** - the call overflow exception occurred - call was transferred to a Person in the organization</li><li>**Overflowed (Voicemail)** - the call overflow exception occurred - call was transferred to shared voicemail</li><li>**Timed Out (Application)** - the call timeout exception occurred - call routed to another application</li><li>**Timed Out (Disconnect)** - the call timeout exception occurred - call was disconnected</li><li>**Timed Out (External)** - the call timeout exception occurred - call was transferred externally</li><li>**Timed Out (User)** - the call timeout exception occurred - call was transferred to a Person in the organization</li><li>**Timed Out (Voicemail)** - the call timeout exception occurred - call was transferred to shared voicemail</li><li>**No Agents (Application)** - the no agents exception occurred - call was routed to another application</li><li>**No Agents (Disconnect)** - the no agents exception occurred - call was disconnected</li><li>**No Agents (External)** - the no agents exception occurred - call was transferred externally</li><li>**No Agents (User)** - the no agents exception occurred - call was transferred to a Person in the organization</li><li>**No Agents (Voicemail)** - the no agents exception occurred - call was transferred to shared voicemail</li></ul> |
-|Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
-|Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
+|CallEndTimeLocal    |Date/time          |Call end time - Local (based on selected UTC Offset)                                     |
+|CallEndTimeUTC      |Date/time          |Call end time - UTC                                                                      |
+|CallStartDateLocal  |COLIN              |COLIN  |
+|CallStartTimeLocal  |Date/time          |Call start time - Local (based on selected UTC Offset)                                   |
+|CallStartTimeUTC    |Date/time          |Call start time - UTC                                                                    |
 |ConferenceID (Per Call only)            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test** |
-|CQHour                                  |Whole Number             |Call queue call start hour                                                               |
-|Date                                    |Date/time                |Call queue call start date and time (hour)                                               |
-|DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                                   |
-|DialogID (Per Call only)                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|DocumentID (Per Call only)              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|PSTN Connectivity Type                  |Text                     |See [Common Dimensions -> PSTNConnectivityType](#common-dimensions)                      |
-|PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                                     |
+|CQAgentCount          |Whole number             |Summarized: Sum<br>Number of agents configured in the Call queue                   |
+|CQAgentOptInCount     |Whole number             |Summarized: Sum<br>Number of agents opted-in to the Call queue                     |
+|CQCallCount           |Whole number             |Summarized: Sum<br>Number of calls                                                 |
+|CQCountAbandoned      |Whole number             |Summarized: Sum<br>Number of abandoned calls                                       |
+|CQCallCountAbandonedSum (Measure)   |Whole number             |Call Count Abandoned - zero instead of blank                         |
+|CQCallCountSum (Measure)                |Whole number             |Call Count Sum - zero instead of blank                           |
+|CQCallDurationSeconds                   |Whole number             |Summarized: Sum<br>Call duration                                 |
+|CQCallDurationSecondsAVG (Measure)     |Whole number             |Average Call Duration Seconds                                     |
+|CQCallResultLegendCode |COLIN | COLIN |
+|CQCallResultLegendString   |Text                     |Legend items for Call Queue Result. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered** - the caller was answered by an agent</li><li>**Overflowed** - the call overflow exception occurred</li><li>**Timed Out** - the call timeout exception occurred</li><li>**No Agents** - the no agents exception occurred</li><li>**Other** - some other condition occurred</li></ul>                    |
+|CQCallResultRaw |Text                     |See [Call Queue Dimensions -> CallQueueCallResult](#call-queue-dimensions)               |
+|CQConnectivityTypeCode |COLIN |COLIN |
+|CQConnectivityTypeRaw  |COLIN |COLIN |
+|CQConnectivityTypeString  |COLIN |COLIN |
+|CQGUID  |COLIN |COLIN |
+|CQHour      |Whole Number             |Call queue call start hour                                                               |
+|CQName      |Text  |Name of the call queue  (Authorized users only) |
+|CQRAName                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test** |
+|CQSlicer          |Text                     |Admins: CQRAName<br>Auth Users: CQName |
+|CQTargetType                  |Text                     |See [Call Queue Dimensions -> CallQueueTargetType](#call-queue-dimensions)   |
+|CQTargetTypeLegendCode | COLIN | COLIN |
+|CQTargetTypeLegendString           |Text                     |Legend items for Call Queue Target Type. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered (Call)** - the caller was answered by an agent</li><li>**Agent Answered (Callback)** - the callback was answered by an agent</li><li>**Overflowed (Application)** - the call overflow exception occurred - call routed to another application</li><li>**Overflowed (Disconnect)** - the call overflow exception occurred - call disconnected</li><li>**Overflowed (External)** - the call overflow exception occurred - call was transferred externally</li><li>**Overflowed (User)** - the call overflow exception occurred - call was transferred to a Person in the organization</li><li>**Overflowed (Voicemail)** - the call overflow exception occurred - call was transferred to shared voicemail</li><li>**Timed Out (Application)** - the call timeout exception occurred - call routed to another application</li><li>**Timed Out (Disconnect)** - the call timeout exception occurred - call was disconnected</li><li>**Timed Out (External)** - the call timeout exception occurred - call was transferred externally</li><li>**Timed Out (User)** - the call timeout exception occurred - call was transferred to a Person in the organization</li><li>**Timed Out (Voicemail)** - the call timeout exception occurred - call was transferred to shared voicemail</li><li>**No Agents (Application)** - the no agents exception occurred - call was routed to another application</li><li>**No Agents (Disconnect)** - the no agents exception occurred - call was disconnected</li><li>**No Agents (External)** - the no agents exception occurred - call was transferred externally</li><li>**No Agents (User)** - the no agents exception occurred - call was transferred to a Person in the organization</li><li>**No Agents (Voicemail)** - the no agents exception occurred - call was transferred to shared voicemail</li></ul> |
+|Date                                    |Date/time                |Call queue call start date and time (hour)                  |
+|DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction      |
+|DialogID (Per Call only) |Text         |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DocumentID (Per Call only)  |Text       |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|LanguageCode          | Text | Language locale selected for report |
+|PSTNTotalMinutes      |Whole number      |Summarized: Sum<br>Total minutes usage for PSTN calls                                     |
 
 #### fCallQueueFinalStateAction table field description
 
