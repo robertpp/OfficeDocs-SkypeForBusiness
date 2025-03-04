@@ -59,7 +59,7 @@ These reports use data from the Voice Applications Analytics Collector (VAAC) se
 You need to have Power BI Desktop installed. You can install and use the free version from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
 > [!IMPORTANT]
-> Power BI Desktop is updated and released on a monthly basis, incorporating customer feedback and new features. Only the most recent version of Power BI Desktop is supported. Customers who contact support for Power BI Desktop are asked to upgrade to the most recent version. You can get the most recent version of Power BI Desktop from the [Windows Store](https://aka.ms/pbidesktopstore), or as a single executable containing all supported languages that you [download](https://www.microsoft.com/download/details.aspx?id=58494) and install on your computer.
+> Power BI Desktop is updated and released on a monthly basis, incorporating customer feedback, and new features. Only the most recent version of Power BI Desktop is supported. Customers who contact support for Power BI Desktop are asked to upgrade to the most recent version. You can get the most recent version of Power BI Desktop from the [Windows Store](https://aka.ms/pbidesktopstore), or as a single executable containing all supported languages that you [download](https://www.microsoft.com/download/details.aspx?id=58494) and install on your computer.
 
 ### Power BI Service
 
@@ -112,7 +112,7 @@ Perform the following steps:
 
 4. Select the **Language**, and **UTC Offset**.
 
-   :::image type="content" source="media/aa-cq-historical-report-01-v320.png" alt-text="Screenshot showing the Lanuage and UTC Offset selections.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v320.png" alt-text="Screenshot showing the Language and UTC Offset selections.":::
 
    - **Language**: Select the language and report level
      - Select `Per Call` to retrieve all the individual call records.
@@ -160,7 +160,7 @@ You have to refresh the report to see any new data.
 | Callout  | Title | Description |
 |:-|:-|:-|
 | 1 | Version      | The report version and link to this documentation. |
-| 2 | Language     | The selected langauge and locale. |
+| 2 | Language     | The selected language and locale. |
 | 3 | Report Level | The selected report level. |
 | 4 | UTC Offset   | The selected UTC offset. |
 | 5 | Date         | The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues) |
@@ -193,7 +193,7 @@ You have to refresh the report to see any new data.
 |Callout           |Title                                  |Description               |
 |:-----------------|:--------------------------------------|:-------------------------|
 | 1 | Version      | The report version and link to this documentation. |
-| 2 | Language     | The selected langauge and locale. |
+| 2 | Language     | The selected language and locale. |
 | 3 | Report Level | The selected report level. |
 | 4 | UTC Offset   | The selected UTC offset. |
 | 5 | Date         | The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues-1) |
@@ -226,7 +226,7 @@ You have to refresh the report to see any new data.
 |Callout           |Title                                  |Description               |
 |:-----------------|:--------------------------------------|:-------------------------|
 | 1 | Version      | The report version and link to this documentation. |
-| 2 | Language     | The selected langauge and locale. |
+| 2 | Language     | The selected language and locale. |
 | 3 | Report Level | The selected report level. |
 | 4 | UTC Offset   | The selected UTC offset. |
 | 5 | Date         | The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues-2) |
@@ -269,7 +269,7 @@ You have to refresh the report to see any new data.
 |AAChainDuration                             |Decimal number |Summarized: Sum<br>Duration of call in Auto Attendant              |
 |AAChainDurationAavg (Measure)               |Decimal number |Average of AAChainDuration - zero instead of blank                |
 |AAChainIndex                                |Whole number   |                                                                   |
-|AAConnectivityTypeCode                      |Whole number   |AAConnectivityTypeRaw coverted to numeric codes |
+|AAConnectivityTypeCode                      |Whole number   |AAConnectivityTypeRaw converted to numeric codes |
 |AAConnectivityTypeRaw                       |Text           |See [Common dimensions -> PSTNConnectivityType](#common-dimensions)<br>Not localized |
 |AAConnectivityTypeString                    |Text           |AAConnectivityTypeRaw localized |
 |AACount                                     |Whole Number   |Summarized: Sum<br>Number of Auto Attendants involved in call     |
@@ -320,12 +320,12 @@ You have to refresh the report to see any new data.
 |CQCountAbandoned                    |Whole number   |Summarized: Sum<br>Number of abandoned calls                                       |
 |CQCallCountAbandonedSum (Measure)   |Whole number   |Call Count Abandoned - zero instead of blank                         |
 |CQCallCountSum (Measure)            |Whole number   |Call Count Sum - zero instead of blank                           |
-|CQCallDurationSeconds               |Deciman number |Summarized: Sum<br>Call duration                                 |
+|CQCallDurationSeconds               |Decimal number |Summarized: Sum<br>Call duration                                 |
 |CQCallDurationSecondsAVG (Measure)  |Whole number   |Average Call Duration Seconds                                     |
 |CQCallResultLegendCode              |Whole number   |CQCallResultRaw converted to numeric codes |
 |CQCallResultLegendString            |Text           |Legend items for Call Queue Result. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered** - the caller was answered by an agent</li><li>**Overflowed** - the call overflow exception occurred</li><li>**Timed Out** - the call timeout exception occurred</li><li>**No Agents** - the no agents exception occurred</li><li>**Other** - some other condition occurred</li></ul><br>Localized  |
 |CQCallResultRaw                     |Text           |See [Call Queue Dimensions -> CallQueueCallResult](#call-queue-dimensions)<br>Not localized               |
-|CQConnectivityTypeCode              |Whole number   |CQConnectivityTypeRaw coverted to numeric codes |
+|CQConnectivityTypeCode              |Whole number   |CQConnectivityTypeRaw converted to numeric codes |
 |CQConnectivityTypeRaw               |Text           |See [Common dimensions -> PSTNConnectivityType](#common-dimensions)<br>Not localized |
 |CQConnectivityTypeString            |Text           |CQConnectivityTypeRaw localized |
 |CQGUID                              |Text           |Call Queue unique identifier |
@@ -350,7 +350,7 @@ You have to refresh the report to see any new data.
 |Average Call Duration (Seconds) Average (Measure) |Whole number   |Summarized: Sum<br>Average call duration in seconds for abandoned calls                   |
 |Average Call Duration (Sec) Average (Measure)     |Whole number   |Average of Average Call Duration (Seconds) - zero instead of blank                       |
 |AvgCallDuration                                   |Decimal number |Summarized: Sum<br>Average waiting time in seconds for answered calls                     |
-|CQAverageQueueDurationSeconds                     |Deicmal number |Summaried: Sum<br>Average of Average Call Queue Duration (Sec) - zero instead of blank                     |
+|CQAverageQueueDurationSeconds                     |Decimal number |Summarized: Sum<br>Average of Average Call Queue Duration (Sec) - zero instead of blank                     |
 |CQCallResult                                      |Text           |See [Call Queue Dimensions -> CallQueueCallResult](#call-queue-dimensions)               |
 |CQCallResultLegendCode                            |Whole number   |CQCallResult converted to numeric codes |
 |CQCallResultLegendString                          |Text           |Legend items for Call Queue Call Result. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered (Call)** - the caller was answered by an agent</li><li>**Agent Answered (Callback)** - the callback was answered by an agent</li><li>**Overflowed (Disconnect)** - the call overflow exception occurred - call disconnected</li><li>**Overflowed (Xferred)** - the call overflow exception occurred - call was transferred externally</li><li>**Overflowed (Voicemail)** - the call overflow exception occurred - call was transferred to shared voicemail</li><li>**Timed Out (Callback)** - the callback timed out - callback didn't occur</li><li>**Timed Out (Disconnect)** - the call timeout exception occurred - call was disconnected</li><li>**Timed Out (Xferred)** - the call timeout exception occurred - call was transferred externally</li><li>**Timed Out (Voicemail)** - the call timeout exception occurred - call was transferred to shared voicemail</li><li>**No Agents (Disconnect)** - the no agents exception occurred - call was disconnected</li><li>**No Agents (Xferred)** - the no agents exception occurred - call was transferred externally</li><li>**No Agents (Voicemail)** - the no agents exception occurred - call was transferred to shared voicemail</li></ul><br>Localized |
@@ -796,7 +796,7 @@ Base64 URL encoded output looks like this:
 > [!IMPORTANT]
 > The VAAC API is limited to returning a maximum of 200,000 rows per query.
 >
-> Requests into the system are throttled based on the IP address making the call, the recognized tenant identity in the auth header, as well as the calling service in order to prevent a single client, tenant, or service from monopolizing the resources.
+> Requests into the system are throttled based on the IP address making the call, the recognized tenant identity in the auth header, and the calling service in order to prevent a single client, tenant, or service from monopolizing the resources.
 
 ## Version 3.x.x history and support status
 
