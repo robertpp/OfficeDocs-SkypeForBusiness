@@ -3,7 +3,7 @@ title: Microsoft's SMS Messaging Policy
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: annagentry
+ms.reviewer: annagentry, julienp
 ms.date: 01/06/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud

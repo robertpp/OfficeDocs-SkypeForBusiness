@@ -3,7 +3,7 @@ title: Example privacy policy and terms and conditions template
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: annagentry
+ms.reviewer: annagentry, julienp
 ms.date: 02/24/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud

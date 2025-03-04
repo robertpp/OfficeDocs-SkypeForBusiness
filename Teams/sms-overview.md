@@ -3,7 +3,7 @@ title: Planning for SMS in Microsoft Teams
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: nijait
+ms.reviewer: nijait, julienp
 ms.date: 02/24/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
