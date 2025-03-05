@@ -5,7 +5,7 @@ ms.date: 11/07/2024
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.topic: article
+ms.topic: whats-new
 audience: admin
 ms.service: msteams
 search.appverid: MET150

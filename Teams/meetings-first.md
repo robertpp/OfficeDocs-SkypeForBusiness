@@ -3,7 +3,7 @@ title: Meetings First - Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: lsomi

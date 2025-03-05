@@ -5,7 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.reviewer: 
 ms.date: 10/11/2019
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.collection: 
   - M365-collaboration

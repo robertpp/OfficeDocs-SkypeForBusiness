@@ -5,7 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.reviewer: tomkau, ritikag, jastark
 ms.date: 03/10/2021
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin

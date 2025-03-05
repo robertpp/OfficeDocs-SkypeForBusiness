@@ -5,7 +5,7 @@ ms.date: 10/31/2024
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150

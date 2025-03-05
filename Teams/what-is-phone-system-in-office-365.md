@@ -5,7 +5,7 @@ ms.date: 03/07/2024
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: concept-article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150

@@ -3,7 +3,7 @@ title:  New Microsoft Teams for Education (EDU)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: how-to
 ms.date: 12/01/2023
 ms.service: msteams
 audience: admin

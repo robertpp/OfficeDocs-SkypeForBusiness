@@ -3,7 +3,7 @@ title: 'Configure calling policies in Microsoft Teams'
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: jastark
 ms.date: 02/28/2025

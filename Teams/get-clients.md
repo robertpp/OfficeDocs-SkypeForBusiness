@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.collection: 
   - M365-collaboration

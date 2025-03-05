@@ -5,7 +5,7 @@ ms.author: pbafna
 ms.reviewer: pbafna
 ms.date: 09/09/2022
 manager: sshastri
-ms.topic: conceptual
+ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection: 

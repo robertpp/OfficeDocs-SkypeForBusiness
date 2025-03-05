@@ -5,7 +5,7 @@ ms.author: v-chinlana
 manager: jtremper
 ms.reviewer: corod
 ms.date: 04/30/2024
-ms.topic: conceptual
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 searchScope:

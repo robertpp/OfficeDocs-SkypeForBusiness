@@ -5,7 +5,7 @@ author: sumitb18
 ms.author: subadjat
 manager: pbafna03
 ms.date: 12/10/2021
-ms.topic: conceptual
+ms.topic: release-notes
 audience: admin
 ms.service: msteams
 ms.collection: 

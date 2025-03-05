@@ -4,7 +4,7 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 ms.date: 09/19/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.reviewer: harrywong
 audience: admin
 ms.service: msteams

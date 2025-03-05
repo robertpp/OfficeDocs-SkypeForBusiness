@@ -3,7 +3,7 @@ title:  Known issues in the new Microsoft Teams desktop client
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.topic: article
+ms.topic: troubleshooting-known-issue
 ms.date: 05/31/2024
 ms.service: msteams
 audience: admin

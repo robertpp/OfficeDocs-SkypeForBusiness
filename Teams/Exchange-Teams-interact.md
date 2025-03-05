@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip 
 manager: jtremper
 ms.date: 10/24/2023
-ms.topic: conceptual
+ms.topic: article
 audience: admin
 ms.service: msteams
 description: Learn what functionality exists between Microsoft Teams and the various Exchange setups such as creating and joining teams, creating channels, and more.

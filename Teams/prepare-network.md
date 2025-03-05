@@ -3,7 +3,7 @@ title: Prepare your organization's network for Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: jastark
 ms.date: 06/25/2024
