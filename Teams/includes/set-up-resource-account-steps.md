@@ -63,7 +63,7 @@ An admin needing to create resource accounts needs one of the following Teams ad
 - Teams Administrator
 
 > [!NOTE]
-> Currently, when *editing* a resource account, the admin must be assigned either the Global Admin role or the Skype for Business Administrator and User Administrator roles.  
+> Currently, when *editing* a resource account, the admin must be assigned either the Global Admin role or Teams Administrator role and User Administrator roles.  
 
 You can edit a resource account in the Teams admin center or with PowerShell.
 
