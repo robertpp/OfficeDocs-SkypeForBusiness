@@ -183,6 +183,7 @@ You have to refresh the report to see any new data.
 1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on. Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on.
 1. Only 28 days of call history are available. Auto attendant data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
+1. If the **Historical Auto Attendant Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report will revert to reporting by Resource account instead of Auto attendant name. 
 
 ### Cloud Call Queue Analytics report
 
@@ -216,6 +217,7 @@ You have to refresh the report to see any new data.
 1. Only the calls and caller actions in the first Call queue that answers the call are reported on. Calls in chained Call queues (when one Call queue transfers to another Call queue) aren't reported on.
 1. Only 28 days of call history are available. Call queue data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
+1. If the **Historical Call Queue Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report will revert to reporting by Resource account instead of Call queue name. 
 
 ### Cloud Call Queue Agent Timeline report
 
@@ -251,7 +253,8 @@ You have to refresh the report to see any new data.
 1. In some scenarios, the agent answered call count might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 1. When an agent answers a call in a different call queue due to redirection through Call Overflow exception handling, the call is counted in the original call queue where the exception occurred instead of the one they answered the call in.
 1. Callback calls handled by agents aren't captured resulting in a discrepancy between the number of calls answered on the Call Queue report and the Agent Timeline report.
-1. The agent tooltip which shows the individual calls for the agent shows all calls instead of only the calls within the selected date range.
+1. The agent tooltip shows all calls for the agent instead of only the calls within the selected date range.
+1. If the **Historical Call Queue Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report will revert to reporting by Resource account instead of Call queue name. 
 
 ## Localization
 
@@ -302,12 +305,11 @@ You have to refresh the report to see any new data.
 4. The refresh screen shows the table names in English only.
 5. The report tab names are in English only.
 6. The documentation link uses the language set in your browser which may be different than than the language selected for the report
+7. Customer provided information is not localized.
    
-The above items are limitations of file naming conventions, the splash screen in Power BI, and how browsers work.
+Issues 2-6 are limitations of file naming conventions, the splash screen in Power BI, and how browsers work. These issues will not be addressed.
 
 7. The legend on the **Call Queue - Call Volume, Abandoned Calls and Agent Opt-in Count** visual is in English only.
-8. Customer provided information such as Auto attendant and Call queue names, is not localized.
-
 
 ## Auto attendant and Call queue historical reports field definitions
 
