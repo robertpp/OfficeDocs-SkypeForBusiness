@@ -29,9 +29,9 @@ description: Learn how to use the Teams Auto Attendant & Call Queue Historical R
 ---
 
 # Auto attendant and Call queue historical reports
-
+ 
 > [!IMPORTANT]
-> GCC High and DoD customers need to use [Auto attendant and call queue historical reports for GCC High and DoD](aa-cq-cqd-historical-reports-v164.md).
+> Government Community Cloud High (GCCH) and U.S. Department of Defense (DoD) customers need to use [Auto attendant and call queue historical reports for GCC High and DoD](aa-cq-cqd-historical-reports-v164.md).
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
@@ -39,8 +39,8 @@ This Power BI template provides three reports that allow organizations to report
 
 What's new in this release:
 - Reports are available in [46 languages/locales](#supported-locales).
-- Authorized users will see the reports by Auto Attendant and Call Queue names vs Resource Account names
-  - Admin users continue to see the reports by Resource Account names
+- Authorized users see reports by Auto Attendant and Call Queue names vs Resource Account
+  - Admin users continue to see the reports by Resource Account
 
 ## Overview
 
@@ -100,7 +100,7 @@ Use one of the following methods to control access to the historical reports:
 
 ## V3.x.x desktop installation
 
-The following steps assume the Power BI Desktop client is installed on your computer and that your Teams account has been configured as an [Authorized user](./aa-cq-authorized-users-plan.md), or has a [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) assigned.
+The following steps assume that the Power BI Desktop client is installed on your computer and that your Teams account is configured as an [Authorized user](./aa-cq-authorized-users-plan.md), or has a [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) assigned.
 
 Perform the following steps:
 
@@ -183,7 +183,7 @@ You have to refresh the report to see any new data.
 1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on. Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on.
 1. Only 28 days of call history are available. Auto attendant data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
-1. If the **Historical Auto Attendant Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report will revert to reporting by Resource account instead of Auto attendant name. 
+1. If the **Historical Auto Attendant Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report reverts back to reporting by Resource account instead of Auto attendant name. 
 
 ### Cloud Call Queue Analytics report
 
@@ -217,7 +217,7 @@ You have to refresh the report to see any new data.
 1. Only the calls and caller actions in the first Call queue that answers the call are reported on. Calls in chained Call queues (when one Call queue transfers to another Call queue) aren't reported on.
 1. Only 28 days of call history are available. Call queue data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
-1. If the **Historical Call Queue Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report will revert to reporting by Resource account instead of Call queue name. 
+1. If the **Historical Call Queue Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report reverts back to reporting by Resource account instead of Call queue name. 
 
 ### Cloud Call Queue Agent Timeline report
 
@@ -254,7 +254,7 @@ You have to refresh the report to see any new data.
 1. When an agent answers a call in a different call queue due to redirection through Call Overflow exception handling, the call is counted in the original call queue where the exception occurred instead of the one they answered the call in.
 1. Callback calls handled by agents aren't captured resulting in a discrepancy between the number of calls answered on the Call Queue report and the Agent Timeline report.
 1. The agent tooltip shows all calls for the agent instead of only the calls within the selected date range.
-1. If the **Historical Call Queue Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report will revert to reporting by Resource account instead of Call queue name. 
+1. If the **Historical Call Queue Metrics** permission in the Voice applications policy is set to **All** for an Authorized user, the report reverts back to reporting by Resource account instead of Call queue name. 
 
 ## Localization
 
@@ -288,7 +288,7 @@ You have to refresh the report to see any new data.
 
 ### Localization known issues
 
-1. The selected language applies to the reports only and not the Power BI components or tooltips.  Power BI defaults to the same language as the Windows desktop.
+1. The selected language applies to the reports only and not the Power BI components or tooltips. Power BI defaults to the same language as the Windows desktop.
 
     To change the Power BI language select:
       - File
@@ -296,7 +296,7 @@ You have to refresh the report to see any new data.
       - Options
       -	Regional Settings
       -	Application Language
-        - Default set to “Use Windows default display language”
+        - Default set to "Use Windows default display language"
         - Select the desired language from the drop down
           - Note: The list of languages shown here may be different than those available for the report template.
 
