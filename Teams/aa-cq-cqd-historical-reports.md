@@ -31,7 +31,7 @@ description: Learn how to use the Teams Auto Attendant & Call Queue Historical R
 # Auto attendant and Call queue historical reports
  
 > [!IMPORTANT]
-> Government Community Cloud High (GCCH) and U.S. Department of Defense (DoD) customers need to use [Auto attendant and call queue historical reports for GCC High and DoD](aa-cq-cqd-historical-reports-v164.md).
+> Government Community Cloud High (GCCH) and U.S. Department of Defense (DoD) customers need to use [Auto attendant and call queue historical reports for GCCH and DoD](aa-cq-cqd-historical-reports-v164.md).
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
