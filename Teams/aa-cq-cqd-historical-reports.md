@@ -257,7 +257,7 @@ You have to refresh the report to see any new data.
 
 ### Supported locales
 
-|                                      |                                     |
+|Locales                               | Locals                              |
 |:-------------------------------------|:------------------------------------|
 | Arabic (Saudi Arabia)                | Italian (Italy)                     |
 | Bulgarian (Bulgaria)                 | Japanese (Japan)                    |
