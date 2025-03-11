@@ -38,7 +38,7 @@ This Power BI template provides three reports that allow organizations to report
 ## V3.2.0 published on March 24, 2025
 
 What's new in this release:
-- Reports are available in 46 languages/locales.
+- Reports are available in [46 languages/locales](#supported-locales).
 - Authorized users will see the reports by Auto Attendant and Call Queue names vs Resource Account names
   - Admin users continue to see the reports by Resource Account names
 
@@ -253,7 +253,37 @@ You have to refresh the report to see any new data.
 1. Callback calls handled by agents aren't captured resulting in a discrepancy between the number of calls answered on the Call Queue report and the Agent Timeline report.
 1. The agent tooltip which shows the individual calls for the agent shows all calls instead of only the calls within the selected date range.
 
-## Localization known issues
+## Localization
+
+### Supported locales
+
+|                                      |                                     |
+|:-------------------------------------|:------------------------------------|
+| Arabic (Saudi Arabia)                | Italian (Italy)                     |
+| Bulgarian (Bulgaria)                 | Japanese (Japan)                    |
+| Catalan (Catalan)                    | Korean (Korea)                      |
+| Chinese (Simplified, Hong Kong SAR)  | Latvian (Latvia)                    |
+| Chinese (Traditional, Taiwan)        | Lithuanian (Lithuania)              |
+| Croatian (Croatia)                   | Norwegian Bokmål (Norway)           |
+| Czech (Czechia)                      | Norwegian Nynorsk (Norway)          |
+| Danish (Denmark)                     | Polish (Poland)                     |
+| Dutch (Netherlands)                  | Portuguese (Brazil)                 |
+| English (Australia)                  | Portuguese (Portugal)               |
+| English (United Kingdom)             | Romanian (Romania)                  |
+| English (United States)              | Russian (Russia)                    |
+| Estonian (Estonia)                   | Serbian (Latin, Serbia)             |
+| Finnish (Finland)                    | Slovak (Slovakia)                   |
+| French (Canada)                      | Slovenian (Slovenia)                |
+| French (France)                      | Spanish (Mexico)                    |
+| German (Germany)                     | Spanish (Spain, International Sort) |
+| Greek (Greece)                       | Swedish (Sweden)                    |
+| Hebrew (Israel)                      | Thai (Thailand)                     |
+| Hindi (India)                        | Turkish (Turkey)                    |
+| Hungarian (Hungary)                  | Ukrainian (Ukraine)                 |
+| Icelandic (Iceland)                  | Vietnamese (Vietnam)                |
+| Indonesian (Indonesia)               | Welsh (United Kingdom)              |
+
+### Localization known issues
 
 1. The selected language applies to the reports only and not the Power BI components or tooltips.  Power BI defaults to the same language as the Windows desktop.
 
