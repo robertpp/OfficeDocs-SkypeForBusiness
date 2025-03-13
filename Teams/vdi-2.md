@@ -108,7 +108,7 @@ The following registry keys could block new media engine MSIX package installati
 - AllowDevelopmentWithoutDevLicense
 
 > [!IMPORTANT]
-> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB505294 (Windows 11 23H2 and 22H2) and KB505293 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43) or use Regex (for example, Microsoft.Teams.SlimCoreVdi*)
+> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB505294 (Windows 11 23H2 and 22H2) and KB505293 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*)
 
 > [!IMPORTANT]
 > If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue has been fixed in the Windows October cumulative update KB5031455:
@@ -198,7 +198,7 @@ Microsoft Teams displays information about the optimization status, helping the 
 
 In cases where Microsoft Teams is not optimized, the user sees a warning icon.
 
-![Screenshot of the Teams app showing it is not optimized.](media/Status_Indicator_Not_Optimized.png)
+![Screenshot of the Teams app showing it is not optimized.](media/Status_Indicator_Not_Optimized_2.png)
 
 Users can attempt a repair by selecting the three dots and choosing **Optimize virtual desktop and restart**.
 

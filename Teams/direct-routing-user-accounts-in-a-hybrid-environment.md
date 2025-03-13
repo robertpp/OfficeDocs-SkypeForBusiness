@@ -6,7 +6,7 @@ ms.author: scottfrancis
 author: sfrancis206
 manager: pamgreen
 audience: ITPro
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150

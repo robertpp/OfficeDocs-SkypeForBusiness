@@ -186,7 +186,7 @@ The price of an SMS message is accrued per-message segment. The per-message segm
 |Country/Region |Send Message |Receive Message |
 |:-----|:-----|:-----|
 |United States and Puerto Rico |$0.0075 USD |$0.0075 USD |
-|Canada |$0.1028 CAD |$0.01028 CAD |
+|Canada |$0.01028 CAD |$0.01028 CAD |
 
 ### Carrier fees
 

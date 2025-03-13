@@ -5,7 +5,7 @@ ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: 
 ms.date: 04/04/2018
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: 
 ms.service: msteams
 ms.collection: 

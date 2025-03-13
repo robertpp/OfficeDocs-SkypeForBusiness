@@ -4,9 +4,7 @@ items:
 - name: Get started
   items:
     - name: Deployment overview
-      href: deploy-overview.md
-    - name: Small business setup
-      href: deploy-small-business.md     
+      href: deploy-overview.md    
     - name: Enterprise setup
       items:
         - name: Enterprise setup overview
@@ -137,6 +135,14 @@ items:
                       href: hardware-decoders-and-encoders.md
                     - name: Classic Teams firewall PowerShell script
                       href: client-firewall-script.md
+    - name: Small business setup
+      items: 
+        - name: Small business setup overview
+          href: deploy-small-business.md
+        - name: Set up Teams calendar syncing with Google Workspace
+          href: setup-calendar-syncing-with-google-workspace.md
+        - name: Integrating your business email with Teams 
+          href: integrating-business-email.md
     - name: Upgrade from Skype for Business
       items: 
         - name: Get started
@@ -1304,7 +1310,9 @@ items:
               items: 
                 - name: Overview
                   href: direct-routing-monitor-and-troubleshoot.md
-                - name: Health Dashboard
+                - name: View SIP call flow
+                  href: direct-routing-monitor-sip-ladder.md
+                - name: SBC Health Dashboard
                   href: direct-routing-health-dashboard.md
             - name: Technical reference for Direct Routing
               items: 
@@ -1728,7 +1736,7 @@ items:
                 - name: RBAC using administrative units
                   href: administrative-unit.md
                 - name: Teams device health
-                  href: teams-device-health.md
+                  href: devices/teams-device-health.md
                 - name: Teams device health monitoring
                   href: alerts/device-health-status.md
             - name: Teams Rooms Pro Management
@@ -1747,20 +1755,25 @@ items:
                   items: 
                     - name: Managing your inventory
                       href: rooms/inventory.md
-                    - name: Standards and Rooms Planner 
-                      href: rooms/standards-and-room-planner.md
-                    - name: Remotely access a Teams Room console
-                      href: rooms/remotely-access-teams-rooms.md
+                    - name: Manage Teams Rooms on Windows
+                      href: rooms/pro-portal-settings.md
                     - name: Managed updates
                       href: rooms/update-management.md
+                    - name: Remotely access a Teams Room console
+                      href: rooms/remotely-access-teams-rooms.md
+
                     - name: Role-based access control
                       href: rooms/rooms-pro-rbac.md
                     - name: Multi-tenant management for partners
                       href: rooms/multi-tenant-management-partner.md
                     - name: Multi-tenant management for customers
                       href: rooms/multi-tenant-management-customer.md
+                    - name: Standards and Rooms Planner 
+                      href: rooms/standards-and-room-planner.md
                 - name: Monitoring
                   items:
+                    - name: Teams Rooms on Windows settings
+                      href: rooms/pro-portal-settings.md
                     - name: Signal settings
                       href: rooms/signal-settings.md  
                     - name: Configure ServiceNow

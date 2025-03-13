@@ -3,7 +3,7 @@ title: Scenarios for Location-Based Routing for Direct Routing
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz

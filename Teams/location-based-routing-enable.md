@@ -3,7 +3,7 @@ title: Enable Location-Based Routing for Direct Routing
 ms.author: scottfrancis
 author: sfrancis206
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: roykuntz
 ms.date: 08/10/2023
 ms.service: msteams

@@ -3,7 +3,7 @@ title: Configure dynamic emergency calling
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.collection:  

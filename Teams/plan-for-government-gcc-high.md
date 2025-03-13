@@ -3,7 +3,7 @@ title: Microsoft 365 Government - GCC High deployments
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 audience: admin
 ms.reviewer: daro

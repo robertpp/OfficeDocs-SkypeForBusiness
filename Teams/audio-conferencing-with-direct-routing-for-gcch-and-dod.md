@@ -27,7 +27,7 @@ ms.custom: seo-marvel-apr2020
 
 Audio Conferencing with Direct Routing for GCC High and DoD enables participants to join Teams meetings in your GCC High or DoD organization by using a phone device. Meeting participants might prefer to use a phone device to join Teams meetings in scenarios such as when internet connectivity is limited or when users are on the road and don't have access to Teams. Participants can choose to join meetings by either dialing into a dial-in phone number for your organization or by having the meeting dial out to their phone device.
 
-With Audio Conferencing with Direct Routing for GCC High and DoD, your organization uses its own numbers as dial-in phone numbers and all meeting dial-outs to phone devices are routed via Direct Routing. To enable the service, organizations need to set up Direct Routing and configure phone numbers that can be used as dial-in phone numbers. The requirement to use Direct Routing is different from the Audio Conferencing service that are offered to non-GCC High and non-DoD organizations where the dial-in phone numbers are provided by Microsoft.
+With Audio Conferencing with Direct Routing for GCC High and DoD, your organization uses its own numbers as dial-in phone numbers and all meeting dial-outs to phone devices are routed via Direct Routing. To enable the service, organizations need to set up Direct Routing and configure phone numbers that can be used as dial-in phone numbers. The requirement to use Direct Routing is different from the Audio Conferencing service that is offered to non-GCC High and non-DoD organizations where the dial-in phone numbers are provided by Microsoft.
 
 ## Deploy Audio Conferencing with Direct Routing for GCC High and DoD
 
@@ -64,13 +64,13 @@ Dial-in phone numbers are the phone numbers that are associated to your Audio Co
 You can use the New-csHybridTelephoneNumber PowerShell cmdlet to define service phone numbers in your tenant that can be used to route calls to the Audio Conferencing service via Direct Routing.
 
   ```PowerShell
-  New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
+  New-CsOnlineDirectRoutingTelephoneNumberUploadOrder -TelephoneNumber <Phone number in E.164 format>
   ```
 
 For example:
 
   ```PowerShell
-  New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
+  New-CsOnlineDirectRoutingTelephoneNumberUploadOrder -TelephoneNumber "+1234567890"
   ```
 
 #### Assign the service phone numbers to the Audio Conferencing bridge of your organization

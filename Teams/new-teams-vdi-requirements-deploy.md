@@ -3,7 +3,7 @@ title:  New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.date: 01/14/2025
 ms.service: msteams
 audience: admin
@@ -498,6 +498,8 @@ BinaryVersion
 msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_23320.3021.2567.4799_x64__8wekyb3d8bbwe\MicrosoftTeamsMeetingAddinInstaller.msi" ALLUSERS=1 /qn /norestart TARGETDIR="C:\Program Files (x86)\Microsoft\TeamsMeetingAdd-in\1.24.2203.0\"
 ```
 
+The following powershell script can be used as a reference for deployment. Customers should validate in their QA/TEST environments:
+
 ```powershell
 If (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator') ){
     Write-Error "Need to run as administrator. Exiting.."
@@ -521,7 +523,7 @@ if (-not ($TMAVersion = (Get-AppLockerFileInformation -Path $TMAPath | Select-Ob
 Write-Host "Found Teams Meeting Addin Version: $TMAVersion"
 
 # Install parameters
-$TargetDir = "{0}\Microsoft\TeamsMeetingAddin\{1}\" -f ${env:ProgramFiles(x86)},$TMAVersion
+$TargetDir = "{0}\Microsoft\TeamsMeetingAdd-in\{1}\" -f ${env:ProgramFiles(x86)},$TMAVersion
 $params = '/i "{0}" TARGETDIR="{1}" /qn ALLUSERS=1' -f $TMAPath, $TargetDir
 
 # Start the install process

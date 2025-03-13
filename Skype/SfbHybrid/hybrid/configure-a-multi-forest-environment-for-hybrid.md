@@ -6,7 +6,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 audience: ITPro
-ms.topic: article
+ms.topic: install-set-up-deploy
 f1.keywords:
 - NOCSH
 ms.service: skype-for-business-server

@@ -5,7 +5,7 @@ ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: 
 ms.date: 11/17/2023
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: 
 ms.tgt.pltfrm: cloud
 ms.service: msteams
