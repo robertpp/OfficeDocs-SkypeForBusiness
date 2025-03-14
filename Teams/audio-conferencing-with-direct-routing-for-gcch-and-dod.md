@@ -61,7 +61,7 @@ Dial-in phone numbers are the phone numbers that are associated to your Audio Co
 
 #### Define service phone numbers in your tenant
 
-You can use the New-csHybridTelephoneNumber PowerShell cmdlet to define service phone numbers in your tenant that can be used to route calls to the Audio Conferencing service via Direct Routing.
+You can use the New-CsOnlineDirectRoutingTelephoneNumberUploadOrder PowerShell cmdlet to define service phone numbers in your tenant that can be used to route calls to the Audio Conferencing service via Direct Routing.
 
   ```PowerShell
   New-CsOnlineDirectRoutingTelephoneNumberUploadOrder -TelephoneNumber <Phone number in E.164 format>

@@ -49,8 +49,8 @@ To access the SIP call flow, do the following steps:
 1. From the report drop-down, select **PSTN Usage** report, select a desired date range, and select **Run Report**.  
 1. In the generated report, select the **Direct Routing** tab.
 1. In the displayed records of Direct Routing calls, identify and select the desired call to audit.
-  1. From the list heading, select **SIP call flow**, or
-  1. From the available columns, find the **Final SIP code** column header and select the Final SIP Code of the selected call.
+    1. From the list heading, select **SIP call flow**, or
+    1. From the available columns, find the **Final SIP code** column header and select the Final SIP Code of the selected call.
 1. From the SIP call flow in the displayed SIP events, identify and select the SIP event to review.
 1. View the protocol details that pop out in the right-hand view.
 

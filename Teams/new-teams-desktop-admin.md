@@ -37,9 +37,6 @@ The new Teams desktop client is reimagined from the ground up with performance i
 
 The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
->[!NOTE]
->To review some of the changes, see [What's features are changing?](new-teams-known-issues.md).
-
 ## Servicing agreement
 
 Teams is governed by the Modern Lifecycle Policy, with the expectation that users remain on the most up-to-date version of the desktop client. Automatic updates ensure that users have the latest capabilities, performance enhancements, security, and service reliability. An in-app alert is displayed if the user’s current version is between one and three months old, and if there's a new version available.
