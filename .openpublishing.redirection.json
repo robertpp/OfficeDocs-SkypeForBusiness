@@ -5416,9 +5416,14 @@
     "redirect_document_id": false
   },
   {
-"source_path": "Teams/delete-exchange-online-transcripts.md",
+    "source_path": "Teams/delete-exchange-online-transcripts.md",
     "redirect_url": "/microsoftteams/tmr-meeting-recording-change",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/rooms/health-and-usage-reports.md",
+    "redirect_url": "/microsoftteams/rooms/health-reports",
+    "redirect_document_id": false
   },
   {
     "source_path": "Teams/rooms/data-and-privacy-info.md",

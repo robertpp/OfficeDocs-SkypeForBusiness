@@ -384,6 +384,8 @@ items:
       items:
         - name: Set up Facilitator for AI notes
           href: facilitator-teams.md
+        - name: Facilitator in Teams Rooms
+          href: rooms/facilitator-teams-rooms.md
 
 - name: Teams Premium
   items:
@@ -1536,7 +1538,7 @@ items:
                 - name: Certified personal peripherals
                   href: devices/usb-devices.md
                 - name: Certified Native Bluetooth devices
-                  href: devices/bluetooth-devices.md
+                  href: devices/bluetooth-devices.md               
                 - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/meetings/known-issues-teams-certified-peripherals
     - name: Teams Rooms and panels
@@ -1573,6 +1575,8 @@ items:
                       href: rooms/multicamera-view.md
                     - name: Coordinated meetings                    
                       href: rooms/coordinated-meetings.md
+                    - name: Faciliator in Teams Rooms
+                      href: rooms/facilitator-teams-rooms.md                      
                     - name: Whiteboard in Teams Rooms
                       href: rooms/whiteboard-rooms.md
                     - name: Intelligent speaker
@@ -1786,8 +1790,10 @@ items:
                       href: rooms/managed-meeting-rooms-portal.md
                     - name: Audit logs for activities
                       href: rooms/multi-tenant-auditing.md
-                    - name: Health and usage reports
-                      href: rooms/health-and-usage-reports.md
+                    - name: Health reports
+                      href: rooms/health-reports.md
+                    - name: Usage reports
+                      href: rooms/usage-reports.md
                 - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/teams-rooms-and-devices/get-support-teams-rooms-pro-management
     - name: Teams phones

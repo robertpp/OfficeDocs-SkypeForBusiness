@@ -1,6 +1,6 @@
 ---
 title: Set up Facilitator in Microsoft Teams for collaborative AI notes
-author: DaniESmith
+author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: solomon.alex, grace.culver
@@ -36,6 +36,7 @@ Use Facilitator in peer-to-peer:
 
 - Chats
 - Meetings
+- [Teams Rooms](./rooms/facilitator-teams-rooms.md)
 
 Unlike an individual user's queries to Copilot in Teams, Facilitator displays Copilot's notes within the group's conversation. Users can focus on the conversation and let Facilitator take care of the note-taking for everyone.
 
@@ -85,12 +86,17 @@ For more information about security and privacy in Microsoft 365 Copilot, see th
 
 The following list contains the prerequisites for users to be able to access Facilitator features in Teams chats and meetings. Users must meet all of the following requirements:
 
+### Licensing requirements
+
 - An eligible *Microsoft 365* base license.
   - For the list of eligible base licenses, see [Understand licensing requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).
 - An eligible *Microsoft Teams* license.
   - Teams licenses may be included in your *Microsoft 365* subscription, or you may need to purchase a separate Teams license if you have *Microsoft 365 (no Teams)* licenses.
 - A *Microsoft 365 Copilot* license.
   - For information on how to acquire *Microsoft 365 Copilot* licenses, see [Where can I get Microsoft Copilot?](https://support.microsoft.com/topic/where-can-i-get-microsoft-copilot-40a622db-6d25-4266-b008-4bbcb55cf52f)
+
+### User requirements
+
 - Be a Microsoft Teams Public preview participant.
   - For information on how to access Teams Public preview features, see [Microsoft Teams Public preview](/microsoftteams/public-preview-doc-updates).
 - [Have Loop experiences in Teams for AI-generated notes in meetings turned on](#3-turn-on-loop-experiences-in-teams-for-ai-generated-notes-in-meetings).

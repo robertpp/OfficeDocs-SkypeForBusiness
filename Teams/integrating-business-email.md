@@ -23,6 +23,9 @@ ms.localizationpriority: medium
 > [!NOTE]
 > This article is intended for Global Administrators with a Microsoft 365 subscription for work or school that includes Microsoft Teams.
 
+> [!NOTE]
+> If your primary email service provider is Google Workspace, you can enable bidirectional syncing with Microsoft Teams by following the process in [Set up calendar syncing between Google Workspace and Microsoft Teams](/microsoftteams/setup-calendar-syncing-with-google-workspace?branch=main).
+
 If you're signing into Microsoft Teams using the default domain that Microsoft provided when you purchased Microsoft 365, for example, "yourcompany.onmicrosoft.com," then your small business’s existing domain and email aren't connected to Teams. This lack of connection creates challenges for your small business:
 
 - You and your users need to remember multiple logins.
@@ -146,4 +149,3 @@ You can provide feedback within the Admin app in Teams using the **Give Feedback
 **What is a custom business domain?**
 
 - A custom business domain is a unique web address for your business presence on the internet, for example, contoso.com.
-

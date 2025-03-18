@@ -20,6 +20,9 @@ ms.localizationpriority: medium
 
 # Set up calendar syncing between Google Workspace and Microsoft Teams for your small or medium business
 
+> [!NOTE]
+> If your primary email service provider is Microsoft or another service provider other than Google Workspace, you can connect your business domain and email to Teams to manage Teams meetings by following the process in [Integrating your business email with Microsoft Teams](/MicrosoftTeams/integrating-business-email?branch=main).
+
 If your small or medium business relies on Google Workspace for email and calendaring, you can enable bidirectional syncing with Microsoft Teams. Enabling sync reduces missed meetings and simplifies meeting management by ensuring events and meeting responses created in either platform are seamlessly reflected in both.
 
 > [!NOTE]
