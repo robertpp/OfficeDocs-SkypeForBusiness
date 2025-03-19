@@ -58,7 +58,7 @@ The following devices are certified under the Microsoft Teams phones Android Cer
 | Poly CCX505  | `9.0.0.10315`  |  	August 15, 2027 | 12 |
 | Poly CCX600  | `9.0.0.10315` | 	August 15, 2027 | 12 |
 | Poly Trio C60, Trio C60 NR, Trio C60 ND | `9.0.0.10315` | August 15, 2027 | 12 |
-| Poly EM60 supported on CCX505 and CCX600 | `8.1.5.1732`| August 15, 2027 | N/A |
+| Poly EM60 supported on CCX505 and CCX600 | `9.0.0.10315`| August 15, 2027 | N/A |
 | Yealink MP52 E2 | `176.15.0.16 `|August 15, 2027   | 13|
 | Yealink MP54 E2 | `176.15.0.16 `|August 15, 2027   | 13|
 | Yealink MP56 E2 | `176.15.0.16 `|August 15, 2027   | 13|
@@ -110,6 +110,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 #### <b> HP | Poly </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------------|:--------------------------------------------|
+| CCX350/CCX400/CCX500/CCX505/CCX600/Trio C60 | `9.1.0.9161 (AOSP)` | `N/A`| Teams client: `1449/1.0.94.2024122303` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| March 5, 2025|
 | CCX350/CCX400/CCX500/CCX505/CCX600/Trio C60 | `9.0.1.6562` | `N/A`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| December 16, 2024|
 | CCX350/CCX400/CCX500/CCX505/CCX600/Trio C60 | `9.0.0.10460` | `N/A`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| Recalled|
 | CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.6.1006` | `8.1.3.1301`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| April 12, 2024|
@@ -159,6 +160,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 #### <b> HP | Poly </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date | Cloud |
 |:----------------|:-------------------|:----------------------------|:------------------------------------------------------------------|:-------------------------|:----------------------------------|
+| CCX350/CCX400/CCX500/CCX505/CCX600/Trio C60 | `9.0.1.6562` | `N/A`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| February 26, 2025| GCCH|
 | CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.6.1006` | `N/A`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| August 2, 2024| GCCH|
 |Trio C60 | `8.1.6.1005` | `N/A` | Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| August 2, 2024 | GCCH|
 |CCX350/CCX400/CCX505/CCX600 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| January 22, 2024| DoD |

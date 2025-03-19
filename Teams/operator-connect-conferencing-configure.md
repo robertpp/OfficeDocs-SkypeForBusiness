@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.date: 02/18/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.subservice: teams-audio-conferencing
 ms.reviewer: oscarr

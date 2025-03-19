@@ -4,7 +4,7 @@ author: LaszloSomi
 ms.author: lsomi
 manager: swerth
 audience: Admin
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.collection: 
   - M365-collaboration

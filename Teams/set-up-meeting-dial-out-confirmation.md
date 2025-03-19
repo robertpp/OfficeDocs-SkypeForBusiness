@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 10/16/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.subservice: teams-audio-conferencing
 audience: admin

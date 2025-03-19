@@ -4,7 +4,7 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 audience: ITPro
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 search.appverid: MET150
 searchScope: 

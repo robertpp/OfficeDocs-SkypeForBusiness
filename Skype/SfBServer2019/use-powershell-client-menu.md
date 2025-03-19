@@ -6,7 +6,7 @@ author: v-smandalika
 manager: dansimp
 ms.date: 10/12/2021
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH

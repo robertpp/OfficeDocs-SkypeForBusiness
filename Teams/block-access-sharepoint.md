@@ -5,7 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.reviewer: Nigolc
 ms.date: 07/23/2020
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin

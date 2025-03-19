@@ -6,7 +6,7 @@ description: Use these adoption resources to help you drive adoption of Microsof
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: article
 audience: admin 
 ms.service: msteams
 f1.keywords:

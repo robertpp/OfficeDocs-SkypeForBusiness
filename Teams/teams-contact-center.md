@@ -3,7 +3,7 @@ title: Teams Contact Center
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-ms.topic: article
+ms.topic: integration
 ms.service: msteams
 audience: admin
 ms.reviewer: anblak

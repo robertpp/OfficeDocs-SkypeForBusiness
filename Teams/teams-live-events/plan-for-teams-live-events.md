@@ -3,7 +3,7 @@ title: Plan for live events in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: concept-article
 ms.service: msteams
 audience: admin
 ms.reviewer: christi.balaki

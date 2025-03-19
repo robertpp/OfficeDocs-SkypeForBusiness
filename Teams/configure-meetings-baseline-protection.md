@@ -3,7 +3,7 @@ title: Configure Teams meetings with baseline protection
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: vivek.mohan
 ms.date: 12/13/2024

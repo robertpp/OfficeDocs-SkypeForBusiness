@@ -6,7 +6,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: conceptual
+ms.topic: article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
@@ -27,15 +27,15 @@ This example shows you how to plan for and implement call admission control (CAC
 
 1. Identify all of your network hubs and backbones (known as network regions).
 
-2. Identify the Skype for Business Server central site that will manage CAC for each network region.
+2. Identify the Skype for Business Server central site that manages CAC for each network region.
 
 3. Identify and define the network sites that are connected to each network region.
 
-4. For each network site whose connection to the WAN is bandwidth-constrained, describe the bandwidth capacity of the WAN connection and the bandwidth limits that to the network administrator has set for Skype for Business Server media traffic, if applicable. You do not need to include sites whose connection to the WAN is not bandwidth-constrained.
+4. For each network site whose connection to the WAN is bandwidth-constrained, describe the bandwidth capacity of the WAN connection and the bandwidth limits that to the network administrator set for Skype for Business Server media traffic, if applicable. You don't need to include sites whose connection to the WAN isn't bandwidth-constrained.
 
 5. Associate each subnet in your network with a network site.
 
-6. Map the links between the network regions. For each link, describe its bandwidth capacity and any limits that the network administrator has placed on Skype for Business Server media traffic.
+6. Map the links between the network regions. For each link, describe its bandwidth capacity and any limits that the network administrator placed on Skype for Business Server media traffic.
 
 7. Define a route between every pair of network regions.
 
@@ -49,7 +49,7 @@ To prepare for call admission control, gather the information described in the f
 
     Our example topology has three network regions: North America, EMEA, and APAC. A network region contains a collection of network sites. Work with your network administrator to define the network regions for your enterprise.
 
-2. Identify each network region's associated central site. A central site contains at least one Front End Server and is the Skype for Business Server deployment that will manage CAC for all media traffic that passes through the network region's WAN connection.
+2. Identify each network region's associated central site. A central site contains at least one Front End Server and is the Skype for Business Server deployment that manages CAC for all media traffic that passes through the network region's WAN connection.
 
    **An example enterprise network divided into three network regions**
 
@@ -58,7 +58,7 @@ To prepare for call admission control, gather the information described in the f
     > [!NOTE]
     > A Multiprotocol Label Switching (MPLS) network should be represented as a network region in which each geographic location has a corresponding network site. For details, see [Components and topologies for call admission control in Skype for Business](components-and-topologies.md). 
 
-    In the preceding example network topology, there are three network regions, each with a Skype for Business Server central site that manages CAC. The appropriate central site for a network region is chosen by the geographic vicinity. Because media traffic will be heaviest within network regions, the ownership by geographic vicinity makes it self-contained and will continue to be functional even if other central sites become unavailable. 
+    In the preceding example network topology, there are three network regions, each with a Skype for Business Server central site that manages CAC. The appropriate central site for a network region is chosen by the geographic vicinity. Because media traffic is heaviest within network regions, the ownership by geographic vicinity makes it self-contained and continues to be functional even if other central sites become unavailable. 
 
     In this example, a Skype for Business deployment named Chicago is the central site for the North America region.
 
@@ -75,9 +75,9 @@ To prepare for call admission control, gather the information described in the f
     > [!NOTE]
     > Depending on your Skype for Business Server topology, the same central site can be assigned to multiple network regions. 
 
-3. For each network region, identify all of the network sites (offices or locations) whose WAN connections are not bandwidth-constrained. Because these sites are not bandwidth constrained, you do not need to apply CAC bandwidth policies to them.
+3. For each network region, identify all of the network sites (offices or locations) whose WAN connections aren't bandwidth-constrained. Because these sites aren't bandwidth constrained, you don't need to apply CAC bandwidth policies to them.
 
-    In the example shown in the following table, three network sites do not have bandwidth-constrained WAN links: New York, Chicago, and Detroit.
+    In the example shown in the following table, three network sites don't have bandwidth-constrained WAN links: New York, Chicago, and Detroit.
 
    **Network Sites not Constrained by WAN Bandwidth**
 
@@ -109,11 +109,11 @@ To prepare for call admission control, gather the information described in the f
 
 5. For each bandwidth-constrained WAN link, determine the following:
 
-   - Overall bandwidth limit that you want to set for all concurrent audio sessions. If a new audio session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
+   - Overall bandwidth limit that you want to set for all concurrent audio sessions. If a new audio session causes this limit to be exceeded, Skype for Business Server doesn't allow the session to start.
 
    - Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.
 
-   - Overall bandwidth limit that you want to set for all concurrent video sessions. If a new video session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
+   - Overall bandwidth limit that you want to set for all concurrent video sessions. If a new video session causes this limit to be exceeded, Skype for Business Server doesn't allow the session to start.
 
    - Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.
 
@@ -133,12 +133,12 @@ To prepare for call admission control, gather the information described in the f
 6. For every subnet in your network, specify its associated network site.
 
     > [!IMPORTANT]
-    > Every subnet in your network must be associated with a network site, even if the network site is not bandwidth constrained. This is because call admission control uses subnet information to determine at which network site an endpoint is located. When the locations of both parties in the session are determined, call admission control can determine if there is sufficient bandwidth to establish a call. When a session is established over a link that has no bandwidth limits, an alert is generated. 
+    > Every subnet in your network must be associated with a network site, even if the network site isn't bandwidth constrained. This is because call admission control uses subnet information to determine at which network site an endpoint is located. When the locations of both parties in the session are determined, call admission control can determine if there is sufficient bandwidth to establish a call. When a session is established over a link that has no bandwidth limits, an alert is generated. 
 
     > [!IMPORTANT]
     > If you deploy Audio/Video Edge Servers, the public IP addresses of each Edge Server must be associated with the network site where the Edge Server is deployed. Each public IP address of the A/V Edge Server must be added to your network configuration settings as a subnet with a subnet mask of 32. For example, if you deploy A/V Edge Servers in Chicago, then for each external IP address of those servers create a subnet with a subnet mask of 32 and associate network site Chicago with those subnets. For details about public IP addresses, see [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md). 
 
-    A Key Health Indicator (KHI) alert is raised, specifying a list of IP addresses that are present in your network but are either not associated with a subnet, or the subnet that includes the IP addresses is not associated with a network site. This alert will not be raised more than once within an 8 hour period. The relevant alert information and an example are as follows:
+    A Key Health Indicator (KHI) alert is raised, specifying a list of IP addresses that are present in your network but are either not associated with a subnet, or the subnet that includes the IP addresses isn't associated with a network site. This alert won't be raised more than once within an 8 hour period. The relevant alert information and an example are as follows:
 
     **Source**: CS Bandwidth Policy Service (Core) 
 
@@ -146,13 +146,13 @@ To prepare for call admission control, gather the information described in the f
 
     **Level**: 2
 
-    **Description**: The subnets for the following IP Addresses: \<List of IP Addresses\> are either not configured or the subnets are not associated to a network site. 
+    **Description**: The subnets for the following IP Addresses: \<List of IP Addresses\> are either not configured or the subnets aren't associated to a network site. 
 
-    **Cause**: The subnets for the corresponding IP addresses are missing from the network configuration settings or the subnets are not associated to a network site. 
+    **Cause**: The subnets for the corresponding IP addresses are missing from the network configuration settings or the subnets aren't associated to a network site. 
 
     **Resolution**: Add subnets corresponding to the preceding list of IP addresses into the network configuration settings and associate every subnet to a network site.
 
-    For example, if the IP address list in the alert specifies 10.121.248.226 and 10.121.249.20, either these IP addresses are not associated with a subnet, or the subnet that they are associated with does not belong to a network site. If 10.121.248.0/24 and 10.121.249.0/24 are the corresponding subnets for these addresses, you can resolve this issue as follows:
+    For example, if the IP address list in the alert specifies 10.121.248.226 and 10.121.249.20, either these IP addresses aren't associated with a subnet, or the subnet that they are associated with doesn't belong to a network site. If 10.121.248.0/24 and 10.121.249.0/24 are the corresponding subnets for these addresses, you can resolve this issue as follows:
 
     a. Be sure that IP address 10.121.248.226 is associated with the 10.121.248.0/24 subnet and IP address 10.121.249.20 is associated with the 10.121.249.0/24 subnet.
 
@@ -173,11 +173,11 @@ To prepare for call admission control, gather the information described in the f
 
 7. In Skype for Business Server call admission control, the connections between network regions are called region links. For each region link, determine the following, just as you did for the network sites:
 
-   - Overall bandwidth limit that you want to set for all concurrent audio sessions. If a new audio session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
+   - Overall bandwidth limit that you want to set for all concurrent audio sessions. If a new audio session causes this limit to be exceeded, Skype for Business Server doesn't allow the session to start.
 
    - Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.
 
-   - Overall bandwidth limit that you want to set for all concurrent video sessions. If a new video session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
+   - Overall bandwidth limit that you want to set for all concurrent video sessions. If a new video session causes this limit to be exceeded, Skype for Business Server doesn't allow the session to start.
 
    - Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.
 
@@ -211,11 +211,11 @@ To prepare for call admission control, gather the information described in the f
 
 9. For every pair of network sites that are directly connected by a single link (called an inter-site link), determine the following:
 
-     - Overall bandwidth limit that you want to set for all concurrent audio sessions. If a new audio session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
+     - Overall bandwidth limit that you want to set for all concurrent audio sessions. If a new audio session causes this limit to be exceeded, Skype for Business Server doesn't allow the session to start.
 
      - Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.
 
-     - Overall bandwidth limit that you want to set for all concurrent video sessions. If a new video session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
+     - Overall bandwidth limit that you want to set for all concurrent video sessions. If a new video session causes this limit to be exceeded, Skype for Business Server doesn't allow the session to start.
 
      - Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.
 

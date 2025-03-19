@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: vapati
-ms.date: 05/15/2024
+ms.date: 3/06/2025
 ms.topic: how-to
 audience: Admin
 ms.service: msteams

@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 audience: Admin
-ms.topic: conceptual
+ms.topic: quickstart
 ms.service: msteams
 ms.reviewer: karuanag
 ms.date: 10/26/2018

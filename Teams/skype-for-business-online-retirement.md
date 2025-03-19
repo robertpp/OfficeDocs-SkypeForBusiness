@@ -3,7 +3,7 @@ title: Skype for Business Online retirement
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 ms.date: 09/06/2019

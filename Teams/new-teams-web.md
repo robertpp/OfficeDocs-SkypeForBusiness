@@ -3,7 +3,7 @@ title:  New Teams for Web - Overview and prerequisites
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.topic: article
+ms.topic: overview
 ms.date: 05/31/2024
 ms.service: msteams
 audience: admin

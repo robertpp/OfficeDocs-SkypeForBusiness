@@ -3,7 +3,7 @@ title: Manage apps that work across Outlook and Microsoft 365 App
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started

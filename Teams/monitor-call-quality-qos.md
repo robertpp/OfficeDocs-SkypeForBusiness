@@ -3,7 +3,7 @@ title: 'Monitor and improve call quality for Microsoft Teams'
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: siunies

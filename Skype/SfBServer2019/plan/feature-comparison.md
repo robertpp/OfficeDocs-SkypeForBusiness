@@ -6,7 +6,7 @@ author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
-ms.topic: conceptual
+ms.topic: article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
@@ -23,14 +23,14 @@ description: "Summary: Skype for Business Server 2019 or Skype for Business Onli
 
 **Summary:** Skype for Business Server 2019 or Skype for Business Online administrators can use these tables to understand what features are supported on which clients.
 
- Before you deploy or upgrade to Skype for Business Server, check which clients are already in use in your organization. Use the tables below to understand the feature support impact on those clients. This can help you communicate changes to users, pace the roll-out process, and fully understand the benefits of upgrading to the latest client.
+ Before you deploy or upgrade to Skype for Business Server, check which clients are already in use in your organization. Use the following tables to understand the feature support impact on those clients. This information can help you communicate changes to users, pace the roll-out process, and fully understand the benefits of upgrading to the latest client.
 
 Some features available with Skype for Business Server 2019 are not available in Skype for Business Online; see [Online or Hybrid user account limitations](feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Online Admins may want to refer to [Skype for Business Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) for information on the different plans available to them.
 
-The following tables show the features that are available with each client that works with Skype for Business Server 2019 or Skype for Business Online. You may also want to refer to [Mobile client feature comparison for Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) for smart phone and tablet client feature comparisons. The Client Access License or User Subscription License your organization purchases will also have an impact on which features are available to your users. Whether you deploy the Full or Basic client to users depends on the license or plan your organization chooses to buy. See the [Licensing Guide](https://products.office.com/skype-for-business/it-pros) for more details.
+The following tables show the features that are available with each client that works with Skype for Business Server 2019 or Skype for Business Online. You may also want to refer to [Mobile client feature comparison for Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) for smart phone and tablet client feature comparisons. The Client Access License or User Subscription License your organization purchases also has an impact on which features are available to your users. Whether you deploy the Full or Basic client to users depends on the license or plan your organization chooses to buy. See the [Licensing Guide](https://products.office.com/skype-for-business/it-pros) for more details.
 
 > [!IMPORTANT]
-> Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Lync 2013, Skype for Business 2015, and Skype for Business 2016, as well as the Skype for Business 2019 client. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) and [Desktop client feature comparison for Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
+> Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Lync 2013, Skype for Business 2015, and Skype for Business 2016, and the Skype for Business 2019 client. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) and [Desktop client feature comparison for Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
 
 
 > [!NOTE]
@@ -73,7 +73,7 @@ This table covers the features relating to managing IM and Presence contacts.
 | Display recent contacts group                                                                 | &#x2714;                                      |                           | &#x2714;         |
 | Display current conversations group                                                           | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Display alternate contact views (for example, tile)                                           | &#x2714;                                      | &#x2714;                  | &#x2714;         |
-| Sort contacts by Group, Relationship, or New (people who've added you to their Contacts list) | &#x2714;                                      |                           | &#x2714;         |
+| Sort contacts by Group, Relationship, or New (people who added you to their Contacts list) | &#x2714;                                      |                           | &#x2714;         |
 | Sort contacts by Status (availability)                                                        | &#x2714;                                      |                           | &#x2714;         |
 | Search and add Exchange contacts                                                              | &#x2714;                                      |                           | &#x2714;         |
 
@@ -243,7 +243,7 @@ This table covers features related to support for archiving and logging function
 ### Basic client limitations
 <a name="Full-Basic"> </a>
 
-The features below are available using the Full client and are not available with the Basic client: 
+The following features are available using the Full client and are not available with the Basic client: 
 
 - Manage team call settings
 
@@ -266,7 +266,7 @@ The features below are available using the Full client and are not available wit
 ### Online or Hybrid user account limitations
 <a name="Online-Hybrid"> </a>
 
-User accounts can exist either Online or On-premises, and that will affect the features available to that user. Users with accounts on Skype for Business Online will not have access to the following features, even with the Full client: 
+User accounts can exist either Online or On-premises, and that affects the features available to that user. Users with accounts on Skype for Business Online don't have access to the following features, even with the Full client: 
 
 - Enhanced Presence: Use a photo from any public site for My Picture
 

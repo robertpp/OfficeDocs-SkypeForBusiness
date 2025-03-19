@@ -3,7 +3,7 @@ title: Operations for Microsoft Teams| Service Management | Quality
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl

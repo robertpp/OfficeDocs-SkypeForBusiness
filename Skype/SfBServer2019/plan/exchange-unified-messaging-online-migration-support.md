@@ -6,7 +6,7 @@ author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: waseemh, balinger
 audience: ITPro
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH

@@ -8,7 +8,7 @@ ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 

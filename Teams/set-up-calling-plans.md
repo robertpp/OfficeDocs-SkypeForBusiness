@@ -5,7 +5,7 @@ ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: roykuntz, jastark
 ms.date: 09/24/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
 ms.service: msteams

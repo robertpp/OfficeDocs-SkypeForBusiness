@@ -6,7 +6,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: install-set-up-deploy
 f1.keywords:
 - CSH
 ms.custom:

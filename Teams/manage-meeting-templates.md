@@ -3,7 +3,7 @@ title: Manage meeting templates in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: idilates
 ms.date: 11/19/2024

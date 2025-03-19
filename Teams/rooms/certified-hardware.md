@@ -213,9 +213,9 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html) | 10.3.82 |  |  |||
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.html) with [Mic Pods](https://www.logitech.com/products/video-conferencing/accessories/mic-pod-for-rally.html) | Logi CollabOS: 1.10.425 <br/> Mic pods: 2.1.4 |  |  |||
 | [Logitech Rally Bar No Radio](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001669.html) | Logi CollabOS: 1.13.127 |  |  |  |  |
-| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |||
+| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: <br/> Logi CollabOS: 1.10.208 |  |  |||
 | [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |||
-| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |||
+| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: <br/> Logi CollabOS: 1.10.208 |  |  |||
 | [Logitech Rally Bar Huddle](https://www.logitech.com/business/solutions/huddle-space.html) | Logi CollabOS: 1.10.277 <br/> System Image: 0.903.271 <br/> Audio: 0.2.67 |  |  |||
 | [Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam) | Audio — 1.0.172 <br/> Video — 1.0.156 |  |  |||
 | [Logitech MeetUp 2](https://www.logitech.com/products/video-conferencing/conference-cameras/meetup2.html) | Logi CollabOS: 1.13.77 |  |  |||
@@ -253,7 +253,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30) | 2.0.0.001096 |  |  |||
 | Poly Studio V52 | 1.0.1-400045 |  |  |||
 | Poly Studio V72 | 1.4.5-424011 |  |  |||
-| [EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) | 2.0.12.0 |  |  |||
+| EPOS SP 220 MS | 2.0.12.0 |  |  |||
 | [EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226) | 1.2.15 |  |  |||
 | [EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223) | 2.1.52 |  |  |||
 | [EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225) | 3.2.63 |  |  |||

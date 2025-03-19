@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: chbalaki
 ms.date: 11/11/2024
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin

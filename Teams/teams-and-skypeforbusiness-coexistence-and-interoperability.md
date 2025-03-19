@@ -3,7 +3,7 @@ title: Understand Microsoft Teams and Skype for Business coexistence and interop
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl

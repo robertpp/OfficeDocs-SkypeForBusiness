@@ -6,7 +6,7 @@ ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
 audience: ITPro
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
