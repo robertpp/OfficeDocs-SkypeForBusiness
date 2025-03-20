@@ -29,7 +29,7 @@ description: Learn about the data and reports available in Microsoft Call Qualit
 
 # Data and reports in Call Quality Dashboard (CQD)
 
-Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Call records are usually available in CQD within 30 minutes of the end of a call and remain in CQD for 12 months, except for end user identifiable information (EUII) fields which are removed after 28 days. Because CQD partially relies on client-side signals that can be subject to delays or interruptions due to network issues, in rare cases some calls will take longer than 30 minutes to appear in CQD.
+Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Call records are typically available in CQD within 30 minutes of the end of a call and remain in CQD for 12 months, except for end user identifiable information (EUII) fields which are removed after 28 days. In rare cases, some calls may take longer than 30 minutes to appear in CQD.
 
 ## Many ways to access call quality data
 
