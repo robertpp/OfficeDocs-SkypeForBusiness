@@ -2,7 +2,7 @@
 title: Overview of meetings, webinars, and town halls
 ms.reviewer: 
 ms.date: 9/18/2024
-ms.topic: article
+ms.topic: concept-article
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen

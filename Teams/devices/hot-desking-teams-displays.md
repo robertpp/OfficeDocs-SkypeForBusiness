@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 05/15/2024
+ms.date: 2/28/2025
 ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -26,7 +26,7 @@ search.appverid: MET150
 
 > [!IMPORTANT]
 >
-> End of support for the Teams display app is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams app provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
+> End of support for the Teams display app is September 3, 2025. Microsoft makes commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams app provided to manufacturers for two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
 
 Teams Displays are used in a shared area with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hot desking mode. Hot desking lets users reserve, sign-in, collaborate with other people, and then end their session securely.
 
@@ -46,7 +46,7 @@ First, you need to purchase a  **Teams Shared Devices**  license and make sure t
 
 > [!NOTE]
 >
->If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign a **Microsoft Entra ID P1** , and  **Intune**  license to the device account for the Teams Display.
+>If you're using Intune in your environment and have conditional access rules that require device compliance, you need to assign a **Microsoft Entra ID P1** , and  **Intune**  license to the device account for the Teams Display.
 
 Teams Displays can be impacted by conditional access rules and other identity configurations, like multifactor authentication (MFA). See [**Authentication best practices for Teams Android devices**](./authentication-best-practices-for-android-devices.md) to learn more.
 
@@ -109,7 +109,7 @@ To sign in locally with a username and password:
 ### Sign in from another device
 You can also sign into to a Teams Display from another device using a code. When you sign in this way, you enter the username and password on another device, rather than on the display itself.
 
-1. On your Teams Display, find the code displayed on the sign in screen.
+1. On your Teams Displays, find the code displayed on the sign in screen.
 2. On another device, go to [https://www.microsoft.com/devicelogin](https://www.microsoft.com/devicelogin).
 3. Enter the code and follow the instructions to finish signing in.
 

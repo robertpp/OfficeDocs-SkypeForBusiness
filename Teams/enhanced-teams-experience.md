@@ -5,7 +5,7 @@ ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: spraveen, margidesai
 ms.date: 7/11/2024
-ms.topic: conceptual
+ms.topic: overview
 ms.service: msteams
 ms.subservice: teams-premium
 search.appverid: MET150
@@ -189,6 +189,8 @@ Teams Premium provides more ways to elevate Teams webinars in your org with the 
   | RTMP-In | Yes| [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
 
 ## Advanced Virtual Appointments
+
+[!INCLUDE [va-app-retirement](includes/va-app-retirement.md)]
 
 With any Microsoft 365 license, your end users can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, users can schedule appointments in the Bookings calendar and external attendees can join through a browser without having to download Teams.
 

@@ -6,7 +6,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.custom:
 - ms.lync.dep.DeployMainBootstrap
 ms.service: skype-for-business-server

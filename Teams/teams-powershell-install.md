@@ -5,7 +5,7 @@ author: brandber
 ms.author: brandber
 manager: kojiko
 ms.date: 06/30/2020
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 audience: admin
 ms.service: msteams
 ms.collection:

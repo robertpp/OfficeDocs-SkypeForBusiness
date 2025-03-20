@@ -5,7 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.reviewer: 
 ms.date: 10/13/2023
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.service: msteams
 audience: Admin
 ms.collection: 

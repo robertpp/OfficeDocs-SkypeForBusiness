@@ -6,7 +6,7 @@ ms.author: scottfrancis
 author: sfrancis206
 manager: pamgreen
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -86,13 +86,57 @@ Direct Routing requires the user to be homed online. You can check by looking at
 
 Uploading your Direct Routing phone numbers to Microsoft's telephone number management inventory supports future number management enhancements.
 
-For example, if you upload your numbers, you can view them by using the PowerShell cmdlets [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) and [Export-CsAcquiredPhoneNumber](/powershell/module/teams/export-csacquiredphonenumber) or in the Teams admin center under **Phone Numbers**.
+For example, if you upload your numbers, you can view them in the Teams admin center under **Phone Numbers** or by using the PowerShell cmdlets [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) and [Export-CsAcquiredPhoneNumber](/powershell/module/teams/export-csacquiredphonenumber).
 
 Uploading your Direct Routing phone numbers to Microsoft's telephone number management inventory is optional. If you don't upload the phone numbers, you can still assign numbers to users. Assigning a number to a user automatically uploads the number to Microsoft's telephone number management inventory if it's not already there.
 
+### Use Teams admin center
+
+1. Go to **Voice** > **Phone numbers**.
+
+2. Under the **Numbers** tab, select **Add**.
+
+Adding phone numbers to your tenant and to Microsoft's telephone number management inventory is accomplished by creating an order request. By selecting **Add**, you are originating an order request that will create an order ID and launch the process of uploading your direct routing numbers. Follow the remaining steps to complete your order.
+
+3. Give your order a **Name** and **Description**.
+
+4. From the options, choose **From Direct Routing**.
+
+5. Select your preferred method of uploading the numbers by selecting from the drop-down, one of the following options:
+
+#### Add one to many phone numbers
+
+If you select **Add one to many phone numbers**, type or paste the phone numbers you wish to upload in the text field.
+
+If you are adding more than one phone number to this list, separate each number with a comma or a new line.
+
+#### Add phone number range
+
+If you select **Add phone number range**, type or paste the starting and ending numbers of your range in the respective text fields.
+
+#### Upload CSV
+
+If you select **Upload CSV**, select the **Upload CSV** icon and select your CSV file.
+
+The CSV file format requirements are to have a single column, with the first row populated as **TelephoneNumber** and each subsequent row including one phone number.
+
+Download a template by selecting **Download a sample CSV file with Direct Routing Numbers**.
+
+6. Select **Next** and proceed to review the validated numbers to be reserved by Microsoft's telephone number management inventory.
+
+7. Select **Confirm**, then select **Finish**
+
+### Use PowerShell
+
 To upload Direct Routing telephone numbers to Microsoft's telephone number management inventory, use the [New-CsOnlineDirectRoutingTelephoneNumberUploadOrder](/powershell/module/teams/new-csonlinedirectroutingtelephonenumberuploadorder) cmdlet.
 
-Uploading the numbers is an asynchronous operation. To see the status of your upload order, use the [Get-CsOnlineTelephoneNumberOrder](/powershell/module/teams/get-csonlinetelephonenumberorder) PowerShell cmdlet with **OrderType** set to `DirectRoutingNumberCreation`, as shown in the following example:
+Uploading the numbers is an asynchronous operation.
+
+### Order history
+
+View the status of the numbers you uploaded in TAC by navigating in TAC to **Voice** > **Phone numbers** and selecting the **Order history** tab.
+
+View the order status of numbers you uploaded with PowerShell by using the [Get-CsOnlineTelephoneNumberOrder](/powershell/module/teams/get-csonlinetelephonenumberorder) PowerShell cmdlet with **OrderType** set to `DirectRoutingNumberCreation`, as shown in the following example:
 
 ```PowerShell
  Get-CsOnlineTelephoneNumberOrder -OrderType DirectRoutingNumberCreation -OrderId <orderId>

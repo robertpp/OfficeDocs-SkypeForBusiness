@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.date: 1/30/2025
 ms.reviewer: jastark
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150

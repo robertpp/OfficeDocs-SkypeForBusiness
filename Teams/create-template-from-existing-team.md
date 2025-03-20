@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: aaglick
-ms.date: 07/27/2020
+ms.date: 03/13/2025
 ms.topic: how-to
 audience: admin
 ms.service: msteams
@@ -12,8 +12,10 @@ search.appverid: MET150
 description: Learn how to use an existing team to create a new template in Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
-ms.custom: chat-teams-channels-revamp
+  - NOCSH
+ms.custom: 
+  - chat-teams-channels-revamp
+  - admindeeplinkTEAMS
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -24,39 +26,27 @@ appliesto:
 
 Microsoft Teams lets you create a template from an existing team that can be saved and modified to meet your particular organizational needs.
 
-1. Sign in to the Teams admin center.
-
-2. In the left navigation, expand **Teams** > **Team templates**.
-
-3. Select **Add**.
-
-4. Select **Use an existing team as a template**, and select **Next**.
-
- ![An image of the Team templates starting point screen with use an existing team as a template highlighted.](media/team-existing-team-as-template.png)
-
-5. Select a team to use as a starting point by selecting next to the team name, and then select **Next**.
-
-![An image of the list of teams with one team highlighted.](media/team-existing-team-selection.png)
-
-6. In the **Template settings** section, complete the following fields and then select **Next**:
+1. Sign in to the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+1. In the left navigation, expand **Teams** > **Team templates**.
+1. Select **Add**.
+1. Select **Use an existing team as a template**, and select **Next**.
+1. Select a team to use as a starting point by selecting next to the team name, and then select **Next**.
+1. In the **Template settings** section, complete the following fields and then select **Next**:
     - Template name
     - Template short and long descriptions
-    - Locale visibility  
-  
-7. In the **channels, tabs, and apps** section, add any channels and apps that your team needs.
-
+    - Locale visibility
+1. In the **channels, tabs, and apps** section, add any channels and apps that your team needs.
     1. In the **Channels** section, select **Add**.
-    2. In the **Add** dialog, name the channel.
-    3. Add a description.
-    4. Decide if the channel should be shown by default.
-    5. Search for an app name that you want to add to the channel.
-    6. Select **Apply** when finished.
-
-8. Select **Submit** to save your changes.
+    1. In the **Add** dialog, name the channel.
+    1. Add a description.
+    1. Decide if the channel should be shown by default.
+    1. Search for an app name that you want to add to the channel.
+    1. Select **Apply** when finished.
+1. Select **Submit** to save your changes.
 
 Your new template is displayed in the **Team templates** list. The template can be used to create a team in Teams.
 
-> [!Note]
+> [!NOTE]
 > It can take up to 24 hours for teams users to see a custom template in the gallery.
 
 ## Related articles

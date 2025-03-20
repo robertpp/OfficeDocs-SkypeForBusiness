@@ -6,7 +6,7 @@ author: SerdarSoysal
 manager: serdars
 ms.date: 4/10/2015
 audience: ITPro
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 f1.keywords:
 - CSH
 ms.custom:

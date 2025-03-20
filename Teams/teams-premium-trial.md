@@ -3,7 +3,7 @@ title: Roll out a Teams Premium trial
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.reviewer: margidesai
 audience: admin

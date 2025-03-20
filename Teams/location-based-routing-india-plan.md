@@ -3,7 +3,7 @@ title: Plan Location-Based Routing for Operator Connect for India
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz

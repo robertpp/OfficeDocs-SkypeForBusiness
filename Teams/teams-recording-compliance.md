@@ -5,7 +5,7 @@ author: sfrancis206
 manager: pamgreen
 ms.date: 11/11/2024
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.reviewer: kkodali
 ms.localizationpriority: medium
@@ -193,6 +193,7 @@ The following partners are in the process of certifying their solution for Micro
 |CreaLog |[https://www.crealog.com/en/products-solutions/recording/](https://www.crealog.com/en/products-solutions/recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Redwood Technologies |[https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/](https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/) |
+|TollRing |[https://www.analytics-365.com/call-recording/](https://www.analytics-365.com/call-recording/) |
 
 This list gets updated as more partners join and meet the certification criteria.
 

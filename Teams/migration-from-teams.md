@@ -3,7 +3,7 @@ title:  Export options for switching from Microsoft Teams
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.date: 12/30/2024
 ms.service: msteams
 audience: admin

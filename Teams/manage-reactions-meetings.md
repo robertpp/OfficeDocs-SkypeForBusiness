@@ -3,7 +3,7 @@ title: Manage reactions in Teams meetings and webinars
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: defnea
 ms.date: 9/18/2024

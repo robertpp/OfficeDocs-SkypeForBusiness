@@ -5,7 +5,7 @@ ms.date: 03/27/2024
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: get-started
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -52,7 +52,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Phone system introduction | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | PSTN connectivity |  | [Deck](https://aka.ms/teams-pstn-connectivity-deck) |
 | Direct Routing | [Video 1: Planning for Direct Routing in Teams](https://aka.ms/teams-dr-plan)<br>[Video 2: Configuring and Managing Direct Routing in Teams](https://aka.ms/teams-dr-config)<br>[Video 3: Migrating to Direct Routing in Teams](https://aka.ms/teams-dr-migrate)  | [Deck](https://aka.ms/teams-direct-routing-deck) |
-| Dynamic emergency calling | [Video](https://aka.ms/teams-dec) |  [Deck](https://aka.ms/teams-dec-deck) |
+| Dynamic emergency calling |  |  [Deck](https://aka.ms/teams-dec-deck) |
 | SIP gateway enablement and migration | | [Deck](https://aka.ms/SIP-gateway-enablement-migration-playbook) |
 | Teams Phone for Frontline Workers Deployment playbook | | [Deck](https://aka.ms/teams-phone-FLW-deployment-playbook) |
 | Teams Phone Service Reliability and Survivability playbook | | [Deck](https://aka.ms/teams-phone-service-reliability-playbook) |
@@ -66,7 +66,6 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Teams Premium Deployment playbook | | [Deck](https://aka.ms/TeamsPremiumDeployment) |
 | Microsoft Places Deployment playbook | | [Deck](https://aka.ms/PlacesDeployment) |
 | Teams new VDI solution playbook | | [Deck](https://aka.ms/teams-vdi-2.0-playbook) |
-| Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
 | Windows desktop client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
 | Windows Defender Application Control for new Teams |  | [Deck](https://aka.ms/new-teams-WDAC) |
 

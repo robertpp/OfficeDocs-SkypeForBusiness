@@ -4,7 +4,7 @@ author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: justle
 ms.date: 7/29/2024

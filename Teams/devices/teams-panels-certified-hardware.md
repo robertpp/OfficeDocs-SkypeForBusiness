@@ -50,8 +50,8 @@ The following devices are Certified under the Microsoft Teams panels Android Cer
 |:------------------------|:-----------------|:--------------|-----------------------|
 |Audiocodes RX-Panel | `2.1.457`|August 15, 2027  | 12 |
 |Cisco Navigator | `CiscoOS 11.20 `|August 15, 2027  | 13 |
-|Crestron TSS-770 | `2.001.0058` |September 3, 2025  | 10 |
-|Crestron TSS-1070 | `2.001.0058`|September 3, 2025 | 10 |
+|Crestron TSS-770 | `3.000.0110` |August 15, 2027 | 12 |
+|Crestron TSS-1070 | `3.000.0110` |August 15, 2027 | 12 |
 |EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2025 | 10 |
 |Logitech Dock Flex (VR0035) | `1.10.81` | September 3, 2025 | 10|
 |Logitech TAP Scheduler (VR0028) | `1.3.111` |September 3, 2025 | 10 |
@@ -60,6 +60,8 @@ The following devices are Certified under the Microsoft Teams panels Android Cer
 |Yealink RoomPanel | `147.520.0.4 `|September 3, 2025  | 10 |
 |Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2025   | 11 |
 |Yealink RoomPanel E2 | `324.520.0.3 `|August 15, 2027 | 13 |
+|Yealink RoomPanel Plus E2 | `324.520.0.10 (MDEP)`|August 15, 2027 | 13 |
+|Yealink RoomPanel E2 | `324.520.0.10 (MDEP)`|August 15, 2027 | 13 |
 
 ## [Firmware](#tab/firmware)
 
@@ -74,7 +76,8 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Audiocodes </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------|:----------------------------|
-| RX Panel | `2.6.293 (AOSP)` | N/A| Teams client: `1449/1.0.97.2024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product`| December 18, 2024|
+| RX Panel | `2.8.208 (AOSP)` | N/A| Teams client: `1449/1.0.97.2024122401` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| March 3, 2025|
+| RX Panel | `2.6.293 (AOSP)` | N/A| Teams client: `1449/1.0.97.2024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| December 18, 2024|
 | RX Panel | `2.6.280` | N/A| Teams client: `1449/1.0.97.2024081207` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product`| October 16, 2024|
 | RX Panel | `2.6.228` | N/A| Teams client: `1449/1.0.97.2024053104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 21, 2024|
 | RX Panel | `2.4.124` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 1, 2024|
@@ -85,7 +88,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Cisco </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------|:---------------------------|
-| Cisco Room Navigator | `11.24.1.8 (AOSP) ` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202412110504.product`| February 19, 2025|
+| Cisco Room Navigator | `11.24.1.8 (AOSP) ` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202412110504.product (753)`| February 19, 2025|
 | Cisco Room Navigator | `11.22.1.12` | N/A | Teams client: `1449/1.0.97.2024081207` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| December 20, 2024|
 
 #### <b> Crestron </b>
@@ -109,6 +112,8 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Logitech </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:--------------------------------|
+| TAP Scheduler (VR0028) | `1.14.181`| N/A| Teams client: `1449/1.0.97.2024122401` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product (733)`| March 5, 2025|
+| DockFlex (VR0035) | `1.14.147`| N/A| Teams client: `1449/1.0.97.2024122401` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product (733)`| March 6, 2025|
 | DockFlex (VR0035) | `1.13.136`| N/A| Teams client: `1449/1.0.97.2024081207` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| December 20, 2024|
 | TAP Scheduler (VR0028) | `1.13.145`| N/A| Teams client: `1449/1.0.97.2024081207` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| December 20, 2024|
 | DockFlex (VR0035) | `1.13.118`| N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| October 3, 2024|
@@ -152,8 +157,8 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Yealink </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:------------------------------------------------------------------------------|:------------------------------------------|
-| Room Panel | `147.520.0.44` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product`| February 19, 2025|
-| Room Panel Plus | `269.520.0.44` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product`| February 19, 2025|
+| Room Panel | `147.520.0.44 (AOSP)` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| February 19, 2025|
+| Room Panel Plus | `269.520.0.44 (AOSP)` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product (733)`| February 19, 2025|
 | RoomPanel E2 | `324.520.0.7` | N/A | Teams client: `1449/1.0.97.2024071105` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353`| January 07, 2025|
 | Room Panel | `147.520.0.21` | N/A| Teams client: `1449/1.0.97.2023121202` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 07, 2024|
 | Room Panel Plus | `269.520.0.21` | N/A| Teams client: `1449/1.0.97.2023121202` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 07, 2024|

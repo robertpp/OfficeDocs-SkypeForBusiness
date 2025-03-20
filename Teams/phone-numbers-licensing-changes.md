@@ -5,7 +5,7 @@ ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: jenstr
 ms.date: 07/28/2021
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 

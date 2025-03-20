@@ -5,7 +5,7 @@ author: sfrancis206
 manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark, leiaglezer
 ms.date: 01/22/2025
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150

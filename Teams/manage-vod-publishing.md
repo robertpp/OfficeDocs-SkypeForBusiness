@@ -4,7 +4,7 @@ ms.reviewer: sachung
 ms.date: 9/18/2024
 ms.author: wlibebe
 author: wlibebe
-ms.topic: article
+ms.topic: how-to
 manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
@@ -57,7 +57,7 @@ The following table lists the values that you can set for webinar publishing per
 
 ### Manage webinar VOD publishing permissions using the Teams admin center
 
-You can use the Teams admin center To manage VOD publishing permissions for webinars in the Teams admin center, use the following steps:
+You can use the Teams admin center to manage VOD publishing permissions for webinars in the Teams admin center, use the following steps:
 
 1. Open the Teams admin center.
 2. Select **Meetings** from the navigation pane.
@@ -69,7 +69,7 @@ You can use the Teams admin center To manage VOD publishing permissions for webi
     - Your organization
     - Public
 
-6. Select Save.
+6. Select **Save**.
 
 ## Manage webinar VOD publishing permissions using PowerShell
 
@@ -115,7 +115,7 @@ You can use the Teams admin center To manage VOD publishing permissions for webi
     - Your organization
     - Public
 
-6. Select Save.
+6. Select **Save**.
 
 ## Manage town hall VOD publishing permissions using PowerShell
 

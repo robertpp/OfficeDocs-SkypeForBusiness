@@ -6,7 +6,7 @@ manager: pamgreen
 audience: ITPro
 ms.reviewer: 
 ms.date: 03/06/2019
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150

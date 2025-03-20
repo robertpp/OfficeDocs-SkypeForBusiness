@@ -4,7 +4,7 @@ author: dansimp
 ms.author: dansimp
 manager: dansimp
 ms.date: 12/01/2023
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: 
 audience: admin

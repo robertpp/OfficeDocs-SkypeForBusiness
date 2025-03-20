@@ -6,7 +6,7 @@ ms.author: mabond
 manager: pamgreen
 audience: ITPro
 ms.date: 10/31/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 description: Describes Cloud Auto attendants and Call queues, and explains how you can answer these calls in Microsoft Teams.
 f1.keywords:

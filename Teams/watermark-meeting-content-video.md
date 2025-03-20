@@ -3,7 +3,7 @@ title: Require a watermark for sensitive Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: maahma
 ms.date: 1/16/2025

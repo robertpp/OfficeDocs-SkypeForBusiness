@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: mamcgrath
 ms.date: 09/05/2024

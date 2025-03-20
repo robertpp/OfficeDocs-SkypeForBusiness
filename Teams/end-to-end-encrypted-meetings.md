@@ -3,7 +3,7 @@ title: Require end-to-end encryption for sensitive Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: maahma
 ms.date: 1/9/2025
@@ -27,30 +27,9 @@ description: Learn how to enable end-to-end encryption for Teams meetings.
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-End-to-end encryption is the encryption of information at its origin and decryption at its intended destination without the ability for intermediate nodes to decrypt. When meetings in Teams are end-to-end encrypted, nobody except for the participants in the meeting can hear or see the communication. No other party, including Microsoft, has access to the decrypted conversation.
+Whether or not you enable end-to-end encryption, Teams always secures meetings based on industry standards. Data exchanged during meetings is always secured while in transit and at rest. For more information, see [Media encryption for Teams](teams-security-guide.md#media-encryption). End-to-end encryption is provided as an additional layer of security, but in return, you have to forgo any services in the meeting that access to the meeting in return for functionality like transcription.
 
-End-to-end encrypted meetings can be made between two parties when: the parties are using the latest version of the Teams desktop client for Windows or Mac or they are on a mobile device with the latest update for iOS and Android.
-
-Web, Virtual Desktop (VDI), and Cloud Video Interoperability(CVI) devices aren't currently supported. Participants trying to join an end-to-end encrypted meeting from one of these platforms is blocked.
-
-A maximum of 200 participants can attend an end-to-end encrypted meeting.
-
-> [!NOTE]
-> End-to-end meeting encryption requires Teams Premium.
-
-If you don't enable end-to-end encryption, Teams still secures meetings using encryption based on industry standards. Data exchanged during meetings is always secure while in transit and at rest. For more information, see [Media encryption for Teams](teams-security-guide.md#media-encryption).
-
-During an end-to-end encrypted meeting, Teams secures the following features:
-
-- Audio
-
-- Video
-
-- Screen sharing
-
-[Encryption in Microsoft 365](/microsoft-365/compliance/encryption) protects chat, file sharing, presence, and other content in the meeting. Apps, avatars, reactions, chat, and Q&A aren't end-to-end encrypted.
-
-Some features aren't available during an end-to-end encrypted meeting, including:
+Think of regular Teams meeting security like a long corridor that intersects other corridors, with every intersection being carefully guarded. End-to-end encryption is like a corridor with no other junctions, just walls from where you start to where you end up. Microsoft uses the "intersections" to provide services like:
 
 - Breakout rooms
 
@@ -70,11 +49,24 @@ Some features aren't available during an end-to-end encrypted meeting, including
 
 - Together mode, companion mode, large gallery
 
-If your organization uses compliance recording for 1:1 calls, end-to-end encryption isn't available. An individual who needs compliance recording can't join an end-to-end encrypted meeting. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
+All of these services require some level of data processing, which is all done in accordance with the Microsoft Privacy statement. With end-to-end encryption, you won't be able to use any of those meeting features.  If for example you were going to have an in-person meeting to discuss a major change in the company org chart, you might take extra security measures you don't usually take like pulling the blinds and covering the whiteboards and you might not let a caterer or janitor into that room because the damage from a leak could be catastrophic. Your normal in-person meeting experience might be secure enough due to other security measures like badges and cameras and security guards at the building entrance, but if you would consider hiring a security guard to sit at the meeting room entrance and restrict what goes in or out of the room, that kind of meeting online might be a candidate for end-to-end encryption. 
+
+End-to-end encrypted meetings can be made between two parties when: the parties are using the latest version of the Teams desktop client for Windows or Mac or they are on a mobile device with the latest update for iOS and Android.
+
+Web, Virtual Desktop (VDI), and Cloud Video Interoperability (CVI) devices aren't currently supported. Participants trying to join an end-to-end encrypted meeting from one of these platforms are blocked.
+
+A maximum of 200 participants can attend an end-to-end encrypted meeting.
+
+If your organization uses compliance recording for 1:1 calls, end-to-end encryption isn't available, because making that recording requires access to the recording services. An individual who needs compliance recording can't join an end-to-end encrypted meeting. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
+
+> [!NOTE]
+> End-to-end meeting encryption requires Teams Premium.
 
 ## Manage who can create meetings with end-to-end encryption
 
-The Teams admin enhanced encryption policies control end-to-end meeting encryption. It is on by default in the Global (Org-wide default) policy, allowing meeting organizers with a Teams Premium license to schedule meetings, including channel meetings, that use end-to-end encryption. You can update the default policy or create more policies as needed.
+The Teams admin enhanced encryption policies control end-to-end meeting encryption. It is on by default in the Global (Org-wide default) policy, allowing meeting organizers with a Teams Premium license to schedule meetings, including channel meetings, that use end-to-end encryption. You can update the default policy or create more policies as needed. 
+
+Consider what kind of user education you might need for users who are permitted to use end-to-end encryption; conscientious users may think they need to enable it for everything to be extra secure but may generate help desk calls when captions or recording don't work. 
 
 If the policy is turned on for a meeting organizer, you can enforce end-to-end meeting encryption by using a meeting template. Sensitivity labels can enforce end-to-end encryption even if the policy isn't enabled for the meeting organizer.
 

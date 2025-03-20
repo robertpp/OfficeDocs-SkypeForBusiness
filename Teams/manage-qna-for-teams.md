@@ -5,7 +5,7 @@ ms.author: wlibebe
 ms.reviewer: sameer.sitaram
 ms.date: 4/18/2024
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: medium

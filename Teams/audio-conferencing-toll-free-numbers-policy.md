@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr,mshaikh
 ms.date: 1/28/2025
-ms.topic: conceptual
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-audio-conferencing

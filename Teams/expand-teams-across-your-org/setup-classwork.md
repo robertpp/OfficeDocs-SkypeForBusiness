@@ -3,7 +3,7 @@ title: Set up Classwork in Teams for Education
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 audience: admin
 ms.collection: 

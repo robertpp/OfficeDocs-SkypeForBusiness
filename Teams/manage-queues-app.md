@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.date: 12/06/2024
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: colongma, emkirby
 audience: admin
 ms.service: msteams

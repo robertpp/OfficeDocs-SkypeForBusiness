@@ -3,7 +3,7 @@ title: Assisted upgrades | Skype Business Online to Teams Upgrade
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.service: msteams
 ms.reviewer: billkau
 ms.date: 04/22/2021

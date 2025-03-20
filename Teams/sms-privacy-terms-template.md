@@ -3,7 +3,7 @@ title: Example privacy policy and terms and conditions template
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: annagentry
+ms.reviewer: annagentry, julienp
 ms.date: 02/24/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -30,7 +30,7 @@ This article is for IT administrators and IT professionals who are enabling Shor
 
 Ensure fundamental understanding of the **purpose** for a Campaign, as described in the article, [Learn about SMS Texting in Teams](sms-overview.md).
 
-Both a privacy policy *and* terms and conditions are required when applying to register your company's SMS campaign with [The Campaign Registry](https://www.campaignregistry.com/about/).
+An SMS terms of use, including your privacy policy is required when applying to register your company's SMS campaign.
 
 ## Using this template
 
