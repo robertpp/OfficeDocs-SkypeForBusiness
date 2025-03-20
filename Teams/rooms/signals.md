@@ -24,7 +24,7 @@ f1keywords:
 
 # Signals
 
-<!Vendors: All of the images are under /MicrosoftTeams/Rooms/Media/Signals in the repo.>
+<!--VENDOR: All of the images are under /MicrosoftTeams/Rooms/Media/Signals in the repo. !-->
 
 **Legend**
 
@@ -32,16 +32,18 @@ f1keywords:
 - Not available: ![Not available](media/signals/signals-not-available.png)
 - Not applicable:![Applicable](media/signals/signals-applicable.png)
 
-## [Windows](#tab/Windows)
+## [Windows](#tab/MTRW)
 
-The following signals are available for devices with the Windows operating system.
+<!--VENDOR: The table below is for the "Windows" column in the loop file. !-->
 
-|**Signal name**|**Status**|**Description**|**Category**|**Severity**
-|:-|:-|:-|:-|:-|
-|Recorded issue|![Available](media/signals/signals-available.png)|Problem was observed and recorded.|Recorded|Critical
+The following signals are available for Microsoft Teams Rooms on Windows.
+
+|**Signal name**|**Status**|**Description**|**Category**|**Severity**|
+|:-----|:-----|:-----|:-----|:-----|
+|Recorded issue|![Available](media/signals/signals-available.png)|Problem was observed and recorded.|Recorded|Critical|
 |Sign in (Exchange)|![Available](media/signals/signals-available.png)|This ticket is triggered when Exchange fails to sign in.|Account management|Critical|
 |Sign in (Teams)|![Available](media/signals/signals-available.png)|This ticket is triggered when Teams fails to sign in.|Account management|Critical|
-|Signed out device|![Not available](media/signals/signals-not-available.png)|This signal is triggered when the device does not have an account signed in.|Critical|Other|
+|Signed out device|![Not available](media/signals/signals-not-available.png)|This signal is triggered when the device doesn't have an account signed in.|Critical|Other|
 |Calendar sync|||||
 |Meeting app version|||||
 |OS and firmware version|||||
@@ -51,41 +53,109 @@ The following signals are available for devices with the Windows operating syste
 |Windows Server Update Service (WSUS) enabled|||||
 |Windows Updates Componenet need reset|||||
 |Meeting app (heartbeat)|||||
-|Nightly Reboot disabled||||||
+|Nightly Reboot disabled|||||
 |Camera, Room|||||
-|Camera, Default||||||
+|Camera, Default|||||
 |Content/Whiteboard camera|||||
-|HDMI ingest||||||
-|Low disk space||||||
-|Disk health||||||
-|USB selective suspend||||||
-|USB peripheral||||||
-|Bluetooth disabled||||||
-|Conferencing microphone||||||
-|Configured conferencing microphone||||||
-|Conferencing speaker||||||
-|Configured conferencing speaker||||||
-|Misconfigured conferencing speaker||||||
-|Configured default speaker||||||
-|Logitech Rally Mic Pod||||||
-|Logitech Rally Speaker||||||
-|CPU performance limited||||||
-|Sleep timer||||||
-|Hardware out of date||||||
-|Display, Front of Room||||||
-|Display, Console||||||
-|Default credentials||||||
-|Pairing||||||
-|Network||||||
-|Monitoring||||||
-|Monitoring connectivity issue||||||
-|Offline||||||
-|connected using Wi-Fi||||||
-|Wi-Fi signal strength||||||
-|Windows Update blocked||||||
-|Outage||||||
+|HDMI ingest|||||
+|Low disk space|||||
+|Disk health|||||
+|USB selective suspend|||||
+|USB peripheral|||||
+|Bluetooth disabled|||||
+|Conferencing microphone|||||
+|Configured conferencing microphone|||||
+|Conferencing speaker|||||
+|Configured conferencing speaker|||||
+|Misconfigured conferencing speaker|||||
+|Configured default speaker|||||
+|Logitech Rally Mic Pod|||||
+|Logitech Rally Speaker|||||
+|CPU performance limited|||||
+|Sleep timer|||||
+|Hardware out of date|||||
+|Display, Front of Room|||||
+|Display, Console|||||
+|Default credentials|||||
+|Pairing|||||
+|Network|||||
+|Monitoring|||||
+|Monitoring connectivity issue|||||
+|Offline|||||
+|connected using Wi-Fi|||||
+|Wi-Fi signal strength|||||
+|Windows Update blocked|||||
+|Outage|||||
 
-## [Signals for MDEP](#tab/MDEP)
+## [Android](#tab/MTRA)
 
-The following signals are available for devices with MDEP.
+<!--VENDOR: The table below is for the "Touch Console" column in the loop file. !-->
 
+**Signals for Microsoft Teams Rooms on Android.**
+
+|**Signal name**|**Status**|**Description**|**Category**|**Severity**|
+|:-----|:-----|:-----|:-----|:-----|
+
+## [Collab Bar (Android)](#tab/Collab)
+
+<!--VENDOR: The table below is for the "Collab bar" column in the loop file. !-->
+
+**Signals for Collab Bar (Android)**
+
+|**Signal name**|**Status**|**Description**|**Category**|**Severity**|
+|:-----|:-----|:-----|:-----|:-----|
+
+## [MDEP](#tab/MDEP)
+
+<!--VENDOR: The table below is for the "MDEP" column in the loop file. !-->
+
+**Signals for MDEP**
+
+|**Signal name**|**Status**|**Description**|**Category**|**Severity**|
+|:-----|:-----|:-----|:-----|:-----|
+|Recorded issue|![Available](media/signals/signals-available.png)|Problem was observed and recorded.|Recorded|Critical|
+|Sign in (Exchange)|![Not available](media/signals/signals-not-available.png)|This ticket is triggered when Exchange fails to sign in.|Account management|Critical|
+|Sign in (Teams)|![Not available](media/signals/signals-not-available.png)|This ticket is triggered when Teams fails to sign in.|Account management|Critical|
+|Signed out device|![Available](media/signals/signals-available.png)|This signal is triggered when the device doesn't have an account signed in.|Critical|Other|
+|Calendar sync|||||
+|Meeting app version|||||
+|OS and firmware version|||||
+|Time drift|||||
+|Windows Update disabled|||||
+|Windows OS activation status|||||
+|Windows Server Update Service (WSUS) enabled|||||
+|Windows Updates Componenet need reset|||||
+|Meeting app (heartbeat)|||||
+|Nightly Reboot disabled|||||
+|Camera, Room|||||
+|Camera, Default|||||
+|Content/Whiteboard camera|||||
+|HDMI ingest|||||
+|Low disk space|||||
+|Disk health|||||
+|USB selective suspend|||||
+|USB peripheral|||||
+|Bluetooth disabled|||||
+|Conferencing microphone|||||
+|Configured conferencing microphone|||||
+|Conferencing speaker|||||
+|Configured conferencing speaker|||||
+|Misconfigured conferencing speaker|||||
+|Configured default speaker|||||
+|Logitech Rally Mic Pod|||||
+|Logitech Rally Speaker|||||
+|CPU performance limited|||||
+|Sleep timer|||||
+|Hardware out of date|||||
+|Display, Front of Room|||||
+|Display, Console|||||
+|Default credentials|||||
+|Pairing|||||
+|Network|||||
+|Monitoring|||||
+|Monitoring connectivity issue|||||
+|Offline|||||
+|connected using Wi-Fi|||||
+|Wi-Fi signal strength|||||
+|Windows Update blocked|||||
+|Outage|||||
