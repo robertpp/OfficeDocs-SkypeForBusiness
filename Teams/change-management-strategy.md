@@ -5,7 +5,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.date: 09/25/2017
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 search.appverid: MET150

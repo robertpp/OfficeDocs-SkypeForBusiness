@@ -5,7 +5,7 @@ author: sfrancis206
 manager: pamgreen
 ms.reviewer: roykuntz
 ms.date: 03/26/2024
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin

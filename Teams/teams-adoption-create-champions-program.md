@@ -5,7 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.date: 10/30/2018
 audience: Admin
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.custom: 
 - Adopt

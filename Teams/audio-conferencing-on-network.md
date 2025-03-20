@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 01/29/2025
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 audience: admin
 ms.service: msteams

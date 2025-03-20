@@ -5,7 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: conceptual
+ms.topic: get-started
 ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium

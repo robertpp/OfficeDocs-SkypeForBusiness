@@ -3,7 +3,7 @@ title: Manage and set up Cloud Video Interop for Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.service: msteams
 audience: admin
 search.appverid: MET150

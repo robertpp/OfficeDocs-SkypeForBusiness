@@ -3,7 +3,7 @@ title: Network settings for cloud voice features
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: concept-article
 ms.reviewer: roykuntz
 ms.date: 10/10/2024
 ms.service: msteams

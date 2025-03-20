@@ -5,7 +5,7 @@ ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: spraveen, margidesai
 ms.date: 7/11/2024
-ms.topic: conceptual
+ms.topic: overview
 ms.service: msteams
 ms.subservice: teams-premium
 search.appverid: MET150

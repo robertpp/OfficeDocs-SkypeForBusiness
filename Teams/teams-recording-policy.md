@@ -5,7 +5,7 @@ author: sfrancis206
 manager: pamgreen
 ms.date: 11/11/2024
 audience: Admin
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.reviewer: ritikag
 ms.localizationpriority: medium

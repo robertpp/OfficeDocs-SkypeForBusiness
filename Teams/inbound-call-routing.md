@@ -3,7 +3,7 @@ title: 'Route inbound calls in Microsoft Teams'
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: roykuntz, jastark
 ms.date: 05/17/2024

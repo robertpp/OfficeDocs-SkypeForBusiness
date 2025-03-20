@@ -6,7 +6,7 @@ manager: pamgreen
 audience: ITPro
 ms.reviewer: filippse
 ms.date: 06/17/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150

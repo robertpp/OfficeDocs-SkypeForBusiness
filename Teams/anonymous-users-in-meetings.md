@@ -5,7 +5,7 @@ ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: jaydenlee
 ms.date: 02/11/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.localizationpriority: medium

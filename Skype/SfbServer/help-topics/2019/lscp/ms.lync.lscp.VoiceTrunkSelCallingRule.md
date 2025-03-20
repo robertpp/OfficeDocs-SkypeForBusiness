@@ -6,7 +6,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.custom:
 - ms.lync.lscp.VoiceTrunkSelCallingRule
 ms.service: skype-for-business-server

@@ -3,7 +3,7 @@ title: About the upgrade framework - Skype for Business to Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.reviewer: landerl
 ms.date: 12/17/2018

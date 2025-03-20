@@ -86,6 +86,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Experience Teams' standard look and feel | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |  ![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 | Use standard and custom meeting backgrounds at the user level| ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 | Read live captions during meetings and live events | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Read a live transcript during meetings | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Set up a green room for meeting presenters and organizers| ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 | View attendance reports | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | In-progress meeting real time telemetry with 24 hour retention | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
@@ -95,6 +96,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Customize Together mode scenes for your organization |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Add branding to meeting invites and meeting join launch pages |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Read live translated captions during meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Read live translated transcripts during and after meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Manage what attendees see |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Use RTMP-In for meetings |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Hide attendee names |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
@@ -120,6 +122,8 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Limit the number of people who can register | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Allow registered users to bypass the lobby | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 | Turn on Q&A for webinars with up to 1,000 attendees | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Read live captions during webinars | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Read a live transcript during webinars | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | View attendance reports | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Set up a green room for webinar presenters and organizers| ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Manage what attendees see |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
@@ -132,6 +136,8 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Use RTMP-In for webinars |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | View how many users attended webinars that used a Teams Premium feature | | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 | View the number of webinars used a Teams Premium feature| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Read live translated captions during webinars |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Read live translated transcripts during and after webinars |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | View the number of webinars each user attended that used a Teams Premium feature.| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 
 ### Town halls
@@ -149,6 +155,8 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Use RTMP-In for town halls <sup>1</sup> | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Town hall Q&A capacity of 10k attendees | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Organizers can pre-select six languages for live translated captions | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Read live captions during town halls | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Read a live transcript during town halls |![Image of a checkmark for yes](/office/media/icons/success-teams.png) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Broadcast town halls to 20k attendees |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Host up to 50 town halls simultaneously |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Town hall Q&A capacity of 20k attendees |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
@@ -163,6 +171,8 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View how many users attended town halls that used a Teams Premium feature | | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 | View the number of town halls used a Teams Premium feature| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
 | View the number of town halls each user attended that used a Teams Premium feature.| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)  |
+| Read live translated captions during town halls |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
+| Read live translated transcripts during and after town halls |  | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |
 | Meeting chat for town hall attendees| | ![Image of a checkmark for yes](/office/media/icons/success-teams.png)   |
 
 <sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions aren't available to the attendees even if the organizer selects the languages before the town hall starts.
@@ -283,6 +293,8 @@ Microsoft Places allows you and your organization to build a smart workplace. Wi
 
 ### Queues app
 
+*Requires a [Teams Phone license](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing#teams-phone-with-pstn-connectivity-licenses).*
+
 The Queues app is a Teams-native solution designed to empower organizations to manage customer engagements efficiently, unlocking a set of advanced call functionalities for Teams Phone Call queues and Auto attendants. To learn more about the Queues app, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9) and [Manage the Queues app](/microsoftteams/manage-queues-app).
 
 | Feature | Teams | Teams Premium |
@@ -326,7 +338,6 @@ Before you can purchase Teams Premium licenses for your users, ensure your tenan
 The **tenant requirement** is:
 
 - Must be a commercial, worldwide public sector, EDU, GCC, GCC High, DoD, or non-profit tenant.
-  - Currently, Microsoft doesn't offer an EDU-specific license or EDU discounts for Teams Premium.
 
 The **user requirement** is:
 
@@ -359,7 +370,7 @@ The following table shows which Teams Premium features provide primary value to 
 
 | Premium Value | Features Applied at Organizer Level | Features Applied at Attendee/User Level | Features Applied at the IT Admin Level |
 | ------------- | :---------------------------------- | :--------------------------------- | :------------------------------------- |
-| **More intelligence** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Live translation for captions (40 languages) | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) AI-generated chapters for intelligent meeting recap recordings</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png) Personalized timeline markers in meeting recordings</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Speaker timeline markers</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Intelligent speaker search in the transcript</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) AI-generated notes and tasks | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Advanced collaboration analytics |
+| **More intelligence** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Live translation for captions (40 languages) ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Live translation for transcripts|![Image of a checkmark for yes](/office/media/icons/success-teams.png) AI-generated chapters for intelligent meeting recap recordings</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png) Personalized timeline markers in meeting recordings</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Speaker timeline markers</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Intelligent speaker search in the transcript</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) AI-generated notes and tasks | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Advanced collaboration analytics |
 | **More personalized** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meeting templates (configured by IT admin)</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Custom meeting branding </br>![Image of a checkmark for yes](/office/media/icons/success-teams.png)</br> Custom immersive spaces in Microsoft Mesh| ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Custom organization backgrounds</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Organization together mode scenes</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Custom user policy packages</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) View aggregated usage of Teams Premium features by users in your org|  |
 | **More protected** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Watermarking</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Who can record</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) End-to-end encryption for online meetings (up to 200)</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Hide attendees' names</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Block incoming chats from people in the organization</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png) Prevent users from sharing content in external Teams meetings</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png) Audio quality alerts</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png) Video quality alerts</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png)Screen sharing quality alerts</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png)Automatic real time telemetry with 7 day retention</br>![Image of a checkmark for yes](/office/media/icons/success-teams.png)Prevent users from sharing content when attending external Teams meetings |  |
 | **Advanced Virtual Appointments** | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Custom lobby room with branding, logos, and more</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) SMS notifications | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) On-demand and scheduled appointment functionality and queue views</br> ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |

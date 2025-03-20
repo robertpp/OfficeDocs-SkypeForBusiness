@@ -3,7 +3,7 @@ title: Manage chat for sensitive Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: yilin.yang
 ms.date: 12/6/2024

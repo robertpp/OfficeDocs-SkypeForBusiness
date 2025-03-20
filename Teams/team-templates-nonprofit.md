@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: how-to
 ms.service: msteams
 ms.reviewer: yinchang
-ms.date: 09/28/2021
+ms.date: 03/13/2025
 ms.collection: 
   - M365-collaboration
 ms.localizationpriority: high
@@ -31,7 +31,7 @@ For nonprofit organizations, team templates can be especially powerful, as they 
 
 Teams includes a Manage Volunteers team template designed to streamline volunteer management activities. Use this prebuilt template to quickly create teams for staff to communicate and collaborate on volunteer management tasks and activities.
 
-In this article, you'll learn about the Manage Volunteers team template and how to use it to create a team. This article also gives you an overview of how to manage team templates in the Teams admin center.
+In this article, you learn about the Manage Volunteers team template and how to use it to create a team. This article also gives you an overview of how to manage team templates in the Teams admin center.
 
 ## Manage Volunteers team template
 
@@ -54,19 +54,21 @@ Here's the channels and apps that come with the Manage Volunteers team template.
 
 It takes only a few quick steps to create a team from the Manage volunteers template.
 
-1. In Teams, go to **Chat** > **New team** > **Create**.
-2. Choose the **Manage volunteers** team template.
-3. Choose a privacy level:
+1. In Teams, go to **Chat** > **New team** > **Create** > **More create team options**.
+1. Choose the **Manage Volunteers** team template.
+1. Select **Use this template**.
+1. Give your team a name and add a description. You can also rename channels to customize the team.
+1. Choose a sensitivity label and sublabel.
+1. Choose a privacy level:
     - **Private**: People need permission from the team owner to join the team.
     - **Public**: Anyone in your organization can join the team.
-4. Give your team a name and add a description. You can also rename channels to customize the team.
-5. Select **Create**.
+1. Select **Create**.
 
 To learn more, see [Create a team with a team template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
 
 ### Add the Volunteer Management app to the Power Apps tab
 
-To use the Volunteer Management app in Teams, add it to the Power Apps tab in the Volunteer Management channel. 
+To use the Volunteer Management app in Teams, add it to the Power Apps tab in the Volunteer Management channel.
 
 1. In Teams, go to the team you created, choose the Volunteer Management channel, and then select the **Power Apps** tab.
 2. In the drop-down list, select **Model-driven apps**, and then search for and select **Volunteer Management**.

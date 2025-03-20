@@ -6,7 +6,7 @@ author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 msreviewer: jastark, roykuntz
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: msteams

@@ -29,9 +29,11 @@ Using Teams admin center, you can update your Teams devices, including Teams pho
 
 - **Device firmware** - available for Manual and Automatic updates
 
-- **Company Portal app** - available for Manual updates only
+- **Company Portal app** - available for Manual and Automatic updates
 
-Updates for Teams app and device firmware happen automatically by default. However, you can update them manually as well. When you're applying updates manually, they can be applied immediately or scheduled to be updated on a future date and time that you set.
+- **Admin agent app -** available for Manual and Automatic updates
+
+Updates for the above apps and device firmware happen automatically by default. However, you can update them manually as well. When you're applying updates manually, they can be applied immediately or when the device is not busy or scheduled to be updated on a future date and time that you set.
 
 > [!IMPORTANT]
 > Microsoft strongly recommends using Teams Admin Center for managing and updating your Teams devices. Teams admin center ensures that all firmware and app updates installed on your Teams devices are validated and supported by Microsoft, which is essential for optimal performance and reliability of your Teams devices. By exclusively using firmware and app updates from the Teams Admin Center, you can avoid the risks and disruptions associated with alternative update methods. If customers use any other way to update, Microsoft can't guarantee to provide regular updates for those devices. 
@@ -217,7 +219,7 @@ Administrators can track the status of these update operations from the 'History
 1. **How fast does the rollout happen?**  Eligible devices receive updates in daily cycles based on the update phase they are in. For example, devices in General phase start receiving updates only after 15 days elapse since the new version was published. To ensure a stable rollout, the devices are updated gradually for a tenant and not all at once. Overall, the rollout of each new version takes a few weeks after the start of each update phase.
 
   
-Also, if the device is on an older version, like N-3. It's updated step-wise to intermediate versions, like N-2 and N-1, before it's updated to the latest version (N). Therefore, this device may take longer to reach the latest version than usual, but no intervention is required.
+Also, if the device is on an older version, like N-3. It's updated stepwise to the next eligible versions, like N-2 or N-1 before it's updated to the latest version (N). Therefore, this device may take longer to reach the latest version than usual, but no intervention is required. Please note, if the devices on N-3 are eligible for N version, they will get updated to latest version N directly without stepwise update.
 
 1. **How do I check if a device has received an update?**  Whenever a device receives an update (or has one scheduled), the History tab on the device page shows corresponding details for a software update operation.
 

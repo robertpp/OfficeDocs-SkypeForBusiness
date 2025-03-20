@@ -3,7 +3,7 @@ title: Overview of custom meeting templates in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: concept-article
 ms.service: msteams
 ms.reviewer: idilates
 ms.date: 12/6/2024

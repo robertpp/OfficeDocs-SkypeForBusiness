@@ -5,7 +5,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.reviewer: bjwhalen
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.service: skype-for-business-server
 search.appverid: MET150
 ms.collection: 

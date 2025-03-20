@@ -3,7 +3,7 @@ title: Enlist stakeholders | Skype for Business to Teams upgrade planning
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl

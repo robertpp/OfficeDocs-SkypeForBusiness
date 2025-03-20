@@ -3,7 +3,7 @@ title: Choose your upgrade journey from Skype for Business to Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen

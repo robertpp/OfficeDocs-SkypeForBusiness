@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: pauljuricic
-ms.date: 08/08/2024
+ms.date: 03/10/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -60,9 +60,9 @@ The device store includes all devices that are certified for Teams, including he
 
 When you purchase devices from the device store, the payment and fulfillment, including shipping and delivery, are handled by UnifiedCommunications.com (a Microsoft third-party fulfillment partner), under their [terms of service](https://unifiedcommunications.com/docs/teams-marketplace/en-US/terms-of-service) and [privacy policy](https://unifiedcommunications.com/docs/teams-marketplace/en-US/privacy-policy).
 
-You can pay with a credit card or a purchase order. Purchase order payment requires one-time setup with the fulfillment provider.
+You can pay with a credit card or a purchase order. Purchase order payment requires one-time setup with the fulfillment provider. All orders can be returned up to 30 days after they're delivered to the buyer.
 
-All orders can be returned up to 30 days after they're delivered.
+The checkout experience for the device store in Teams admin center can be enabled or disabled by configuring the **Allow the use of additional optional connected experiences in Office** policy setting. Learn more here: [Overview of optional connected experiences in Microsoft Teams](/microsoftteams/privacy/teams-privacy-oce-overview).
 
 ### Order tracking and history
 
@@ -105,7 +105,7 @@ Users can pay with a credit or debit card. All orders can be returned up to 30 d
 
 Admins can manage the device store experience for their organization from Teams admin center. You can disable the purchase for all users in your tenant using this setting, available in **Teams admin center > Devices > Store > Settings**. To update this setting in Teams admin center, you need to be a Global administrator.
 
-> [IMPORTANT]
+> [!IMPORTANT]
 >  Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 By default, purchase is enabled. When it's disabled, the device store will be visible for users to browse and learn about latest certified devices, but the users can't purchase.

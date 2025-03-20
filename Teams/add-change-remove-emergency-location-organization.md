@@ -5,7 +5,7 @@ ms.author: scottfrancis
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.date: 09/24/2024
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150

@@ -3,7 +3,7 @@ title: Microsoft's SMS Messaging Policy
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: annagentry
+ms.reviewer: annagentry, julienp
 ms.date: 01/06/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -78,7 +78,7 @@ Spoofing is the act of causing a misleading or inaccurate originating number or 
 
 This Messaging Policy doesn't constitute legal advice, and we reserve the right to modify the policy at any time. Microsoft Teams isn't responsible for ensuring that the content, timing, or recipients of our customers’ messages meet all applicable legal requirements.
 
-Our customers are responsible for all messaging requirements. For further guidance, the Cellular Telecommunications Industry Association (CITA) Messaging Principles and Best Practices provides a helpful overview of the relevant industry standards.
+Our customers are responsible for all messaging requirements. For further guidance, the Cellular Telecommunications Industry Association (CTIA) Messaging Principles and Best Practices provides a helpful overview of the relevant industry standards.
 
 ### Penalties
 

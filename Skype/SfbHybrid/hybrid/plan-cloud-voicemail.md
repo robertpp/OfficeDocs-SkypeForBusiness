@@ -8,7 +8,7 @@ manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 
