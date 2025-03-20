@@ -1,10 +1,10 @@
 ---
-title: Signals
+title: Signals availability
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
-ms.date: 02/14/2025
+ms.date: 03/20/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,8 +18,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: In this article you will learn about the health signals that are available for Windows, Android, and MDEP devices and what remediation is available for each. 
-f1keywords: 
+description: In this article shows you the health signals that are available, not available, or not applicable for Teams Rooms on Windows, Teams Rooms on Android, Collab bar (Android) and MDEP. 
 ---
 
 # Signals
