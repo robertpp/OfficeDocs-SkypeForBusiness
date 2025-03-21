@@ -105,6 +105,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Logitech Tap and Intel Tiger Canyon NUC PC | Core i5 | 8 GB | 128 GB |
 | Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
 | [Logitech Tap and Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html) | Core i5 | 8 GB | 128 GB |
+| [Logitech Tap with Lenovo ThinkSmart Core Gen 2](https://www.logitech.com/video-collaboration/partners/microsoft.html) | Core Ultra 7 | 32 GB | 256 GB |
 | MAXHUB XCore Kit | Core i3 | 8 GB | 128 GB |
 | MAXHUB XCore Kit Pro | Core i5 | 16 GB | 256 GB |
 | MAXHUB XBoard V865T | Core i5 | 16 GB | 256 GB |
