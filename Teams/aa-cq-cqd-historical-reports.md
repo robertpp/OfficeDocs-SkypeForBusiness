@@ -35,7 +35,7 @@ description: Learn how to use the Teams Auto Attendant & Call Queue Historical R
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
-## V3.2.0 published on March 24, 2025
+## V3.2.0 published on March 21, 2025
 
 What's new in this release:
 - Reports are available in [46 languages/locales](#supported-locales).
@@ -862,7 +862,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.2.0    |March 24, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.0 |Localization in 45 languages, reporting by Auto Attendant and Call Queue name for authorized users    |
+|3.2.0    |March 21, 2025    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.2.0 |Localization in 45 languages, reporting by Auto Attendant and Call Queue name for authorized users    |
 |3.1.8    |August 12, 2024    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.8 |Bug fix for Date slicer on Call Queue tab                               |
 |3.1.7    |July 15, 2024      |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Improved support for authorized users, removed original reporting templates |
 |3.1.6    |April 15, 2024     |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
