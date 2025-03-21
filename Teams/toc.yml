@@ -950,6 +950,8 @@ items:
               href: teams-encoder-setup.md
         - name: Recording & transcription
           items:
+            - name: Overview- Recording and transcription for Teams meetings, events, and calls
+              href: recording-transcription-overview.md
             - name: Manage Teams recording policies for meetings and events
               href: meeting-recording.md
             - name: Configure transcription and captions for Teams meetings
