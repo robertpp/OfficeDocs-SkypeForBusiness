@@ -63,13 +63,14 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Cisco Board Pro G2 75 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
 | Crestron AIO Video Bar 70 | `1.240618.1240` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10|
 | Crestron Touch Panel TS-1070 | `2.005.1030` | September 3, 2025 | Compatible with Crestron AIO Video Bar 70 | 10 |
+| DTEN Bar | `1.4.20` | August 15, 2027|  Medium size room (4.5 m x 6 m) | 12 |
 | DTEN Bar | `1.0.2` | August 15, 2027|  Small size room (4.5 m x 4.5 m) | 12 |
 | DTEN D7X 55" + Vue Pro | `1.5.8` |August 15, 2027| Small size room (4.5 m x 4.5 m) | 12 |
 | DTEN D7X 55" + Vue | `1.5.8` |August 15, 2027| Small size room (4.5 m x 4.5 m) | 12 |
 | DTEN D7X 75" + Vue Pro | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" + Vue | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" | `1.2.8` |  August 15, 2027 |  Medium size room (4.5 m x 6 m) | 12 |
-| DTEN Mate Touch Console | `2.0.2.0` | September 3, 2025 |  Compatible with DTEN DCR200 Bar, DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
+| DTEN Mate Touch Console | `2.0.2.0` | September 3, 2025 | Compatible with DTEN DCR200 Bar (Medium and small rooms), DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
 | DTEN D7X 55" | `1.2.2` |August 15, 2027| Small meeting room (4.5 m x 4.5 m) | 12 |
 | DTEN Bar + Vue | `1.3.0` | October 4, 2026 | Small Meeting Room (4.5 m x 4.5 m) | 12 |
 | DTEN Bar + Vue Pro | `1.3.0` | October 4, 2026 | Small Meeting Room (4.5 m x 4.5 m) | 12 |
@@ -347,6 +348,11 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Logi Rallybar (VR0019) | `1.14.180` | N/A | `1449/1.0.96.2025010301` | `5.0.6152.0`| `1.0.0.202407050618.product (733)` | March 12, 2025|
+| Logi Rallybar Mini (VR0020) | `1.14.180` | N/A | `1449/1.0.96.2025010301` | `5.0.6152.0`| `1.0.0.202407050618.product (733)` | March 12, 2025|
+| Logi RoomMate (VR0030) | `1.14.170`| N/A | `1449/1.0.96.2025010301` | `5.0.6152.0`| `1.0.0.202407050618.product (733)` | March 12, 2025|
+| Logi Rallybar Huddle (VR0034) | `1.14.130`| N/A | `1449/1.0.96.2025010301` | `5.0.6152.0`| `1.0.0.202407050618.product (733)` | March 12, 2025|
+| Logi TAP IP (VR0029) | `1.14.181`| N/A | `1449/1.0.96.2025010301` | `5.0.6152.0`| `1.0.0.202407050618.product (733)` | March 12, 2025|
 | Logi Rallybar (VR0019) | `1.13.199` | N/A | `1449/1.0.96.2024101004` | `5.0.6152.0`| `1.0.0.202402202353.product` | December 12, 2024|
 | Logi Rallybar Mini (VR0020) | `1.13.199` | N/A | `1449/1.0.96.2024101004` | `5.0.6152.0`| `1.0.0.202402202353.product` | December 12, 2024|
 | Logi RoomMate (VR0030) | `1.13.194`   | N/A | `1449/1.0.96.2024101004` | `5.0.6152.0`| `1.0.0.202402202353.product` | December 12, 2024|

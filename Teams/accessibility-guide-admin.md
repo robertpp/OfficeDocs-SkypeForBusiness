@@ -5,7 +5,7 @@ author: meganrmhan
 ms.reviewer: eljones    
 ms.date: 03/15/2022
 manager: serdars
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 search.appverid: MET150

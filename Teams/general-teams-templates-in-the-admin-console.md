@@ -4,10 +4,10 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 audience: Admin
-ms.topic: article
+ms.topic: overview
 ms.service: msteams
 ms.reviewer: yinchang
-ms.date: 09/18/2020
+ms.date: 03/13/2025
 ms.collection: 
   - M365-collaboration
 ms.localizationpriority: medium
@@ -27,11 +27,11 @@ appliesto:
 
 ## Overview
 
-Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
+Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and preinstalled apps.
 
 Use team templates to deploy consistent teams across your organization. Templates can also help users get oriented with how to effectively use Teams.
 
-Teams includes pre-built templates that we created for specific business needs and projects. In this article, we introduce you to the general category of templates that you can use in your organization for various scenarios.
+Teams includes prebuilt templates that we created for specific business needs and projects. In this article, we introduce you to the general category of templates that you can use in your organization for various scenarios.
 
 To learn more about team templates in general, see [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -51,7 +51,7 @@ Manage tasks, share documents, conduct project meetings and document risks and d
 
 ## Manage an Event*
 
-Manage tasks, documents, and collaborate on everything you need to deliver a compelling event. Invite guest users to have a secure collaboration inside and outside of your company.
+Manage tasks, documents, and collaborate on everything you need to deliver a compelling event. Invite guests to have a secure collaboration inside and outside of your company.
 
 You might not have access to certain apps based on your app permission policy.
 

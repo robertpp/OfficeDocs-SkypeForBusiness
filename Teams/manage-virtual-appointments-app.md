@@ -3,7 +3,7 @@ title: Manage the Virtual Appointments app in Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: danewman
 ms.date: 09/18/2023

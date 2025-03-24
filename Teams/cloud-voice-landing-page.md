@@ -4,7 +4,7 @@ author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.date: 12/17/2024
-ms.topic: article
+ms.topic: solution-overview
 ms.service: msteams
 audience: admin
 ms.collection: 

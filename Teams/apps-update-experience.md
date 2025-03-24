@@ -35,7 +35,7 @@ As a Teams administrator, you can update Teams apps to help the users get the la
 
 ## Conditions when an app update requires consent
 
-Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own, unless an admin installed or pinned it. However, users may receive a notification to update an app if their consent is required and the app doesn't auto-update. Users can provide consent by selecting [`Update` option displayed in Teams](#update-to-new-version-by-users-and-admins).
+Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own. However, users may receive a notification to update an app if their consent is required and the app doesn't auto-update. Users can provide consent by selecting [`Update` option displayed in Teams](#update-to-new-version-by-users-and-admins).
 
 * Add a bot or change the ID of the bot using the `botId` property.
 * Change the `isNotificationOnly` property of an existing bot that changes the bot's notifications.
@@ -94,7 +94,7 @@ For custom apps to update, after you upload the new version of the app to Teams,
 
 * If you pin or install an app, then it automatically updates when a new version is available.
 
-* If an app isn't updated for a user, then the user continues to use the older version of an app. If an app updates in one context but not in the other context for a user, then the user continues to use two different versions of the app.
+* If an app isn't updated for a user, then the user continues to use the older version of an app. When a user consents to an app upgrade in one context, Teams automatically updates the app in all other contexts where the user has app management rights.
 
 * App policies, usage reporting, audit logs, and other governance apply to all versions of an app. Admins retain complete control irrespective of the app versions used in their organization.
 

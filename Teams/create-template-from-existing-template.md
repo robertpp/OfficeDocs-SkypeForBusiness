@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.reviewer: aaglick
-ms.date: 07/07/2020
+ms.date: 03/13/2025
 ms.topic: how-to
 audience: admin
 ms.service: msteams
@@ -13,7 +13,9 @@ description: Learn how to use an existing team template to create a new team tem
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-ms.custom: chat-teams-channels-revamp
+ms.custom: 
+  - chat-teams-channels-revamp
+  - admindeeplinkTEAMS
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -24,23 +26,17 @@ appliesto:
 
 Microsoft Teams provides prebuilt templates that can be saved and modified to meet your particular organizational needs.
 
-1. Sign in to the Teams admin center.
+1. Sign in to the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 
 3. In the **Team templates** section, select next to a team template that you want to duplicate to highlight it.
 
 4. Select **Duplicate**.
-
-![An image of the Team templates dialog with Add highlighted.](media/template-duplicate.png)
-
-(Alternatively, you can select **Add** > **Start with an existing template** to open **Select the template to use as a starting point**.)
-
-![An image of the Team templates starting point screen with Start with an existing template highlighted.](media/template-start-existing-template.png)
+    1. Alternatively, you can select **Add** > **Start with an existing template** to open **Select the template to use as a starting point**.
 
 5. In the **Select the template to use as a starting point** screen, select **Next**.
-
-    The duplicated template opens, and the word **Copy** is appended to the name.
+    1. The duplicated template opens, and the word **Copy** is appended to the name.
 
 6. Complete the following fields and then select **Next**:
     - Template name
@@ -48,12 +44,10 @@ Microsoft Teams provides prebuilt templates that can be saved and modified to me
     - Locale visibility  
 
 7. In the **channels, tabs, and apps** section, modify any existing channels and apps that your team needs.
-
     1. Select a channel to edit, and select **Edit**.
     2. **Apply** your changes when finished.
 
 8. Add any channels or apps that your team needs.
-
     1. In the **Channels** section, select **Add**.
     2. In the **Add** dialog, name the channel.
     3. Add a description.
@@ -61,11 +55,10 @@ Microsoft Teams provides prebuilt templates that can be saved and modified to me
     5. Search for an app name that you want to add to the channel.
     6. Select **Apply** when finished.
 
-7. Select **Submit** when you finish adding channels and apps.
+9. Select **Submit** when you finish adding channels and apps.
+    - The new template is saved to the template library.
 
-    The new template is saved to the template library.
-
-> [!Note]
+> [!NOTE]
 > It can take up to 24 hours for teams users to see a custom template in the gallery.
 
 ## Related articles

@@ -293,6 +293,8 @@ Microsoft Places allows you and your organization to build a smart workplace. Wi
 
 ### Queues app
 
+*Requires a [Teams Phone license](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing#teams-phone-with-pstn-connectivity-licenses).*
+
 The Queues app is a Teams-native solution designed to empower organizations to manage customer engagements efficiently, unlocking a set of advanced call functionalities for Teams Phone Call queues and Auto attendants. To learn more about the Queues app, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9) and [Manage the Queues app](/microsoftteams/manage-queues-app).
 
 | Feature | Teams | Teams Premium |
@@ -336,7 +338,6 @@ Before you can purchase Teams Premium licenses for your users, ensure your tenan
 The **tenant requirement** is:
 
 - Must be a commercial, worldwide public sector, EDU, GCC, GCC High, DoD, or non-profit tenant.
-  - Currently, Microsoft doesn't offer an EDU-specific license or EDU discounts for Teams Premium.
 
 The **user requirement** is:
 

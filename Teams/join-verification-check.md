@@ -28,16 +28,16 @@ description: Learn how to require verification checks for Microsoft Teams meetin
 
 **APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Webinars ![Image of a x for no](/office/media/icons/cancel-teams.png)Town halls
 
-For a seamless experience, it's important to manage how anonymous participants join meetings and webinars in your org. Anonymous participants include users who join a Teams meeting without signing in, via the Teams web app, or through external meeting platforms.
+To ensure a seamless meeting experience, it's essential to manage how anonymous and unverified external participants join meetings and webinars within your organization. Anonymous participants include users who join a Teams meeting without signing in, via the Teams web app, or through external meeting platforms.
 
-If your organizers allow anonymous users to bypass the lobby, web bots might join and disrupt their meetings and webinars. As an admin, you can require human verification checks for anonymous users to join meetings in your org. Requiring a CAPTCHA challenge can prevent unwanted web-based bots from joining, recording, and causing disturbances in meetings and webinars.
+If anonymous and unverified external are allowed to bypass the lobby, web bots might join and disrupt meetings and webinars. As an admin, you can enforce human verification checks for these users to join meetings in your organization. Implementing a CAPTCHA challenge helps prevent unwanted web-based bots from joining, recording, and causing disturbances in meetings and webinars. Users can choose between a text CAPTCHA with Latin characters and an audio CAPTCHA in English.
 
 :::image type="content" source="media/captcha-audio-small.png" alt-text="Screenshot of a user named Daniela completing an audio CAPTCHA challenge to join a meeting." lightbox="media/captcha-audio-expand.png":::
 :::image type="content" source="media/captcha-text-small.png" alt-text="Screenshot of a user named Daniela completing a text CAPTCHA challenge to join a meeting." lightbox="media/captcha-text-expand.png":::
 
 ## Manage verification checks for meetings and webinars in your org
 
-You can use the Teams admin center or PowerShell to manage verification checks for meetings and webinars in your org.
+You can use the Teams admin center or PowerShell to manage verification checks for meetings and webinars in your organization.
 
 |Teams admins center policy value |PowerShell setting value | Behavior|
 |---------|---------|---------------|
@@ -57,7 +57,7 @@ You can use the Teams admin center or PowerShell to manage verification checks f
 
 ### Manage verification checks using PowerShell
 
-To  manage how users in your org use Copilot for Teams meetings and events, use the **`-CaptchaVerificationForMeetingJoin`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
+To  manage how users in your organization use Copilot for Teams meetings and events, use the **`-CaptchaVerificationForMeetingJoin`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
 Require anonymous users and users from untrusted organizations to complete a verification check before joining meetings and webinars created by organizers with this policy:
 

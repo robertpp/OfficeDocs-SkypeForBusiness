@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.date: 02/23/2021
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 audience: admin
 description: Set up Teams in your enterprise to enable your users to collaborate using chat and file sharing, set up and attend small and large meetings, and talk via video and voice.

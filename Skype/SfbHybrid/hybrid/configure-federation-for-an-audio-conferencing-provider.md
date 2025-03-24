@@ -8,7 +8,7 @@ manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 

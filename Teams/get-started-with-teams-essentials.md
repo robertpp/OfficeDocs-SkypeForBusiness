@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.date: 03/26/2024
-ms.topic: article
+ms.topic: quickstart
 ms.service: msteams
 audience: admin
 description: Learn how to get started with Microsoft Teams Essentials subscription plan in your small or business.

@@ -6,7 +6,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
 - ms.lync.plan.HighAvailabilityType
 ms.service: skype-for-business-server

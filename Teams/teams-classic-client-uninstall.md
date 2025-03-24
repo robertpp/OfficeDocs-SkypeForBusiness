@@ -3,7 +3,7 @@ title:  How to uninstall the classic Teams client
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.date: 04/02/2024
 ms.service: msteams
 audience: admin

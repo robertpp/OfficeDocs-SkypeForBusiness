@@ -5,7 +5,7 @@ author: sfrancis206
 manager: pamgreen
 ms.date: 11/11/2024
 audience: Admin
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.reviewer: ritikag
 ms.localizationpriority: medium
@@ -37,7 +37,7 @@ In Microsoft Teams, your users can record calls and meetings to reference later 
 
 There are two recording features that can be enabled with policy:
 
-- **Convenience recording**- an ad-hoc recording of a call or meeting that a user starts and manages.
+- **Convenience recording**- an ad-hoc recording of a call or meeting that a user starts and manages. For an overview of convenience recording, see [Overview- Recording and transcription for Teams meetings and calls](recording-transcription-overview.md).
 
 - **Compliance recording**-calls and meetings that are automatically recorded without user intervention and owned by the company, using a third-party solution.
 
@@ -89,3 +89,4 @@ Navigate to these sections for more specific details on convenience and complian
 ### Related topics
 
 - [Teams settings and policies reference - Microsoft Teams | Microsoft Learn](settings-policies-reference.md)
+- [Overview- Recording and transcription for Teams meetings and calls](recording-transcription-overview.md)

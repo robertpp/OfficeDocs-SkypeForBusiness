@@ -5,7 +5,7 @@ ms.author: v-chinlana
 manager: jtremper
 ms.reviewer: mmulpuru
 ms.date: 07/04/2024
-ms.topic: conceptual
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150

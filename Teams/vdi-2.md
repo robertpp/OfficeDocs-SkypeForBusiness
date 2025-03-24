@@ -25,7 +25,7 @@ ms.localizationpriority: high
 New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
 > [!IMPORTANT]
-> Microsoft has completed the General Availability rollout for Citrix customers. The new optimization requires Microsoft Teams version 24295.605.3225.8804, and client version 24110115722, as seen in **Settings** > **About Teams**.
+> Microsoft completed the General Availability rollout for Citrix customers. The new optimization requires Microsoft Teams version 24295.605.3225.8804, and client version 24110115722, as seen in **Settings** > **About Teams**.
 
 ## Components
 
@@ -108,7 +108,7 @@ The following registry keys could block new media engine MSIX package installati
 - AllowDevelopmentWithoutDevLicense
 
 > [!IMPORTANT]
-> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB505294 (Windows 11 23H2 and 22H2) and KB505293 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (e.g. Microsoft.Teams.SlimCoreVdi.win-x64.2024.43) or use Regex (e.g. Microsoft.Teams.SlimCoreVdi*)
+> Managed endpoints/thin clients where BlockNonAdminUserInstall is enabled can still allow SlimCore packages to install by applying KB505294 (Windows 11 23H2 and 22H2) and KB505293 (Windows 11 24H2), or any subsequent KB. This introduces a new Group Policy called "Allowed package family names for non-admin user install" in the Local Group Policy Editor. Administrators can then Allow list SlimCore packages by allowing a complete package familyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.43) or use Regex (for example, Microsoft.Teams.SlimCoreVdi.*)
 
 > [!IMPORTANT]
 > If AllowAllTrustedApps is disabled, the new media engine (MSIX) installation fails. This issue has been fixed in the Windows October cumulative update KB5031455:
@@ -191,6 +191,20 @@ Status            : Ok
 If you're optimized, you can see MsTeamsVdi.exe running on your endpoint for Azure Virtual Desktop/W365 (as a child process of msrdc.exe) or Citrix (as a child process of wfica32.exe). When using Process Explorer, If you select msrdc.exe (or wfica32.exe), select **Show the lower pane** under **View** and switch to the DLL tab, you can also see the Plugin (MsTeamsPluginAvd.dll or MsTeamsPluginCitrix.dll) being loaded. This action is a useful troubleshooting step in case you're not getting the new optimization.
 
 If you enable the bottom pane and switch to the DLL tab, you can also see the Plugin being loaded. This action is a useful troubleshooting step in case you're not getting the new optimization.
+
+### VDI Status Indicator
+
+Microsoft Teams displays information about the optimization status, helping the user understand if they are optimized or not. It also shows if they are using the legacy WebRTC optimization or the new Slimcore-based one by hovering their cursor over the **Optimized** banner.
+
+In cases where Microsoft Teams is not optimized, the user sees a warning icon.
+
+![Screenshot of the Teams app showing it is not optimized.](media/Status_Indicator_Not_Optimized_2.png)
+
+Users can attempt a repair by selecting the three dots and choosing **Optimize virtual desktop and restart**.
+
+This triggers a Teams restart, which can solve some known issues. If the user is still unoptimized, an error code displays for quick diagnosis by IT Admins based on the [connection error table](#connection-error).
+
+Users are presented with a [link](https://go.microsoft.com/fwlink/?linkid=2295247) to receive more information about the error, and if it is actionable, they can try a self-remediation.
 
 ## Session roaming and reconnections
 

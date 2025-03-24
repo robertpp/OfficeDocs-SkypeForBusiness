@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: vijurtse
 ms.date: 12/13/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
 ms.service: msteams

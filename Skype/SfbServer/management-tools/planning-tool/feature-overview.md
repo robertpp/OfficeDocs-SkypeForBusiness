@@ -6,7 +6,7 @@ author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
-ms.topic: article
+ms.topic: concept-article
 f1.keywords:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview

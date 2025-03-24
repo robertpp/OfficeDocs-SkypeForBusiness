@@ -5,7 +5,7 @@ ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: garciadaniel
 ms.date: 01/29/2024
-ms.topic: article
+ms.topic: how-to
 ms.assetid: 
 ms.tgt.pltfrm: cloud
 audience: admin

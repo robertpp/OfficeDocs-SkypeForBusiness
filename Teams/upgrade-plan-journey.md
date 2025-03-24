@@ -3,7 +3,7 @@ title: Plan for your Skype for Business to Microsoft Teams upgrade
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 ms.service: msteams
 ms.reviewer: landerl
 ms.date: 04/26/2018

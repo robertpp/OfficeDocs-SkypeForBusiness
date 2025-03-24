@@ -6,7 +6,7 @@ author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH

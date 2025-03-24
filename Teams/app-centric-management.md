@@ -27,11 +27,11 @@ ms.custom: seo-marvel-apr2020
 # Use app centric management to manage access to apps
 
 > [!IMPORTANT]
-> All organizations don't have app centric management feature available. If you were not using custom permission policies and you weren't an enterprise customer, we automatically migrated your organization to use this feature. You see the following message on the permission policy page:
+> All organizations don't have the app centric management feature available. If you're migrated to app centric management, you can see the following message on the permission policy page:
 >
 > :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organizations that are using app centric management.":::
 >
-> If you're using custom permission policies or you're an enterprise customer, then you must manually migrate to the app centric management feature. For timelines, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) or [Microsoft 365 roadmap item 151829](https://www.microsoft.com/en-US/microsoft-365/roadmap?filters=&searchterms=151829).
+> For timelines, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) or [Microsoft 365 roadmap item 151829](https://www.microsoft.com/en-US/microsoft-365/roadmap?filters=&searchterms=151829).
 >
 > If you see policies on the [permission policies page](https://admin.teams.microsoft.com/policies/app-permission), continue to [use app permission policies](teams-app-permission-policies.md) or migrate to this feature on your own.
 
@@ -192,6 +192,7 @@ When your tenant's admin center receives this feature, the following updates are
 |  Global permission policy for Microsoft apps was `Block all` or Global permission policy for Microsoft apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for Microsoft apps is set to off |
 |  Third party app setting in the Org-wide app settings was set to on; New third party app setting in the org-wide app setting was set to on; Global permission policy for third party apps was `Allow all`; or Global permission policy for third party apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for third party apps is set to on |
 |  third party app setting in the Org-wide app settings was set to off; New third party app setting in the org-wide app setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for third party apps is set to off |
+| Third party app setting in the Org-wide app settings was set to on; New third party app setting in the org-wide app setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default for third party apps` is set to off |
 |  Global permission policy for Custom apps was `Allow all` or Global permission policy for Custom apps was `Block an app(s), allow all others` | `Allow users install available apps by default` for custom apps is set to on |
 |  Global permission policy for custom apps was `Block all` or Global permission policy for custom apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for custom apps is set to off |
 

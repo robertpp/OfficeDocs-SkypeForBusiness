@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.date: 10/15/2024
 ms.reviewer: ashgupt
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150

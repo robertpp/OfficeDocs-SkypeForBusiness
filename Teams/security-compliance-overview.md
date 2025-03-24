@@ -4,7 +4,7 @@ author: MSFTTracyP
 ms.author: tracyp
 manager: laurawi
 ms.date: 02/11/2025
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.reviewer: 
 audience: admin

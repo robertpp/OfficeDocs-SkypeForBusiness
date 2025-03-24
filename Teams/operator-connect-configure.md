@@ -3,8 +3,8 @@ title: Configure Operator Connect
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.date: 08/10/2023
-ms.topic: article
+ms.date: 03/21/2025
+ms.topic: how-to
 ms.service: msteams 
 audience: admin
 ms.collection: 
@@ -12,7 +12,7 @@ ms.collection:
   - m365initiative-voice
   - highpri
   - Tier1
-ms.reviewer: scottfrancis
+ms.reviewer: hranapour
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -174,7 +174,7 @@ For information on how to assign phone numbers to your users, see [Manage phone 
 
 ## Manage your operators
 
-From the **My operators** tab, you can view your operators and their status and make the following changes to your selections:  
+If you shared your contact information with an operator through the Teams admin center, from the **My operators** tab, you can view your operators and their status and make the following changes to your selections:  
 
 - Manage operator services by country/region
 - Suspend an operator

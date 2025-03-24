@@ -5,7 +5,7 @@ ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: skype
 ms.service: skype-for-business-online
 ms.collection: Skype

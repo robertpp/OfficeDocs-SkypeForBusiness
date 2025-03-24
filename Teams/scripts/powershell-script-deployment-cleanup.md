@@ -3,7 +3,7 @@ title: PowerShell script sample - Teams deployment cleanup
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.reviewer: amitsri
 ms.date: 10/16/2020
 ms.service: msteams
