@@ -31,11 +31,11 @@ In CQD, Good and Poor stream classification is performed by a series of conditio
 
 ## Maintenance of classification models
 
-The accuracy (precision and recall) of the classifier models is monitored on the general population of Microsoft Teams users. If an anomaly is detected, then it'll be investigated and there's a high chance that the model will be re-trained. This can cause temporal fluctuation of respective problem detection rates. We also periodically re-train the models to ensure that they are reflecting the latest real-world conditions of Teams calls, including improvements in the Teams client, underlying media stack, and operating systems, as well as advancements in compute and device technology.
+The accuracy (precision and recall) of the classifier models is monitored on the general population of Microsoft Teams users. If an anomaly is detected, then we'll investigate it and there's a high chance that the model is re-trained. This can cause temporal fluctuation of respective problem detection rates. We also periodically re-train the models to ensure that they are reflecting the latest real-world conditions of Teams calls, including improvements in the Teams client, underlying media stack, operating systems, as well as advancements in compute and device technology.
 
-Unlike changes to the legacy stream classifiers, model re-training only applies to streams on and after the date when the re-training was performed; it is not retroactive to streams previously classified by the models. The dates of the most recent classifier re-training deployments will be published here -- up to one year in the past.
+Unlike changes to the legacy stream classifiers, model re-training only applies to streams on and after the date when the re-training was performed. Model re-training isn't retroactive to streams previously classified by the models. The dates of the most recent classifier re-training deployments are published here -- up to one year in the past.
 
-Latest model update: **5/8/2025**  
+Latest model update: **3/8/2025**  
 
 *Previous model updates:*  
 &bull; Initial release
