@@ -696,7 +696,7 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 |Teams Events Attendee ECDN Name|String|Identifies the Enterprise Content Delivery Network (eCDN) to which the attendee was connected when viewing the event||
 |Teams Events Attendee ECDN Script Load Error|String|Provides the reason and relevant URL for when script load errors are encountered by attendees.||
 |Teams Events Attendee Stream Retry Count|Integer|The number of retries per minute that occurred while an attendee was watching an event stream.||
-|Meeting Type|String|Indicates whether a meeting was a regular Teams meeting or a Teams Live Event.||
+|Meeting Type|Enumeration string <br/>**Possible values:** <br/> Regular Meeting <br/> TLE <br/> TownHall <br/> Webinar |Indicates whether a meeting was a regular Teams meeting, live event, or webinar.||
 |Teams Events Time To Connect Media|Integer|The amount of time required for playback to begin after signaling has completed.||
 |Teams Events Attendee Stream Buffering Rate|Range (Ratio)|Indicates the ratio of the stream spent waiting for video buffering versus the overall stream playback time.||
 |Teams Events Attendee Average Stream Download Bit Rate|Integer (bits/second)|The length of the stream viewed by the user, in seconds.||
