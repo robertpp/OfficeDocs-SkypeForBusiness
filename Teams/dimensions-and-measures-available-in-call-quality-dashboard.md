@@ -656,6 +656,13 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 |PSTN Trunk SBC Version |	String	| The manufacturer, model name, and software revision for the PSTN SIP trunk's Session Border Controller or Media Gateway. <br/> **Example:** Cisco UBE/ISR4331/IOS-17.9.4a||
 |PSTN Call End Reason|Int|A three-digit integer response code shows the final status of the call. <br/> For more information about SIP call end reasons, see the [List of SIP response codes](https://www.wikipedia.org/wiki/List_of_SIP_response_codes). <br/>**Example:** 404||
 | Is PSTN Conferencing | Boolean | Indicates if a call or stream was involved in a PSTN conferencing scenario||
+| Connectivity | 
+| First Reconnect Count | Range (Integer) | Indicates if the first endpoint was required to involve signaling to re-establish stream connectivity during a call. |  |
+| Second Reconnect Count | Range (Integer) | Indicates if the second endpoint was required to involve signaling to re-establish stream connectivity during a call. |  |
+| First Reconnect Success Count | Range (Integer) | Indicates the number of times the first endpoint successfully re-established media after a loss in connectivity requiring signaling. |  |
+| Second Reconnect Success Count | Range (Integer) | Indicates the number of times the second endpoint successfully re-established media after a loss in connectivity requiring signaling. |  |
+| First Transport Reconnected Count | Range (Integer) | Indicates if the first endpoint was required to re-establish transport layer connectivity. | &bull; Shown for WebRTC-based endpoints only |
+| Second Transport Reconnected Count | Range (Integer) | Indicates if the second endpoint was required to re-establish transport layer connectivity. | &bull; Shown for WebRTC-based endpoints only |
 |**Voice Apps (Preview)**||For this category, see [Auto Attendant & Call Queue Historical Report](aa-cq-cqd-historical-reports.md) for more information.)||
 |Auto Attendant Identity|String|Name of the resource account attached to the Auto Attendant.|&bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 |Auto Attendant Chain Index|Integer| Order of the Auto Attendant in the call.||
