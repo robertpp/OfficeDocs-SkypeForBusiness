@@ -89,7 +89,7 @@ We're not accepting new nominations for certification until further notice.
 ||Cisco Unified Border Element (CUBE) for 1000 V Series Cloud Services Router|&#10004;|&#10004;|Supported IOS XE Amsterdam 17.2.1r (Recommended 17.3.3)|&#10004;||
 ||Cisco Unified Border Element (CUBE) for 1000 Series Aggregation Services Routers|&#10004;|&#10004;|Supported IOS XE Amsterdam 17.2.1r (Recommended 17.6.1a)|&#10004;||
 ||Cisco Unified Border Element (CUBE) for Catalyst 8000 Edge Platforms|&#10004;|&#10004;|Supported IOS XE Amsterdam 17.3.2 (Recommended 17.6.1a)|&#10004;||
-|[Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|Avaya Session Border Controller for Enterprise (ASBCE)|&#10004;|&#10004;|Release 8.1.1 or higher (8.1.2 or higher for Media Bypass)|||
+|[Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|Avaya Session Border Controller for Enterprise (ASBCE)|&#10004;|&#10004;|Release 8.1.1 or higher (8.1.2 or higher for Media Bypass)|&#10004;|&#10004;|
 |[Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|Nokia Session Border Controller|&#10004;|&#10004;|24.7|&#10004;||
 |[Italtel](https://www.italtel.com/italtels-sbc-obtains-microsoft-teams-direct-routing-certification/)|NetMatch-S CI|&#10004;|&#10004;|Supported 5.8 (Recommended the latest version)|&#10004;|&#10004;|
 |[Ericsson](https://www.ericsson.com/en/portfolio/cloud-software-and-services/cloud-communication/enterprise-communication/business-communication-applications-and-enablers/sip-trunking)|vSBC 2.16|&#10004;|||||

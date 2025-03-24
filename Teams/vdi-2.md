@@ -424,7 +424,8 @@ Customers with Thin Clients that have [Unified Write Filters](/windows/configura
   - Stopping and resharing the window should resolve the issue.
   - This issue has been resolved in new Teams 24335.206.X.X or higher versions.
 - If you're on a video call and you open the Start menu on the virtual machine, a blank screen shows in the Teams meeting window instead of the video feed.
-
+- In CQD, VdiMode (x2xx) represents both VDI SlimCore Optimized and Unoptimized Fallback, which may misattribute poor call quality.
+  
 ## Citrix virtual channel allow list
 
 The [Virtual channel allow list](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/virtual-channel-security#adding-virtual-channels-to-the-allow-list) policy setting in CVAD enables the use of an allow list that specifies which virtual channels can be opened in an ICA session. When enabled, all processes except the Citrix built-in virtual channels must be stated. As a result, more entries are required for the new Teams client to be able to connect to the client-side plugin (MsTeamsPluginCitrix.dll).
@@ -467,6 +468,9 @@ VDI user information is now exposed through numerous dimensions and filters. Che
 
 > [!NOTE]
 > The new Quality of Experience (QER) template is available in the Power BI query templates for CQD download. Version 8 now includes templates for reviewing VDI client-focused metrics.
+
+> [!IMPORTANT]
+> In CQD, the VdiMode value (x2xx) represents both VDI SlimCore Optimized and VDI SlimCore Not Connected (Unoptimized Fallback). This can lead to misinterpretation, as poor call quality in an unoptimized session may appear to be an issue with VDI SlimCore Optimization. We're working to address this limitation in telemetry. For now, we recommend you verify the actual optimization status by using Teams logs.
 
 #### Query fundamentals
 
