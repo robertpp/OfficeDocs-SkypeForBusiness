@@ -3,7 +3,7 @@ title: 'Configure spam filtering for calls in Microsoft Teams'
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: roykuntz
 ms.date: 02/26/2024

@@ -68,13 +68,15 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## [Certified USB devices](#tab/usb)
 
-*Table Updated January 2025*
+*Table Updated March 2025*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | **Manufacturer**      | **Model**                                                    | **Qualified**       | **Certified Program**                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |UH48 Headset                                               |3/10/2025       |Certified for Microsoft Teams                           |
+|Yealink              |WH64 Pro Headset                                           |12/12/2024      |Certified for Microsoft Teams                           |
 |Lenovo               |4k Pro Webcam                                              |12/6/2024       |Certified for Microsoft Teams                           |
 |Lenovo               |QHD Webcam                                                 |12/6/2024       |Certified for Microsoft Teams                           | 
 |Poly                 |Voyager Legend 50-M Headset UC                             |11/1/2024       |Certified for Microsoft Teams                           |
@@ -255,6 +257,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 |EPOS/Sennheiser      |Impact SC 660 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 630 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 260 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|EPOS/Sennheiser      |IMPACT SC 230 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 75 / SE Headset                                     |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 65 / SE Headset                                     |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Engage 50 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |

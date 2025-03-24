@@ -3,7 +3,7 @@ title: Manage chat for sensitive Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: yilin.yang
 ms.date: 12/6/2024
@@ -52,9 +52,6 @@ If you want to prevent anonymous meeting participants from using chat, you  must
 Meeting organizers can specify that the chat only be available while the meeting is in progress. This can also be configured by using a meeting template or sensitivity label if you require this for certain types of meetings.
 
 ## Prevent copying or forwarding chat, captions, and transcripts
-
-> [!IMPORTANT]
-> Allowing organizers to restrict participants from copying or forwarding meeting chat messages, live captions, and transcripts on mobile clients is only supported through sensitivity labels.
 
 As an admin, you can choose whether organizers in your organization can restrict participants from copying or forwarding meeting chat messages, live captions, transcripts, and AI-generated insights in the meeting recaps. This setting also restricts forwarding and sharing messages to Outlook. By default, this per-organizer setting is set **On**.
 

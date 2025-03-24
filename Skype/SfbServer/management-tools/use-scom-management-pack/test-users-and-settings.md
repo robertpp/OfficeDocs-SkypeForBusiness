@@ -6,7 +6,7 @@ author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH

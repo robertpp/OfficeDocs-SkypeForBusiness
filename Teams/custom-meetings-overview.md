@@ -3,7 +3,7 @@ title: An overview of customizations for meetings in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 audience: admin
 ms.reviewer: margidesai, nraghavan

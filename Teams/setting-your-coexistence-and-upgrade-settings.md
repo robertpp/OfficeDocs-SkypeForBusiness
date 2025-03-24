@@ -3,7 +3,7 @@ title: Set your coexistence and upgrade settings
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.service: msteams
 audience: admin
 ms.collection: 

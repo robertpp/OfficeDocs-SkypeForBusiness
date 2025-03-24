@@ -5,7 +5,7 @@ ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 audience: ITPro
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 manager: serdars
 ms.service: skype-for-business-server
 f1.keywords:

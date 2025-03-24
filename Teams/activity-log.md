@@ -5,7 +5,7 @@ ms.author: heidip
 ms.reviewer: jastark
 ms.date: 05/21/2020
 manager: jtremper
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 search.appverid: MET150

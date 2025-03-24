@@ -5,7 +5,7 @@ ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: spraveen, margidesai
 ms.date: 7/11/2024
-ms.topic: conceptual
+ms.topic: overview
 ms.service: msteams
 ms.subservice: teams-premium
 search.appverid: MET150
@@ -73,7 +73,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Screen sharing quality alerts** - Set up alerts for in-progress meeting screen sharing issues and get notified immediately when your specified users experience issues.
 
-- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting and event settings normally controlled by the organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
+- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting and event settings normally controlled by the organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions. You can also automatically apply or recommend that the meeting is labeled with the highest priority sensitivity label from files shared for the meeting.
 
 - **Real time telemetry and retention** - Real-time telemetry is gathered automatically for all users who have a Teams Premium license and retained for seven days.
 
@@ -190,6 +190,8 @@ Teams Premium provides more ways to elevate Teams webinars in your org with the 
   | RTMP-In | Yes| [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
 
 ## Advanced Virtual Appointments
+
+[!INCLUDE [va-app-retirement](includes/va-app-retirement.md)]
 
 With any Microsoft 365 license, your end users can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, users can schedule appointments in the Bookings calendar and external attendees can join through a browser without having to download Teams.
 

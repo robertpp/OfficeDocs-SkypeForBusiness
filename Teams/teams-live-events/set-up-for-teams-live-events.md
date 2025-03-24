@@ -3,7 +3,7 @@ title: Set up for live events in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.reviewer: christi.balaki
 ms.date: 10/3/2024
@@ -90,7 +90,7 @@ The following SDN/eCDN solutions are preintegrated and can be set up to be used 
 
 - **Hive Streaming** provides a simple and powerful solution for live and on-demand enterprise video distribution. Hive is a software-based solution that requires no extra hardware or bandwidth and provides a secure way to enable thousands of simultaneous video viewers without affecting to your network. For customers looking to understand the impact video is having on their network before purchasing an SDN/eCDN solution, Hive Streaming also provides a browser-based analytics solution for Microsoft customers. [Learn more](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
 
-- **Kollective** is a cloud-based, smart-peering distribution platform that uses your existing network infrastructure to deliver content in many forms (live streaming video, on-demand video, software updates, security patches, and more) faster, more reliably, and with less bandwidth. The world's largest financial institutions trust our secure platform and with no extra hardware, setup, and maintenance are easy. [Learn more](https://kollective.com/microsoft-pilot/).
+- **Kollective** is a cloud-based, smart-peering distribution platform that uses your existing network infrastructure to deliver content in many forms (live streaming video, on-demand video, software updates, security patches, and more) faster, more reliably, and with less bandwidth. The world's largest financial institutions trust our secure platform and with no extra hardware, setup, and maintenance are easy. [Learn more](https://kollective.com/microsoft).
 
 - **Ramp OmniCache** provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth, and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for live events produced in Teams is coming soon. [Learn more](https://rampecdn.com).
 

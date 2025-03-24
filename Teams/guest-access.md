@@ -3,7 +3,7 @@ title: Guest access in Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: rafarhi
 ms.date: 02/13/2024

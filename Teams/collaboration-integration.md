@@ -5,7 +5,7 @@ ms.date: 01/09/2025
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: integration
 audience: admin
 ms.service: msteams
 ms.localizationpriority: medium

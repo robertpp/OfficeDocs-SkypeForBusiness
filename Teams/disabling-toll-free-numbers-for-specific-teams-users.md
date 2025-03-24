@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 02/22/2024
+ms.date: 02/18/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -26,25 +26,37 @@ ms.custom:
 description: Learn how to control how organizers can use toll-free numbers for their Audio Conferencing Bridge meetings.
 ---
 
-# Disabling toll-free numbers for specific Teams users
+# Turn off toll-free numbers for specific Teams users
 
-If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.  
+If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, as an admin, you can manage whether meeting organizers can use toll-free numbers.
 
-By default, all users in your organization are enabled for using toll-free numbers, if available, participants can use those numbers to join their meetings. If this isn't the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control.
+By default, all users in your organization can use toll-free numbers. If available, participants can use those numbers to join their meetings. If this isn't the desired behavior for some users in your organization, you can prevent specific users from using those numbers in their meetings
 
-When toll-free numbers are disabled for a given organizer:
+When you turn toll-free numbers off for a meeting organizer:
 
 - A toll-free number is no longer included in their meeting invites.
-- Toll-free numbers are no longer listed on the "Find a local number" page that is referenced in their meeting invites.
-- Participants can't join the meeting of the given organizer if they dial any toll-free number of the organization.
+- Toll-free numbers are no longer listed on the "Find a local number" page that's referenced in their meeting invites.
+- Participants can't dial any of your organization's toll-free numbers to join the meeting.
 - Participants can continue joining meetings of the organizer using toll numbers.
 
-## Disabling toll-free numbers for specific users
+## Turn off toll-free numbers for specific users
 
-You can disable toll-free numbers for specific users by changing the setting for *AllowTollFreeDialIn* to **Off** within the *TeamsAudioConferencingPolicy* assigned to those users. Once turned off any new meetings created by such users don't include any Toll free numbers. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md) has more information.
+You can use the Teams admin center or PowerShell to turn off toll-free numbers for specific users.
+
+### Teams admin center
+
+1. In the navigation pane, expand **Meetings** > **Audio Conferencing**.
+1. Select an existing policy or add a new one.
+1. Toggle **Include toll-free numbers in meeting invites created by users of this policy** to **Off**.
+1. Select **Save**.
+
+### PowerShell
+
+You can turn off toll-free numbers for specific users by changing the setting for **`-AllowTollFreeDialIn`** to **Off** within the *TeamsAudioConferencingPolicy* assigned to those users. Once turned off, any new meetings these users organize don't include any toll free numbers. To learn more, see [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md).
 
 > [!IMPORTANT]
 > Old and previously scheduled recurring meetings may still show toll-free numbers and participants won't be able to join such meetings using a toll-free number. You can reschedule all old and recurring meetings for these users and remove toll-free numbers from them using MMS.
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
+## Related topics
+
+- [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md)

@@ -3,7 +3,7 @@ title: Purchase third-party apps and manage subscriptions and licenses
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin

@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
 ms.date: 1/27/2025
-ms.topic: article
+ms.topic: how-to
 audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -89,31 +89,27 @@ To return to the Microsoft Teams Rooms app after performing the necessary admini
 ## URLs Required for Communication
 
  > [!NOTE]
- > All network traffic between the MTR devices agent and the Microsoft Teams Rooms Pro Management portal is SSL over port 443*.*  See [Office 365 URLs and IP address ranges - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
+ > All network traffic between the MTR devices agent and the Microsoft Teams Rooms Pro Management portal is SSL over port 443*.*  See [Teams Rooms - Security](security.md?tabs=Windows#network-security) for the full list of required connectivity endpoints for functionality.
 
 The following hosts must be allowed if you have **traffic allowlist** enabled within your enterprise environment:
 
-agent.rooms.microsoft.com<br>
-global.azure-devices-provisioning.net<br>
-gj3ftstorage.blob.core.windows.net<br>
-mmrstgnoamiot.azure-devices.net<br>
-mmrstgnoamstor.blob.core.windows.net<br>
-mmrprodapaciot.azure-devices.net<br>
-mmrprodapacstor.blob.core.windows.net<br>
-mmrprodemeaiot.azure-devices.net<br>
-mmrprodemeastor.blob.core.windows.net<br>
-mmrprodnoamiot.azure-devices.net<br>
-mmrprodnoamstor.blob.core.windows.net<br>
-mmrprodglobapi.azurewebsites.net<br>
-mmrprodnoamapi.azurewebsites.net<br>
-mmrprodemeaapi.azurewebsites.net<br>
-mmrprodapacapi.azurewebsites.net<br>
+- agent.rooms.microsoft.com
+- mmrstgnoamiot.azure-devices.net
+- mmrstgnoamstor.blob.core.windows.net
+- mmrprodapaciot.azure-devices.net
+- mmrprodapacstor.blob.core.windows.net
+- mmrprodemeaiot.azure-devices.net
+- mmrprodemeastor.blob.core.windows.net
+- mmrprodnoamiot.azure-devices.net
+- mmrprodnoamstor.blob.core.windows.net
+- mmrprodnoampubsub.webpubsub.azure.com
+- mmrprodemeapubsub.webpubsub.azure.com
+- mmrprodapacpubsub.webpubsub.azure.com
 
-**GCC customers should also ensure reachability to:**
+**GCC customers will also need to enable the following URLs:**
 
-mmrprodgcciot.azure-devices.net<br>
-mmrprodgccstor.blob.core.windows.net<br>
-mmrprodgccapi.azurewebsites.net<br>
+- mmrprodgcciot.azure-devices.net
+- mmrprodgccstor.blob.core.windows.net
 
 ## Enrollment process
 

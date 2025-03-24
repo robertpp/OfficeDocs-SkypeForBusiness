@@ -4,7 +4,7 @@ ms.reviewer: sachung
 ms.date: 9/18/2024
 ms.author: wlibebe
 author: wlibebe
-ms.topic: article
+ms.topic: how-to
 manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
@@ -23,16 +23,20 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-description: Learn how to manage video on demand (VOD) publishing for webinars and town halls in Microsoft Teams.
+description: Learn how to manage video on Demand (VOD) publishing for webinars and town halls in Microsoft Teams.
 ---
 
 # Manage VOD publishing for webinars and town halls
 
 **APPLIES TO:** ![Image of a x for no](/office/media/icons/cancel-teams.png)Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town halls
 
-Video on demand (VOD) for Microsoft Teams events allows webinar and town hall organizers to quickly publish and share event recordings. When organizers record these events, the recordings are uploaded to [OneDrive](tmr-meeting-recording-change.md#meetings-and-events). Once published, all attendees automatically receive an email with a link to view the recording. As an admin, you can manage which types of town halls and webinars organizers can publish recordings for.
+Video on Demand (VOD) for Microsoft Teams events allows webinar and town hall organizers to quickly publish and share event recordings. When organizers record these events, the recordings are uploaded to [OneDrive](tmr-meeting-recording-change.md#meetings-and-events). Once published, recordings are stored in Sharepoint Embedded Containers and all attendees automatically receive an email with a link to view the recording. As an admin, you can manage which types of town halls and webinars organizers can publish recordings for.
 
 For more information on publishing webinar and town halls for your users, see [Manage webinar recordings in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-recordings-in-microsoft-teams-8cf1ba61-c9d8-4628-8b5d-0dcdb8503144) and [Manage town hall recordings in Microsoft Teams](https://support.microsoft.com/office/manage-town-hall-recordings-in-microsoft-teams-88ac3af7-db67-4556-a202-b73a1d6c2e46).
+
+## Delete VOD recordings
+
+To learn how to delete VOD recordings, see [Teams meeting recording and transcript storage and permissions in OneDrive for Business and SharePoint](tmr-meeting-recording-change.md#video-on-demand-vod).
 
 ## Webinars
 
@@ -53,7 +57,7 @@ The following table lists the values that you can set for webinar publishing per
 
 ### Manage webinar VOD publishing permissions using the Teams admin center
 
-You can use the Teams admin center To manage VOD publishing permissions for webinars in the Teams admin center, use the following steps:
+You can use the Teams admin center to manage VOD publishing permissions for webinars in the Teams admin center, use the following steps:
 
 1. Open the Teams admin center.
 2. Select **Meetings** from the navigation pane.
@@ -65,7 +69,7 @@ You can use the Teams admin center To manage VOD publishing permissions for webi
     - Your organization
     - Public
 
-6. Select Save.
+6. Select **Save**.
 
 ## Manage webinar VOD publishing permissions using PowerShell
 
@@ -111,7 +115,7 @@ You can use the Teams admin center To manage VOD publishing permissions for webi
     - Your organization
     - Public
 
-6. Select Save.
+6. Select **Save**.
 
 ## Manage town hall VOD publishing permissions using PowerShell
 

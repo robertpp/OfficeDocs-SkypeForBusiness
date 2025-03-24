@@ -5,7 +5,7 @@ ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 audience: ITPro
-ms.topic: conceptual
+ms.topic: article
 manager: serdars
 ms.service: skype-for-business-server
 f1.keywords:
@@ -23,13 +23,13 @@ description: "Summary: Learn about the system requirements for Edge Server in Sk
  
 **Summary:** Learn about the system requirements for Edge Server in Skype for Business Server.
   
-When it comes to your Skype for Business Server Edge Server deployment, these are the things you'll need to do for the server or servers that are in the environment itself, as well as planning for the environment structure. For more information on topology, DNS, certificates, and other infrastructure concerns, check out the environmental requirements documentation.
+When it comes to your Skype for Business Server Edge Server deployment, these are the things you need to do for the server or servers that are in the environment itself, and planning for the environment structure. For more information on topology, DNS, certificates, and other infrastructure concerns, check out the environmental requirements documentation.
   
 ## Components
 
-When discussing the Edge Server environment, we're referencing components that are, for the most part, deployed in a perimeter network (that's to say it's either in a workgroup or a domain that's outside your Skype for Business Server domain structure).
+When discussing the Edge Server environment, we're referencing components that are usually deployed in a perimeter network (that's to say it's either in a workgroup or a domain that's outside your Skype for Business Server domain structure).
   
-Keeping that in mind, these are the components you're going to need to keep in mind for deploying your Edge successfully:
+Keeping that in mind, these are the components you'll need to keep in mind for deploying your Edge successfully:
   
 - [Edge Servers](system-requirements.md#EdgeServers)
     
@@ -37,29 +37,29 @@ Keeping that in mind, these are the components you're going to need to keep in m
     
 - [Firewalls](system-requirements.md#Firewalls)
     
-- [Directors](system-requirements.md#Directors) (these are optional, and if they're included, they'll be located on your internal network)
+- [Directors](system-requirements.md#Directors) (these are optional, and if they're included, they're located on your internal network)
     
 - [Load Balancers](system-requirements.md#LoadBalancers) (you can have DNS load balancing or a hardware load balancer (HLB), but for a single Edge Server, this isn't needed)
     
-We have more detail on each of these below:
+We have more detail on each of these in the following sections:
   
 ### Edge Servers
 <a name="EdgeServers"> </a>
 
-These are the Skype for Business servers deployed in your perimeter environment. Their role is to send and receive network traffic to external users for the services offered by your internal Skype for Business Server deployment. To do this successfully, each Edge Server runs:
+These are the Skype for Business servers deployed in your perimeter environment. Their role is to send and receive network traffic to guests for the services offered by your internal Skype for Business Server deployment. To do this successfully, each Edge Server runs:
   
 - **Access Edge service**: Provides a single, trusted connection point for both outbound and inbound Session Initiation Protocol (SIP) traffic.
     
-- **Web Conferencing Edge service**: Enables external users to join meetings that are hosted on your internal Skype for Business Server environment.
+- **Web Conferencing Edge service**: Enables guests to join meetings that are hosted on your internal Skype for Business Server environment.
     
-- **A/V Edge service**: Makes audio, video, application sharing and file transfer available to external users.
+- **A/V Edge service**: Makes audio, video, application sharing and file transfer available to guests.
     
 - **XMPP Proxy service**: Accepts and sends extensible messaging and presence protocol (XMPP) messages to and from configured XMPP Federated partners.
     
-Authorized external users can use your Edge Servers to connect to your internal Skype for Business Server deployment, but otherwise, they provide no other access to your internal network for anyone.
+Authorized guests can use your Edge Servers to connect to your internal Skype for Business Server deployment, but otherwise, they provide no other access to your internal network for anyone.
   
 > [!NOTE]
-> Edge Servers are deployed to provide connections for enabled Skype for Business clients and other Edge Servers (in federation scenarios). You can't connect from other end point client or server types. The XMPP Gateway server can allow connections with configured XMPP partners. But again, those are the only client and federation types that will work. 
+> Edge Servers are deployed to provide connections for enabled Skype for Business clients and other Edge Servers (in federation scenarios). You can't connect from other end point client or server types. The XMPP Gateway server can allow connections with configured XMPP partners. But again, those are the only client and federation types that work. 
 
 > [!NOTE]
 > XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.
@@ -67,7 +67,7 @@ Authorized external users can use your Edge Servers to connect to your internal 
 ### Reverse proxies
 <a name="ReverseProxies"> </a>
 
-A reverse proxy (RP) server has no Skype for Business Server role, but is an essential component of an Edge Server deployment. A reverse proxy allows external users to:
+A reverse proxy (RP) server has no Skype for Business Server role, but is an essential component of an Edge Server deployment. A reverse proxy allows guests to:
   
 - connect to meetings or dial-in conferences using simple URLs.
     
@@ -89,7 +89,7 @@ And for mobile devices:
     
 Our current reverse proxy recommendations can be found on the [Telephony Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md) page. So your reverse proxy:
   
-- should be able to use transport layer security (TLS) that's introduced to your environment via public certificates to connect to the published external Web services of:
+- should be able to use transport layer security (TLS) introduced to your environment via public certificates to connect to the published external Web services of:
     
   - Director or Director pool
     
@@ -105,7 +105,7 @@ Our current reverse proxy recommendations can be found on the [Telephony Infrast
     
 - has to accept certificates with subject alternative name (SAN) entries.
     
-- needs to be able to allow the binding of a certificate to a listener or interface through which the external web services FQDN will resolve. Listener configurations are preferable to interfaces. Many listeners can be configured on a single interface.
+- needs to be able to allow the binding of a certificate to a listener or interface through which the external web services FQDN resolves. Listener configurations are preferable to interfaces. Many listeners can be configured on a single interface.
     
 - must allow for the configuration of host header handling. Often, the original host header sent by the requesting client must be passed transparently, instead of being modified by the reverse proxy.
     
@@ -115,12 +115,12 @@ Our current reverse proxy recommendations can be found on the [Telephony Infrast
     
 - needs to allow configuration of, or accept, NTLM authentication, no authentication, and pass-through authentication.
     
-If your reverse proxy can address all the needs in this list, you should be good to go, but please keep in mind our recommendations at the link provided above.
+If your reverse proxy can address all the needs in this list, you should be good to go, but keep in mind our recommendations at the link provided at the beginning of this section.
   
 ### Firewalls
 <a name="Firewalls"> </a>
 
-You need to put your Edge deployment behind an external firewall, but we recommend having two firewalls, one external, and one internal between the Edge environment and your internal environment. All our documentation in our Scenarios will have two firewalls. We recommend two firewalls because it ensures strict routing from one network edge to the other, and doubles the firewall protection for your internal network.
+You need to put your Edge deployment behind an external firewall, but we recommend having two firewalls, one external, and one internal between the Edge environment and your internal environment. All our documentation in our Scenarios have two firewalls. We recommend two firewalls because it ensures strict routing from one network edge to the other, and doubles the firewall protection for your internal network.
   
 ### Directors
 <a name="Directors"> </a>
@@ -160,18 +160,18 @@ For any Edge Server running the A/V Edge service, these are the requirements:
     
 #### HLB requirements
 
-Skype for Business Server doesn't have a lot of cookie-based affinity requirements. So you don't need to use a cookie-based persistence **unless** (and this is Skype for Business Server 2015-specific) you're going to have Lync Server 2010 Front End Servers or Front End pools in your Skype for Business Server environment. They would need cookie-based affinity in the configuration method recommended for Lync Server 2010.
+Skype for Business Server doesn't have many cookie-based affinity requirements. So you don't need to use a cookie-based persistence **unless** (and this is Skype for Business Server 2015-specific) you'll have Lync Server 2010 Front End Servers or Front End pools in your Skype for Business Server environment. They would need cookie-based affinity in the configuration method recommended for Lync Server 2010.
   
 > [!NOTE]
-> If you decide to turn cookie-based affinity on for your HLB, there won't be a problem doing so, even if your environment doesn't need it. 
+> If you decide to turn on cookie-based affinity for your HLB, there won't be a problem doing so, even if your environment doesn't need it. 
   
 If your environment **doesn't** need cookie-based affinity:
   
-- On the reverse proxy publishing rule for port 443, set **Forward host header** to **True**. This will ensure the original URL is forwarded.
+- On the reverse proxy publishing rule for port 443, set **Forward host header** to **True**. This ensures the original URL is forwarded.
     
 For deployments that **do** need cookie-based affinity:
   
-- On the reverse proxy publishing rule for port 443, set **Forward host header** to **True**. This will ensure the original URL is forwarded.
+- On the reverse proxy publishing rule for port 443, set **Forward host header** to **True**. This ensures the original URL is forwarded.
     
 - The hardware load balancer cookie **must not** be marked httpOnly.
     
@@ -193,7 +193,7 @@ Here are the HLB requirements for the (optional) Director and (required) Front E
   
 - For your internal Web Services VIPs, set Source_addr persistence (internal port 80, 443) on your HLB. For Skype for Business Server, Source_addr persistence means that multiple connections coming from a single IP address are always sent to one server, to maintain session state.
     
-- Use a TCP idle timeout of 1800 seconds.
+- Use a TCP idle time-out of 1800 seconds.
     
 - On the firewall between your reverse proxy and your next hop pool's HLB, create a rule to allow https: traffic on port 4443, from your reverse proxy to your HLB. Your HLB needs to be configured to listen on ports 80, 443, and 4443.
     
@@ -201,13 +201,13 @@ Here are the HLB requirements for the (optional) Director and (required) Front E
 
 |**Client/user location**|**External web services FQDN affinity requirements**|**Internal web services FQSN affinity requirements**|
 |:-----|:-----|:-----|
-|Skype for Business Web App (internal and external users)  <br/> Mobile device (internal and external users  <br/> |No affinity  <br/> |Source address affinity  <br/> |
-|Skype for Business Web App (external users only)  <br/> Mobile device (internal and external users  <br/> |No affinity  <br/> |Source address affinity  <br/> |
+|Skype for Business Web App (internal and guests)  <br/> Mobile device (internal and guests  <br/> |No affinity  <br/> |Source address affinity  <br/> |
+|Skype for Business Web App (guests only)  <br/> Mobile device (internal and guests  <br/> |No affinity  <br/> |Source address affinity  <br/> |
 |Skype for Business Web App (internal users only)  <br/> Mobile device (not deployed)  <br/> |No affinity  <br/> |Source address affinity  <br/> |
    
 #### Port monitoring for HLBs
 
-You define port monitoring on your hardware load balancers to determine when specific services are no longer available, due to hardware or communications failure. For example, if the Front End Server service (RTCSRV) stops because the Front End Server or Front End pool fails, the HLB monitoring should also stop receiving traffic on the Web Services. You should implement port monitoring on the HLB to monitor the following for your HLB external interface:
+You define port monitoring on your hardware load balancers to determine when specific services are no longer available, due to hardware or communications failure. For example, if the Front End Server service (RTCSRV) stops because the Front End Server or Front End pool fails, the HLB monitoring should also stop receiving traffic on the Web Services. You should implement port monitoring on the HLB to monitor for your HLB external interface:
   
 |**Virtual IP/Port**|**Node Port**|**Node Machine/Monitor**|**Persistence Profile**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|

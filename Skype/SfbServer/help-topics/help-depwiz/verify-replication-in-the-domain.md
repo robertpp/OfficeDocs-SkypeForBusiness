@@ -6,7 +6,7 @@ author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 f1.keywords:
 - CSH
 ms.custom:

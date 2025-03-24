@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp, mamcgrath
 ms.date: 09/05/2024
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams

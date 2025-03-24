@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 audience: Admin
-ms.topic: conceptual
+ms.topic: get-started
 ms.service: msteams
 ms.reviewer: yinchang
 ms.date: 10/30/2024

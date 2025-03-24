@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 10/16/2024
-ms.topic: article
+ms.topic: how-to
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -74,4 +74,4 @@ Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true
 
 ## Related topics
 
--[Audio Conferencing common questions](audio-conferencing-common-questions.md)
+- [Audio Conferencing common questions](audio-conferencing-common-questions.md)

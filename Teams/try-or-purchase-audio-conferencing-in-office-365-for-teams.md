@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 01/28/2025
-ms.topic: article
+ms.topic: how-to
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: msteams

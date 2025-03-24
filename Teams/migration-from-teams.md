@@ -3,7 +3,7 @@ title:  Export options for switching from Microsoft Teams
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.date: 12/30/2024
 ms.service: msteams
 audience: admin
@@ -25,6 +25,9 @@ ms.localizationpriority: medium
 Microsoft supports customer choice, including enabling the export of data at no charge when switching from Teams to another provider. For any customer who prefers to use Teams Export APIs, refer to [Steps to access the Teams Export APIs](#steps-to-access-the-teams-export-apis).
 
 In addition to the APIs, Teams now offers a brand-new data export tool for small to medium-sized customers to export data when switching. This tool allows for unlimited exports during a 90-day period with just a single action in the Teams admin center. For more information about how to use the tool, refer to [Steps to access the Teams data export tool](#steps-to-access-the-teams-data-export-tool).
+
+> [!NOTE]
+> These export options are specifically for switching from Microsoft Teams to another provider. For other scenarios, such as Microsoft tenant migration or backup, refer to [Export content with the Microsoft Teams Export APIs](export-teams-content.md).
 
 ## Steps to access the Teams data export tool
 

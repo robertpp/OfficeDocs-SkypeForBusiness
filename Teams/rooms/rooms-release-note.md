@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
 ms.date: 10/29/2024
-ms.topic: article
+ms.topic: release-notes
 audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -39,6 +39,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[5.3.69.0](#53690-3172025) | 3/17/2025 |
 |[5.2.115.0](#521150-9262024) | 9/26/2024 |
 |[5.1.28.0](#51280-882024) | 8/8/2024 |
 |[5.1.24.0](#51240-7302024) | 7/30/2024 |
@@ -64,7 +65,16 @@ Teams Rooms app updates happen either using the Microsoft Store or using [manual
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 
+### 5.3.69.0 (3/17/2025)
+ >[!NOTE]
+ >This update does not contain any new features. 
+ >This update contains driver packages that is intended to enable Teams Rooms on Windows application to run on yet to be released devices. The update is optional, available as a manual update only. It is not required if your device is running app version 5.2.115.0 [Learn more](/MicrosoftTeams/rooms/manual-update). 
+
 ### 5.2.115.0 (9/26/2024)
+ >[!NOTE]
+ >The following feature was added to the 5.2.115.0 release with a service side change on February 26, 2025.
+- **Room can join Events as presenters** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Teams Rooms on Windows devices can now join events in Teams (webinars and town halls) as presenters. You can present directly from the Teams Room, with features like green room access and stage control for organizers and presenters. [Learn more](/MicrosoftTeams/meeting-webinar-town-hall-feature-comparison).
+>
  >[!NOTE]
  >The following two features were added to the 5.2.115.0 release with a service side change on January 22, 2025.
 
@@ -757,6 +767,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2025020302](#144910962025020302-february-2025) | February 2025 |
 |[1449/1.0.96.2025010301](#144910962025010301-january-2025) | January 2025 |
 |[1449/1.0.96.2024110701](#144910962024110701-november-2024) | November 2024 |
 |[1449/1.0.96.2024101004](#144910962024101004-october-2024) | October 2024 |
@@ -790,6 +801,17 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2025020302 (February 2025)
+
+Resolved Issues:
+
+- Fixed an issue where pairing loss affected functionality of certain Teams Rooms on Android systems.
+-	Resolved an issue where the meeting UI (user interface) was misaligned after pressing the back button.
+-	Fixed a bug that prevented Teams Rooms Android device from joining a meeting when invited from QR code or Bluetooth proximity.
+-	UI fixes and improvements for dual screen setups.
+-	Resolved an issue where users weren't able to file feedback using “Report a problem”. 
+
 
 ### 1449/1.0.96.2025010301 (January 2025)
 

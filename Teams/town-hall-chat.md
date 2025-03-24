@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: chbalaki
 ms.date: 11/11/2024
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
@@ -93,6 +93,7 @@ Learn more, see [Get started with Content search](/purview/ediscovery-content-se
 - During the town hall, attendees can only see the last 200 messages.
 - Attendees sending chat messages might experience a 15-30 second latency from the presenters and organizers.
 - Town hall chat isn't supported for town halls with more than 20,000 attendees.
+- Microsoft Teams Rooms on Windows with a Pro license can't use chat when they join town halls as a presenter.
 
 ## Related articles
 

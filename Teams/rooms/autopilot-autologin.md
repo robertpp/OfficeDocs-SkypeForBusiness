@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
 ms.date: 1/27/2025
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: itpro-rooms

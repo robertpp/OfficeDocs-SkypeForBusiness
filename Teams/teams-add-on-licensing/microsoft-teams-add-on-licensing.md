@@ -5,7 +5,7 @@ ms.author: danismith
 manager: pamgreen
 ms.reviewer: mikedav
 ms.date: 06/18/2024
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.collection:

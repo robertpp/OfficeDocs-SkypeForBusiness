@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms.reviewer: arnavgupta
 ms.date: 01/09/2025
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 audience: admin
 search.appverid: MET150

@@ -27,7 +27,7 @@ additionalContent:
         # Card
         - title: Skype for Business Online
           summary: Find resources for managing Skype for Business Online in your Office 365 environment.
-          url: ../SfbOnline/skype-for-business-online.yml
+          url: /previous-versions/SkypeForBusiness/skype-for-business-online
         # Card
         - title: Hybrid Solutions
           summary: Find information on planning a Skype for Business hybrid deployment.

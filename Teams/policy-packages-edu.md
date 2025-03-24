@@ -5,7 +5,7 @@ ms.author: danismith
 manager: jtremper
 ms.reviewer: 
 ms.date: 10/02/2019
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin

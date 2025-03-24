@@ -4,7 +4,7 @@ author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.date: 06/17/2020
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.service: msteams
 audience: admin
 ms.collection: 

@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: rahulmi
 ms.date: 09/17/2024

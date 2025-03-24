@@ -3,7 +3,7 @@ title: Microsoft Education FAQ for IT admins
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: article
+ms.topic: faq
 ms.service: msteams
 ms.reviewer: rowille
 ms.date: 07/27/2018

@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri
-ms.date: 08/15/2024
+ms.date: 02/10/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -15,6 +15,7 @@ ms.collection:
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+  - magic-ai-copilot
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn about how admins can control for voice recognition (voice profile) in Teams meeting rooms.
@@ -57,11 +58,9 @@ To enable speaker recognition for your employees, you can set up a voice profile
 
 - Teams Rooms on Windows
 - Room resource account should have a Teams Room Pro license assigned.
-
 - To ensure best precision for the transcript, we suggest limiting the number of in person attendees to a maximum of 10 people.
 - People to be identified in the room, need to be enrolled with their voice profile and be invited to the scheduled meeting.
 - The limitation for people invited with voice profile is currently 20.
-
 - To support high-quality audio and video during meetings, we recommend that the meeting room has an upload speed of at least 7 Mbps.
 
 #### BYOD Rooms:
@@ -83,6 +82,7 @@ To enable speaker recognition for your employees, you can set up a voice profile
 
 > [!NOTE]
 > We have extended intelligent Speakers to work with all certified microphones. You can try this out for Teams Rooms with version 5.0.111.0 or later.
+
 ## Enable an Intelligent Speaker user recognition
 
 Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](/microsoftteams/rooms/voice-and-face-recognition) and the [PowerShell meeting cmdlets](/microsoftteams/teams-powershell-overview) for information on the meeting settings.
@@ -98,10 +98,10 @@ The following are the required policies to set an Intelligent Speaker and user r
 
 |Policy|Description|Values and Behavior|
 |-|-|-|
-|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Rooms accounts.| **Off**<br><ul><li>The Room device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker.</ul><br>**Distinguish**<br> <ul><li>Rooms users will be distinguished and separated as speaker 1, speaker 2, ....speaker in the transcription.</li><li>Irrespective of enrollment status of the user, their name won't show in the transcription.</li></ul>|
+|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Rooms accounts, and BYOD user accounts.| **Off**<br><ul><li>The Room device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker.</ul><br>**Distinguish**<br> <ul><li>Rooms users will be distinguished and separated as speaker 1, speaker 2, ....speaker in the transcription.</li><li>Irrespective of enrollment status of the user, their name won't show in the transcription.</li></ul>|
 |AllowTranscription|Required for BYOD user and Teams Room accounts.|**True** and **False**|
 
-In the Teams admin center, set the **Transcription** policy. Settings are **Off** by default.
+In the Teams admin center, set the **Transcription** policy. 
 
 > [!NOTE]
 > After a policy is assigned, it can take up to 48 hours to take effect. To get the policy to take effect sooner, accounts must be signed out and signed back in.

@@ -4,7 +4,7 @@ author: kccross
 ms.author: krowley
 manager: laurawi
 ms.date: 03/08/2022
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.reviewer: ashgupt

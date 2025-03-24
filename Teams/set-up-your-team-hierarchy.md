@@ -3,10 +3,10 @@ title: Set up your team targeting hierarchy
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.reviewer: andfried
-ms.date: 04/18/2024
+ms.date: 03/18/2025
 search.appverid: MET150
 description: Learn how to set up a team hierarchy in your organization to publish content to a large set of teams.
 audience: admin
@@ -21,10 +21,12 @@ ms.collection:
 
 # Set up your team targeting hierarchy
 
-Setting up a team targeting hierarchy allows your organization to publish content to a large set of teams. The team targeting hierarchy defines how all the teams in your hierarchy are related to each other, which users can publish tasks, and which teams users have permissions to publish to. Publishing features are disabled for all users unless a team targeting hierarchy is set up for your organization. To set up a team targeting hierarchy, you need to create a file that defines the hierarchy and then upload it to Teams to apply it to your organization. After the schema is uploaded, apps within Teams can use it.
+Setting up a team targeting hierarchy allows your organization to publish content to a large set of teams. The team targeting hierarchy defines how all the teams in your hierarchy are related to each other, which users can publish tasks, and which teams users have permissions to publish to.
+
+Publishing features are disabled for all users unless a team targeting hierarchy is set up for your organization. To set up a team targeting hierarchy, you need to create a file that defines the hierarchy and then upload it to Teams to apply it to your organization. After the schema is uploaded, apps within Teams can use it.
 
 > [!IMPORTANT]
-> For the initial release, only the Planner app supports hierarchical teams. Applying a team targeting hierarchy to your organization will enable [task publishing](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Planner app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
+> For the initial release, only the Planner app supports hierarchical teams. Applying a team targeting hierarchy to your organization enables [task publishing](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Planner app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
 
 Here's an example of how the hierarchy is represented in the Planner app in Teams. After a task list is created, members of the publishing team can then select the recipient teams to send (publish) the task list to. When the publishing team selects teams, they can filter by hierarchy, by attributes, or a combination of both.<br>
 
@@ -40,7 +42,7 @@ The following terms are important as you navigate hierarchies. Teams are referre
 * **Parent nodes** and **child nodes** are terms that represent a relationship between two connected nodes. In the example screenshot, France is a child node of Europe.
 * Multiple levels of children are referred to as **descendants**. France, Store 17, Store 18, Germany, Store 19, Store 20, and UK are all descendants of Europe.
 * A node with no children is called a **leaf node**. They're at the bottom of a hierarchy.
-* **Recipient teams** are teams that have been selected to receive a specific set of content to be published. They must be leaf nodes.
+* **Recipient teams** are teams that were selected to receive a specific set of content to be published. They must be leaf nodes.
 
 ## Plan your hierarchy
 
@@ -90,7 +92,7 @@ The CSV file must contain the following three columns, in the following order, s
 | TeamId        | Yes, if the team publishes tasks or receives tasks from a parent node.       | This contains the ID of the team you want to link a node to. Each node must refer to a unique team, so each TeamId value can appear only once in the hierarchy file. To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This command lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
 
 > [!NOTE]
-> If a node isn't a root node or a leaf node and you don't need the team membership to grant the corresponding permissions for publishing and reporting, you can leave the TeamId blank. This method can be used to add more granularity when choosing recipient teams or for viewing completion reports without having a corresponding team.
+> If a node isn't a root node or a leaf node and you don't need the team membership to grant the corresponding permissions for publishing and reporting, you can leave the `TeamId` blank. This method can be used to add more granularity when choosing recipient teams or viewing completion reports without having a corresponding team.
 
 ### Add attribute columns
 
@@ -98,12 +100,12 @@ After you add the three required columns, you can add optional attribute columns
 
 |Ways to add attributes|Description |Example  |
 |---|---------|---------|
-|If the values for an attribute are mutually exclusive, the column name you specify becomes the name of the attribute.|Each row can contain one value for that attribute, and each attribute column can have up to 50 unique values. Each value can be up to 100 characters long. The set of attribute values you specify in the attribute column will be displayed as filter values for that attribute when selecting recipient teams using the team targeting hierarchy.|You want users to be able to filter stores by layout. The values for this attribute are mutually exclusive because a store can have only one layout. <br><br>To add an attribute to filter stores by layout, add a column named Store layout. In this example, values for the Store layout attribute are Compact, Standard, and Large.
-|If you need to indicate multiple values for an attribute and the values aren't mutually exclusive, use the **AttributeName:UniqueValue** format for the column names. <br><br>**IMPORTANT** Make sure to use the English-only colon (:) as unicode isn't supported as an attribute column delimiter. |The text string before the colon (:) becomes the name of the attribute. All columns that contain the same text string before the colons (:) are grouped together into a section in the filtering menu. Each of the strings after the colon become the values for that section.<br><br>Each row can have a value of 0 (zero) or 1 for that attribute. A value of 0 (zero) means that the attribute doesn't apply to the node and a value of 1 means that the attribute applies to that node.|You want users to be able to filter stores by department. A store can have multiple departments and so the values for this attribute aren't mutually exclusive.<br><br>In this example, we add Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sporting goods as attribute columns. Departments becomes the attribute name and users can filter by the Clothing, Electronics, Foods, Home and Garden, and Sporting goods departments.|
+|If the values for an attribute are mutually exclusive, the column name you specify becomes the name of the attribute.|Each row can contain one value for that attribute, and each attribute column can have up to 50 unique values. Each value can be up to 100 characters long. The set of attribute values you specify in the attribute column display as filter values for that attribute when selecting recipient teams using the team targeting hierarchy.|You want users to be able to filter stores by layout. The values for this attribute are mutually exclusive because a store can have only one layout. <br><br>To add an attribute to filter stores by layout, add a column named Store layout. In this example, values for the Store layout attribute are Compact, Standard, and Large.
+|If you need to indicate multiple values for an attribute and the values aren't mutually exclusive, use the **AttributeName:UniqueValue** format for the column names. <br><br>**IMPORTANT** Make sure to use the English-only colon (:) as unicode isn't supported as an attribute column delimiter. |The text string before the colon (:) becomes the name of the attribute. All columns that contain the same text string before the colons (:) are grouped together into a section in the filtering menu. Each of the strings after the colon become the values for that section.<br><br>Each row can have a value of 0 (zero) or 1 for that attribute. A value of 0 (zero) means that the attribute doesn't apply to the node and a value of `1` means that the attribute applies to that node.|You want users to be able to filter stores by department. A store can have multiple departments and so the values for this attribute aren't mutually exclusive.<br><br>In this example, we add Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sporting goods as attribute columns. Departments becomes the attribute name and users can filter by the Clothing, Electronics, Foods, Home and Garden, and Sporting goods departments.|
 
 When you add an attribute column, keep the following things in mind:
 
-* The column name you specify or the column name that you specify before the colon (:) becomes the name of the attribute. This value will be displayed in the Teams apps that use the hierarchy.
+* The column name you specify or the column name that you specify before the colon (:) becomes the name of the attribute. This value is displayed in the Teams apps that use the hierarchy.
 * You can have up to 100 attribute columns in your hierarchy.
 * The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9, and spaces. Column names must be unique.
 
@@ -172,14 +174,14 @@ Get-TeamTargetingHierarchyStatus
 
 The command returns the following fields:
 
-Field|Description
------|------------
-Id | The unique ID for the upload.
-Status | Upload status. Values include **Starting**, **Validating**, **Successful**, and **Failed**
-ErrorDetails | Details if there's an upload error. For more information about the error details, see the Troubleshooting section. If there's no error, this field is blank.
-LastUpdatedAt | Timestamp and date of when the file was last updated.
-LastModifiedBy | The ID of the last user who modified the file.
-FileName | The file name of the CSV.
+| Field | Description |
+| ----- | ------------ |
+|Id | The unique ID for the upload.|
+|Status | Upload status. Values include **Starting**, **Validating**, **Successful**, and **Failed**|
+|ErrorDetails | Details if there's an upload error. For more information about the error details, see the Troubleshooting section. If there's no error, this field is blank.|
+|LastUpdatedAt | Timestamp and date of when the file was last updated.|
+|LastModifiedBy | The ID of the last user who modified the file.|
+|FileName | The file name of the CSV.|
 
 ## Remove your hierarchy
 
@@ -191,7 +193,7 @@ To remove your hierarchy, run the following command. You must be an admin to per
 Remove-TeamTargetingHierarchy
 ```
 
-When confirming deletion, the status message will still display the previous schema is present, although attempting to delete again returns an error that the object is null.
+When confirming deletion, the status message displays the previous schema is present, although attempting to delete again returns an error that the object is null.
 
 ## Create a sample hierarchy
 

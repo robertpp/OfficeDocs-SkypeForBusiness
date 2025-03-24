@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: elaineho
-ms.date: 10/23/2024
+ms.date: 2/10/2025
 ms.topic: article
 audience: admin
 appliesto: 
@@ -184,30 +184,30 @@ Learn more: [Identify in-room meeting participants](https://support.microsoft.co
 
 Noise suppression is identifying non human voices or noise in an environment and then minimizing or completely eliminating them from an audio stream. Part of the AI process for voice isolation is telling the difference between background chatter in a café and a user is simply listening in and if they also want to be heard clearly if they're speaking in the meeting from their device.
 
-Noise suppression of background noise is turned on by default (and can be turned off) when you install the Microsoft Teams app but their microphone must also support it. If it does, noise suppression of background noise will significantly reduce the amount of background noise from a meeting participant, and it greatly enhances the microphone's audio quality.
+Noise suppression of background noise is turned on by default (and can be turned off) when you install the Microsoft Teams app but their microphone must also support it. This will significantly reduce the amount of background noise from a meeting participant, and greatly enhances the microphone's audio quality.
 
 :::image type="content" source="../media/mtr-devices/noise-suppression.png" alt-text="Screenshot of the noise suppression setting that is turned on." lightbox="../media/mtr-devices/noise-suppression.png"::: 
 
-However, if you want to also isolate or have Teams be able to tell the difference between background nose and a human's voice, each user will then set up a voice profile and enable voice isolation in the Teams app.
+However, if you want to also isolate or have Teams be able to tell the difference between background chatter and a human's voice, each user will need to set up a voice profile and enable voice isolation in the Teams app.
 
 #### Turn on voice isolation
 
-You can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy or users can turn it on themselves in the Teams app.
+You can manage how voice and face profiles are used to turn off voice isolation for users to enhance noise and voice background reduction. Admins can switch off voice isolation with PowerShell in a meeting policy for their organization or users can turn it on themselves in the Teams app.
 
 :::image type="content" source="../media/mtr-devices/voice-isolation.png" alt-text="Screenshot showing the setting for voice isolation in the Teams app." lightbox="../media/mtr-devices/voice-isolation.png":::
 
 > [!TIP]
-> If you are using Bring Your Own Device (BYOD) meeting rooms and rooms audio we will turn on voice isolation automatically.
+> If you are using Bring Your Own Device (BYOD) meeting rooms and rooms audio, we will turn off voice isolation automatically.
 
 Learn more: **[Manage voice isolation for your users](/microsoftteams/voice-isolation)**
 
-Voice Isolation is on by default in an organization. Check to make sure that it's on and if it isn't, you can use PowerShell to turn it on for all of your users.
+The voice isolation policy is on by default in an organization. Check to make sure that it's on and if it isn't, you can use PowerShell to turn it on for all of your users.
 
 ```Powershell
 Set-CsTeamsMeetingPolicy -Identity Global -VoiceIsolation Enabled
 ```
 
-Each user must set up a voice profile to turn it on in their Teams app. This can be turned off or on either before or during a meeting.
+Each user must set up a voice profile to turn on voice isolation on their Teams app. This can be turned on or off either before or during a meeting.
 
 If you have turned on Face profiles in your organization, the **Create face profile** button is available to end users. When they select the button, they can then set up their face profile that is used in meetings.
 
@@ -241,8 +241,8 @@ Transcription allows users to play back meeting recordings with closed captions 
 To turn on meeting transcription.
 
 1. In the [Teams admin center](https://admin.teams.microsoft.com/), go to **Meetings** > select **Meeting Policies**.
-2. Either select an existing policy or create a new one. 
-3. On the meeting policy page, under **Recording & transcription**, turn on **Meeting recording**. This setting is off by default.
+2. Either select an existing policy or create a new one. The transcription setting is on by default for new policies.
+3. On the meeting policy page, under **Recording & transcription**, turn on **Meeting recording**.
 
 > [!NOTE]
 > Under **Recording & transcription**, there are several other recording options that are available for you to set. Review all of the settings to ensure that they meet the needs of your organization.
@@ -377,7 +377,7 @@ Set-CsTeamsMeetingPolicy -Identity <PolicyName> -RoomAttributeUserOverride Attri
 Learn more: [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
 > [!NOTE]
-> No special microphones are needed to use this feature. Microphones that are included in Teams Rooms for Windows devices all support Intelligent Speaker. However, there are also addtional hardware devices that can be used along side of Teams Rooms that support Intelligent Speaker. To see which devices are certified and can be used, see [Certified Intelligent Speakers](certified-hardware.md?tabs=Devices).
+> No special microphones are needed to use this feature. Microphones that are included in Teams Rooms for Windows devices all support Intelligent Speaker. However, there are also additional hardware devices that can be used along side of Teams Rooms that support Intelligent Speaker. To see which devices are certified and can be used, see [Certified Intelligent Speakers](certified-hardware.md?tabs=Devices).
 
 ## Related articles
 

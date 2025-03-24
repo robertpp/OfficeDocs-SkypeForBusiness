@@ -3,7 +3,7 @@ title: Manage user access to Microsoft Teams
 manager: pamgreen
 author: DaniEASmith
 ms.author: danismith
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.collection: 

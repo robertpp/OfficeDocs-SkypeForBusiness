@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
 ms.date: 1/29/2025
-ms.topic: article
+ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150

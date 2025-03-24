@@ -6,7 +6,7 @@ author: CarolynRowe
 manager: serdars
 ms.date: 1/26/2018
 audience: ITPro
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH

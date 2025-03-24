@@ -6,7 +6,7 @@ manager: tyadams
 audience: ITPro
 ms.reviewer: sekerawa
 ms.date: 10/04/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 search.appverid: MET150
 f1.keywords: 

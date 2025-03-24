@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: prashibadkur
 ms.date: 11/04/2024
-ms.topic: article
+ms.topic: how-to
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -25,9 +25,6 @@ description: Learn how to set up and manage line or speed dial keys on Microsoft
 # Line or speed dial keys on Microsoft Teams certified phones
 
 This article provides you with guidance on setting up and managing line keys (or speed dial keys) on Microsoft Teams certified phones. This feature allows your users to use a phone line key to set up speed dial for their contacts and phone numbers for quick access using buttons on nontouch devices and sidecars.
-
-> [!IMPORTANT]
-> This feature is only available on non touch Teams phones and not on touch-enabled Teams phones.
 
 A phone line key is one of the keys used to designate individual lines on a phone. Depending on the model and manufacturer, phones typically have between 2 and 12 phone line keys.
 
@@ -84,6 +81,7 @@ To set up a line key for speed dial, follow these steps:
 ## Frequently Asked Questions
 
 **Question:**   When will line keys be supported on touch Teams phones?  
+
 **Answer:**  Support for touch Teams phone is coming soon. Check the public roadmap for timelines, see [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=In%20development%2CLaunched%2CRolling%20out%2CMicrosoft%20Teams).
 
 **Question:**  Can line keys be configured on the Teams Admin Center with this update?  

@@ -5,7 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.reviewer: jimmyw
 ms.date: 11/13/2021
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 searchScope:

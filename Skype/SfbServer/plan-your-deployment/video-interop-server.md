@@ -6,7 +6,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: conceptual
+ms.topic: concept-article
 f1.keywords:
 - ms.lync.plan.VideoInterop
 ms.service: skype-for-business-server

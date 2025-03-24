@@ -3,7 +3,7 @@ title: Manage your apps in the Microsoft Teams admin center
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started

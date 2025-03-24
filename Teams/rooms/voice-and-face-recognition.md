@@ -4,8 +4,8 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri  
-ms.date: 05/02/2024  
-ms.topic: article
+ms.date: 02/10/2025  
+ms.topic: concept-article
 audience: admin
 appliesto: 
   - Microsoft Teams
@@ -15,6 +15,7 @@ ms.collection:
   - M365-collaboration
   - teams-rooms-consoles
   - Tier1
+  - magic-ai-copilot
 f1.keywords: 
   - NOCSH                           
 search.appverid: MET150
@@ -119,7 +120,6 @@ Admins can turn on or off voice and face enrollment for specific users, or group
 Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled 
 ```
 
-
 ```Powershell
 Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Disabled 
 ```
@@ -130,14 +130,9 @@ To enable or disable voice and face enrollment for specific users, admins can ei
 Set-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Enabled
 ```
 
- 
-
-
 ```Powershell
 Set-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Disabled 
 ```
-
- 
 
 > [!NOTE]
 > A new `csTeamsAIPolicy` for Microsoft Teams, now available via Microsoft PowerShell, will take effect in end of March 2025. This policy will replace the existing enrollment setting in `csTeamsMeetingPolicy` and includes two settings: `EnrollFace` and `EnrollVoice`.
@@ -149,7 +144,6 @@ Admins can manage how voice and face profiles are used to turn off Voice Isolati
 ```powershell
   -VoiceIsolation Enabled 
 ```
-
 
 ```Powershell
 
@@ -197,8 +191,5 @@ Select **Export** to download your data. The data will be saved directly to your
 - [Manage voice isolation for your users' Microsoft Teams calls and meetings](/microsoftteams/voice-isolation)
 
 - [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
-
 - [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)
-
 - [Manage voice recognition technology controls for an Intelligent Speaker](/microsoftteams/rooms/voice-recognition)
-

@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 02/22/2024
+ms.date: 02/18/2025
 ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
@@ -45,6 +45,7 @@ Keep these points in mind:
 Here's how to get dial out to work:
 
  **Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button.](media/add-people-button.png) option to dial out to a phone number.
+
  **Step 2:** Enter the full phone number, including the country/region code in the **Invite someone or dial a number** box.
   
 ![Screenshot of the Invite someone or dial a number box.](media/invite-someone-box.png)
@@ -55,7 +56,7 @@ Dial-out is only available to some countries/regions. For complete list, see [Co
 
 ## Allow users to dial in
 
-If you're looking for instructions on how to let your users dial in to a Teams meeting, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
+If you're an admin looking for instructions on how to let your users dial in to a Teams meeting, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
 
 ## Want to know more about audio conferencing?
 

@@ -5,7 +5,7 @@ author: DaniEASmith
 manager: jtremper
 ms.reviewer: dachocro
 ms.date: 11/18/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
 ms.service: msteams

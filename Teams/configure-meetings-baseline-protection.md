@@ -3,7 +3,7 @@ title: Configure Teams meetings with baseline protection
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: vivek.mohan
 ms.date: 12/13/2024
@@ -48,7 +48,10 @@ The following table describes which actions we restrict for baseline meetings an
 |Who can present|**People in my org and guests**|Teams admin center|No|
 |Who can record|**Organizers, co-organizers, and presenters**|Template|No|
 
-The sensitivity label or meeting template enforces options that are listed as enforced. The meeting organizer can change Options that aren't enforced.
+The sensitivity label or meeting template enforces options that are listed as enforced. The meeting organizer can change Options that aren't enforced. To learn more about how your users can apply sensitivity labels to their meetings, see [Sensitivity labels for Teams meetings](https://support.microsoft.com/office/sensitivity-labels-for-teams-meetings-2b244d1d-72d0-471e-8e58-c41079e190fb).
+
+> [!NOTE]
+> You can also automatically apply or recommend that the meeting is labeled with the highest priority sensitivity label from files shared for the meeting.
 
 ## Default values for **Who can present**
 

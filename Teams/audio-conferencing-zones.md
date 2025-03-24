@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 02/22/2024
+ms.date: 02/21/2025
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams

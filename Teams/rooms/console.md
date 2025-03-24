@@ -5,7 +5,7 @@ ms.author: tonysmit
 ms.reviewer: travis-snoozy
 manager: pamgreen
 ms.date: 08/22/2024
-ms.topic: article
+ms.topic: how-to
 audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -28,7 +28,7 @@ This article describes how to build a Microsoft Teams Rooms image of Teams Rooms
 > [!IMPORTANT]
 > The information in this article is intended for test environments or for organizations that have very specific and uncommon deployment blockers that prevent the usage of OEM-supplied images or recovery media. Before following the information in this article, we strongly recommend that you discuss your specific Teams Rooms deployment with your Microsoft representative.
 > [!NOTE]
-> The following steps should only be used when creating a [WIM-based image](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) for mass deployment. If you are recovering individual devices, contact your Original Equipment Manufacturer (OEM) for support.
+> The following steps should only be used when creating a [WIM-based image](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) for mass deployment. If you're recovering individual devices, contact your Original Equipment Manufacturer (OEM) for support.
 
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
@@ -56,7 +56,7 @@ When finishes, you can safely eject and remove the USB disk from your computer a
 You now need to apply the installation media you've created. The target device runs as an appliance and the default user will be set to only run the Microsoft Teams Rooms app.
 
 > [!IMPORTANT]
-> Installation is supported only on [certified Microsoft Teams Rooms on Windows hardware](certified-hardware.md?tabs=Windows). Microsoft will not provide any support for non-certified hardware, even if installation succeeds.
+> Installation is supported only on [certified Microsoft Teams Rooms on Windows hardware](certified-hardware.md?tabs=Windows). Microsoft won't provide any support for non-certified hardware, even if installation succeeds.
 
 1. If the target device will be installed in a dock (for example, a Surface Pro), disconnect it from the dock.
 2. Ensure the target device isn't connected to the network.

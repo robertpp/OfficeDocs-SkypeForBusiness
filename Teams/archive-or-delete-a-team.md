@@ -3,7 +3,7 @@ title: Archive or delete a team in Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 ms.reviewer: divyasrirk

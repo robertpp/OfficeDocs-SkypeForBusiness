@@ -3,7 +3,7 @@ title: Use app customization to brand the apps for your organization's needs
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps

@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: dimehta
 ms.date: 10/16/2024
-ms.topic: article
+ms.topic: best-practice
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
@@ -24,7 +24,7 @@ description: Best practices for Teams phones. This features Conditional Access, 
 
 # Authentication best practices for Teams phones
 
-The goals of devices used with Teams is to make different device management strategies necessary. For example, a personal business tablet used by a single sales person has a different set of needs from an on-call phone shared by many customer service people. Also, there are different requirements for a Teams phone that isn't shared with other people and another Teams phone that is used as a common area phone. See, [Set up common area phones for Microsoft Teams](/microsoftteams/set-up-common-area-phones).
+The goals of devices used with Teams are to make different device management strategies necessary. For example, a personal business tablet used by a single sales person has a different set of needs from an on-call phone shared by many customer service people. Also, there are different requirements for a Teams phone that isn't shared with other people and another Teams phone that is used as a common area phone. See, [Set up common area phones for Microsoft Teams](/microsoftteams/set-up-common-area-phones).
 
 Security administrators and operations teams must plan for the devices that can be used in the organization. They must  implement *security* measures best suited to each purpose. This article's recommendations make some of those decisions easier.
 
@@ -79,7 +79,7 @@ If shared Teams phones are provisioned in a well-defined location that can be id
 When enrolling shared devices into Intune, you can configure device compliance as a control in Conditional Access so that only compliant devices can access your corporate resources. Teams phones can be configured for Conditional Access policies based on device compliance. For more information, see [AOSP Device Management Compliance Policy](/microsoftteams/rooms/android-migration-guide#creating-a-aosp-management-compliance-policy).
 
 >[!NOTE]
-> Shared devices being used for *hot-desking* should be excluded from compliance policies. Compliance polices prevent the devices from enrolling into the hot desk user account. **Instead, use named locations to secure these devices**.
+> Shared devices being used for *hot-desking* should be excluded from compliance policies. Compliance policies prevent the devices from enrolling into the hot desk user account. **Instead, use named locations to secure these devices**.
 > To increase security, you can also [require multi-factor authentication](/azure/active-directory/authentication/tutorial-enable-azure-mfa) for *hot-desking users / user accounts* in addition to the named location policies.
 
 ### Exclude shared devices from sign-in frequency conditions
@@ -97,7 +97,7 @@ Use filters for devices to identify your common-area devices and enable policies
 2. Enforcing special policies on shared devices that *shouldn't* be applied to personal devices. For example, requiring named locations as policy only for common-area devices based on an extension attribute you set for these devices (for example: “CommonAreaPhone”).
 
 >[!NOTE]
-> Some attributes such as **model**, **manufacturer**, and **operatingSystemVersion** can only be set when devices are managed by Intune. If your devices are not managed by Intune, use extension attributes.
+> Some attributes such as **model**, **manufacturer**, and **operatingSystemVersion** can only be set when devices are managed by Intune. If your devices aren't managed by Intune, use extension attributes.
 
 ## Teams Legacy Authorization
 

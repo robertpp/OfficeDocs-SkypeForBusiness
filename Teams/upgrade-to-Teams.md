@@ -3,7 +3,7 @@ title: Overview of implementing your upgrade to Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: concept-article
 ms.service: msteams
 ms.reviewer: landerl
 ms.date: 03/05/2018

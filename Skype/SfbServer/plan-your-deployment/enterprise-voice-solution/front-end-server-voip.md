@@ -6,7 +6,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: conceptual
+ms.topic: article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
@@ -39,7 +39,7 @@ The VoIP components located on Front End Servers are as follows:
 
 ## Translation Service
 
-The Translation Service is the server component that is responsible for translating a dialed number into the E.164 format or another format, according to the normalization rules that are defined by the administrator. The Translation Service can translate to formats other than E.164 if your organization uses a private numbering system or uses a gateway or PBX that does not support E.164.
+The Translation Service is the server component that is responsible for translating a dialed number into the E.164 format or another format, according to the normalization rules that are defined by the administrator. The Translation Service can translate to formats other than E.164 if your organization uses a private numbering system or uses a gateway or PBX that doesn't support E.164.
 
 ## Inbound Routing Component
 
@@ -55,7 +55,7 @@ The routing logic that is used by the Outbound Routing component is in large mea
 
 The Exchange UM routing component handles routing between Skype for Business Server and servers running Exchange Unified Messaging (UM), to integrate Skype for Business Server with Unified Messaging features.
 
-The Exchange UM routing component also handles rerouting of voice mail over the PSTN if Exchange UM servers are unavailable. If you have Enterprise Voice users at branch sites that do not have a resilient WAN link to a central site, the Survivable Branch Appliance that you deploy at the branch site provides voice mail survivability for branch users during a WAN outage. When the WAN link is unavailable, the Survivable Branch Appliance does the following:
+The Exchange UM routing component also handles rerouting of voice mail over the PSTN if Exchange UM servers are unavailable. If you have Enterprise Voice users at branch sites that don't have a resilient WAN link to a central site, the Survivable Branch Appliance that you deploy at the branch site provides voice mail survivability for branch users during a WAN outage. When the WAN link is unavailable, the Survivable Branch Appliance does the following:
 
 - reroutes unanswered calls over the PSTN to the Exchange Unified Messaging server in the central site
 
@@ -73,10 +73,10 @@ The Intercluster routing component is responsible for routing calls to the calle
 
 ## Other Front End Server Components Required for VoIP
 
-Other components residing on the Front End Server or Director that provide essential support for VoIP, but are not themselves VoIP components, include the following:
+Other components residing on the Front End Server or Director that provide essential support for VoIP, but aren't themselves VoIP components, include the following:
 
 - **User Services.** Perform reverse number lookup on the destination phone number of each incoming call and match that number to the SIP URI of the destination user. Using this information, the Inbound Routing component distributes the call to that user's registered SIP endpoints. User Services is a core component on all Front End Servers and Directors.
 
-- **User Replicator.** Extracts user phone numbers from Active Directory Domain Services and writes them to tables in the RTC database, where they are available to User Services and Address Book Server. User Replicator is a core component on all Front End Servers.
+- **User Replicator.** Extracts user phone numbers from Active Directory Domain Services and writes them to tables in the RTC database, where they're available to User Services and Address Book Server. User Replicator is a core component on all Front End Servers.
 
-- **Address Book Server.** Provides global address list information from Active Directory Domain Services to Skype for Business Server clients. It also retrieves user and contact information from the RTC database, writes the information to the Address Book files, and then stores the files on a shared folder where they are downloaded by Skype for Business clients. The Address Book Server writes the information to the RTCAb database, which is used by the Address Book Web Query service to respond to user search queries from Skype for Business mobile. It optionally normalizes enterprise user phone numbers that are written to the RTC database for the purpose of provisioning user contacts in Skype for Business. The Address Book service is installed by default on all Front End Servers. The Address Book Web Query service is installed by default with the Web services on each Front End Servers.
+- **Address Book Server.** Provides global address list information from Active Directory Domain Services to Skype for Business Server clients. It also retrieves user and contact information from the RTC database, writes the information to the Address Book files, and then stores the files on a shared folder where they're downloaded by Skype for Business clients. The Address Book Server writes the information to the RTCAb database, which is used by the Address Book Web Query service to respond to user search queries from Skype for Business mobile. It optionally normalizes enterprise user phone numbers that are written to the RTC database for the purpose of provisioning user contacts in Skype for Business. The Address Book service is installed by default on all Front End Servers. The Address Book Web Query service is installed by default with the Web services on each Front End Servers.

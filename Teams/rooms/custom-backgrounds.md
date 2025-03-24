@@ -4,8 +4,8 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 05/28/2024
-ms.topic: article
+ms.date: 2/28/2025
+ms.topic: install-set-up-deploy
 audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms

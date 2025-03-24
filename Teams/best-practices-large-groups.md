@@ -1,11 +1,11 @@
 ---
 title: Manage large teams in Microsoft Teams - best practices
 ms.reviewer: 
-ms.date: 04/07/2020
+ms.date: 03/13/2025
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: best-practice
 ms.service: msteams
 audience: admin
 description: Learn about best practices for managing large teams in Microsoft Teams to meet your organization's needs.
@@ -28,7 +28,7 @@ Microsoft Teams is equally effective at facilitating communications between smal
 
 ## Value of large teams
 
-Large teams are very useful in enabling the following collaboration scenarios:
+Large teams are useful in enabling the following collaboration scenarios:
 
 - **Department-wide collaboration**: If your organization has multiple departments such as Finance, Operations, R&D etc., then you can create a single team that includes all members in a specific department. Now all communications relevant to a department can be shared in this team, which facilitates instant reach and engagement from members.
 
@@ -40,15 +40,15 @@ Large teams are very useful in enabling the following collaboration scenarios:
 
 Use contact groups, security groups, or Office groups to jump start your team. You can import a group to make a team or create a team from an Office group.
 
-**Import a group to make a team**: When you import a group with up to 3,500 members into Teams, Teams automatically calculates the total number of members in the group. This is a one-time import only and future changes in the group will not automatically be updated in Teams.
+**Import a group to make a team**: When you import a group with up to 3,500 members into Teams, Teams automatically calculates the total number of members in the group. This is a one-time import only and future changes in the group won't automatically be updated in Teams.
 
 **Create a team from a large Microsoft 365 group**: When you create a team from a large Microsoft 365 group, members are automatically part of the Microsoft 365 group **and** the team. In the future, as team members join or leave the Microsoft 365 group, they're automatically added or removed from the team.
 
 ## Bulk import/export/remove members in a team
 
-The Azure portal allows users to bulk import/export/remove members in a Microsoft 365 Group. For more information, see [To bulk import group members](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members).
+The Entra ID portal allows admins to bulk import/export/remove members in a Microsoft 365 Group. For more information, see [Bulk add group members in Microsoft Entra ID](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members).
 
-Since every team is backed by a Microsoft 365 Group, you can use the Azure portal to perform these operations in the group corresponding to the team. The member operations will be reflected in the team within 24 hours.
+Since every team is backed by a Microsoft 365 Group, you can use the Entra ID portal to perform these operations in the group corresponding to the team. The member operations are reflected in the team within 24 hours.
 
 ## Create channels to focus discussions
 
@@ -56,37 +56,29 @@ You can narrow the group discussions by creating focused channels. See [Best pra
 
 ## Restrict channel creation
 
-If any team member is allowed to create channels, that team can have channel sprawl. Team owners should turn off channel create, update, delete, and restore for members in **Settings > Member permissions**. See [Overview of teams and channels](teams-channels-overview.md).
-
-![Screen image that shows the member permissions section of the admin console Settings tab.](media/no-channel-creation.png "Screen image that member permissions section of the admin console Settings tab. The allow members to create or delete channels options are unchecked.")
+If any team member is allowed to create channels, that team can have channel sprawl. Team owners should turn off channel create, update, delete, and restore for members in the Teams admin center at **Teams** > **Manage teams** > *Select team* > **Settings** tab > **Member permissions** section. See [Overview of teams and channels](teams-channels-overview.md).
 
 ## Add favorite channels
 
-In order to speed up new user engagement and content discovery, you can select favorite channels that are available to the user by default. In the **Channels** pane of the admin center, check the channels under the **Show for members** column.
-
-![Screen image that shows the channels pane of the admin console.](media/favorite-channels.png "Screen image that shows channels pane of the admin console. Some channels are checked for Show for members.")
+In order to speed up new user engagement and content discovery, you can select favorite channels that are available to the user by default. In the Teams admin center, check the channels you want the teams' members to see at **Teams** > **Manage teams** > *Select team* > **Channels** tab.
 
  See [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
 
 ## Regulate applications and bots in large teams
 
-To prevent addition of distracting applications or bots, team owners can disable, add, remove, and upload apps and connectors for team members. In the admin center under **Settings > Member permissions**, uncheck the three options that allow members to add apps or connectors.
-
-![Screen image that shows the Member permissions section of the Settings pane.](media/disable-bots-connectors.png "Screen image that shows the Member permission section of the Settings pane. The options for allow members to add apps or connectors are unchecked.")
+To prevent addition of distracting applications or bots, team owners can disable, add, remove, and upload apps and connectors for team members. In the Teams admin center under **Teams** > **Manage teams** > *Select team* > **Settings** tab > **Member permissions** section, switch the toggles to **Off** for **Add, edit, and remove apps**, **Add, edit, and remove tabs**, and **Add, edit, and remove connectors**.
 
 See [overview of Teams apps](apps-in-teams.md).
 
 ## Regulate team and channel mentions
 
-Team and channel mentions can be used to draw the attention of the whole team to certain channel posts. Once a mention is used in a post, a notification is sent to thousands of team members. If the notifications are too frequent, then team members can become overloaded and might complain to team owners. To prevent team or channel mentions, turn off team and channel mentions for members by unchecking the boxes in the teams **Settings > @mentions** pane.
-
-![Screen image that shows the at Mentions section of the Settings pane.](media/no-at-mentions.png "Screen image that shows the at Mentions section of the Settings pane. The options for show and give members access to at mentions are unchecked.")
+Team and channel mentions can be used to draw the attention of the whole team to certain channel posts. Once a mention is used in a post, a notification is sent to thousands of team members. If the notifications are too frequent, then team members can become overloaded and might complain to team owners. To prevent team or channel mentions, turn off team and channel mentions for members by unchecking the boxes in the Teams admin center at **Teams** > **Manage teams** > *Select team* > **Settings** tab > **Mentions** section.
 
 ## Consider setting up moderation in your channels
 
 Team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel. When you set up moderation, you can choose one or more team members to be moderators. Team owners are moderators by default. For more information, see [Set up and manage channel moderation](manage-channel-moderation-in-teams.md).
 
-## Related topics
+## Related articles
 
 - [Best practices for organizing Teams](best-practices-organizing.md)
 - [Create an org-wide team](create-an-org-wide-team.md)

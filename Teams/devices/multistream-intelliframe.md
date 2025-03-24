@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: vishnuna
 ms.date: 10/01/2024
-ms.topic: article
+ms.topic: concept-article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
@@ -22,12 +22,12 @@ description: Learn how to set up and use the Microsoft Teams Multi-Stream Intell
 ---
 # What is Microsoft Multi-Stream IntelliFrame and Intelligent Camera?
 
-Microsoft Teams Multi-Stream IntelliFrame is a AI (Artificial Intelligence) platform, which allows users to inspire and share experiences for remote users.
+Microsoft Teams Multi-Stream IntelliFrame is an AI (Artificial Intelligence) platform, which allows users to inspire and share experiences for remote users.
 
 IntelliFrame provides an immersive video experience for remote users through a better meeting understanding by identifying the active speaker and a view of the room.
 ## Getting started
 
-Microsoft Teams Multi-Stream IntelliFrame certified devices, include a speaker, microphone, and a AI camera that can produce multiple video streams and AI-powered active speaker tracking by recognizing facial movements and gestures.
+Microsoft Teams Multi-Stream IntelliFrame certified devices, include a speaker, microphone, and an AI camera that can produce multiple video streams and AI-powered active speaker tracking by recognizing facial movements and gestures.
 
 ### Prerequisites
 
@@ -73,7 +73,7 @@ A multi-stream IntelliFrame camera uses face and voice profile information of an
 
 > [!IMPORTANT]
 >
-> - You are responsible for compliance with local laws and regulations when you install a AI intelligent camera and use Face Enrollment and People Recognition in a particular jurisdiction, including with respect to obligations around notice, consent, and data retention.
+> - You are responsible for compliance with local laws and regulations when you install an AI intelligent camera and use Face Enrollment and People Recognition in a particular jurisdiction, including with respect to obligations around notice, consent, and data retention.
 > - Please install appropriate signage outside any meeting room, where you install an AI intelligent camera, advising people about the people recognition, face enrollment, and voice recognition features.
 > - You must first enroll for Voice recognition before you can enroll for Face recognition.
 
@@ -123,7 +123,7 @@ Get-CsTeamsMeetingPolicy -identity {identity_name} // to confirm the changed val
 
 ## Getting Identified during a meeting. 
 
-When you schedule a meeting, the users who wish to be identified must be invited to meeting or meeting forwarded to them before the meeting transcription is started . 
+When you schedule a meeting, the users who wish to be identified must be invited to meeting or meeting forwarded to them before the meeting transcription is started. 
 
 Note that identification only works for Face-enrolled users, everyone else will be treated as a participant.
 

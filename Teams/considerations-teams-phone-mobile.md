@@ -53,7 +53,11 @@ For more information, see [Plan and configure dynamic emergency calling](configu
 
 ## Emergency call routing for Teams Phone Mobile
 
-When a Teams Phone Mobile user dials an emergency number using a Microsoft Teams client, how the call is routed to the PSAP depends on the following:
+Your Teams Phone Mobile operator manages all emergency calls made through your SIM-enabled Smartphone’s cellular dialer **and** from your Teams app. The mobile operator may use multiple technologies to approximate emergency location for assistance, like geographic coordinates or which cell towers are handling the call.
+
+**Your Teams Phone Mobile operator is responsible for ensuring all emergency calls connect to the correct emergency services based on your location, regardless of whether the call is made from your device's native cellular dialer or made from the Teams app.** Contact your operator for more details.
+
+When a Teams Phone Mobile user dials an emergency number using any Microsoft Teams client other than the Teams app on your SIM-enabled Smartphone, how the call is routed to the PSAP depends on the following:
 
 - Whether the emergency address is dynamically determined by the Teams client
 
@@ -71,8 +75,6 @@ When a Teams Phone Mobile user dials an emergency number using a Microsoft Teams
 - If a Teams client isn't located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
 
 - If an emergency caller is unable to update their emergency location to the screening center, the call is transferred to the PSAP serving the caller's registered address.
-
-Your mobile operator manages all emergency calls made through your SIM-Enabled Smartphone’s native dialer and may use multiple technologies to approximate emergency location for assistance like geographic coordinates or which cell towers are handling the call, and so on. For more information, contact your operator.
 
 ## Related articles
 

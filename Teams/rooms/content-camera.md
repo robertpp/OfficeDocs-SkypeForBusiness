@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: leungsam
 ms.date: 08/20/2024
-ms.topic: article
+ms.topic: how-to
 audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -74,11 +74,11 @@ The distance between the content camera and the wall the whiteboard is mounted o
 If you have whiteboards larger than 12 ft. (3.65 m) or with no corners (like full wall whiteboards), you can place the camera anywhere in the middle. The enhancement software selects an area in the middle if it fails to find whiteboard corners.
 
 > [!NOTE]
-> You can use dark-colored tape or other items to create a defined content camera area on a full-wall white board. This helps in-room attendees know when they are drawing in an area being captured by the content camera.
+> You can use dark-colored tape or other items to create a defined content camera area on a full-wall white board. This helps in-room attendees know when they're drawing in an area being captured by the content camera.
 >
-> You can choose to have the camera mounted on a moveable tripod instead of a permanent mount. Place the tripod centered on the whiteboard. This setup may be temporary or used where there is little chance of knocking over the equipment. If you use a temporary mount, remember that content enhancement will be impacted if you move the camera after the initial share and you will need to re-share to correct for movement.
+> You can choose to have the camera mounted on a moveable tripod instead of a permanent mount. Place the tripod centered on the whiteboard. This setup may be temporary or used where there's little chance of knocking over the equipment. If you use a temporary mount, remember that content enhancement will be impacted if you move the camera after the initial share and you'll need to re-share to correct for movement.
 >
-> A writing board that isn't white is not supported.
+> A writing board that isn't white isn't supported.
 
 ## Supported cameras and settings
 

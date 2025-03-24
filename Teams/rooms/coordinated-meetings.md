@@ -6,7 +6,7 @@ manager: pamgreen
 ms.reviewer: kramachandra
 ms.date: 09/16/2024
 audience: Admin
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.subservice: itpro-rooms
 ms.collection: 

@@ -1,7 +1,7 @@
 ---
 title: Outbound call restrictions - Audio Conferencing & PSTN calls
-ms.reviewer: 
-ms.date: 02/22/2024
+ms.reviewer: oscarr
+ms.date: 02/18/2025
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -29,7 +29,7 @@ description: "Administrators can control the type of audio conferencing and end-
 
 As an admin, you can use outbound call controls to restrict the types of audio conferencing and end-user Public Switched Telephone Network (PSTN) calls that users in your organization can make.
 
-Outbound call controls can be applied on a per-user basis or on a tenant basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls.
+You can apply outbound call controls on a per-user or per-tenant and provide the following two controls to independently restrict each type of outbound calls. By default, both controls allow international and domestic outbound calls.
 
 |Control|Description|Control options|
 |:-----|:-----|:-----|
@@ -48,7 +48,7 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 ### Using the Microsoft Teams admin center
 
-1. In the left navigation, select **Users**, and then select the display name of the user from the list of available users.
+1. In the left navigation, select **Users** > **Manage users**, and then select the display name of the user from the list of available users.
 
 2. Next go to **Audio Conferencing**, select **Edit**.
 

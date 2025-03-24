@@ -5,7 +5,7 @@ ms.author: pbafna
 ms.reviewer: pbafna
 ms.date: 10/14/2020
 manager: sshastri
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 audience: admin
 ms.service: msteams
 ms.collection: 

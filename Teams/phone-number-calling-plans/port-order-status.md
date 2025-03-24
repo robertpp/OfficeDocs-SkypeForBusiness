@@ -5,7 +5,7 @@ author: sfrancis206
 manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark, leiaglezer
 ms.date: 01/22/2025
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -32,7 +32,7 @@ To see the status of your port order, in the left navigation of the Microsoft Te
 
 If the **Status** column isn't listed, select the gear-shaped setting icon in the **Order history** table, and enable the **Status** column.
 
-You can view orders that are saved but not submitted, and orders that are submitted and in progress by selecting the order name. Completed and canceled orders aren't viewable, but are included in the list for record-keeping.
+You can view orders that are saved but not submitted, and orders that are submitted and in progress by selecting the order name.
 
 Keep in mind the lead times for order processing, as described in [Port planning](port-order-overview.md).
 

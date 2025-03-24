@@ -1,11 +1,11 @@
 ---
 title: Understand teams and channels in Microsoft Teams
-author: DaniESmith
+author: DaniEASmith
 ms.author: danismith
 manager: jtremper
 ms.date: 11/04/2024
 audience: Admin
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium

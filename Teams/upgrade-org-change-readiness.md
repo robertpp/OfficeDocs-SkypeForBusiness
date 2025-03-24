@@ -3,7 +3,7 @@ title: Assess organizational change readiness for your Skype for Business to Tea
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl

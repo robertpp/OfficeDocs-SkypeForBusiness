@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 01/29/2025
-ms.topic: conceptual
+ms.topic: concept-article
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
 ms.service: msteams

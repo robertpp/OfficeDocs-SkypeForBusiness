@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp
 ms.date: 10/07/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 

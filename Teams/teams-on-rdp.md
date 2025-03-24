@@ -5,7 +5,7 @@ ms.author: heidip
 manager: jtremper
 ms.reviewer: alivano
 ms.date: 10/13/2023
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150

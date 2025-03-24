@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: mikedav, siunies, gageames, jamp
 ms.date: 12/06/2024
-ms.topic: article
+ms.topic: concept-article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
 ms.service: msteams

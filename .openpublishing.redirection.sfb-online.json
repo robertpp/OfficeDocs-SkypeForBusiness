@@ -1,0 +1,599 @@
+{
+  "redirections": [
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/Set-the-PIN-length-for-Audio-Conferencing-meetings.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/Set-the-PIN-length-for-Audio-Conferencing-meetings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/set-up-audio-conferencing.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/end-of-integration-with-3rd-party-providers.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/ip-relay-canada-email-signup.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/legal-and-regulatory/ip-relay-canada-email-signup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/ip-relay-canada-user-guide.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/legal-and-regulatory/ip-relay-canada-user-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/legal-and-regulatory.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/legal-and-regulatory/legal-and-regulatory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/optimizing-your-network/call-flow-using-expressroute.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/optimizing-your-network/call-flow-using-expressroute",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/optimizing-your-network/expressroute-and-qos-in-skype-for-business-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/optimizing-your-network/media-quality-and-network-connectivity-performance.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/optimizing-your-network/optimizing-your-network.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/optimizing-your-network/optimizing-your-network",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/optimizing-your-network/proxy-servers-for-skype-for-business-online.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/optimizing-your-network/security-guide-for-skype-for-business-online.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/optimizing-your-network/security-guide-for-skype-for-business-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-policies-in-your-organization/block-point-to-point-file-transfers.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-policies-in-your-organization/block-point-to-point-file-transfers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-policies-in-your-organization/create-custom-external-access-policies.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-policies-in-your-organization/create-custom-external-access-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-policies-in-your-organization/set-up-client-policies-for-your-organization.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-policies-in-your-organization/set-up-client-policies-for-your-organization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-policies-in-your-organization/set-up-conferencing-policies-for-your-organization.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-policies-in-your-organization/set-up-conferencing-policies-for-your-organization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-policies-in-your-organization/set-up-policies-in-your-organization.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-policies-in-your-organization/set-up-policies-in-your-organization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/configure-presence-in-skype-for-business-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/configure-presence-privacy-mode.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/configure-presence-privacy-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/customize-meeting-invitations.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/customize-meeting-invitations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/let-people-record-their-audio-and-video-conferences.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/let-people-record-their-audio-and-video-conferences",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/set-up-and-troubleshoot-skype-for-business-online-delegation.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/set-up-and-troubleshoot-skype-for-business-online-delegation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/set-up-skype-for-business-online.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/skype-for-business-admin-center-users-page-limitations.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-admin-center-users-page-limitations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/skype-for-business-mobile-app-security.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-mobile-app-security",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/skype-for-business-online-settings-summary.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-online-settings-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/skype-for-business-online-support-in-outlook-on-the-web.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-online-support-in-outlook-on-the-web",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/test-your-skype-for-business-online-installation.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/test-your-skype-for-business-online-installation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/the-service-plan-isn-t-valid.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/the-service-plan-isn-t-valid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/this-skype-for-business-online-feature-isn-t-enabled.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/this-skype-for-business-online-feature-isn-t-enabled",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/turn-on-or-off-mobile-phone-notifications.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/turn-on-or-off-mobile-phone-notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/turn-on-or-off-offline-messages-for-admins.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/turn-on-or-off-offline-messages-for-admins",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/turn-on-or-off-preloading-content-for-meetings-using-outlook.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/turn-on-or-off-preloading-content-for-meetings-using-outlook",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/turn-on-or-off-skype-for-business-client-feedback-reporting.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/turn-on-or-off-skype-for-business-client-feedback-reporting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/user-statistics-and-organization-information.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/user-statistics-and-organization-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/video-skype-for-business-online-external-communications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/why-can-t-you-use-the-skype-for-business-admin-center.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-skype-for-business-online/why-can-t-you-use-the-skype-for-business-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-computer-for-windows-powershell/diagnose-connection-problems-with-the-skype-for-business-online-connector.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-computer-for-windows-powershell/diagnose-connection-problems-with-the-skype-for-business-online-connector",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-computer-for-windows-powershell/manage-user-accounts-using-the-online-connector.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-computer-for-windows-powershell/manage-user-accounts-using-the-online-connector",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-computer-for-windows-powershell/manage-user-accounts.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-computer-for-windows-powershell/manage-user-accounts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/license-options-based-on-your-plan.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/license-options-based-on-your-plan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/activity-report.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online-reporting/activity-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/conference-organizer-activity-report.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/conference-participant-activity-report.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/device-usage-report.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online-reporting/device-usage-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/peer-to-peer-activity-report.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/pstn-minute-pools-report.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online-reporting/pstn-minute-pools-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/pstn-usage-report.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/session-details-report.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online-reporting/session-details-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/skype-for-business-online-reporting.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/users-blocked-report.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online-reporting/users-blocked-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-online.yml",
+      "redirect_url": "/previous-versions/SkypeForBusiness/skype-for-business-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/calling-plans-known-issues.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/calling-plans-known-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/how-do-i-create-a-support-ticket-for-address-validation.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/how-do-i-create-a-support-ticket-for-address-validation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/submitting-a-service-request-for-local-number-porting.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/submitting-a-service-request-for-local-number-porting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-if-my-phone-carrier-isn-t-listed-as-the-source-carrier.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/what-if-my-phone-carrier-isn-t-listed-as-the-source-carrier",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-is-address-validation.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-you-need-to-do-after-you-ported-over-phone-numbers.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/what-you-need-to-do-after-you-ported-over-phone-numbers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/why-am-i-having-problems-entering-u-k-address-information.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/why-am-i-having-problems-entering-u-k-address-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/why-has-number-activation-failed.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/why-has-number-activation-failed",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/why-is-number-activation-just-pending.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-just-pending",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/why-is-number-activation-listed-as-incomplete.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-listed-as-incomplete",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/why-is-number-activation-listed-as-updating.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-listed-as-updating",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/your-port-order-was-accepted.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-are-calling-plans-in-office-365/your-port-order-was-accepted",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/block-inbound-calls.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-is-phone-system-in-office-365/block-inbound-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md",
+      "redirect_url": "/previous-versions/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages",
+      "redirect_document_id": false
+    }
+  ]
+}
