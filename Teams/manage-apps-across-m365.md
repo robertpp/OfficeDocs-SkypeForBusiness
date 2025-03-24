@@ -38,6 +38,9 @@ App developers can create apps that work  not only in Microsoft Teams but also i
 
 Unified app management consolidates app catalog management into a single platform. You can manage apps on the Integrated apps page in the Microsoft 365 admin center or in the Teams admin center. Changes made in either admin center synchronize.
 
+> [!NOTE]
+> Until your tenant is migrated to unified app management, ensure that the settings in both admin centers, such as blocked apps or org-wide app settings, remain synchronized. This measure prevents unexpected disruptions or issues with app functionality.
+
 ## Understand the impact on your organization
 
 * App catalog: Apps start showing the hosts where the apps are available as Teams, Outlook, or Microsoft 365 app.
