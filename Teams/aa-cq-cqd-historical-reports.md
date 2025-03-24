@@ -8,6 +8,7 @@ ms.date: 11/22/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 ms.collection: 
   - M365-voice
   - m365initiative-voice
@@ -33,7 +34,7 @@ description: Learn how to use the Teams Auto Attendant & Call Queue Historical R
 > [!IMPORTANT]
 > Government Community Cloud High (GCCH) and U.S. Department of Defense (DoD) customers need to use [Auto attendant and call queue historical reports for GCCH and DoD](aa-cq-cqd-historical-reports-v164.md).
 
-This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
+The Teams Auto Attendant & Call Queue Historical Report Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
 ## V3.2.0 published on March 21, 2025
 
@@ -44,7 +45,7 @@ What's new in this release:
 
 ## Overview
 
-The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
+The Teams Auto Attendant & Call Queue Historical Report Power BI template contains the following three reports:
 
 - The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v320.png) report shows analytics for calls coming into your Auto attendants.
 - The [Call Queue](media/aa-cq-historical-report-sample-cq-v320.png) report shows analytics for calls coming into your Call queues.
@@ -59,7 +60,7 @@ These reports use data from the Voice Applications Analytics Collector (VAAC) se
 You need to have Power BI Desktop installed. You can install and use the free version from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
 > [!IMPORTANT]
-> Power BI Desktop is updated and released on a monthly basis, incorporating customer feedback, and new features. Only the most recent version of Power BI Desktop is supported. Customers who contact support for Power BI Desktop are asked to upgrade to the most recent version. You can get the most recent version of Power BI Desktop from the [Windows Store](https://aka.ms/pbidesktopstore), or as a single executable containing all supported languages that you [download](https://www.microsoft.com/download/details.aspx?id=58494) and install on your computer.
+> Power BI Desktop is updated and released on a monthly basis, incorporating customer feedback and new features. Only the most recent version of Power BI Desktop is supported. Customers who contact support for Power BI Desktop are asked to upgrade to the most recent version. You can get the most recent version of Power BI Desktop from the [Windows Store](https://aka.ms/pbidesktopstore), or as a single executable containing all supported languages that you [download](https://www.microsoft.com/download/details.aspx?id=58494) and install on your computer.
 
 ### Power BI Service
 
@@ -110,7 +111,7 @@ Perform the following steps:
 
 3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.2.0.pbit` template file. Power BI Desktop should launch.
 
-4. Select the **Language**, and **UTC Offset**.
+4. Select the **Language** and **UTC Offset**.
 
    :::image type="content" source="media/aa-cq-historical-report-01-v320.png" alt-text="Screenshot showing the Language and UTC Offset selections.":::
 
@@ -133,7 +134,7 @@ Perform the following steps:
 6. Do the following for each of the two data sources shown:
    - Select the data source.
    - Select **Edit Permissions**, and then **Edit**.
-   - Select **Organizational account**, and then **Sign in** (or **Sign in as different user**).
+   - Select **Organizational account** and then **Sign in** (or **Sign in as different user**).
    
      :::image type="content" source="media/aa-cq-historical-report-03-v301.png" alt-text="Screenshot showing data source sign in screen":::
 
@@ -141,7 +142,7 @@ Perform the following steps:
 
 8. Select **Save**, then **OK**, and then **Close**.
 
-9. Select **Refresh**, in the ribbon bar and the data refreshes.
+9. Select **Refresh** in the ribbon bar and the data refreshes.
 
 ## Data latency for Auto attendant and Call queue analytics
 
@@ -176,7 +177,7 @@ You have to refresh the report to see any new data.
 
 #### Notes
 
-1. Admins: To see the calls for a specific Auto attendant, select all the resource accounts assigned to that Auto attendant. If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test**
+- Admins: To see the calls for a specific Auto attendant, select all the resource accounts assigned to that Auto attendant. For example, if the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test**
 
 #### Known issues
 
@@ -210,7 +211,7 @@ You have to refresh the report to see any new data.
 
 #### Notes
 
-1. To see the calls for a specific Call queue, select all the resource accounts assigned to that Call queue. If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test**
+1. To see the calls for a specific Call queue, select all the resource accounts assigned to that Call queue. If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test**.
 
 #### Known issues
 
@@ -243,7 +244,7 @@ You have to refresh the report to see any new data.
 
 #### Notes
 
-1. To see the calls for a specific Call queue, select all the resource accounts assigned to that Call queue. If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test**
+- To see the calls for a specific Call queue, select all the resource accounts assigned to that Call queue. If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test**.
 
 #### Known issues
 
@@ -304,7 +305,7 @@ You have to refresh the report to see any new data.
 3. The splash screen shows the filename (see #2) and the words "Language" and "UTC Offset" in English only.
 4. The refresh screen shows the table names in English only.
 5. The report tab names are in English only.
-6. The documentation link uses the language set in your browser which may be different than than the language selected for the report
+6. The documentation link uses the language set in your browser which may be different than than the language selected for the report.
 7. Customer provided information is not localized.
    
 Issues 2-6 are limitations of file naming conventions, the splash screen in Power BI, and how browsers work. These issues will not be addressed.
@@ -870,7 +871,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 |3.1.4    |January 24, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
 
 ## Related articles
+
 - [Auto attendant and Call queue real-time metrics](aa-cq-real-time-reports.md)
 - [Plan for authorized users](aa-cq-authorized-users-plan.md)
 - [Manage the Queues app](manage-queues-app.md)
-
