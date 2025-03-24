@@ -68,13 +68,15 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## [Certified USB devices](#tab/usb)
 
-*Table Updated February 2025*
+*Table Updated March 2025*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | **Manufacturer**      | **Model**                                                    | **Qualified**       | **Certified Program**                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |UH48 Headset                                               |3/10/2025       |Certified for Microsoft Teams                           |
+|Yealink              |WH64 Pro Headset                                           |12/12/2024      |Certified for Microsoft Teams                           |
 |Lenovo               |4k Pro Webcam                                              |12/6/2024       |Certified for Microsoft Teams                           |
 |Lenovo               |QHD Webcam                                                 |12/6/2024       |Certified for Microsoft Teams                           | 
 |Poly                 |Voyager Legend 50-M Headset UC                             |11/1/2024       |Certified for Microsoft Teams                           |

@@ -193,6 +193,7 @@ You can use the **Meetings automatically expire** setting in the Teams admin cen
 
 ## Related topics
 
+- [Overview- Recording and transcription for Teams meetings, events, and calls](recording-transcription-overview.md)
 - [Which policy takes precedence?](./policy-assignment-overview.md#which-policy-takes-precedence)
 - [Teams meeting recording](meeting-recording.md)
 - [Block the download of Teams meeting recording files from SharePoint or OneDrive](block-download-meeting-recording.md)

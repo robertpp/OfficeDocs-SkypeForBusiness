@@ -172,7 +172,7 @@ The following list includes partners certified to deliver a compliance recording
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Imagicle |[https://www.imagicle.com/en/products/call-recording/](https://www.imagicle.com/en/products/call-recording/) |
-|Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
+|Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/market-place/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
 |NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
@@ -274,4 +274,4 @@ Microsoft only supports compliance recording solutions from the listed, certifie
 ### Related topics  
 
 - [Teams Recordings - Microsoft Teams | Microsoft Learn](./teams-recording-policy.md)
- 
+- [Overview- Recording and transcription for Teams meetings and calls](recording-transcription-overview.md)
