@@ -77,8 +77,10 @@ The following table tells you what per-user information is available for each co
 ||**Call Details** \> **Advanced** tab|Information not shown.|All details shown, such as device names, IP address, subnet mapping, and more.|
 ||**Call Details** \> **Advanced** \> **Debug** tab|Information not shown.|All details shown, such as DNS suffix and SSID.|
 |**Meetings**|Participant names|Only the name of the user for whom the agent searched. Other participants identified as Internal User or External User.|All names shown.|
-||Participant count|Number of participants.|Number of participants.|
+||Participant count<sup>1</sup> |Number of participants.|Number of participants.|
 ||Session details|Session details shown with exceptions. Only the name of the user for whom the agent searched is shown. Other participants identified as Internal User or External User. Last four digits of telephone number obfuscated with asterisk symbols.|Session details shown. User names and session details shown. Last four digits of telephone number obfuscated with asterisk symbols.|
+
+<sup>1</sup> View-only participants and Live Event attendees are not included in Call Analytics.
 
 > [!NOTE]
 > The information contained in both the Advanced tab's 'Other' section and the Debug tab contains telemetry and service diagnostic data meant to assist Microsoft support engineers. Without the context of the additional data available to support engineers, it might appear to be redundant, inaccurate, or confusing. While we make it available for advanced users who are looking for another level of detail in troubleshooting call issues, we don't recommend making judgments based on this data without Microsoft support.

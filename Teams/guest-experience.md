@@ -6,8 +6,8 @@ manager: jtremper
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: rafarhi
-ms.date: 09/26/2023
+ms.reviewer: manish.jaisinghani
+ms.date: 03/24/2025
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -26,14 +26,14 @@ description: This article describes the Microsoft Teams functionality available 
 
 # Guest experience in Teams
 
-When a guest is invited to join a team, they receive a welcome email message. This message includes some information about the team and what to expect now that they're a member. The guest must accept the invitation before they can access the team and its channels. They can do this in the Teams client or by selecting **Open Microsoft Teams** in the email message.
+When a guest is invited to join a team, they receive a welcome email message. This message includes some information about the team and what to expect now that they're a member. The guest must accept the invitation before they can access the team and its channels. They can accept the invite in the Teams client or by selecting **Open Microsoft Teams** in the email message.
 
 > [!NOTE]
 > After a guest is added to a team, it may take a few hours before they have access.
-    
+
 ![Screenshot showing an example of a welcome email message.](media/guest-experience-image1.png)
-    
-All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. A tag in the upper-right corner of the channel thread indicates the number of guests on the team and a **(Guest)** label appears next to each guest's name.
+
+All team members see a message in the channel thread announcing that the team owner added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. A tag in the upper-right corner of the channel thread indicates the number of guests on the team and a **(Guest)** label appears next to each guest's name.
 
 ![Screenshot showing tag that indicates number of guests on the team.](media/guest-experience-image2.png)
 
@@ -88,28 +88,26 @@ The following table shows the calling and meeting features available to guests, 
 | Can immediately forward their calls | No | No | Yes |
 | Can simultaneously ring their calls | No | No | Yes |
 | Can route their unanswered calls | No | No | Yes |
-| Missed calls can go to voicemail | No | No<sup>1</sup> |Yes |
+| Missed calls can go to voicemail | No | Yes |Yes |
 | Have a phone number that can receive calls | No | No | Yes |
 | Can dial phone numbers | No | No | Yes |
 | Can access call settings | No | No | Yes |
-| Can change voicemail greeting | No | No<sup>1</sup> | Yes |
+| Can change voicemail greeting | No | Yes | Yes |
 | Can change ringtones | No | No  | Yes |
 | Supports TTY | No | No | Yes |
 | Can have delegates | No | No | Yes |
-|  Can be a delegate | No | No | Yes |
-
-<sup>1</sup> This feature will be available soon.
+| Can be a delegate | No | No | Yes |
 
 > [!NOTE]
 > The **Guest user access restrictions** policy in Microsoft Entra ID determines permissions for guests in your directory. There are three policy options.
->  - The **Guest users have the same access as members (most inclusive)** setting means guests have the same access to directory data as regular users in your directory.
->  - The **Guest users have limited access to properties and membership of directory objects** settings means that guests don't have permissions for certain directory tasks, such as enumerating users, groups, or other directory resources using Microsoft Graph.
->  - The **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)** setting means guests can only access their own directory objects.
+>
+> - The **Guest users have the same access as members (most inclusive)** setting means guests have the same access to directory data as regular users in your directory.
+> - The **Guest users have limited access to properties and membership of directory objects** settings means that guests don't have permissions for certain directory tasks, such as enumerating users, groups, or other directory resources using Microsoft Graph.
+> - The **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)** setting means guests can only access their own directory objects.
 >
 >To learn more, see [What are the default user permissions in Microsoft Entra ID?](/azure/active-directory/fundamentals/users-default-permissions)
 
-## Related topics
+## Related articles
 
-[Leave an organization as a guest](/azure/active-directory/b2b/leave-the-organization)
-
-[Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)
+- [Leave an organization as a guest](/azure/active-directory/b2b/leave-the-organization)
+- [Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)

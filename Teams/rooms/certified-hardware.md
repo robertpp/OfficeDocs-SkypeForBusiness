@@ -105,6 +105,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Logitech Tap and Intel Tiger Canyon NUC PC | Core i5 | 8 GB | 128 GB |
 | Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
 | [Logitech Tap and Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html) | Core i5 | 8 GB | 128 GB |
+| [Logitech Tap with Lenovo ThinkSmart Core Gen 2](https://www.logitech.com/video-collaboration/partners/microsoft.html) | Core Ultra 7 | 32 GB | 256 GB |
 | MAXHUB XCore Kit | Core i3 | 8 GB | 128 GB |
 | MAXHUB XCore Kit Pro | Core i5 | 16 GB | 256 GB |
 | MAXHUB XBoard V865T | Core i5 | 16 GB | 256 GB |
@@ -236,7 +237,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Nureva HDL410](https://www.nureva.com/audio-conferencing/hdl410) | 1.5.243554 |  |  |||
 | [Owl Labs Meeting Owl 3](https://owllabs.com/products/meeting-owl-3) | 6.4.10.42 |  |  |||
 | [Owl Labs Owl Bar](https://owllabs.com/products/owl-bar) | 6.6.24.43 |  |  |  |  |
-| [Panasonic 360 degree camera speakerphone PressIT360](https://panasonic.net/cns/prodisplays/products/ty-csp1/) | 0.0.7904.54 |  |  |||
+| [Panasonic 360 degree camera speakerphone PressIT360](https://docs.connect.panasonic.com/prodisplays/products/ty-csp1/) | 0.0.7904.54 |  |  |||
 | [Pansonic AW-UE4 camera](https://pro-av.panasonic.net/products/aw-ue4/) | 02.03 |  |  |||
 | [Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html) | 1.2.0 |  |  |||
 | [Polycom EagleEye IV](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-iv) | 1.0.0 |  |  |||
@@ -251,6 +252,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Poly Studio E70 Camera](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70) | 1.1 |  |  |||
 | Poly Studio E60 Camera | 1.0.4.0 |  |  |||
 | [Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30) | 2.0.0.001096 |  |  |||
+| Poly Studio V12 | 1.4.6-430139 |  |  |||
 | Poly Studio V52 | 1.0.1-400045 |  |  |||
 | Poly Studio V72 | 1.4.5-424011 |  |  |||
 | EPOS SP 220 MS | 2.0.12.0 |  |  |||
