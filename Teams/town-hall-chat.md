@@ -35,7 +35,7 @@ In Microsoft Teams town halls, only presenters, organizers, and co-organizers ca
 As an admin, you can manage whether town hall organizers with a Teams Premium license can turn on meeting chat for their attendees.
 
 > [!NOTE]
-> TThis feature isn't supported for town halls with more than 20,000 attendees.
+> This feature isn't supported for town halls with more than 20,000 attendees.
 
 For details on how your users use meeting chat for town halls, see [Chat in a town hall in Microsoft Teams](https://support.microsoft.com/office/chat-in-a-town-hall-in-microsoft-teams-a4a0e102-ca45-4605-a0a8-83a884547338).
 
