@@ -252,6 +252,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Poly Studio E70 Camera](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70) | 1.1 |  |  |||
 | Poly Studio E60 Camera | 1.0.4.0 |  |  |||
 | [Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30) | 2.0.0.001096 |  |  |||
+| Poly Studio V12 | 1.4.6-430139 |  |  |||
 | Poly Studio V52 | 1.0.1-400045 |  |  |||
 | Poly Studio V72 | 1.4.5-424011 |  |  |||
 | EPOS SP 220 MS | 2.0.12.0 |  |  |||
