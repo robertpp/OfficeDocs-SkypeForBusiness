@@ -32,7 +32,7 @@ description: Learn about Call Quality Dashboard (CQD) and how to use it to  see 
 
 The Microsoft Call Quality Dashboard (CQD) - [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) - shows call and meeting quality, at an **org-wide level**, for Microsoft Teams, and Skype for Business Server.
 
-The latest version of CQD features a [near-real-time (NRT) data feed](cqd-data-and-reports.md), which means that call records are available in CQD within 30 minutes of the end of a call.
+The latest version of CQD features a [near-real-time (NRT) data feed](cqd-data-and-reports.md), which means that call records are typically available in CQD within 30 minutes of the end of a call.
 
 Wherever CQD includes [end-user identifiable information (EUII) data](cqd-data-and-reports.md#euii-data), it's managed in the same way as [EUII throughout Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
 
