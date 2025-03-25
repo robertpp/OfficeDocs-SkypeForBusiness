@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 ms.collection: 
   - M365-voice
   - m365initiative-voice
@@ -137,7 +138,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 | First VTC Device Detail | String | The platform and version information of the VTC device used by the first endpoint <br/> **Example value:** Tandberg, 529 | <br/>&bull; The endpoint didn't report this data |
 | Second VTC Device Detail | String | The platform and version information of the VTC device used by the second endpoint <br/> **Example value:** Tandberg, 529 | <br/>&bull; The endpoint didn't report this data |
 |First Media Bypass	| Boolean|	Indicates if the audio stream was bypassing the Teams service endpoint and flowing directly between the session border controller and first endpoint.| &bull; Stream wasn't destined for a PSTN endpoint. <br/> &bull; Stream wasn't an audio stream. |
-Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the Teams service endpoint and flowing directly between the session border controller and second endpoint.| &bull; Stream wasn't destined for a PSTN endpoint. <br/> &bull; Stream wasn't an audio stream. |
+|Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the Teams service endpoint and flowing directly between the session border controller and second endpoint.| &bull; Stream wasn't destined for a PSTN endpoint. <br/> &bull; Stream wasn't an audio stream. |
 | First Endpoint Make |String |Device manufacturer, information is read from an Endpoint Data file EndpointMake field. | <br/>&bull; No data file for the endpoint |
 | First Endpoint Model |String|Device model, information is read from an Endpoint Data file EndpointModel field.| <br/>&bull; No data file for the endpoint |
 | First Endpoint Type|String|Device type, information is read from an Endpoint Data file EndpointType field.| <br/>&bull; No data file for the endpoint |
@@ -601,8 +602,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second UPN|String|The user principal name (UPN) of the second endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Not all UserTypes have UPNs; include the Second UserType or Second User ObjectId dimensions to learn more about these endpoints. |
 | First Feedback Text|String|Verbatim feedback text, if any, provided by first endpoint's user at the end of a call. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. | |
 | Second Feedback Text|String| Verbatim feedback text, if any, provided by second endpoint's user at the end of a call. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.||
-| First Client Endpoint Name|String|The machine name of the first endpoint. In VDI scenarios, this value will reflect the endpoint that handled media. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.||
-| Second Client Endpoint Name|String|The machine name of the second endpoint. In VDI scenarios, this value will reflect the endpoint that handled media. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.||
+| First Client Endpoint Name|String|The machine name of the first endpoint. In VDI scenarios, this value reflects the endpoint that handled media. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.||
+| Second Client Endpoint Name|String|The machine name of the second endpoint. In VDI scenarios, this value reflects the endpoint that handled media. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.||
 | First Endpoint Product Name|String|The product name of the first endpoint (either Skype for Business or Microsoft Teams).||
 | Second Endpoint Product Name|String|The product name of the second endpoint (either Skype for Business or Microsoft Teams).||
 | First UserType|Enumeration string|The type of user on the first endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - a Microsoft Entra User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is a server. <br/>**Voicemail** - the endpoint was answered by the voicemail service.||
