@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: vijurtse, colongma
 ms.date: 12/13/2024
-ms.topic: article
+ms.topic: how-to
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
 ms.service: msteams

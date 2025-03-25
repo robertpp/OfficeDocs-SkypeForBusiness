@@ -5,7 +5,7 @@ ms.date: 11/07/2024
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.topic: article
+ms.topic: whats-new
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -22,6 +22,11 @@ ms.collection:
 # What's new for Direct Routing
 
 This article describes what's new in Direct Routing. Check back often for updates.
+
+## New Call Troubleshooting via SIP Call Flow is available
+
+The new Session Initiation Protocol (SIP) call flow diagram in Teams Admin Center is available starting March 19, 2025. This tool will enable admins to troubleshoot their Direct Routing calls in a self-serve way. This feature is accessible via the Usage reports page under Teams Admin center. It allows admins to view the SIP requests, responses and associated Session Description Protocol (SDP) data between Microsoft Teams SIP proxy and the Session Border Controller (SBC) through which the call was routed. This data will be available for all calls made more than 30 minutes and less than 30 days ago. 
+For more information, see [SIP call flow for Direct Routing in Teams Admin Center](/microsoftteams/direct-routing-monitor-sip-ladder).
 
 ## Network Effectiveness Ratio (NER) metric update
 

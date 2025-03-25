@@ -3,7 +3,7 @@ title:  Deployment checklist for new Teams client
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.topic: article
+ms.topic: checklist
 ms.date: 04/22/2024
 ms.service: msteams
 audience: admin

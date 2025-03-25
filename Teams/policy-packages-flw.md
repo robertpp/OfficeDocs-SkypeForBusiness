@@ -5,7 +5,7 @@ ms.author: v-chinlana
 manager: jtremper
 ms.reviewer: 
 ms.date: 07/25/2024
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 audience: Admin
 ms.collection: 

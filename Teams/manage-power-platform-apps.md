@@ -31,7 +31,7 @@ This article gives you an overview of how to manage custom apps created using th
 
 Microsoft Power Platform apps created by developers in your organization are automatically added to Teams. Developers can control who can access their app by using the [sharing feature in Power Apps](/powerapps/maker/canvas-apps/share-app) and the [sharing feature in Copilot Studio](/microsoft-copilot-studio/admin-share-bots).
 
-When a Microsoft Power Platform app is created or shared, users can view and install it on the Apps page by going to **Copilot agents**. It take a few minutes for the app to appear in store after it is shared.
+When a Microsoft Power Platform app is created or shared, users can view and install it on the Apps page by going to **Copilot agents**. It takes a few minutes for the app to appear in store after it's shared.
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Microsoft Power Platform apps category.":::
 
@@ -58,7 +58,7 @@ If a user is allowed to access apps from Power Apps or Copilot Studio, and you t
 
 ### Allow Microsoft Power Platform apps for specific users
 
-To allow or block specific users in your organization from accessing apps created in Power Apps or Copilot Studio, do one of hte following:
+To allow or block specific users in your organization from accessing apps created in Power Apps or Copilot Studio, do one of the following:
 
 * If using [app permission policies](teams-app-permission-policies.md) then create a custom policy to block **Shared Power Apps** and assign the policy to some users.
 

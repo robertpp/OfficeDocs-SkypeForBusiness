@@ -5,7 +5,7 @@ ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: jastark, roykuntz
 ms.date: 05/07/2024
-ms.topic: article
+ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin

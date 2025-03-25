@@ -3,8 +3,8 @@ title: Intelligent recap for Teams calls and meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.reviewer: weizxue, nijait
-ms.date: 1/16/2025
+ms.reviewer: weizxue, nijait, benjamin.olson
+ms.date: 3/17/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,17 +21,21 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
+  - magic-ai-copilot
   - m365initiative-voice
 description: Learn how to manage Intelligent recap for Teams calls and meetings. Understand the licenses your users need to use intelligent recap for VoIP and PSTN calls.
 ---
 
 # Intelligent recap for Teams calls and meetings
 
-**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Calls
+**APPLIES TO:** ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Meetings ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Webinars ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Town halls ![Image of a checkmark for yes](/office/media/icons/success-teams.png) Calls
 
 Intelligent recap for Microsoft Teams uses AI technology to improve your users’ productivity and efficiency. This article is designed to guide you, as an admin, in understanding intelligent recap’s prerequisites and capabilities.
 
 To learn more about how your users use intelligent recap in their meetings, see [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap).
+
+> [!NOTE]
+> For webinars and town halls, intelligent recap is available only to organizers, co-organizers, and presenters. Attendees don't have access to intelligent recap.
 
 ## Prerequisites
 
@@ -50,11 +54,11 @@ Intelligent recap is automatically available to users in your organization with 
 To allow your users to use intelligent recap, you must turn on transcription:
 
 - PSTN, 1:1 peer-to-peer Voice over Internet Protocol (VoIP) calls: To turn on transcription, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md#enable-call-transcription).
-- Meetings and group VoIP calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#transcription).
+- Meetings, events, and group VoIP calls: To turn on transcription, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md#live-transcription).
 
 #### Recording
 
-For the full recap experience for meetings, you must assign a policy that allows recording for your users. If recording is turned off, users experience recap without the recording, speakers, topics, and chapters. To turn on recording for meetings, see [Manage Teams recording policies for meetings and events](meeting-recording.md#allow-or-prevent-users-from-recording-meetings).
+For the full recap experience for meetings and events, you must assign a policy that allows recording for your users. If recording is turned off, users experience recap without the recording, speakers, topics, and chapters. To turn on recording for meetings and events, see [Manage Teams recording policies for meetings and events](meeting-recording.md#allow-or-prevent-users-from-recording-meetings).
 
 ## Intelligent call recap
 
@@ -78,7 +82,7 @@ PSTN calls are made and received using a phone number. Your users can access AI 
 
 Intelligent meeting recap uses AI to help your users focus on the meeting discussion instead of taking notes. This feature allows them to find key information, access highlights, and save time on follow-ups.
 
-After the meeting ends, your users can access the following AI powered features for their meetings through the **Recap** tab in the Teams calendar and chat:
+After the meeting or event ends, your users can access the following AI powered features for their meetings through the **Recap** tab in the Teams calendar and chat:
 
 - AI meeting notes
 - AI recommended tasks
@@ -87,6 +91,12 @@ After the meeting ends, your users can access the following AI powered features 
 - Meeting chapters divide the meeting into chapters, and meeting topics that allow your users to jump to a point in the meeting when a certain topic was discussed.
 
 :::image type="content" source="media/new-i-recap-meetings-small.png" alt-text="Screenshot of intelligent meeting recap from the recap tab." lightbox="media/new-i-recap-meetings-expand.png":::
+
+## Intelligent meeting recap for external meetings
+
+Intelligent meeting recap for external meetings allows your users to share the meeting's recap with external attendees. To share the recap via Outlook with specified external attendees, after the meeting, in the **Recap** tab, users can select **Share** > **Share via Outlook**.
+
+To manage policies that allow external attendees to attend meetings in your organization, see [IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
 ## Supported meetings and call types
 

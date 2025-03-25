@@ -3,7 +3,7 @@ title: Overview of app policies to manage apps in Teams
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.subservice: teams-apps
 ms.date: 09/04/2024

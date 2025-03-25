@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.reviewer: mabond
 ms.date: 06/12/2024
-ms.topic: article
+ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
@@ -520,7 +520,7 @@ Meeting policies are used to control what features are available in meetings org
 |Recordings automatically expire|On|When **On**, meeting recordings automatically expire in the number of days shown in the Default expiration time setting.|
 |Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99,999 days. **Recordings automatically expire** must also be turned **On**.|
 |Store recordings outside your country/region|Off|If you want to store meeting recordings outside of your country/region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
-|Transcription|Off|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
+|Transcription|On|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
 |Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
 |Copilot|On with saved transcript required| When organizers with this policy create meetings, the default value for Copilot in their meeting options is **During and after the meeting**. This option is enforced; organizers can't change this value.|
 

@@ -4,7 +4,7 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 audience: admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: microsoft-365-frontline
 ms.reviewer: yinchang
 ms.date: 12/30/2024

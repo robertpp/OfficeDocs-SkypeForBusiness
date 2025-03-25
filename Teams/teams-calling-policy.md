@@ -3,10 +3,10 @@ title: 'Configure calling policies in Microsoft Teams'
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: jastark
-ms.date: 02/26/2024
+ms.date: 02/28/2025
 audience: admin
 search.appverid: MET150
 description: Learn how to create, modify, and add users to custom calling policies in Microsoft Teams, and discover various calling policy settings.
@@ -83,6 +83,7 @@ Here are the settings that you can configure for calling policies:
 - **[Busy on busy during calls](inbound-call-routing.md)**
 - **Web PSTN calling** - This setting enables users to call PSTN numbers using the Teams web client. This setting is on by default.
 - **[Real-time captions in Teams calls](call-recording-transcription-captions.md)**
+- **Automatically answer incoming meeting invites** - This setting will answer the phone automatically when an inbound meeting invitation is sent to the user.
 - **[Spam filtering](configure-call-spam-filtering.md)**
 - **[SIP devices can be used for calls](sip-gateway-configure.md)**
 - **[Open apps in browser for incoming PSTN calls](inbound-call-routing.md)**

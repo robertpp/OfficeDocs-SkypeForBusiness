@@ -5,7 +5,7 @@ author: sfrancis206
 manager: pamgreen
 ms.reviewer: davlick, roykuntz, jastark
 ms.date: 11/28/2017
-ms.topic: article
+ms.topic: how-to
 ms.assetid: cc22c49a-c644-4151-a2fc-a1474148f8ba
 ms.tgt.pltfrm: cloud
 ms.service: msteams

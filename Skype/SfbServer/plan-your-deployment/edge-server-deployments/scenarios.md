@@ -5,7 +5,7 @@ ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 audience: ITPro
-ms.topic: conceptual
+ms.topic: article
 manager: serdars
 ms.service: skype-for-business-server
 f1.keywords:
@@ -31,7 +31,7 @@ The diagrams show .com for the external interface and .net for the internal, whi
   
 We don't include the Director (which is an optional component) in any of the diagrams, but you can read about that separately (it's mentioned in other Planning topics).
   
-As noted above, there is sample IPv6 data in the diagrams. Most of the documentation in [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) will refer to IPv4, but you are certainly supported if you want to use IPv6. Note that you'll need IPv6 addresses in your assigned address space, and they'll need to work with internal and external addressing, as with IPv4 IPs. You can, thanks to Windows, employ the dual stack feature, which is a separate and distinct network stack for IPv4 and IPv6. This will, if you need, allow you to assign IPv4 and IPv6 addresses concurrently.
+As noted above, there's sample IPv6 data in the diagrams. Most of the documentation in [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) will refer to IPv4, but you're certainly supported if you want to use IPv6. Note that you'll need IPv6 addresses in your assigned address space, and they'll need to work with internal and external addressing, as with IPv4 IPs. You can, thanks to Windows, employ the dual stack feature, which is a separate and distinct network stack for IPv4 and IPv6. This will, if you need, allow you to assign IPv4 and IPv6 addresses concurrently.
   
 There are NAT devices that allow for NAT64 (IPv6 to IPv4) and NAT66 (IPv6 to IPv6)), and this is valid for use with Skype for Business Server.
   
@@ -40,7 +40,7 @@ There are NAT devices that allow for NAT64 (IPv6 to IPv4) and NAT66 (IPv6 to IPv
   
 ## Single consolidated Skype for Business Server Edge Server with private IP addresses and NAT
 
-With this scenario, there is no option for high availability. This will mean you spend less on hardware and have a simpler deployment. If high availability is a must, check out the Scaled consolidated scenarios below.
+With this scenario, there's no option for high availability. This means you spend less on hardware and have a simpler deployment. If high availability is a must, check out the Scaled consolidated scenarios below.
   
 ![Edge Scenario for Single Consolidated Edge with Private IP Using NAT.](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
@@ -52,7 +52,7 @@ We also have a diagram for ports for single consolidated Edge Servers.
   
 ## Single consolidated Skype for Business Server Edge Server with public IP addresses
 
-With this scenario, there is no option for high availability. This will mean you spend less on hardware and have a simpler deployment. If high availability is a must, check out the Scaled consolidated scenarios below.
+With this scenario, there's no option for high availability. This means you spend less on hardware and have a simpler deployment. If high availability is a must, check out the Scaled consolidated scenarios below.
   
 ![Edge Scenario for Single Consolidated Edge with Public IP.](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
   
@@ -64,7 +64,7 @@ We also have a diagram for ports for single consolidated Edge Servers.
   
 ## Scaled consolidated Skype for Business Server Edge pool, with DNS load balancing, and private IP addresses and NAT
 
-With this scenario, you are able to have high availability in your Edge deployment, which gives you the advantages of scalability and failover support.
+With this scenario, you're able to have high availability in your Edge deployment, which gives you the advantages of scalability and failover support.
   
 ![Edge Scenario for Scaled Consolidated Edge, DNS LB with Private IP Using NAT.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
   
@@ -76,7 +76,7 @@ We also have a diagram for scaled consolidated Edge pools with DNS load balancin
   
 ## Scaled consolidated Skype for Business Server Edge pool, with DNS load balancing and public IP addresses
 
-With this scenario, you are able to have high availability in your Edge deployment, which gives you the advantages of scalability and failover support.
+With this scenario, you're able to have high availability in your Edge deployment, which gives you the advantages of scalability and failover support.
   
 ![Edge Scenario for Scaled Consolidated Edge, DNS LB with Public IP.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
@@ -88,7 +88,7 @@ We also have a diagram for scaled consolidated Edge pools with DNS load balancin
   
 ## Scaled consolidated Skype for Business Server Edge pool, with hardware load balancing
 
-With this scenario, you are able to have high availability in your Edge deployment, which gives you the advantages of scalability and failover support.
+With this scenario, you're able to have high availability in your Edge deployment, which gives you the advantages of scalability and failover support.
   
 ![Edge Scenario for Scaled Consolidated Edge with HLB.](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
  

@@ -3,7 +3,7 @@ title: Overview of custom meeting templates in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: concept-article
 ms.service: msteams
 ms.reviewer: idilates
 ms.date: 12/6/2024
@@ -25,7 +25,10 @@ description: Learn about custom meeting templates in Microsoft Teams Premium.
 
 [Microsoft Teams Premium](enhanced-teams-experience.md) includes the ability to create custom meeting templates. Meeting templates can be used to control meeting options that the meeting organizer normally controls. With templates, you can create consistent meeting experiences in your organization and help enforce compliance requirements and business rules.
 
-Meeting templates can be used to enforce meeting options or to set defaults. Each template option can be locked so the meeting organizer can't change it, or can be left unlocked for the meeting organizer to change if needed. Meeting options can also be hidden so meeting organizers don't see them.
+You can use meeting templates to enforce meeting options or to set defaults. Each template option can be locked so the meeting organizer can't change it, or can be left unlocked for the meeting organizer to change if needed. Meeting options can also be hidden so meeting organizers don't see them.
+
+> [!IMPORTANT]
+> To select a sensitivity label in custom meeting templates, the compliance admin must first publish the label to the Teams admin's account using the Purview label policy. Teams admins can't see sensitivity labels in meeting templates unless those labels are published to their account.
 
 The following meeting options can be controlled by using a meeting template:
 

@@ -6,7 +6,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 f1.keywords:
 - CSH
 ms.custom:

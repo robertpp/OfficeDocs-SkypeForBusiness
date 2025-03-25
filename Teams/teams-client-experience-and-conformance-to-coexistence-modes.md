@@ -3,7 +3,7 @@ title: Teams client experience and conformance to coexistence modes
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.reviewer: bjwhalen
 ms.date: 02/12/2019

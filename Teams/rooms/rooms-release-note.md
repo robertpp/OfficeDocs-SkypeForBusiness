@@ -39,6 +39,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[5.3.69.0](#53690-3172025) | 3/17/2025 |
 |[5.2.115.0](#521150-9262024) | 9/26/2024 |
 |[5.1.28.0](#51280-882024) | 8/8/2024 |
 |[5.1.24.0](#51240-7302024) | 7/30/2024 |
@@ -64,7 +65,16 @@ Teams Rooms app updates happen either using the Microsoft Store or using [manual
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 
+### 5.3.69.0 (3/17/2025)
+ >[!NOTE]
+ >This update does not contain any new features. 
+ >This update contains driver packages that is intended to enable Teams Rooms on Windows application to run on yet to be released devices. The update is optional, available as a manual update only. It is not required if your device is running app version 5.2.115.0 [Learn more](/MicrosoftTeams/rooms/manual-update). 
+
 ### 5.2.115.0 (9/26/2024)
+ >[!NOTE]
+ >The following feature was added to the 5.2.115.0 release with a service side change on February 26, 2025.
+- **Room can join Events as presenters** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** Teams Rooms on Windows devices can now join events in Teams (webinars and town halls) as presenters. You can present directly from the Teams Room, with features like green room access and stage control for organizers and presenters. [Learn more](/MicrosoftTeams/meeting-webinar-town-hall-feature-comparison).
+>
  >[!NOTE]
  >The following two features were added to the 5.2.115.0 release with a service side change on January 22, 2025.
 

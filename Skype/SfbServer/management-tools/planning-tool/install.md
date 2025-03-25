@@ -6,7 +6,7 @@ author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH

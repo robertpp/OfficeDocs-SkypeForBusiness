@@ -3,7 +3,7 @@ title: Manage RTMP-In for Teams meetings, webinars, and town halls
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: srajay
 ms.date: 03/5/2024

@@ -3,7 +3,7 @@ title: Manage apps that work across Outlook and Microsoft 365 App
 author: surbhigupta12
 ms.author: surbhigupta
 manager: prkosh
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
@@ -37,6 +37,9 @@ App developers can create apps that work  not only in Microsoft Teams but also i
 * Manage apps page in Teams Admin Center. It manages apps for Teams client. The changes you make in the Teams admin center, impact apps in only Teams.
 
 Unified app management consolidates app catalog management into a single platform. You can manage apps on the Integrated apps page in the Microsoft 365 admin center or in the Teams admin center. Changes made in either admin center synchronize.
+
+> [!NOTE]
+> Until your tenant is migrated to unified app management, ensure that the settings in both admin centers, such as blocked apps or org-wide app settings, remain synchronized. This measure prevents unexpected disruptions or issues with app functionality.
 
 ## Understand the impact on your organization
 

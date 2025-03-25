@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.reviewer: sherimehmood
 ms.date: 7/15/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin

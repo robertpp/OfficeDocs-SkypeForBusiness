@@ -3,11 +3,11 @@ title: Roll out a Teams Premium trial
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.reviewer: margidesai
 audience: admin
-ms.date: 2/26/2024
+ms.date: 2/24/2025
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -22,31 +22,31 @@ description: Learn how to set up a Teams Premium trial to understand and test pr
 
 # Roll out a Teams Premium trial
 
-You can try [Teams Premium](enhanced-teams-experience.md) for free by adding the Teams Premium trial to your organization's Microsoft 365 subscription. The Teams Premium trial provides 25 licenses for 30 days.
+As an admin, you can try [Teams Premium](enhanced-teams-experience.md) for free by adding the Teams Premium trial to your organization's Microsoft 365 subscription. The Teams Premium trial provides 25 licenses for 30 days.
 
-Before you start the trial, it's important to plan who will be provided with licenses and what use cases you want to validate during the trial, as well as how you'll collect feedback while the trial is underway.
+Before you start the trial, it's important to plan who will be provided with licenses. You should decide what use cases you want to validate during the trial, and how to collect feedback while the trial is underway.
 
 The following are the basic steps involved in a trial:
 
-1. **Pre-trial planning** - including defining test cases, choosing users, and deciding which feature settings and policies you want to use
-1. **Add the trial to your tenant** - including assigning licenses
-1. **Administrative setup** - including creating meeting templates, uploading logos and backgrounds, and assigning policies to users. If your organization uses sensitivity labels, this also includes creating meeting sensitivity labels in Microsoft Purview.
-1. **Start the trial** - including notifying the trial participants to begin testing the use cases you defined and providing feedback to stakeholders
+1. **Pre-trial planning** - Including defining test cases, choosing users, and deciding which feature settings and policies you want to use.
+1. **Add the trial** - Including assigning licenses to users in your organization.
+1. **Administrative setup** - Including creating meeting templates, uploading logos and backgrounds, and assigning policies to users. If your organization uses sensitivity labels, setup also includes creating meeting sensitivity labels in the Microsoft Purview or Microsoft Purview compliance portal.
+1. **Start the trial** - Including notifying the trial participants to begin testing the use cases you defined and providing feedback to stakeholders.
 
-To better assist with planning for your Teams Premium trial, you can download the [Teams Premium Trial Guide](https://adoption.microsoft.com/files/microsoft-teams/teams-premium-trial-guide.pdf) from Microsoft Adoption and watch [Running a Successful Teams Premium Trial on YouTube](https://www.youtube.com/watch?v=b7z3re0GPd4).
+To better assist with planning for your Teams Premium trial, you can download the [Teams Premium Trial Guide](https://adoption.microsoft.com/files/microsoft-teams/teams-premium-trial-guide.pdf) from Microsoft Adoption and watch [Running a Successful Teams Premium Trial](https://www.youtube.com/watch?v=b7z3re0GPd4) on YouTube.
 
-This article covers pre-trial planning and how to add the trial to your tenant and assign licenses. Specific steps for administrators to set up features for the trial are covered in other Teams Premium articles which we link to in the sections below.
+This article covers pre-trial planning and how to add the trial to your tenant and assign licenses. Specific steps for administrators to set up features for the trial are covered in each feature's article, which we link to in the following sections. For a full list of Teams Premium features and links to their documentation, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md).
 
 ## Determine trial participants and stakeholders
 
-Teams Premium provides a variety of enhancements to Teams meetings. We recommend that you find participants from around your organization who can make use of the Teams Premium features in the normal course of their work, as well as stakeholders and specialists who can validate the features for your business, branding, and compliance needs. These may include:
+Teams Premium provides various enhancements to Teams meetings. We recommend that you find participants from around your organization who can make use of the Teams Premium features in the normal course of their work, including stakeholders and specialists who can validate the features for your business, branding, and compliance needs. These participants might include:
 
 - People who need to present sensitive information in meetings
 - Branding and corporate communications specialists
 - Compliance and governance specialists
 - People who present to large audiences
 
-Not all trial participants need a Teams Premium license. Some people, such as business stakeholders who help define use cases, may not need to test the features themselves.
+Not all trial participants need a Teams Premium license. Some people, such as business stakeholders who help define use cases, might not need to test the features themselves.
 
 The following table lists potential trial participants and their roles. For details on roles, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles).
 
@@ -59,7 +59,7 @@ The following table lists potential trial participants and their roles. For deta
 |Meeting participants|People in the organization who can attend meetings that use Teams Premium features and give feedback on them|No|
 |Compliance specialists|Compliance or governance specialists who can validate use cases for compliant meetings|Yes|
 
-Note that you can use security groups to easily specify who can use specific sensitivity labels.
+You can use security groups to easily specify who can use specific sensitivity labels.
 
 ### Collect feedback from trial participants
 
@@ -69,9 +69,9 @@ Beyond Teams chat, there are several options for gathering feedback from trial p
 
 ## Define use cases
 
-The sections below describe the areas where Teams Premium offers enhanced meeting capabilities for your organization. As you prepare for the trial, review each area and determine the use cases that you want to test.
+The following sections describe the areas where Teams Premium offers enhanced meeting capabilities for your organization. As you prepare for the trial, review each area and determine the use cases that you want to test.
 
-#### Compliant meetings
+### Compliant meetings
 
 To help meet your compliance requirements for meetings, Teams Premium provides the following options for meeting organizers:
 
@@ -81,7 +81,7 @@ To help meet your compliance requirements for meetings, Teams Premium provides t
 
 These options are available to meeting organizers with a Teams Premium license.
 
-Teams Premium also includes custom meeting templates and additional options for sensitivity labels that can be used to control many of the [meeting settings that are available to meeting organizers](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e), including those listed above.
+Teams Premium also includes custom meeting templates and extra options for sensitivity labels that you can use to control many of the [meeting settings that are available to meeting organizers](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e).
 
 If your organization uses sensitivity labels, you can create a combination of sensitivity labels and meeting templates to define meeting experiences for meetings with different sensitivity levels. For ideas on how to use labels and meeting templates for different types of meetings, read [Configure Teams meetings with three tiers of protection](/microsoftteams/configure-meetings-three-tiers-protection).
 
@@ -89,11 +89,11 @@ Sensitivity labels are defined in Microsoft Purview and you can use them in meet
 
 If your organization doesn't use sensitivity labels, you can control many of the same features by using custom meeting templates alone.
 
-For the trial, you'll want to define the different types of meeting experiences that you want to validate and then determine how you want to use sensitivity labels (if applicable) and meeting templates to make these meeting experiences available to trial participants.
+For the trial, define the different types of meeting experiences that you want to validate. Next, determine how you want to use sensitivity labels (if applicable) and meeting templates to make these meeting experiences available to trial participants.
 
 If you use sensitivity labels, we suggest creating temporary labels for the trial and publishing them to your trial participants. This way you don't need to update production labels that are available widely within the organization.
 
-For your trial group, you may want to include people who need to present sensitive information in meetings as well as compliance specialists who can validate the features and settings used with respect to your business requirements.
+For your trial group, you might want to include people who need to present sensitive information in meetings and compliance specialists who can validate the features and settings used with respect to your business requirements.
 
 For more information about using Teams Premium for meeting compliance, see the following references:
 
@@ -101,42 +101,41 @@ For more information about using Teams Premium for meeting compliance, see the f
 - [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
 - [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 - [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+- [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 #### Custom meetings
 
 Teams Premium allows organizations to extend their visual identities across the meeting experience by adding logos and backgrounds that are displayed in the meeting lobby background and other places in Teams.
 
 There are three primary ways to customize meetings in Teams Premium:
+
 - **Themes** - logos, images, and colors that represent your organization
 - **Backgrounds** - images that people can use as meeting backgrounds when they attend Teams meetings
 - **Templates** - preset lists of meeting options for different meeting types
 
-Meeting themes and backgrounds are made available to users through meeting customization policies. Each policy includes:
+Meeting themes and backgrounds are made available to users through meeting customization policies.
 
-- One theme with an image, logo, and color selection
-- Up to 50 custom background images
+As you test themes, you might want to change images, colors, and logos as you go. We recommend that you have a Teams Administrator available who can change theme settings quickly throughout the trial. You can also test multiple themes by creating extra meeting customization policies and assigning them to different trial participants.
 
-As you test themes, you may want to change images, colors, and logos as you go. We recommend that you have a Teams Administrator available who can change theme settings quickly throughout the trial. You can also test multiple themes by creating additional meeting customization policies and assigning them to different trial participants.
-
-Meeting organizers with a Teams Premium license can create meetings using the theme you add, which will be visible to all meeting participants.
+Meeting organizers with a Teams Premium license can create meetings using the theme you add, which are visible to all meeting participants.
 
 For more information about using custom themes and backgrounds in Teams Premium meetings, see the following references:
 
+- [Teams Premium meetings customization options](custom-meetings-overview.md)
 - [Custom meeting backgrounds for Teams Meetings](custom-meeting-backgrounds.md)
 - [Meeting themes for Teams meetings](meeting-themes.md)
-- [Use meeting themes for Teams meetings](https://support.microsoft.com/office/fbfd826d-1112-4790-918a-5a82cac8250e)
 
-Custom meeting templates can be used to preset many of the options that are available to meeting organizers, including security, audio and video, recording and transcription, and meeting engagement settings. Settings can be enforced by the templates or meeting organizers can be allowed to change them. Review the options in [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md) as you determine what meeting templates you want to create for the trial.
+You can use custom meeting templates to preset many of the options that are available to meeting organizers, including security, audio and video, recording and transcription, and meeting engagement settings. You can enforce settings by locking the templates or meeting organizers can be allowed to change them. Review the options in [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md) as you determine what meeting templates you want to create for the trial.
 
 #### Premium events
 
-With premium events, meeting organizers have additional features to help them organize meetings webinars, and town halls, including analytics, enhanced registration, custom emails, and enhanced controls for presenter and attendee video.
+With Premium events, meeting organizers have more features to help them organize meetings webinars, and town halls. These features include analytics, enhanced registration, custom emails, and enhanced controls for presenter and attendee video.
 
-Many of these features don't have administrative controls, so you don't need a Teams Administrator to set them up. They're automatically available to meeting organizers who have a Teams Premium license.
+Some of these features don't have admin policies, so they're automatically available to meeting organizers who have a Teams Premium license.
 
-The following meeting and webinar features are available in Teams Premium:
+Here are a few webinar and town hall features available in Teams Premium:
 
-- **[Enhanced registration capabilities](https://support.microsoft.com/office/923f382a-0cca-433a-b38d-7461971192d1)** - Additional webinar registration options, including manual registration approval, waitlist, and registration start and end time.
+- **[Enhanced registration capabilities](https://support.microsoft.com/office/923f382a-0cca-433a-b38d-7461971192d1)** - Extra webinar registration options, including manual registration approval, waitlist, and registration start and end time.
 
 - **Enhanced video feed controls** - Options to decide whose avatars or video feeds to spotlight during a Teams meeting. Available for both meetings and webinars.
 
@@ -148,13 +147,14 @@ The following meeting and webinar features are available in Teams Premium:
 
 - **[Hide the names of attendees](hide-attendee-names.md)** - Allow meeting and webinar organizers to hide the names and photos of attendees from other attendees in the stage, roster, and chat.
 
-As you determine which users will get trial licenses, consider which of your meeting and webinar organizers can best test these features.
+As you determine which users get trial licenses, consider which of your meeting and webinar organizers can best test these features.
 
 For more information about setting up webinars and town halls, see [Plan for Teams webinars](plan-webinars.md) and [Plan for Teams town halls](plan-town-halls.md).
 
 #### Advanced Virtual Appointments
 
-Teams Premium includes additional features to help your workforce get the most out of the [Virtual Appointments app](/microsoft-365/frontline/virtual-appointments-app). These include:
+Teams Premium includes more features to help your workforce get the most out of the [Virtual Appointments app](/microsoft-365/frontline/virtual-appointments-app). These features include:
+
 - SMS notifications to remind attendees of meetings.
 - Meeting organizers can view and manage both scheduled and on-demand appointments in the queue.
 - Organizational and departmental analytics help you see and understand how your users are working with Virtual Appointments.
@@ -163,7 +163,7 @@ Consider which of your meeting organizers should get a license to test SMS notif
 
 Use the [Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report) to understand how your team members are using basic Virtual Appointments features. You can compare this with the [Advanced Virtual Appointments activity report](/microsoft-365/frontline/advanced-virtual-appointments-activity-report), which shows how much your users are utilizing the features in Virtual Appointments that are only available with Teams Premium. You can use these two reports to understand which features are the most useful for your team, and gain insight into the adoption of advanced features within your  organization.
 
-Note that the Teams Administrator requires a trial license to access the Advanced Virtual Appointments activity report.
+The Teams Administrator requires a trial license to access the Advanced Virtual Appointments activity report.
 
 #### Custom policy packages
 
@@ -173,9 +173,9 @@ If you want to test custom policy packages as part of your trial, see [Managing 
 
 ## Get started with the trial
 
-When you've completed your pre-trial planning, the next step is to add the Teams Premium trial to your Microsoft 365 subscription.
+When you complete your pre-trial planning, the next step is to add the Teams Premium trial to your Microsoft 365 subscription.
 
-Once you've added the trial, you can do the administrative setup steps to get the trial ready for your users:
+Once you add the trial, you can do the administrative setup steps to get the trial ready for your users:
 
 - Create the meeting templates that you want to test, both for compliance and custom meetings.
 - Create the meeting customization policies that you want to use to test your themes and backgrounds.
@@ -186,16 +186,19 @@ Once the administrative setup is complete, notify your trial participants that t
 
 ### Add the Teams Premium trial to your organization and assign licenses
 
-The Teams Premium trial is added from the Microsoft 365 admin center.
+You use the  Microsoft 365 admin center to add the Teams Premium trial.
 
-To add the Teams Premium trial to Microsoft 365
+To add the Teams Premium trial to Microsoft 365, follow these steps:
 
-1. In the Microsoft 365 admin center, expand **Billing**, and then select **Purchase services**.
-1. Search for *Teams Premium*.
-1. Under **Microsoft Teams Premium Introductory Pricing**, select **Details**.
-1. Select **Start free trial**.
-1. On the checkout page, select **Try now**.
+1. In the Microsoft 365 admin center navigation pane,  select **Marketplace**.
+1. Select the **All products** tab and search for *Microsoft Teams Premium*.
+1. *Microsoft Teams Premium* is under the **Collaboration and communication section**. Select **Details**.
+1. Next to the **Buy** button, select **Start free trial**.
+1. Enter your information on the checkout page and select **Try now**.
 1. Select **Continue**.
+
+> [!NOTE]
+> You can also start your trial within the Teams admin center. To learn more, see [Manage Teams Premium for your organization](teams-premium-dashboard.md).
 
 For information about how to assign the licenses to your users, see [Assign Microsoft 365 licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -203,6 +206,7 @@ It might take up to 72 hours for Teams Premium sensitivity label settings to be 
 
 ## Related topics
 
+- [Teams Premium overview](enhanced-teams-experience.md)
 - [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings)
 - [Teams Premium deployment guide](https://aka.ms/TeamsPremiumDeployment)
 - [Teams Premium user guide](https://adoption.microsoft.com/files/microsoft-teams/Microsoft-Teams-Premium-user-guide.pptx)

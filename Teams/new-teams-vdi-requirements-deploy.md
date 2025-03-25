@@ -3,7 +3,7 @@ title:  New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.date: 01/14/2025
 ms.service: msteams
 audience: admin
@@ -214,7 +214,7 @@ The classic Teams client and the new Teams client have different install locatio
 |:-----|:-----|:-----|
 |Classic Teams MSI with the ALLUSERS=1 flag|C:\Program Files (x86)\Microsoft\Teams|Disabled|
 |Classic Teams .EXE|%localappdata%\Microsoft\Teams |Enabled |
-|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to 'provision' (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate)|
+|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to 'provision' (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate-in-non-persistent-vdi)|
 
 ## Troubleshooting new Teams deployment errors
 
@@ -269,7 +269,7 @@ For Outlook to properly display presence status, the following steps are require
 1. Install new Teams 24033.811.2738.2546 or higher, using Dism as described previously.
 
 > [!NOTE]
-> Steps 1, 2, 3, 4, and 5 are only required once. Subsequent golden image maintenances don't need these steps repeated.
+> Steps 1, 2, 3, 4, and 5 are only required once. Subsequent golden image maintenance don't need these steps repeated.
 
 > [!IMPORTANT]
 > Outlook must be started **after** new Teams is launched for presence to be shown correctly.
@@ -284,7 +284,7 @@ To uninstall and deprovision the new Teams for all users, use the following comm
 
 This command unregisters and deprovisions the new Teams for all users. Teams user profile/cache is deleted.
 
-## Disable new Teams autoupdate
+## Disable new Teams autoupdate in non-persistent VDI
 
 To prevent new Teams from autoupdating, use the following registry key on the virtual machine.
 Only new Teams builds higher than 23306.3314.2555.9628 in VDI can process this registry key.
@@ -295,6 +295,9 @@ Name: disableAutoUpdate
 Type: DWORD
 Value: 1
 ```
+
+> [!IMPORTANT]
+> If this regkey is present in the virtual machine, Teams MSIX installer will not attempt to install or upgrade the Teams Meeting add-In (TMA). Administrators must provision TMA using scripts or other deployment tools. See the [Teams Meeting add-In](#teams-meeting-add-in) section for more details.
 
 ## New Teams auto-start
 
@@ -451,13 +454,15 @@ All new Teams files that are installed on the computer are signed, so IT admins 
 - Installation logs for TMA MSI are stored here: *AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt*
 
 >[!Note]
->In Windows Server or Windows 10/11 Multiuser environments, installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error *"Installation success or error status: 1625."*.
+>In non-persistent environments (e.g Windows Server or Windows 10/11 Single or Multiuser), installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error *"Installation success or error status: 1625."*.
 
 This error is caused by GPOs affecting Windows Installer, and includes [**DisableUserInstalls**](/windows/win32/msi/disableuserinstalls), [**DisableMSI**](/windows/win32/msi/disablemsi), or AppLocker policies based on Publisher rule conditions, or a RuleCollection for MSI installs. In this case you must create an exception such as:
 
 - FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI"
 
-**Workaround:**  You can install the MSI that is located in the new Teams installation directory from an Admin Command prompt using:  
+#### Deployment method for non-persistent environments where Teams auto-update is disabled
+
+You can install the MSI that is located in the new Teams installation directory from an Admin Command prompt using:  
 
 ```powershell
 
@@ -493,6 +498,8 @@ BinaryVersion
 msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_23320.3021.2567.4799_x64__8wekyb3d8bbwe\MicrosoftTeamsMeetingAddinInstaller.msi" ALLUSERS=1 /qn /norestart TARGETDIR="C:\Program Files (x86)\Microsoft\TeamsMeetingAdd-in\1.24.2203.0\"
 ```
 
+The following powershell script can be used as a reference for deployment. Customers should validate in their QA/TEST environments:
+
 ```powershell
 If (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator') ){
     Write-Error "Need to run as administrator. Exiting.."
@@ -516,7 +523,7 @@ if (-not ($TMAVersion = (Get-AppLockerFileInformation -Path $TMAPath | Select-Ob
 Write-Host "Found Teams Meeting Addin Version: $TMAVersion"
 
 # Install parameters
-$TargetDir = "{0}\Microsoft\TeamsMeetingAddin\{1}\" -f ${env:ProgramFiles(x86)},$TMAVersion
+$TargetDir = "{0}\Microsoft\TeamsMeetingAdd-in\{1}\" -f ${env:ProgramFiles(x86)},$TMAVersion
 $params = '/i "{0}" TARGETDIR="{1}" /qn ALLUSERS=1' -f $TMAPath, $TargetDir
 
 # Start the install process

@@ -1,16 +1,10 @@
 items:
 - name: Welcome to Teams
-  href: teams-overview.md
-- name: Teams Premium overview
-  href: enhanced-teams-experience.md
+  href: teams-overview.md           
 - name: Get started
   items:
     - name: Deployment overview
-      href: deploy-overview.md
-    - name: Teams Premium trial
-      href: teams-premium-trial.md
-    - name: Small business setup
-      href: deploy-small-business.md     
+      href: deploy-overview.md    
     - name: Enterprise setup
       items:
         - name: Enterprise setup overview
@@ -81,17 +75,13 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Overview & rollout schedule for new Teams
+                - name: Teams client overview
                   href: new-teams-desktop-admin.md
-                - name: Features that are changing in new Teams
-                  href: new-teams-whats-changing.md
                 - name: New Teams client requirements
                   href: teams-client-system-requirements.md
                 - name: Deployment checklist for new Teams
                   href: new-teams-deployment-checklist.md
-                - name: Upgrade to the new Teams using policies               
-                  href: new-teams-deploy-using-policies.md
-                - name: Bulk upgrade to the new Teams client
+                - name: Bulk deploy the new Teams client
                   href: new-teams-bulk-install-client.md
                 - name: Update to the new Teams with Microsoft 365 Apps
                   href: new-teams-deploy-with-m365apps.md
@@ -99,10 +89,6 @@ items:
                   href: new-teams-mac-install-prerequisites.md
                 - name: Update to the new Teams for VDI
                   href: new-teams-vdi-requirements-deploy.md
-                - name: Update to the new Teams for Education
-                  href: new-teams-education.md
-                - name: Update to the new Teams for Web
-                  href: new-teams-web.md
                 - name: Teams Progressive Web Apps (PWAs)
                   href: teams-progressive-web-apps.md 
                 - name: New teams pre-installation script
@@ -113,8 +99,6 @@ items:
                   href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
                 - name: Troubleshooting launch issues
                   href: /microsoftteams/troubleshoot/teams-administration/resolve-new-teams-launch-issues
-                - name: Known issues in new Teams
-                  href: new-teams-known-issues.md
                 - name: New VDI solution for Teams
                   href: vdi-2.md
                 - name: Classic Teams client end of availability
@@ -149,6 +133,14 @@ items:
                       href: hardware-decoders-and-encoders.md
                     - name: Classic Teams firewall PowerShell script
                       href: client-firewall-script.md
+    - name: Small business setup
+      items: 
+        - name: Small business setup overview
+          href: deploy-small-business.md
+        - name: Set up Teams calendar syncing with Google Workspace
+          href: setup-calendar-syncing-with-google-workspace.md
+        - name: Integrating your business email with Teams 
+          href: integrating-business-email.md
     - name: Upgrade from Skype for Business
       items: 
         - name: Get started
@@ -392,6 +384,119 @@ items:
       items:
         - name: Set up Facilitator for AI notes
           href: facilitator-teams.md
+        - name: Facilitator in Teams Rooms
+          href: rooms/facilitator-teams-rooms.md
+
+- name: Teams Premium
+  items:
+    - name: Teams Premium overview
+      href: enhanced-teams-experience.md
+    - name: Teams Premium trial
+      href: teams-premium-trial.md
+    - name: Manage Teams Premium for your organization
+      href: teams-premium-dashboard.md
+    - name: Protection and advanced management for meetings
+      items:
+        - name: Advanced collaboration analytics for Microsoft Teams
+          href: advanced-collaboration-analytics.md
+        - name: Alerts for in-progress meeting audio quality issues
+          href: alerts/alerts-in-progress-meeting-audio.md
+        - name: Managing policy packages in Teams
+          href: manage-policy-packages.md
+        - name: Encrypt meetings
+          href: end-to-end-encrypted-meetings.md
+        - name: Hide attendee names
+          href: hide-attendee-names.md
+        - name: Restrict copying and forwarding
+          href: manage-chat-sensitive-meetings.md
+        - name: Prevent users from sharing content in external Teams meetings
+          href: block-external-content-share.md
+        - name: Allow users to block Microsoft Teams chat messages
+          href: block-incoming-chats.md
+        - name: Real-time telemetry and retention
+          href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md#where-to-find-per-user-real-time-troubleshooting-telemetry
+        - name: Who can record and transcribe
+          href: manage-meeting-recording-options.md#manage-who-can-record-and-transcribe-meetings-teams-premium
+        - name: Alerts for in-progress meeting screen sharing issues
+          href: alerts/alerts-in-progress-meeting-screen-sharing.md
+        - name: Sensitivity labels for meetings
+          href: /purview/sensitivity-labels-meetings
+        - name: Teams Premium feature usage report
+          href: /teams-analytics-and-reports/teams-premium-usage-report.md
+        - name: Teams meeting templates, sensitivity labels, and admin policies
+          href: meeting-templates-sensitivity-labels-policies.md
+        - name: Alerts for in-progress meeting video quality issues
+          href: /alerts/alerts-in-progress-meeting-video.md
+        - name: Watermarks
+          href: watermark-meeting-content-video.md
+    - name: Personalized meetings
+      items:
+        - name: Teams Premium meetings customization options
+          href: custom-meetings-overview.md
+        - name: Manage and upload custom meeting backgrounds for Teams meetings
+          href: custom-meeting-backgrounds.md
+        - name: Custom Together Mode scenes in Teams
+          href: /platform/apps-in-teams-meetings/teams-together-mode
+        - name: Overview of custom meeting templates in Microsoft Teams
+          href: custom-meeting-templates-overview.md
+        - name: Create and manage meeting themes for Teams meetings
+          href: meeting-themes.md
+        - name: Manage RTMP-In
+          href: meetings-rtmp-in.md
+    - name: Advanced town halls
+      items:
+        - name: Manage email communications for events
+          href: manage-email-communications.md
+        - name: Manage event chat for town halls
+          href: town-hall-chat.md
+        - name: Enterprise content delivery networks for streaming Microsoft Teams events
+          href: streaming-ecdn-enterprise-content-delivery-network.md
+        - name: eCDN Analytics
+          href: /ecdn/technical-documentation/analytics
+    - name: Advanced webinars
+      items:
+        - name: Manage email communications for events
+          href: manage-email-communications.md
+        - name: Allow meeting and webinar organizers to hide the names of attendees
+          href: hide-attendee-names.md
+        - name: Manage transcription and captions for Teams meetings
+          href: meeting-transcription-captions.md
+        - name: Manage RTMP-In
+          href: meetings-rtmp-in.md
+    - name: Advanced Virtual Appointments
+      items:
+        - name: Manage the Virtual Appointments app for your organization in Microsoft Teams
+          href: manage-virtual-appointments-app.md
+        - name: Microsoft Teams Virtual Appointments usage report
+          href: /microsoft-365/frontline/virtual-appointments-usage-report
+        - name: Microsoft Teams Advanced Virtual Appointments activity report
+          href: /microsoft-365/frontline/advanced-virtual-appointments-activity-report
+        - name: SMS text notifications
+          href: bookings-app-admin.md#sms-text-notifications
+    - name: Intelligent features
+      items:
+        - name: Intelligent recap for Teams calls and meetings
+          href: intelligent-recap-calls-meetings.md
+        - name: Live translated transcripts and captions
+          href: meeting-transcription-captions.md
+    - name: Advanced Places workplace collaboration
+      items:
+        - name: Enable room check-in and autorelease
+          href: /microsoft-365/places/enable-auto-release
+        - name: Configure desk booking
+          href: /microsoft-365/places/configure-desk-booking
+        - name: Turn on Places finder
+          href: /microsoft-365/places/enabling-places-finder
+        - name: Set up analytics
+          href: /microsoft-365/places/places-analytics
+    - name: Calls
+      items:
+        - name: Manage Queues app for Microsoft Teams in your organization
+          href: manage-queues-app.md
+        - name: Auto attendant and Call queue real-time metrics
+          href: aa-cq-real-time-reports.md
+        - name: Auto attendant and Call queue historical reports
+          href: aa-cq-cqd-historical-reports.md
 
 - name: Manage and monitor Teams
   items: 
@@ -845,6 +950,8 @@ items:
               href: teams-encoder-setup.md
         - name: Recording & transcription
           items:
+            - name: Overview- Recording and transcription for Teams meetings, events, and calls
+              href: recording-transcription-overview.md
             - name: Manage Teams recording policies for meetings and events
               href: meeting-recording.md
             - name: Configure transcription and captions for Teams meetings
@@ -1099,6 +1206,8 @@ items:
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Languages for voicemail greetings and messages
               href: languages-for-voicemail-greetings-and-messages.md
+            - name: Manage Shared Voicemail
+              href: manage-shared-voicemail.md
         - name: Shared line appearance
           href: shared-line-appearance.md
         - name: Dial pad configuration
@@ -1203,7 +1312,9 @@ items:
               items: 
                 - name: Overview
                   href: direct-routing-monitor-and-troubleshoot.md
-                - name: Health Dashboard
+                - name: View SIP call flow
+                  href: direct-routing-monitor-sip-ladder.md
+                - name: SBC Health Dashboard
                   href: direct-routing-health-dashboard.md
             - name: Technical reference for Direct Routing
               items: 
@@ -1283,7 +1394,16 @@ items:
       items:
         - name: Overview
           href: sms-overview.md
-          
+        - name: Step 1 - Create brand
+          href: sms-setup-brand.md
+        - name: Step 2 - Create campaign
+          href: sms-setup-campaign.md
+        - name: Step 3 - Enable SMS
+          href: sms-management.md
+        - name: SMS privacy and terms template example
+          href: sms-privacy-terms-template.md
+        - name: Microsoft policy for SMS in Teams
+          href: sms-microsoft-teams-policy.md
     - name: Dial plans and routing
       items: 
         - name: Overview
@@ -1420,7 +1540,7 @@ items:
                 - name: Certified personal peripherals
                   href: devices/usb-devices.md
                 - name: Certified Native Bluetooth devices
-                  href: devices/bluetooth-devices.md
+                  href: devices/bluetooth-devices.md               
                 - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/meetings/known-issues-teams-certified-peripherals
     - name: Teams Rooms and panels
@@ -1457,6 +1577,8 @@ items:
                       href: rooms/multicamera-view.md
                     - name: Coordinated meetings                    
                       href: rooms/coordinated-meetings.md
+                    - name: Faciliator in Teams Rooms
+                      href: rooms/facilitator-teams-rooms.md                      
                     - name: Whiteboard in Teams Rooms
                       href: rooms/whiteboard-rooms.md
                     - name: Intelligent speaker
@@ -1618,7 +1740,7 @@ items:
                 - name: RBAC using administrative units
                   href: administrative-unit.md
                 - name: Teams device health
-                  href: teams-device-health.md
+                  href: devices/teams-device-health.md
                 - name: Teams device health monitoring
                   href: alerts/device-health-status.md
             - name: Teams Rooms Pro Management
@@ -1637,20 +1759,25 @@ items:
                   items: 
                     - name: Managing your inventory
                       href: rooms/inventory.md
-                    - name: Standards and Rooms Planner 
-                      href: rooms/standards-and-room-planner.md
-                    - name: Remotely access a Teams Room console
-                      href: rooms/remotely-access-teams-rooms.md
+                    - name: Manage Teams Rooms on Windows
+                      href: rooms/pro-portal-settings.md
                     - name: Managed updates
                       href: rooms/update-management.md
+                    - name: Remotely access a Teams Room console
+                      href: rooms/remotely-access-teams-rooms.md
+
                     - name: Role-based access control
                       href: rooms/rooms-pro-rbac.md
                     - name: Multi-tenant management for partners
                       href: rooms/multi-tenant-management-partner.md
                     - name: Multi-tenant management for customers
                       href: rooms/multi-tenant-management-customer.md
+                    - name: Standards and Rooms Planner 
+                      href: rooms/standards-and-room-planner.md
                 - name: Monitoring
                   items:
+                    - name: Teams Rooms on Windows settings
+                      href: rooms/pro-portal-settings.md
                     - name: Signal settings
                       href: rooms/signal-settings.md  
                     - name: Configure ServiceNow
@@ -1665,8 +1792,10 @@ items:
                       href: rooms/managed-meeting-rooms-portal.md
                     - name: Audit logs for activities
                       href: rooms/multi-tenant-auditing.md
-                    - name: Health and usage reports
-                      href: rooms/health-and-usage-reports.md
+                    - name: Health reports
+                      href: rooms/health-reports.md
+                    - name: Usage reports
+                      href: rooms/usage-reports.md
                 - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/teams-rooms-and-devices/get-support-teams-rooms-pro-management
     - name: Teams phones

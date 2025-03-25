@@ -5,7 +5,7 @@ ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 audience: ITPro
-ms.topic: conceptual
+ms.topic: concept-article
 manager: serdars
 ms.service: skype-for-business-server
 f1.keywords:

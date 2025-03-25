@@ -5,7 +5,7 @@ author: sfrancis206
 manager: pamgreen
 ms.date: 11/11/2024
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.reviewer: kkodali
 ms.localizationpriority: medium
@@ -172,7 +172,7 @@ The following list includes partners certified to deliver a compliance recording
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Imagicle |[https://www.imagicle.com/en/products/call-recording/](https://www.imagicle.com/en/products/call-recording/) |
-|Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
+|Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/market-place/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
 |NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
@@ -193,6 +193,7 @@ The following partners are in the process of certifying their solution for Micro
 |CreaLog |[https://www.crealog.com/en/products-solutions/recording/](https://www.crealog.com/en/products-solutions/recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Redwood Technologies |[https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/](https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/) |
+|TollRing |[https://www.analytics-365.com/call-recording/](https://www.analytics-365.com/call-recording/) |
 
 This list gets updated as more partners join and meet the certification criteria.
 
@@ -273,4 +274,4 @@ Microsoft only supports compliance recording solutions from the listed, certifie
 ### Related topics  
 
 - [Teams Recordings - Microsoft Teams | Microsoft Learn](./teams-recording-policy.md)
- 
+- [Overview- Recording and transcription for Teams meetings and calls](recording-transcription-overview.md)

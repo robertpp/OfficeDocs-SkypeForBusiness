@@ -3,7 +3,7 @@ title: Migration and interoperability - Skype for Business
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: conceptual
+ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen

@@ -3,7 +3,7 @@ title: Prepare your organization for an upgrade from Skype for Business to Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.service: msteams
 ms.reviewer: landerl
 ms.date: 05/29/2018

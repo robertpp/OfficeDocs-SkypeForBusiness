@@ -3,7 +3,7 @@ title: Use CQD to manage call and meeting quality in Microsoft Teams
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: siunies, gageames
 ms.date: 05/06/2024
@@ -155,6 +155,10 @@ Stream direction can also help you identify problematic devices or clients.
 
    - For example, let's say a user complains of robotic audio while on a wired connection (jitter). By looking at stream and direction, you can determine that the problem happens on the inbound stream, only for a specific set of subnets. After you give this information to your networking team, they can track it down to a misconfigured WAN accelerator that was not bypassing media traffic. Once the network team reconfigures the WAN accelerator, jitter disappears and call quality improves. 
 
+
+#### View-only participants and Live Event attendees
+
+Organizers and presenters in a Teams Live Event (TLE) or TownHall meeting are represented in CQD like any other meeting participant. However, [view-only participants](view-only-meeting-experience.md) and [Live Event attendees](plan-town-halls.md) use a unique media type ("AV Stream") that combines audio and video into one media stream. These AV Streams are uni-directional and have different quality-of-experience metrics compared to normal meetings. Refer to the "Teams Events" section of the [CQD Dimensions and Measures](dimensions-and-measures-available-in-call-quality-dashboard.md) page for details on what diagnostic values are available for these participants.
 
 #### Setup Failure Rate
 

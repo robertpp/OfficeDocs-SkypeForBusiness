@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.date: 10/3/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: christi.balaki
 audience: admin
@@ -46,15 +46,15 @@ The following sections provide user scenarios for various PowerShell commands us
 
 1. If the user is assigned the global policy, run the following script and verify that the **`-AllowBroadcastScheduling`** parameter is set to *True*:
 
-```PowerShell
-Get-CsTeamsMeetingBroadcastPolicy -identity Global
-```
+  ```PowerShell
+  Get-CsTeamsMeetingBroadcastPolicy -identity Global
+  ```
 
 2. Next, to assign the user to the global policy, run the following script:
 
-```PowerShell
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
-```
+  ```PowerShell
+  Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
+  ```
 
 ## You want all users in your organization to be able to schedule live events
 
@@ -90,35 +90,35 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 1. Run the following script to verify that **`-AllowBroadcastScheduling`**is set to *True*:
 
-```PowerShell
-Get-CsTeamsMeetingBroadcastPolicy -Identity Global
-```
+    ```PowerShell
+    Get-CsTeamsMeetingBroadcastPolicy -Identity Global
+    ```
 
 2. Next, to assign a user or users to the global policy, run the following script:
 
-```PowerShell
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
-```
+    ```PowerShell
+    Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
+    ```
 
 ### 2. Create a new policy that doesn't allow specific users to schedule live events
 
 1. To create a new policy that doesn't allow specific users to schedule live events, run the following script:
 
-```PowerShell
-New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
-```
+    ```PowerShell
+    New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
+    ```
 
 2. To turn off live events scheduling, run the following script:
 
-```PowerShell
-Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
-```
+    ```PowerShell
+    Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
+    ```
 
 3. To assign users to this policy, run the following script
 
-```PowerShell
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
-```
+    ```PowerShell
+    Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
+    ```
 
 ## You want to turn off live event scheduling for a large number of the users and allow a set of users to schedule them
 
@@ -126,35 +126,35 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadca
 
 1. To disable live events scheduling, run the following script:
 
-```PowerShell
-Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
-```
+    ```PowerShell
+    Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
+    ```
 
 2. To assign those users to the global policy, run the following script:
 
-```PowerShell
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
-```
+    ```PowerShell
+    Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
+    ```
 
 ### 2. Create a new policy that allows specific users to schedule live events
 
 1. To create a policy to allow live events scheduling, run the following script:
 
-```PowerShell
-New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingPolicy
-```
+    ```PowerShell
+    New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingPolicy
+    ```
 
 2. To turn on live events scheduling, run the following script:
 
-```PowerShell
-Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingPolicy -AllowBroadcastScheduling $true
-```
+    ```PowerShell
+    Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingPolicy -AllowBroadcastScheduling $true
+    ```
 
 3. To assign users to this policy, run the following script:
 
-```PowerShell
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingPolicy -Verbose
-```
+    ```PowerShell
+    Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingPolicy -Verbose
+    ```
 
 ## Set who can join live events
 

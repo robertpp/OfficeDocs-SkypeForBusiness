@@ -4,7 +4,7 @@ ms.reviewer: sachung
 ms.date: 3/8/2024
 ms.author: wlibebe
 author: wlibebe
-ms.topic: article
+ms.topic: concept-article
 manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
@@ -31,6 +31,9 @@ description: Learn what is a town hall in Microsoft Teams. Understand how to pla
 
 Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers lead the presentation. The audience participation is primarily to view and react to the content being shared.
 As an admin, this article guides you through how to plan and prepare for town halls in your organization.
+
+> [!NOTE]
+> Organizers with a Teams Premium license must work with the Microsoft 365 Live Event Assistance Program (LEAP) to create town halls with more than 20,000 attendees. To learn more about LEAP, see the [Need help with your town hall](#need-help-with-your-town-hall) section in this article.
 
 ## Turn town halls on or off
 
@@ -108,8 +111,8 @@ If you've been using live events for your organization, you might want to unders
 |Ability to not send emails and calendar invites to attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |AI generated captions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Attendee reporting|![Image of a checkmark for yes](/office/media/icons/success-teams.png)| ![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Broadcast capacity|10k|10k|- 20k</br> *- 100k In development*|
-|Chat for attendees|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|Broadcast capacity|10k|10k|- 50k</br> *- 100k In development*|
+|Chat for attendees|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)</br> - Not supported for town halls with more than 20,000 attendees.|
 |Concurrent events|15|15|50|
 |Control when event invites are sent|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Co-organizer capacity|N/A|10|10|
@@ -132,9 +135,9 @@ If you've been using live events for your organization, you might want to unders
 |Manage what attendees see|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Manage whether events in your org can be recorded|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Manage whether events in your org can be transcribed|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Microsoft Teams Rooms (Windows) support for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Microsoft town hall insights|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Modern group support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|MTR (Windows) support for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Nudge attendees to join|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Presenter capacity (including external presenters)|100|100|100|
 |Presenters can dial in|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
@@ -142,7 +145,7 @@ If you've been using live events for your organization, you might want to unders
 |Producer role|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Producer UX|![Image of a checkmark for yes](/office/media/icons/success-teams.png) |Manage what attendees see|Manage what attendees see|
 |Q&A: attendees can filter questions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|Q&A capacity|10k|10k|20k|
+|Q&A capacity|10k|10k|50k|
 |Q&A: delete and archive questions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Q&A: moderator default and hide real names|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Q&A: organizers can make presenters moderators|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
@@ -150,6 +153,7 @@ If you've been using live events for your organization, you might want to unders
 |Q&A: question export to CSV|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Q&A: vote on and sort questions|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Queue and preview content and presenters|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Reactions and hand raise|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)</br> - Not supported for town halls with more than 20,000 attendees.|
 |RTMP-In|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |RTMP-In Transcription|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Separate invites for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
@@ -168,6 +172,7 @@ Teams admins and organizers have different policies and settings to control the 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
 |[Attendance and engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
+|[Attendee reactions and hand raise (Teams Premium)](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions)|No control.| Controls whether attendees can engage during the event with live reactions and hand raise. Not supported for town halls with more than 20,000 attendees. |
 |[Audio and video](meeting-policies-audio-and-video.md)|Can manage the availability and use of audio and video for presenters and organizers.| Only presenters and organizers can use their audio and video. Attendees can't share their audio or video, but interact through Q&A.|
 |[Chat for attendees (Teams Premium)](town-hall-chat.md)|Can manage whether town hall organizers with a Teams Premium license can turn on chat for their attendees.|Can decide whether attendees can chat during town halls if their admin's policy allows it.|
 |[Chat for organizers, co-organizers, and presenters](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers can read and write messages to each other during town halls.|Can chat with presenters and co-organizers. Attendees don't use this chat during town halls. To learn how attendees can use chat during town halls, see [Manage meeting chat for Microsoft Teams town halls](town-hall-chat.md).|
@@ -176,22 +181,23 @@ Teams admins and organizers have different policies and settings to control the 
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for organizers. Admins can also turn off the Microsoft eCDN for town hall organizers with a Premium license and switch to a partner eCDN provider.| No control.|
 |[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their town halls.|Can edit email templates before they're sent out.|
 |[External presenters](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c)|No control.|Can invite presenters from outside  of your organization. External presenters have a unique join link to join the town hall without waiting in the lobby.|
-|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control.|Can choose if green room is used for a town hall.|
+|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control.|Can choose if green room is used for a town hall. Can use the **End meeting** button to end the event for attendees while allowing organizers and presenters to stay in the green room until they're ready to leave.|
+|[Intelligent recap (Teams Premium and Microsoft 365 Copilot)](intelligent-recap-calls-meetings.md) |Assigned licenses and transcription policies control this feature.|No control. Organizers, co-organizers, and presenters can access intelligent recap after the town hall ends. Attendees don't have access to intelligent recap.|
 |[Limit presenter role permissions](presenter-role-reduction.md) |Can limit presenter role permissions for the tenant. |No control.|
-|[Live translated captions](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated captions for their town halls. |Organizers can select six languages, or ten if they have a Premium license for attendees to use when translating captions during the town hall.|
+|[Live transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are currently available. |
+|[Live translated captions(Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated captions for their town halls. |Organizers can select six languages, or ten if they have a Premium license for attendees to use when translating captions during the town hall.|
 |[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their town halls. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription.|
 |[Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16) |No control. |Can decide whose avatars or video feeds to spotlight during the town hall. |
 |[Manage who can schedule town halls](set-up-town-halls.md)|Can disable town halls for users and groups, control which organizers can schedule town halls,  and decide whether organizers can schedule public town halls.|Can schedule town halls if allowed by admin.|
 |[Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)|Can control the default values and enforce specific values for Microsoft 365 Copilot in Teams meetings and events in organizers’ meeting options.|Can control whether Microsoft 365 Copilot in Teams meetings and events is used **Only during the meeting**, **During and after the meeting**, or **Off** for their town halls.|
+|[Microsoft Teams Rooms (Windows) can join as a presenter](https://support.microsoft.com/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2)|No control.| Can add Microsoft Teams Rooms on Windows with a Pro license as a presenter. Microsoft Teams Rooms see, but can't send chat messages. Organizers must add Microsoft Teams Rooms from external organizations as external presenters.|
 |[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in town halls.|Can decide if Q&A is available for their town halls if allowed by admins. Q&A is the only way attendees can interact and engage with presenters and organizers. Town hall organizers and co-organizers can export the event's questions and answers to a CSV file.|
 |[Recording](meeting-recording.md)|Can allow or prevent town hall recording. |Recordings start automatically for town halls, but organizers can turn this off. |
 |[Recording expiration](meeting-recording.md)|Can manage whether recordings automatically expire. |By default, published recordings expire after 30 days. Organizers can extend the expiration date to 60 days. After the new date passes, they must reupload and republish the file to keep sharing.|
 |[RTMP-In](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their town halls. |Can produce their Teams events directly from an external hardware or software-based encoder to integrate different types of media into the event. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |
 |[Shared notes](meeting-policies-content-sharing.md)|Can manage whether organizers and co-organizers can use shared notes with other during town halls. |Can use shared notes with co-organizers during town halls |
 |[Speaker coach](meeting-speaker-coach.md)|Can manage whether organizers, presenters, and co-organizers can use speaker coach during town halls. |Can use speaker coach for private real-time feedback and suggestions for improvement of themselves, co-organizers, and presenters. |
-|[Town hall attendee reactions (Teams Premium)](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions)|No control.| Controls whether attendees can engage with live reactions. |
 |[Town hall usage report](teams-analytics-and-reports/teams-town-hall-usage-report.md)|View activity and usage trends for all town halls created in your organization.| No control. |
-|[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are currently available. |
 |[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify town hall recordings. |
 |[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in town halls.|Can enable voice isolation.|
 

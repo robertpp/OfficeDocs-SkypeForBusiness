@@ -5,7 +5,7 @@ author: wlibebe
 ms.reviewer: oscarr
 ms.date: 3/4/2024
 manager: pamgreen
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 audience: admin
 search.appverid: MET150

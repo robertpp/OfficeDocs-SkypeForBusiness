@@ -6,7 +6,7 @@ author: akprakash
 manager: rahulgup
 ms.date: 07/29/2023
 audience: ITPro
-ms.topic: article
+ms.topic: concept-article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH

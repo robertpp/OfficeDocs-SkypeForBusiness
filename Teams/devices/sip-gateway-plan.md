@@ -3,7 +3,7 @@ title: Plan SIP Gateway
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.date: 07/15/2024
+ms.date: 2/28/2025
 ms.reviewer: chasing
 ms.topic: article
 audience: Admin

@@ -5,7 +5,7 @@ ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: roykuntz
 ms.date: 05/03/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 search.appverid: MET150
 ms.collection:

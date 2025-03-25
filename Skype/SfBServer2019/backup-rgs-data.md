@@ -6,7 +6,7 @@ author: MicrosoftHeidi
 manager: serdars
 ms.date: 07/22/2019
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH

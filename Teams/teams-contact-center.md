@@ -3,7 +3,7 @@ title: Teams Contact Center
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-ms.topic: article
+ms.topic: integration
 ms.service: msteams
 audience: admin
 ms.reviewer: anblak
@@ -94,6 +94,7 @@ The following providers offer contact center solutions that are integrated into 
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Caseris` | https://www.caseris.de/microsoft-teams                                                                         |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vier` | https://www.vier.ai/                   |

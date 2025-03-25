@@ -66,7 +66,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Participate in breakout rooms | Available | Not available |
 | | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels) | Available | Available |
 | | Start meeting recording and transcription | Not available | Not available |
-| | Teams Town Hall (Presenter role) | Not available | Not available |
+| | Teams Town Hall (Presenter role) | Available | Not available |
 | | Teams Town Hall (Attendee role) | Not available | Not available |
 | | Teams Live Event (Presenter role) | Available | Not available |
 | | Teams Live Event (Attendee role) | Available | Not available |

@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.date: 01/29/2021
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 audience: admin
 description: Learn how to deploy enterprise features of Microsoft Teams.
