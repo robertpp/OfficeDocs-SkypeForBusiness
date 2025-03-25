@@ -109,6 +109,7 @@ View-only attendees can't perform these actions in the meeting:
 - View-only attendees can only see Live Captions on Desktop and Web. Only English captions are supported at this time.
 - View-only attendees don't have Information Barrier support. If you need Information Barrier support in your organization, you should disable this feature.
 - Streaming technology supports view-only attendees.
+- View-only attendees are not supported in [Call Analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md).
 - View-only attendees have a single video experience. They can see either the active speaker or the content being shared, but not both.
 - We don't currently support **Gallery**, **Large gallery**, or **Together mode** layouts for view-only attendees.
 - The following lobby policies support view-only attendees: **'People in my org,'** **'People in my org and guests,'** **'People in my org, trusted orgs, and guests,'** and **'Everyone'**. If you use a lobby policy that doesn't support view-only attendees, they're rejected from the meeting.
