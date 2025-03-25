@@ -30,12 +30,12 @@ description: Learn how to manage which organizers can use meeting chat for their
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
-> [!NOTE]
-> This feature is currently in Public Preview.
-
 In Microsoft Teams town halls, only presenters, organizers, and co-organizers can use chat to communicate with each other. If town hall organizers have a Teams Premium license, they can turn on **Meeting chat** in their **Meeting options** to allow attendees to a chat and interact with each other. Meeting chat is only available during the town hall. Organizers, presenters, and co-organizers can still chat separately in the **Event group chat**.
 
 As an admin, you can manage whether town hall organizers with a Teams Premium license can turn on meeting chat for their attendees.
+
+> [!NOTE]
+> This feature isn't supported for town halls with more than 20,000 attendees.
 
 For details on how your users use meeting chat for town halls, see [Chat in a town hall in Microsoft Teams](https://support.microsoft.com/office/chat-in-a-town-hall-in-microsoft-teams-a4a0e102-ca45-4605-a0a8-83a884547338).
 
@@ -89,10 +89,11 @@ Learn more, see [Get started with Content search](/purview/ediscovery-content-se
 - Attendees can only send up to 200 characters of text and emojis into the Event Chat.  
 - All other message composition options that are available in a [Teams Meeting chat](manage-meeting-chat.md) like sending pictures, sending GIFs, attaching files, or formatting text aren't supported. Hyperlinks are only supported if they're fewer than 200 characters.  
 - Attendees can't use `@` to mention others, reply to other chat messages using the 'Reply' function, or 'React' to messages.
-- Event Chat is only available for attendees, presenters, and organizers during the town hall. Event chat isn't available before or after the town hall.
+- Town hall chat is only available for attendees, presenters, and organizers during the town hall. Town hall chat isn't available before or after the town hall.
 - During the town hall, attendees can only see the last 200 messages.
 - Attendees sending chat messages might experience a 15-30 second latency from the presenters and organizers.
-- Microsoft Teams Rooms on Windows with a Pro license can't use chat when they join webinars and town halls as a presenter.
+- Town hall chat isn't supported for town halls with more than 20,000 attendees.
+- Microsoft Teams Rooms on Windows with a Pro license can't use chat when they join town halls as a presenter.
 
 ## Related articles
 

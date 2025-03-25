@@ -114,6 +114,7 @@ Here are the messaging policy settings that you can configure.
 - **Users with full chat permissions can delete any message** - Use this setting to let users with full permissions delete any group or meeting chat message.
 - **Video messages** - Turn this setting on if you want users in your organization to be able to use the Teams app to send video messages to other people in chats and channels.
 - **Viva Engage experiences in Teams** - Turn this setting on if you want users in your organization to be able to integrate Viva Engage experiences, like Storyline, into their chats.
+- **Use Designer to create backgrounds and images** - Turn this setting on if you want users in your organization to be able to use Microsoft Designer to generate announcement backgrounds using generative AI.
 
 > [!NOTE]
 > Some of these settings, such as using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.
