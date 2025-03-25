@@ -20,6 +20,7 @@ description: Training videos, PowerPoint decks, tutorials, and other resources f
 appliesto: 
 - Microsoft Teams
 ---
+
 # Getting started with admin training for Microsoft Teams
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content.
@@ -29,15 +30,14 @@ Use the training resources to educate yourself about Teams, teach others or run 
 |![a hand and an upward arrow.](/office/media/icons/get-started-teams.png) |[Start your rollout here](./get-started-with-teams-quick-start.md)     |![document with a list](/office/media/icons/document-teams.png)|[View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
 |![a video play button.](/office/media/icons/video-play.png) |[View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![person with a wrench](/office/media/icons/administrator.png) |[Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml)         |
 
-
-<h2>Key training offerings and courses</h2>
+## Key training offerings and courses
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
 |[**Teams essentials for IT**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "Teams for IT" video series shows you – the admin – how to roll out, configure, and manage Teams.     |[**Support remote workers using Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - Get the guidance you need – including links to training – to support your users who are working from home.         |[**Manage Team collaboration for IT**](/training/paths/m365-manage-team-collaboration) - Learn how to use Teams to facilitate teamwork and communication within your org across applications and devices.         |
 |[**Service Adoption Specialist certification**](/training/paths/m365-service-adoption) - The Microsoft Service Adoption Specialist certification course features Teams. Learn how to drive adoption of Microsoft services in your org.     |[**Introduction to teamwork in Microsoft 365**](/training/modules/intro-to-teamwork-in-m365/index) - The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators configure, deploy, and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams.        |
 
-<h2>Technical training</h2>
+## Technical training
 
 | Module | Video | PowerPoint deck  |
 | ------------ | -------------------- | -------------------- |
@@ -53,7 +53,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Media - Media flow | [Video](https://aka.ms/teams-media-flows) | [Deck](https://aka.ms/teams-media-flows-deck)  |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
 | Microsoft Places Deployment playbook | | [Deck](https://aka.ms/PlacesDeployment) |
-| Live events | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) || Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
+| Live events | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) | Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
 | Phone system introduction | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | PSTN connectivity |  | [Deck](https://aka.ms/teams-pstn-connectivity-deck) |
 | SIP gateway enablement and migration | | [Deck](https://aka.ms/SIP-gateway-enablement-migration-playbook) |
@@ -69,9 +69,9 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Windows Defender Application Control for new Teams |  | [Deck](https://aka.ms/new-teams-WDAC) |
 | Windows desktop client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
 
-<h2>Teams Rooms Foundations for IT & AV Pros</h2>
+## Teams Rooms Foundations for IT & AV Pros
 
-<p>The following table contains links to comprehensive training decks in PowerPoint on Microsoft Teams Rooms.  
+The following table contains links to comprehensive training decks in PowerPoint on Microsoft Teams Rooms.  
 
 | Module | PowerPoint deck  |
 | ------------ | -------------------- |
@@ -84,9 +84,9 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Module 7: Managing Microsoft Teams Rooms, Part 2  | [Deck](https://aka.ms/TeamsRoomsModule7) |
 | Module 8: Features, adoption, and troubleshooting | [Deck](https://aka.ms/TeamsRoomsModule8)|
 
-<h2>Teams Android devices</h2>
+## Teams Android devices
 
-<p>The following table contains links to comprehensive training decks in PowerPoint on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms on Android, and Teams Panels.  
+The following table contains links to comprehensive training decks in PowerPoint on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms on Android, and Teams Panels.  
 
 | Module | PowerPoint deck  |
 | ------------| -------------------- |
@@ -99,6 +99,6 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 ## Related topics
 
-[Live and on demand user training](https://adoption.microsoft.com/user-training/?filter=microsoft-teams)
+[Foundational user training - Microsoft Adoption](https://adoption.microsoft.com/user-training/?filter=microsoft-teams)
 
 
