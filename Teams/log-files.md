@@ -66,6 +66,5 @@ To collect logs for Mac:
 
 > [!NOTE]
 > When multiple accounts are in use from a single client, the logs generated will contain diagnostic information for all logged in accounts in Teams regardless of tenant/cloud, with controls available for admins to adjust this [configuration](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices).
-> When multiple accounts are in use from a single client, the generated logs include diagnostic information for all logged-in accounts in Teams, regardless of tenant or cloud.  To learn how to manage this configuration, see [How different technologies affect Microsoft Teams sign-in](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices).
 
 
