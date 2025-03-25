@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 10/29/2024
+ms.date: 03/25/2025
 ms.topic: release-notes
 audience: Admin
 ms.service: msteams
@@ -807,9 +807,9 @@ Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are onl
 
 Resolved Issues:
 
-- Fixed an issue  where app was not functional after pressing back key on paired remote with some Logi devices.
-- Resolved an issue where local HDMI ingest sharing indicator status was not synced between display and console. 
-- Fixed an issue where Custom background resets to default 
+- Fixed an issue where app wasn't functional after pressing back key on paired remote with some Logi devices.
+- Resolved an issue where local HDMI ingest sharing indicator status wasn't synced between display and console. 
+- Fixed an issue where Custom background resets to default. 
 
 ### 1449/1.0.96.2025020302 (February 2025)
 
