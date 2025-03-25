@@ -8,6 +8,7 @@ ms.date: 09/25/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 ms.collection:
   - M365-voice
   - m365initiative-voice
@@ -63,6 +64,11 @@ Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Ne
 
 ## EUII data
 
+> [!CAUTION]
+> As of late-March 2025, permissions for location sharing in Microsoft Teams changed. Users must now consent to sharing their location with Microsoft Teams using individual toggles for the purposes of "**Emergency calls**" and "**Insights for IT admins**". If users in your tenant deny sharing their location except for emergencies, CQD can't provide admins with the BSSID of the client endpoint. Quality and reliability troubleshooting tasks that rely on BSSID&mdash;such as deep analysis of issues involving wireless networks&mdash;will become more difficult and potentially less accurate as fewer clients will report them.
+> 
+> On fully managed devices, location sharing is on by default and can only be turned off by the operating system's location setting. On non-fully managed devices, Teams users must choose between **Allow all** and **Keep emergency only**. In the Teams client, this setting can be changed by your users in **Settings** > **Privacy** > **Location** > **Insights for IT admins**. For end user information, see [link to SMC doc](link).
+
 For compliance reasons, EUII data (also known as personally-identifiable information or PII) is only kept for 28 days. As CQD's data crosses the 28-day mark, fields that contain EUII are cleared, resulting in EUII-free data. Fields that contain EUII data are:
 
 - IP Address
@@ -87,8 +93,6 @@ For compliance reasons, EUII data (also known as personally-identifiable informa
 - Organizer Sip Uri (Skype for Business only)
 - VTC Device Name
 - VTC Device Detail
-
-
 
 ### Admin roles with and without EUII access
 
