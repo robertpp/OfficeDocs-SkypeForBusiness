@@ -8,6 +8,7 @@ ms.date: 10/07/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 ms.collection: 
   - M365-voice
   - m365initiative-voice
@@ -33,9 +34,9 @@ In CQD, Good and Poor stream classification is performed by a series of conditio
 
 The accuracy (precision and recall) of the classifier models is monitored on the general population of Microsoft Teams users. If an anomaly is detected, then we'll investigate it and there's a high chance that the model is re-trained. This can cause temporal fluctuation of respective problem detection rates. We also periodically re-train the models to ensure that they are reflecting the latest real-world conditions of Teams calls, including improvements in the Teams client, underlying media stack, operating systems, as well as advancements in compute and device technology.
 
-Unlike changes to the legacy stream classifiers, model re-training only applies to streams on and after the date when the re-training was performed. Model re-training isn't retroactive to streams previously classified by the models. The dates of the most recent classifier re-training deployments are published here -- up to one year in the past.
+Unlike changes to the legacy stream classifiers, model re-training only applies to streams on and after the date when the re-training was performed. Model re-training isn't retroactive to streams previously classified by the models. The dates of the most recent classifier re-training deployments are published here&mdash;up to one year in the past.
 
-Latest model update: **3/8/2025**  
+Latest model update: **March 8, 2025**  
 
 *Previous model updates:*  
 &bull; Initial release
@@ -105,8 +106,8 @@ The following Local classifiers are based on a user’s telemetry to predict if 
 |:-----|:-----|
 |Detected Media Modality|Predicts if the quality of the received media type had issues based on the receive's telemetry.|
 |Detected Inbound Network|Predicts if there was an issue with the network on an incoming stream. For Conference calls, this classifier looks at the connection from server to endpoint. For P2P calls, this classifier covers remote user uplink and local downlink issues.|
-|Detected Local Compute|Predicts if a user’s compute device (for example: desktop computer or mobile phone running Teams client) is causing degradations to the media quality received by a user.|
-|Detected Local Input Device|Predicts if a user’s media capture device (for example: computer’s inbuilt soundcard or microphone) is causing problems for the user.|
+|Detected Local Compute|Predicts if a user's compute device (for example: desktop computer or mobile phone running Teams client) is causing degradations to the media quality received by a user.|
+|Detected Local Input Device|Predicts if a user's media capture device (for example: computer’s inbuilt soundcard or microphone) is causing problems for the user.|
 
 #### Local classifier measurements for detected problems
 
