@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
-ms.date: 03/20/2025
+ms.date: 03/25/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,15 +23,19 @@ description: This article shows you the health signals that are available, not a
 
 # Signals
 
-**Legend**
+The health of a meeting room is determined by signals that monitor important functions of the device. Your organization can have different preferences or needs for your environment where certain signals are more useful than others, or trigger more often than desired. To help focus on the signals that are important to you, it's possible to enable or disable signals through the **Settings > Signals** page.
+
+On the **Signal settings** page, all signals are listed and can be sorted by **Signal** name, **Device type**, **Category** and **Signal state**. Or they can be filtered by **Device type**, **Category** and **Signal state**.
+
+**Table legend**
 
 - Available: ![Available](media/signals/signals-available.png)
 - Not available: ![Not available](media/signals/signals-not-available.png)
-- Not applicable:![Applicable](media/signals/signals-applicable.png)
+- Not applicable: ![Applicable](media/signals/signals-applicable.png)
 
 ## [Windows](#tab/MTRW)
 
-**Signals for Microsoft Teams Rooms on Windows**
+These are the signals that are available currently for Microsoft Teams Rooms on Windows. 
 
 |**Signal name**|**Status**|**Description**|**Category**|**Severity**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -84,7 +88,7 @@ description: This article shows you the health signals that are available, not a
 
 ## [Android](#tab/MTRA)
 
-**Signals for Microsoft Teams Rooms on Android.**
+These are the signals that are available currently for Microsoft Teams Rooms on Android. 
 
 |**Signal name**|**Status**|**Description**|**Category**|**Severity**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -137,7 +141,7 @@ description: This article shows you the health signals that are available, not a
 
 ## [Collab Bar (Android)](#tab/Collab)
 
-**Signals for Collab Bar (Android)**
+These are the signals that are available currently for Collab bar running Android.
 
 |**Signal name**|**Status**|**Description**|**Category**|**Severity**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -190,7 +194,7 @@ description: This article shows you the health signals that are available, not a
 
 ## [MDEP](#tab/MDEP)
 
-**Signals for MDEP**
+These are the signals that are available currently for MDEP.
 
 |**Signal name**|**Status**|**Description**|**Category**|**Severity**|
 |:-----|:-----|:-----|:-----|:-----|
