@@ -30,7 +30,7 @@ description: Learn how to manage Explicit recording consent for Audio Conferenci
 
 Explicit recording consent for Microsoft Teams Audio Conferencing lets you, as an admin, control whether meetings created by organizers with this policy can require participants to explicitly consent to being recorded.
 
-When the explicit recording policy is enabled, all participants are muted once the meeting recording starts. Once a participant decides to unmute, they’re prompted to provide consent. To consent to be recorded, participants can select controls on their dial pad.
+When the explicit recording policy is enabled, all participants are muted once the meeting recording starts. Once a participant decides to un-mute, they’re prompted to provide consent. To consent to be recorded, participants can select controls on their dial pad.
 
 ## Recording types
 
@@ -44,13 +44,13 @@ Explicit recording consent includes two recording types:
 
 You must use PowerShell to configure explicit recording consent for users or groups in your organization. PowerShell must be installed on your machine to manage this policy. For instructions on installing PowerShell on Windows, Mac, or Linux for the first time, see [Install PowerShell on Windows, Linux, and macOS - PowerShell](/powershell/scripting/install/installing-powershell).
 
-For scripts to enable explicit recording consent for Audio Conferencing, see [Manage explicit recording consent through PowerShell](meeting-recording.md#manage-explicit-consent-through-powershell).
+For scripts to enable explicit recording consent for Audio Conferencing, see [Manage explicit recording consent through PowerShell](meeting-recording.md#manage-whether-meetings-require-participant-agreement-for-recording-and-transcription).
 
 ## Recording consent dial pad controls
 
 To select their recording preferences, your users can use the following selections on their dial pad:
 
-**1**– Give consent to being recorded in a call and unmute their microphone.
+**1** - Give consent to being recorded in a call and un-mute their microphone.
 
 **2** – Deny recording and remain muted.
 

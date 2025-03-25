@@ -145,6 +145,7 @@ The following sections describe Teams Premium feature enhancements for town hall
 
 Teams Premium provides more ways to elevate Teams town halls in your org with the following key features:
 
+- **50,000 attendees** - Organizers can host town halls with up to 50,000 attendees. To create town halls with more than 20,000 attendees, organizers must work with the Microsoft 365 Live Event Assistance Program (LEAP). To learn more, see [Plan for town halls](plan-town-halls.md).
 - **Chat for town hall attendees** - Organizers can allow attendees to use chat during town halls.
 - **Custom emails for town halls** - Organizers and co-organizers can customize the town hall email templates sent to attendees.
 - **Increased broadcast and Q&A capacity** - Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.

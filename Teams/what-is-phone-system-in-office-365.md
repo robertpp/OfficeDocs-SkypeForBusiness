@@ -81,6 +81,25 @@ Teams Phone can be used for services and voicemail, such as:
 
 For more information about features, see [Here's what you get with Teams Phone](here-s-what-you-get-with-phone-system.md). If you're ready to get started, see [Set up Teams Phone in your organization](setting-up-your-phone-system.md).
 
+## Need help with your Teams Phone deployment?
+
+Are you new to setting up phone systems or just need some extra help?
+
+You have several avenues to get help with your Teams Phone deployment.
+
+- If you're a customer that is categorized as SMB (Small to Medium Business), we offer a complementary consultation program.
+  - To learn more, contact our Teams Phone SMB support team at <ContactTeamsPhoneSMB@microsoft.com>.
+  - SMB is considered fewer than 300 users with business SKU licenses, or a customer with fewer than 500 users with E3, E1, and Phone System licenses.
+
+- If you're a customer with a larger user base, we offer Microsoft Cloud-Solution-Architect-led workshops for Teams Phone planning, piloting, enabling at scale, optimizing, and more, through Unified Support plans.
+  - To learn more, see [Unified Enterprise Plan Details](https://www.microsoft.com/microsoft-unified/plan-details), and contact your Microsoft account team.
+
+- Regardless of size, we offer Microsoft FastTrack enablement services to all licensed customers.
+  - To learn more, see [Microsoft Teams Phone adoption](https://enablement.microsoft.com/microsoft-teams/teams-phone/).
+
+- Microsoft also offers a rich ecosystem of Teams Phone partners who can help with your Teams Phone planning, enablement, optimization, management, PSTN access, devices, solutions, services, and more.
+  - If you don't have a Teams Phone partner, see [Find a Microsoft partner](https://partner.microsoft.com/partnership/find-a-partner), and filter for your location.
+
 ## Related topics
 
 - [Teams Phone features](here-s-what-you-get-with-phone-system.md)
