@@ -8,6 +8,7 @@ ms.date: 09/25/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-calling
 ms.collection:
   - M365-voice
   - m365initiative-voice
@@ -40,7 +41,7 @@ You can access call quality data by several different avenues. Pick the one that
 |Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|Call quality data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize the data that you find under **Users**.|
 |CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal. <br><br>Get two [CQD report templates](#import-the-cqd-report-templates) to help you analyze data in the CQD portal.|
 |Power BI|Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). The CQD Power BI templates are regularly updated to support new Teams features, calling scenarios, and the latest telemetry we have available in CQD.|
-|Graph API|Access raw call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). Using Graph API is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data. Please note that CallRecords Graph API may not contain all of the fields that are available in CQD and naming conventions may differ between the two products. |
+|Graph API|Access raw call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). Using Graph API is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data. CallRecords Graph API might not contain all of the fields that are available in CQD and naming conventions might differ between the two products. |
 
 ## Import the CQD report templates
 
@@ -62,6 +63,11 @@ Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Ne
    > For the best experience with using CQD, we recommend using [the latest QER experience in Power BI](cqd-power-bi-query-templates.md) instead.
 
 ## EUII data
+
+> [!CAUTION]
+> As of late-March 2025, permissions for location sharing in Microsoft Teams changed. Users must now consent to sharing their location with Microsoft Teams using individual toggles for the purposes of "**Emergency calls**" and "**Insights for IT admins**". If users in your tenant deny sharing their location except for emergencies, CQD can't provide admins with the BSSID of the client endpoint. Quality and reliability troubleshooting tasks that rely on BSSID&mdash;such as deep analysis of issues involving wireless networks&mdash;will become more difficult and potentially less accurate as fewer clients will report them.
+> 
+> On fully managed devices, location sharing is on by default and can only be turned off by the operating system's location setting. On non-fully managed devices, Teams users must choose between **Allow all** and **Keep emergency only**. In the Teams client, this setting can be changed by your users in **Settings** > **Privacy** > **Location** > **Insights for IT admins**.
 
 For compliance reasons, EUII data (also known as personally-identifiable information or PII) is only kept for 28 days. As CQD's data crosses the 28-day mark, fields that contain EUII are cleared, resulting in EUII-free data. Fields that contain EUII data are:
 
@@ -88,8 +94,6 @@ For compliance reasons, EUII data (also known as personally-identifiable informa
 - VTC Device Name
 - VTC Device Detail
 
-
-
 ### Admin roles with and without EUII access
 
 These [RBAC](/azure/role-based-access-control/overview) roles **DO** have EUII access:
@@ -110,7 +114,7 @@ These RBAC roles **DON'T** have EUII access:
 - Teams Communications Support Specialist
 
 > [!NOTE]
-> Users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) will not see end-user identifying information (EUII) even if their role would ordinarily allow it.
+> Users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) won't see end-user identifying information (EUII) even if their role would ordinarily allow it.
 
 ## Date controls
 
@@ -262,9 +266,9 @@ If the default CQD reports don't meet your needs, use these instructions to crea
 From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Select **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report.
 
 > [!IMPORTANT]
-> The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It's recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
+> The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads are checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. We recommend that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
 >
-> The VPN column is optional and will default to 0.  If the VPN column's value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
+> The VPN column is optional and defaults to 0.  If the VPN column's value is set to 1, the subnet represented by that row is fully expanded to match all IP addresses within the subnet.  Use this sparingly and only for VPN subnets since fully expanding these subnets has a negative impact on query times for queries involving building data.
 
 Point to bar charts and trend lines in the report to display detailed values. The report in focus shows the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
 
@@ -354,7 +358,7 @@ To apply URL filters with multi-select values, separate each value with a pipe (
 
 `filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]`
 
-If you specify an invalid name or value, the URL filter won't be applied.
+If you specify an invalid name or value, the URL filter isn't applied.
 
 You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on only Teams or Skype for Business. Excluding federated data from CQD reports is useful when you're remediating managed buildings or networks where federated endpoints might influence your reports.
 
