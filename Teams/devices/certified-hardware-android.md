@@ -109,10 +109,11 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
 | Yealink MeetingBar A20 | `133.320.0.113` | August 15, 2027 | Small meeting room(4.5 m x 4.5 m) | 13 |
 | Yealink MeetingBar A30 | `133.320.0.113` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
+| Yealink MeetingBar A40 | `289.320.0.11` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
+| Yealink MeetingBar A50 | `323.320.0.3 ` | August 15, 2027 | Large meeting room (4.5 m x 8.5 m) | 13 |
 | Yealink MeetingBoard 86" | `155.15.0.10` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Yealink MeetingBoard 65" | `155.15.0.6` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Yealink CTP25 touch console | `311.320.0.2` | August 15, 2027 | Compatible with Yealink MeetingBar A40 | 13 |
-| Yealink MeetingBar A40 | `289.320.0.11` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
 | Yealink MeetingBoard 65"/86" with MB-Camera-6X | `155.15.0.37 ` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
 | Yealink MeetingBoard 75 Pro | `300.320.0.7 ` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13|
 | Yealink MeetingBoard 75 Pro V2 | `331.320.0.27` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13|
