@@ -59,10 +59,10 @@ The following devices are certified under the Microsoft Teams phones Android Cer
 | Poly CCX600  | `9.0.0.10315` | 	August 15, 2027 | 12 |
 | Poly Trio C60, Trio C60 NR, Trio C60 ND | `9.0.0.10315` | August 15, 2027 | 12 |
 | Poly EM60 supported on CCX505 and CCX600 | `9.0.0.10315`| August 15, 2027 | N/A |
-| Yealink MP52 E2 | `176.15.0.16 `|August 15, 2027   | 13|
-| Yealink MP54 E2 | `176.15.0.16 `|August 15, 2027   | 13|
-| Yealink MP56 E2 | `176.15.0.16 `|August 15, 2027   | 13|
-| Yealink MP58 E2 | `176.15.0.16 `|August 15, 2027   | 13|
+| Yealink MP52 E2 | `176.15.0.151 (MDEP) `|August 15, 2027   | 13|
+| Yealink MP54 E2 | `176.15.0.151 (MDEP) `|August 15, 2027   | 13|
+| Yealink MP56 E2 | `176.15.0.151 (MDEP) `|August 15, 2027   | 13|
+| Yealink MP58 E2 | `176.15.0.151 (MDEP) `|August 15, 2027   | 13|
 | Yealink MP54 | `122.15.0.135 `|August 15, 2027  | 12 |
 | Yealink MP56 | `122.15.0.135 `|August 15, 2027   | 12 |
 | Yealink MP58 | `122.15.0.135 `|August 15, 2027  | 12 |
