@@ -53,9 +53,10 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Media - Media flow | [Video](https://aka.ms/teams-media-flows) | [Deck](https://aka.ms/teams-media-flows-deck)  |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
 | Microsoft Places Deployment playbook | | [Deck](https://aka.ms/PlacesDeployment) |
-| Live events | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) | Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
+| Live events | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) 
 | Phone system introduction | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | PSTN connectivity |  | [Deck](https://aka.ms/teams-pstn-connectivity-deck) |
+| Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
 | SIP gateway enablement and migration | | [Deck](https://aka.ms/SIP-gateway-enablement-migration-playbook) |
 | Teams Bookable desks deployment playbook | | [Deck](https://aka.ms/teams-bookable-desks-deployment-playbook) |
 | Teams Devices deployment playbook | | [Deck](https://aka.ms/teams-devices-deployment-playbook) |
