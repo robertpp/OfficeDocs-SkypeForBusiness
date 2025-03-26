@@ -63,3 +63,7 @@ To collect logs for Mac:
 
 > [!NOTE]
 > Wait until the banner showing **Downloading web logs** is dismissed from the Teams client before retrieving logs from the download location. To collect logs from Teams browser client, use the keyboard shortcut.
+
+> [!NOTE]
+> When multiple accounts are in use from a single client, the generated logs include diagnostic information for all logged-in accounts in Teams, regardless of tenant or cloud. To learn how to manage this configuration, see [How different technologies affect Microsoft Teams sign-in](/microsoftteams/sign-in-teams#how-to-restrict-teams-sign-in-on-desktop-devices).
+

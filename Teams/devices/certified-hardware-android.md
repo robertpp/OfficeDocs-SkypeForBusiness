@@ -105,14 +105,15 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly TC8 | `4.1.0.211075` | September 3, 2025 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 11 |
 | Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X32, Poly Studio X52, Poly Studio X72, Poly G7500 and Poly Studio G62| 11 |
 | Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
-| Yealink CTP18 touch console | `137.320.0.29` | September 3, 2025 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
+| Yealink CTP18 touch console | `137.320.0.77` | August 15, 2027 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 13 |
 | Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
-| Yealink MeetingBar A20 | `133.15.0.108` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
-| Yealink MeetingBar A30 | `133.15.0.108` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Yealink MeetingBar A20 | `133.320.0.113` | August 15, 2027 | Small meeting room(4.5 m x 4.5 m) | 13 |
+| Yealink MeetingBar A30 | `133.320.0.113` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
+| Yealink MeetingBar A40 | `289.320.0.11` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
+| Yealink MeetingBar A50 | `323.320.0.3 ` | August 15, 2027 | Large meeting room (4.5 m x 8.5 m) | 13 |
 | Yealink MeetingBoard 86" | `155.15.0.10` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Yealink MeetingBoard 65" | `155.15.0.6` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Yealink CTP25 touch console | `311.320.0.2` | August 15, 2027 | Compatible with Yealink MeetingBar A40 | 13 |
-| Yealink MeetingBar A40 | `289.320.0.11` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
 | Yealink MeetingBoard 65"/86" with MB-Camera-6X | `155.15.0.37 ` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
 | Yealink MeetingBoard 75 Pro | `300.320.0.7 ` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13|
 | Yealink MeetingBoard 75 Pro V2 | `331.320.0.27` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13|
