@@ -70,6 +70,7 @@ Before setting up remote access, verify the following prerequisites are met:
 - Install Microsoft Visual C++ 2015-2022 Redistributable (x64).
 - Prepare your organization's network for [Azure Communication Services]([/azure/communication-services/concepts/network-prep](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration).
 - Add the following URLs to your network's allowed list:
+  - https://portal.rooms.microsoft.com
   - https://mmrprodnoampubsub.webpubsub.azure.com
   - https://mmrprodemeapubsub.webpubsub.azure.com
   - https://mmrprodapacpubsub.webpubsub.azure.com
