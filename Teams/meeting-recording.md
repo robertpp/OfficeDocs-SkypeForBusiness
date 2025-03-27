@@ -110,7 +110,7 @@ You can turn off the **Recordings and transcriptions automatically expire** sett
 
 ### Default expiration time
 
-This setting controls whether recordings and transcripts automatically expire. After turning on **Recordings automatically expire**, you'll get the option to set the **Default expiration time**, measured in days. Meeting recordings and transcripts have a default expiration time of 120 days.
+This setting controls whether recordings and transcripts automatically expire. After turning on **Recordings and transcriptions automatically expire**, you'll get the option to set the **Default expiration time**, measured in days. Meeting recordings and transcripts have a default expiration time of 120 days.
 
 Any changes to this setting only affect newly created recordings and transcripts. You can't change the expiration time on existing meeting recordings and transcripts.
 
