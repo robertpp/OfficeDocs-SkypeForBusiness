@@ -130,6 +130,9 @@ For Microsoft Teams Rooms Pro Management Portal, you also need to make sure that
 - mmrprodemeapubsub.webpubsub.azure.com
 - mmrprodapacpubsub.webpubsub.azure.com
 
+For Microsoft Teams Rooms Pro Management Portal, you also need to make sure the administrative workstation can access the following URL:
+- portal.rooms.microsoft.com
+
 **GCC customers will also need to enable the following URLs:**
 
 - mmrprodgcciot.azure-devices.net
